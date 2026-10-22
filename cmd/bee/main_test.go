@@ -1,0 +1,272 @@
+package main
+
+import (
+	"bytes"
+	"context"
+	"encoding/json"
+	"io"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+	"sync"
+	"testing"
+	"time"
+)
+
+type synchronizedBuffer struct {
+	mu sync.Mutex
+	b  bytes.Buffer
+}
+
+func (b *synchronizedBuffer) Write(p []byte) (int, error) {
+	b.mu.Lock()
+	defer b.mu.Unlock()
+	return b.b.Write(p)
+}
+
+func (b *synchronizedBuffer) String() string {
+	b.mu.Lock()
+	defer b.mu.Unlock()
+	return b.b.String()
+}
+
+func (b *synchronizedBuffer) Len() int {
+	b.mu.Lock()
+	defer b.mu.Unlock()
+	return b.b.Len()
+}
+
+func TestBeeCommandHelper(t *testing.T) {
+	if os.Getenv("BEE_COMMAND_TEST_HELPER") != "1" {
+		return
+	}
+	for i, arg := range os.Args {
+		if arg == "--" {
+			os.Args = append(os.Args[:1], os.Args[i+1:]...)
+			main()
+			os.Exit(0)
+		}
+	}
+	os.Exit(2)
+}
+
+func beeCommand(t *testing.T, args ...string) *exec.Cmd {
+	t.Helper()
+	executable, err := os.Executable()
+	if err != nil {
+		t.Fatal(err)
+	}
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	t.Cleanup(cancel)
+	cmd := exec.CommandContext(ctx, executable, append([]string{"-test.run=^TestBeeCommandHelper$", "--"}, args...)...)
+	cmd.Env = append(os.Environ(), "BEE_COMMAND_TEST_HELPER=1")
+	cmd.Dir = t.TempDir()
+	return cmd
+}
+
+func TestDesktopCommandHandshakeAndParentEOF(t *testing.T) {
+	for _, shutdown := range []bool{false, true} {
+		t.Run(map[bool]string{false: "parent-EOF", true: "shutdown"}[shutdown], func(t *testing.T) {
+			versionCmd := beeCommand(t, "version")
+			version, err := versionCmd.Output()
+			if err != nil {
+				t.Fatal(err)
+			}
+			cmd := beeCommand(t, "desktop")
+			const fixture = `{"credential":"fixture-not-to-be-read"}`
+			path := filepath.Join(cmd.Dir, "bee.json")
+			if err := os.WriteFile(path, []byte(fixture), 0600); err != nil {
+				t.Fatal(err)
+			}
+			in, err := cmd.StdinPipe()
+			if err != nil {
+				t.Fatal(err)
+			}
+			out, err := cmd.StdoutPipe()
+			if err != nil {
+				t.Fatal(err)
+			}
+			var diagnostics synchronizedBuffer
+			cmd.Stderr = &diagnostics
+			if err := cmd.Start(); err != nil {
+				t.Fatal(err)
+			}
+			t.Cleanup(func() { _ = cmd.Process.Kill(); in.Close(); out.Close() })
+			decoder := json.NewDecoder(out)
+			var instance string
+			methods := []string{"hello", "ping", "start"}
+			if shutdown {
+				methods = append(methods, "shutdown")
+			}
+			for _, method := range methods {
+				if _, err := io.WriteString(in, `{"protocol":1,"id":"`+method+`","method":"`+method+`","params":{}}`+"\n"); err != nil {
+					t.Fatal(err)
+				}
+				var frame struct {
+					ID       string `json:"id"`
+					Instance string `json:"instance"`
+					Result   struct {
+						Version string `json:"bee_version"`
+					} `json:"result"`
+					Error *struct{ Code string } `json:"error"`
+				}
+				if err := decoder.Decode(&frame); err != nil {
+					t.Fatalf("desktop response: %v; stderr=%q", err, diagnostics.String())
+				}
+				if frame.ID != method || frame.Instance == "" || instance != "" && instance != frame.Instance {
+					t.Fatalf("unexpected reply correlation: %+v", frame)
+				}
+				instance = frame.Instance
+				if method == "start" {
+					if frame.Error == nil || frame.Error.Code != "UNKNOWN_METHOD" {
+						t.Fatalf("management process accepted contribution: %+v", frame)
+					}
+				} else if frame.Error != nil {
+					t.Fatalf("management request rejected: %+v", frame)
+				}
+				if method == "hello" && frame.Result.Version != strings.Fields(string(version))[1] {
+					t.Fatalf("hello version=%q; CLI version=%q", frame.Result.Version, version)
+				}
+			}
+			in.Close() // Simulates the parent disappearing, without scanning or killing other Bees.
+			if err := cmd.Wait(); err != nil {
+				t.Fatalf("desktop did not terminate cleanly: %v; stderr=%q", err, diagnostics.String())
+			}
+			if diagnostics.Len() != 0 {
+				t.Fatalf("successful session stderr=%q", diagnostics.String())
+			}
+			entries, err := os.ReadDir(cmd.Dir)
+			data, readErr := os.ReadFile(path)
+			if err != nil || len(entries) != 1 || readErr != nil || string(data) != fixture {
+				t.Fatal("management mode changed the working configuration fixture")
+			}
+		})
+	}
+}
+
+func TestDesktopCommandSignalInterruptsIdleStdin(t *testing.T) {
+	if runtime.GOOS == "windows" {
+		t.Skip("os.Interrupt cannot be delivered by os.Process.Signal on Windows; native parent EOF is covered separately")
+	}
+	cmd := beeCommand(t, "desktop")
+	in, err := cmd.StdinPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer in.Close()
+	out, err := cmd.StdoutPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	var diagnostics synchronizedBuffer
+	cmd.Stderr = &diagnostics
+	if err := cmd.Start(); err != nil {
+		t.Fatal(err)
+	}
+	t.Cleanup(func() { _ = cmd.Process.Kill(); out.Close() })
+	if _, err := io.WriteString(in, `{"protocol":1,"id":"h","method":"hello","params":{}}`+"\n"); err != nil {
+		t.Fatal(err)
+	}
+	var frame json.RawMessage
+	if err := json.NewDecoder(out).Decode(&frame); err != nil {
+		t.Fatalf("hello failed before signal: %v; stderr=%q", err, diagnostics.String())
+	}
+	if err := cmd.Process.Signal(os.Interrupt); err != nil {
+		t.Fatal(err)
+	}
+	if err := cmd.Wait(); err != nil {
+		t.Fatalf("signal did not cancel idle management process: %v; stderr=%q", err, diagnostics.String())
+	}
+}
+
+func TestDesktopCommandSignalInterruptsBlockedStdout(t *testing.T) {
+	if runtime.GOOS == "windows" {
+		t.Skip("os.Interrupt cannot be delivered by os.Process.Signal on Windows")
+	}
+	cmd := beeCommand(t, "desktop")
+	in, err := cmd.StdinPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer in.Close()
+	out, err := cmd.StdoutPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	var diagnostics synchronizedBuffer
+	cmd.Stderr = &diagnostics
+	if err := cmd.Start(); err != nil {
+		t.Fatal(err)
+	}
+	t.Cleanup(func() { _ = cmd.Process.Kill(); out.Close() })
+	// The reply is larger than a pipe buffer. Consuming only its prefix proves
+	// writing began, while the parent deliberately stops draining the pipe.
+	input := `{"protocol":1,"id":"` + strings.Repeat("x", 512*1024) + `","method":"hello","params":{}}` + "\n"
+	if _, err := io.WriteString(in, input); err != nil {
+		t.Fatal(err)
+	}
+	var prefix [16]byte
+	if _, err := io.ReadFull(out, prefix[:]); err != nil {
+		t.Fatal(err)
+	}
+	if err := cmd.Process.Signal(os.Interrupt); err != nil {
+		t.Fatal(err)
+	}
+	if err := cmd.Wait(); err != nil {
+		t.Fatalf("signal did not cancel blocked output: %v; stderr=%q", err, diagnostics.String())
+	}
+}
+
+func TestDesktopCommandBrokenOutputUnblocksIdleInput(t *testing.T) {
+	cmd := beeCommand(t, "desktop")
+	in, err := cmd.StdinPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer in.Close()
+	out, err := cmd.StdoutPipe()
+	if err != nil {
+		t.Fatal(err)
+	}
+	var diagnostics synchronizedBuffer
+	cmd.Stderr = &diagnostics
+	if err := cmd.Start(); err != nil {
+		t.Fatal(err)
+	}
+	t.Cleanup(func() { _ = cmd.Process.Kill(); out.Close() })
+	if _, err := io.WriteString(in, `{"protocol":1,"id":"h","method":"hello","params":{}}`+"\n"); err != nil {
+		t.Fatal(err)
+	}
+	var frame json.RawMessage
+	if err := json.NewDecoder(out).Decode(&frame); err != nil {
+		t.Fatal(err)
+	}
+	out.Close()
+	if _, err := io.WriteString(in, `{"protocol":1,"id":"p","method":"ping","params":{}}`+"\n"); err != nil {
+		t.Fatal(err)
+	}
+	// Keep the parent's input writer open. Only the child's failure handling
+	// can wake its next read and let Wait finish before the test deadline.
+	if err := cmd.Wait(); err == nil || !strings.Contains(diagnostics.String(), "write desktop response bytes=") || !strings.Contains(diagnostics.String(), "required=") {
+		t.Fatalf("broken output recovery: error=%v; stderr=%q", err, diagnostics.String())
+	}
+}
+
+func TestDesktopCommandRejectsArgumentsWithoutEchoingValues(t *testing.T) {
+	cmd := beeCommand(t, "desktop", "--config", "secret-value")
+	var out, diagnostics bytes.Buffer
+	cmd.Stdout, cmd.Stderr = &out, &diagnostics
+	if err := cmd.Run(); err == nil || out.Len() != 0 || !strings.Contains(diagnostics.String(), "arguments=2") || strings.Contains(diagnostics.String(), "secret-value") {
+		t.Fatalf("invalid desktop arguments: stdout=%q; stderr=%q; error=%v", out.String(), diagnostics.String(), err)
+	}
+}
+
+func TestHelpListsDesktopMachineEntry(t *testing.T) {
+	cmd := beeCommand(t, "help")
+	out, err := cmd.Output()
+	if err != nil || !strings.Contains(string(out), "bee desktop") || !strings.Contains(string(out), "stdin/stdout") {
+		t.Fatalf("desktop entry missing from help: output=%q; error=%v", out, err)
+	}
+}

@@ -37,7 +37,11 @@ More:
   bee confirm-account --platform P --account-fingerprint FP
   bee codex-status / bee claude-status inspect the local sign-in without contacting Hive
 
-Every command takes --config PATH to use another device configuration.
+Machine entry (no contribution or configuration access):
+  bee desktop                private versioned JSON protocol over stdin/stdout
+
+Device commands take --config PATH to use another device configuration.
+bee desktop accepts no flags or additional arguments.
 Run bee <command> -h for its options.
 `
 

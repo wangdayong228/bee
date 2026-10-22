@@ -1,0 +1,165 @@
+package desktopbridge
+
+import (
+	"bufio"
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"io"
+	"unicode/utf8"
+)
+
+const (
+	protocolVersion = 1
+	maxFrameBytes   = 1 << 20 // Excludes the terminating newline.
+)
+
+type request struct {
+	Protocol int
+	ID       string
+	Method   string
+}
+
+type protocolError struct {
+	Code    string `json:"code"`
+	Message string `json:"message"`
+}
+
+func (e *protocolError) Error() string { return e.Code + ": " + e.Message }
+
+func rejected(code, format string, args ...any) *protocolError {
+	return &protocolError{Code: code, Message: fmt.Sprintf(format, args...)}
+}
+
+type reply struct {
+	Protocol int            `json:"protocol"`
+	ID       string         `json:"id"`
+	Instance string         `json:"instance"`
+	Result   any            `json:"result,omitempty"`
+	Error    *protocolError `json:"error,omitempty"`
+}
+
+func decodeRequest(frame []byte) (request, *protocolError) {
+	var req request
+	if !utf8.Valid(frame) {
+		return req, rejected("INVALID_UTF8", "frame contains invalid UTF-8; bytes=%d", len(frame))
+	}
+	if !json.Valid(frame) {
+		var raw json.RawMessage
+		err := json.Unmarshal(frame, &raw)
+		var offset int64
+		if syntax, ok := err.(*json.SyntaxError); ok {
+			offset = syntax.Offset
+		}
+		// JSON error strings may quote payload bytes. Only report the offset.
+		return req, rejected("INVALID_JSON", "JSON syntax check failed at byte=%d; frame bytes=%d", offset, len(frame))
+	}
+	decoder := json.NewDecoder(bytes.NewReader(frame))
+	first, _ := decoder.Token() // json.Valid already checked the complete frame.
+	if first != json.Delim('{') {
+		return req, rejected("INVALID_REQUEST", "frame root must be an object; frame bytes=%d", len(frame))
+	}
+	fields := make(map[string]json.RawMessage, 4)
+	var fieldProblem *protocolError
+	fieldIndex, idCount := 0, 0
+	for decoder.More() {
+		fieldIndex++
+		key, _ := decoder.Token()
+		name := key.(string)
+		if name == "id" {
+			idCount++
+		}
+		var value json.RawMessage
+		_ = decoder.Decode(&value)
+		if _, exists := fields[name]; exists {
+			if fieldProblem == nil {
+				fieldProblem = rejected("INVALID_REQUEST", "object field at index=%d is repeated; required=unique fields", fieldIndex)
+			}
+			continue
+		}
+		switch name {
+		case "protocol", "id", "method", "params":
+		default:
+			if fieldProblem == nil {
+				fieldProblem = rejected("INVALID_REQUEST", "object field at index=%d is unknown; allowed=protocol,id,method,params", fieldIndex)
+			}
+			continue
+		}
+		fields[name] = value
+	}
+	if idCount == 1 {
+		_ = json.Unmarshal(fields["id"], &req.ID)
+	}
+	if fieldProblem != nil {
+		return req, fieldProblem
+	}
+	if fields["id"] == nil {
+		return req, rejected("INVALID_REQUEST", "id field is missing; required=nonempty string")
+	}
+	if json.Unmarshal(fields["id"], &req.ID) != nil {
+		return req, rejected("INVALID_REQUEST", "id field has a non-string JSON type; required=nonempty string")
+	}
+	if req.ID == "" {
+		return req, rejected("INVALID_REQUEST", "id decodes to an empty string; required=nonempty string")
+	}
+	if fields["protocol"] == nil {
+		return req, rejected("INVALID_REQUEST", "protocol field is missing; required=%d", protocolVersion)
+	}
+	if bytes.Equal(fields["protocol"], []byte("null")) {
+		return req, rejected("INVALID_REQUEST", "protocol is null; required=integer %d", protocolVersion)
+	}
+	if json.Unmarshal(fields["protocol"], &req.Protocol) != nil {
+		return req, rejected("INVALID_REQUEST", "protocol is not a representable integer; required=%d", protocolVersion)
+	}
+	if fields["method"] == nil {
+		return req, rejected("INVALID_REQUEST", "method field is missing; required=hello,ping,shutdown")
+	}
+	if json.Unmarshal(fields["method"], &req.Method) != nil {
+		return req, rejected("INVALID_REQUEST", "method field has a non-string JSON type; required=hello,ping,shutdown")
+	}
+	if req.Method == "" {
+		return req, rejected("INVALID_REQUEST", "method decodes to an empty string; required=hello,ping,shutdown")
+	}
+	var params map[string]json.RawMessage
+	if fields["params"] == nil {
+		return req, rejected("INVALID_REQUEST", "params field is missing; required={}")
+	}
+	if json.Unmarshal(fields["params"], &params) != nil {
+		return req, rejected("INVALID_REQUEST", "params has a non-object JSON type; required={}")
+	}
+	if params == nil {
+		return req, rejected("INVALID_REQUEST", "params is null; required={}")
+	}
+	if len(params) != 0 {
+		return req, rejected("INVALID_REQUEST", "params contains fields=%d; required=0 fields", len(params))
+	}
+	return req, nil
+}
+
+// readFrame bounds allocations even when the peer never sends a newline.
+func readFrame(in *bufio.Reader) ([]byte, *protocolError, error) {
+	var frame []byte
+	for {
+		part, err := in.ReadSlice('\n')
+		terminated := len(part) > 0 && part[len(part)-1] == '\n'
+		if terminated {
+			part = part[:len(part)-1]
+		}
+		if len(frame)+len(part) > maxFrameBytes {
+			return nil, rejected("FRAME_TOO_LARGE", "frame bytes>=%d; maximum=%d before newline", len(frame)+len(part), maxFrameBytes), nil
+		}
+		frame = append(frame, part...)
+		if terminated {
+			return frame, nil, nil
+		}
+		if err == io.EOF {
+			if len(frame) == 0 {
+				return nil, nil, io.EOF
+			}
+			return nil, rejected("INCOMPLETE_FRAME", "input EOF after bytes=%d without required newline", len(frame)), nil
+		}
+		if err != nil && err != bufio.ErrBufferFull {
+			return nil, nil, fmt.Errorf("read desktop frame after bytes=%d: %w", len(frame), err)
+		}
+	}
+}
