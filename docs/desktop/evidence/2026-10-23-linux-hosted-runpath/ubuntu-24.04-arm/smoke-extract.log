@@ -1,0 +1,5 @@
+dbus-daemon[33032]: [session uid=1001 pid=33032] Activating service name='org.a11y.Bus' requested by ':1.1' (uid=1001 pid=33055 comm="bee-desktop" label="unconfined")
+dbus-daemon[33032]: [session uid=1001 pid=33032] Successfully activated service 'org.a11y.Bus'
+dbus-daemon[33088]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1001 pid=33055 comm="bee-desktop" label="unconfined")
+dbus-daemon[33088]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry

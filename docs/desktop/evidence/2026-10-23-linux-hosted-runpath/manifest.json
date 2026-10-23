@@ -1,0 +1,716 @@
+{
+  "runId": 39905806798,
+  "revision": "22c5f912659bad7af4a602cf2e3a8b019cd5ce94",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1895,
+      "sha256": "b4d840c8fbc8ecce789fbc56eaf38f33586b387a2147954758c891c4b9a4ac68"
+    },
+    {
+      "path": "arm64-elf.log",
+      "bytes": 9714,
+      "sha256": "cb539c50fbf8244f2177989ea381a8fb9ca818fa3366851e1cc64410a88b7f3b"
+    },
+    {
+      "path": "artifacts-snapshot.json",
+      "bytes": 4538,
+      "sha256": "790439bbb26a9a1bb46f1464e00cd36e829b600ee7e207f41acb7f10b582de21"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 7584,
+      "sha256": "e7dad081484821dd19585e96db75b35eedf93bce0d5313b0694871ae490b054e"
+    },
+    {
+      "path": "image-statistics.json",
+      "bytes": 4488,
+      "sha256": "1c9afed7cac989d19dbd05a4a195d2c910b8c83781388bd5b85f874f5646e47b"
+    },
+    {
+      "path": "run-snapshot.json",
+      "bytes": 15073,
+      "sha256": "7aa02864ed0d560bbeeba2e896b38ee0ee19f81aaa11dc01e1cc369a4eeaf8b2"
+    },
+    {
+      "path": "ubuntu-22.04/appimage-tooling.log",
+      "bytes": 1511,
+      "sha256": "328494a928737cfa05003dc081b5b5e82df6d66f2f75f79dab977bd44a9055dd"
+    },
+    {
+      "path": "ubuntu-22.04/appimage.sha256",
+      "bytes": 142,
+      "sha256": "c88f0ad19d1c0eb9b5fab31dc93387388615db2b495de9337c02321342c60312"
+    },
+    {
+      "path": "ubuntu-22.04/apt-install.log",
+      "bytes": 56474,
+      "sha256": "4732a8e4aa7fc40f13ae4aedd226b53f40a0a119c81963c5ee88ef90df29093d"
+    },
+    {
+      "path": "ubuntu-22.04/apt-update.log",
+      "bytes": 1499,
+      "sha256": "f3f65c03996b994f0511244a04ef12e625e9d699a5ff3fe62164e37bf8eabff6"
+    },
+    {
+      "path": "ubuntu-22.04/bridge.log",
+      "bytes": 1014,
+      "sha256": "778ae487949aa3692d5b21b94a6154dbe2c8ac4ac2b8faebb6bf4959d044f7fc"
+    },
+    {
+      "path": "ubuntu-22.04/browser-e2e.log",
+      "bytes": 210,
+      "sha256": "e55d54a47215aa8003e981111ad035519bd2416c6a047bb476efbf635f8cdd65"
+    },
+    {
+      "path": "ubuntu-22.04/cargo-test.log",
+      "bytes": 24028,
+      "sha256": "58863e29c54c91539f101d095813397101f6e2f5478b7ec04f4297f2ffaf0b2a"
+    },
+    {
+      "path": "ubuntu-22.04/disk-before.log",
+      "bytes": 328,
+      "sha256": "d2592c016f3d5c8b12a73ddbd6bc94560cef30aad0c5d61be6fd869be4a15929"
+    },
+    {
+      "path": "ubuntu-22.04/frontend-build.log",
+      "bytes": 668,
+      "sha256": "793ed62a112611b1974f9e771768c026f6a0c068595f19137203765db3595302"
+    },
+    {
+      "path": "ubuntu-22.04/go-test.log",
+      "bytes": 303,
+      "sha256": "f24c8040b6e9ce77769f4cc38cb2840c74e86173f111b871da8347a177756f93"
+    },
+    {
+      "path": "ubuntu-22.04/go-vet.log",
+      "bytes": 4479,
+      "sha256": "5f8c91dcda485ab8622ecf73efbbd97e7e0052a14c8d0d790faa3187536c646c"
+    },
+    {
+      "path": "ubuntu-22.04/hosted-image.log",
+      "bytes": 45,
+      "sha256": "24f005362d9b40fed55d36310a7df454de52e6a57e7da7bfdacb6ac7e3ececa2"
+    },
+    {
+      "path": "ubuntu-22.04/native.json",
+      "bytes": 1737,
+      "sha256": "251bbbeaa5d9046a64394461e9bbeb10cc7768e70fd65f16e36709c65e77ef9d"
+    },
+    {
+      "path": "ubuntu-22.04/native.log",
+      "bytes": 840,
+      "sha256": "73956e2f60eaadff957299719c6f54cfa04e258e8c432458e5630670cf02da00"
+    },
+    {
+      "path": "ubuntu-22.04/npm-ci.log",
+      "bytes": 143,
+      "sha256": "33a6d4eaa2a0b34f5f821973f9faa549bf751c66b124309f478cfc10ead08584"
+    },
+    {
+      "path": "ubuntu-22.04/playwright-install.log",
+      "bytes": 15237,
+      "sha256": "43430d59139e729e29f021832e45c75614c42b2aac131a5b732a6f2c8e7e5c62"
+    },
+    {
+      "path": "ubuntu-22.04/preflight.log",
+      "bytes": 1038,
+      "sha256": "d8bb56dee468e7adb9774d4f9027b3c298b82d9c8e1c0e44a663b830b9bd61ee"
+    },
+    {
+      "path": "ubuntu-22.04/rust-install.log",
+      "bytes": 257,
+      "sha256": "43304009788cdf0823c935a92c6da5712efd33c520b8d207ba7474da42f07a10"
+    },
+    {
+      "path": "ubuntu-22.04/sidecar.log",
+      "bytes": 185,
+      "sha256": "d8cf5db3d35f02d42a730e3bdc27c02b82a41b4f6731fa5498cab29c3af2aeb9"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/smoke.json",
+      "bytes": 6188,
+      "sha256": "98452db725b1ca223a8b6f6dfbca1df4071c7106acdf60e3f658da61fc51cbfa"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/observation.json",
+      "bytes": 4390,
+      "sha256": "9c63abd3d19972d1194c4d972816d5678c0d8dd970f0aeda6f2686bff5891114"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/root.png",
+      "bytes": 47427,
+      "sha256": "21ba1ea1c4e68bf17cfae080815d34beddc74acffd9b3654df50b49ca3d43042"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/stderr.log",
+      "bytes": 529,
+      "sha256": "060d9de0309e295d69f2eb1805265f5f220ab6eb9ce2adee5c84a679271c855d"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/window.initial.png",
+      "bytes": 239,
+      "sha256": "37fd68afa73031a7b0d15c7b272b07fbc09c798355101b3d9e6b21f29525981b"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract/startup/window.png",
+      "bytes": 44541,
+      "sha256": "f0621b3d91c763e2c68b6dcd9de29f93e91d41803d451433ff0432ca0f4953fb"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-extract.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/smoke.json",
+      "bytes": 6401,
+      "sha256": "fd51f69d7c5863ed84c2f337a4a0c09a0e9477dc58a70b76188197268f592bd2"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/observation.json",
+      "bytes": 4592,
+      "sha256": "bfc8b650fc9dfb28a1a6ccbd0e1563aab244997a895345b07e0e5c429d4c8a49"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/root.png",
+      "bytes": 47427,
+      "sha256": "21ba1ea1c4e68bf17cfae080815d34beddc74acffd9b3654df50b49ca3d43042"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/stderr.log",
+      "bytes": 210,
+      "sha256": "36c75ace32e56fdb75bc42a492d5964131f7475f3cf792779006ab48cf43d9b2"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/window.initial.png",
+      "bytes": 239,
+      "sha256": "37fd68afa73031a7b0d15c7b272b07fbc09c798355101b3d9e6b21f29525981b"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse/startup/window.png",
+      "bytes": 44541,
+      "sha256": "f0621b3d91c763e2c68b6dcd9de29f93e91d41803d451433ff0432ca0f4953fb"
+    },
+    {
+      "path": "ubuntu-22.04/smoke-fuse.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04/system-packages.tsv",
+      "bytes": 59493,
+      "sha256": "e942265a69b9c4de81a262dcb8ae2327043d51e5381f258991a08a7c0c85d6c8"
+    },
+    {
+      "path": "ubuntu-22.04/tauri-build.log",
+      "bytes": 2121,
+      "sha256": "0c5a81dd77f34c00dddefa55b39b4a2ad5dee5e62f2f85a71e4ebc1e78151d5b"
+    },
+    {
+      "path": "ubuntu-22.04/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "ubuntu-22.04/tooling.log",
+      "bytes": 7219,
+      "sha256": "905d5b6820988bc2e0418571df0225c2623fc6bd3092fe7e2b04ceaef448e213"
+    },
+    {
+      "path": "ubuntu-22.04/tools.log",
+      "bytes": 405,
+      "sha256": "ec5a44a5461c3cd815dbb1acce920283b5535dc09eb97f9ae37b0ecf0b35b91f"
+    },
+    {
+      "path": "ubuntu-22.04/typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "ubuntu-22.04-arm/appimage-tooling.log",
+      "bytes": 1508,
+      "sha256": "504786f8faa3a026f41ead31885cde27869772c1bca0e6d2eb3c068de20f88ce"
+    },
+    {
+      "path": "ubuntu-22.04-arm/appimage.sha256",
+      "bytes": 144,
+      "sha256": "73d6b73d65b4e2ccda2b9d6eb39dd119250cd9f79bb0366fcb326a7983fb3c3f"
+    },
+    {
+      "path": "ubuntu-22.04-arm/apt-install.log",
+      "bytes": 53935,
+      "sha256": "c553ae3663ca2bd5db6e7347c0486cab53c6bae61d5011ce2532247c1225440e"
+    },
+    {
+      "path": "ubuntu-22.04-arm/apt-update.log",
+      "bytes": 1419,
+      "sha256": "f0f2afcf74c2b712ff45f9fbfd86d8ccb956e1f22751c4b1c6d74ca6b98e5aec"
+    },
+    {
+      "path": "ubuntu-22.04-arm/bridge.log",
+      "bytes": 1012,
+      "sha256": "67f4e5f2b082533fb04ce88bd0d78b5de34b852989af0cc1f8608a57057e34ce"
+    },
+    {
+      "path": "ubuntu-22.04-arm/browser-e2e.log",
+      "bytes": 210,
+      "sha256": "20571fc842b419105704619f8182a84ecad205207f372be9285820ff49640400"
+    },
+    {
+      "path": "ubuntu-22.04-arm/cargo-test.log",
+      "bytes": 24028,
+      "sha256": "5e33db6d7e1063f2484de220745a3baaaf84bccacfaf3542ae4221f43c9df18d"
+    },
+    {
+      "path": "ubuntu-22.04-arm/disk-before.log",
+      "bytes": 392,
+      "sha256": "c69ce91e2e448575c6a5355e2e91815fc12c7a5ac0ca6d91a8c690458ab54d8f"
+    },
+    {
+      "path": "ubuntu-22.04-arm/frontend-build.log",
+      "bytes": 668,
+      "sha256": "d507004518918a88273d420f6d6d9092be068d0d061800d182c13160ab30a28b"
+    },
+    {
+      "path": "ubuntu-22.04-arm/go-test.log",
+      "bytes": 303,
+      "sha256": "6b3d5ff868e4385b863de18e1e4da4d2ad15b0a99b8b04c4fc00c644bf0c2847"
+    },
+    {
+      "path": "ubuntu-22.04-arm/go-vet.log",
+      "bytes": 4479,
+      "sha256": "5e60316440b9ea438f01ee706b4c360ba826910640c3d11f2925b27da0defa38"
+    },
+    {
+      "path": "ubuntu-22.04-arm/hosted-image.log",
+      "bytes": 51,
+      "sha256": "9af7826df1ed5949194430b6eb60fce0dc22256e07f1341a23215812b98f891b"
+    },
+    {
+      "path": "ubuntu-22.04-arm/native.json",
+      "bytes": 1749,
+      "sha256": "8248c841f449427bfda64c20b352e034173e6595786af8bc776f536ab38f5ae0"
+    },
+    {
+      "path": "ubuntu-22.04-arm/native.log",
+      "bytes": 849,
+      "sha256": "4fbdf87ed5974e2e48e1824f636504ae510975b6d9fcc2f097259c1fce3f4806"
+    },
+    {
+      "path": "ubuntu-22.04-arm/npm-ci.log",
+      "bytes": 143,
+      "sha256": "583060d204bf058e5a61135790ac16027b24a1c48e02902fb95db51902261003"
+    },
+    {
+      "path": "ubuntu-22.04-arm/playwright-install.log",
+      "bytes": 15368,
+      "sha256": "262acaec17a58765f67e119f7894e2750737e4de9f396060410aa4eaa5eab1f0"
+    },
+    {
+      "path": "ubuntu-22.04-arm/preflight.log",
+      "bytes": 1040,
+      "sha256": "a9a1ed5ddafe9dd0f6e9cd3b5edbc1dd7dfab9f6842e206b0edba8d2a32f9cbb"
+    },
+    {
+      "path": "ubuntu-22.04-arm/rust-install.log",
+      "bytes": 259,
+      "sha256": "0e6771cf192c00e7ecdfd09c3fde9a4996abba48bc69d1da477c553d7585dd67"
+    },
+    {
+      "path": "ubuntu-22.04-arm/sidecar.log",
+      "bytes": 187,
+      "sha256": "34e4897cc28aedbc03b5698ffb6a582d9476cb00addf0ea06c07575302962312"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/smoke.json",
+      "bytes": 6192,
+      "sha256": "0d85011420f1ecaa00ec8dd607e6511ac28e409486e671f12be00b259c262939"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/observation.json",
+      "bytes": 4390,
+      "sha256": "ba8a2bc027ac728eed612dfceaa2deef521029c99a46c31bc9a8d910ec261195"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/root.png",
+      "bytes": 47220,
+      "sha256": "544a7798a058d4b33ba75a66ef7013ba096658cf81289658983857172971a8af"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/stderr.log",
+      "bytes": 468,
+      "sha256": "a228c90c1d309c41b493aaf82bbd8f731862b82a68bf087dc9ea077d0232fe51"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/window.initial.png",
+      "bytes": 239,
+      "sha256": "37fd68afa73031a7b0d15c7b272b07fbc09c798355101b3d9e6b21f29525981b"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract/startup/window.png",
+      "bytes": 44330,
+      "sha256": "1395ca6383c3201c3706be828e9c2f9f34be2738dbac374006fa02c59a1f2e27"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-extract.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/smoke.json",
+      "bytes": 6580,
+      "sha256": "9b4dda697f03cdf980c07903af7be071a8fe48d36d74476991722e5cee30ebba"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/observation.json",
+      "bytes": 4751,
+      "sha256": "d926454482ddd831fd2b20c53f5838a27c740354f35dc2fff53af6d49e3bc6f8"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/root.png",
+      "bytes": 46376,
+      "sha256": "3a5688f33ad9d5ca9016b934b4562735dc5388c0dc40877983deb683a911cdbb"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/stderr.log",
+      "bytes": 210,
+      "sha256": "bc1fbb988b6d68a2d2c6308acaec3f3523dfba61e07bd930aebace0ec9d2430a"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/window.initial.png",
+      "bytes": 239,
+      "sha256": "37fd68afa73031a7b0d15c7b272b07fbc09c798355101b3d9e6b21f29525981b"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse/startup/window.png",
+      "bytes": 43511,
+      "sha256": "53ec4e21f6aeb21badf9805398f06fb9902d0026dc29728393a26d0a23ca5522"
+    },
+    {
+      "path": "ubuntu-22.04-arm/smoke-fuse.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-22.04-arm/system-packages.tsv",
+      "bytes": 57436,
+      "sha256": "48a21e1d81a9277e705fd2596010581bedf8af5b08eceb566210032770afa347"
+    },
+    {
+      "path": "ubuntu-22.04-arm/tauri-build.log",
+      "bytes": 2130,
+      "sha256": "522fdc5e2c1b325f91f702e3953c31e1b8a151dd979195e2e2d44753c50d511a"
+    },
+    {
+      "path": "ubuntu-22.04-arm/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "ubuntu-22.04-arm/tooling.log",
+      "bytes": 7216,
+      "sha256": "6bf6bdd8154cb88bc6474dda7fa245d781ebdc47fc7f3a440df7550c3de5a9bf"
+    },
+    {
+      "path": "ubuntu-22.04-arm/tools.log",
+      "bytes": 406,
+      "sha256": "7fd7409ac69ff9716635ac80e66f09e4333433e494aead826687949519c1367a"
+    },
+    {
+      "path": "ubuntu-22.04-arm/typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "ubuntu-24.04-arm/appimage-tooling.log",
+      "bytes": 1508,
+      "sha256": "7691e4482ec453f12ad73a22f726722e301eb81e71172410809aaa5f83963506"
+    },
+    {
+      "path": "ubuntu-24.04-arm/appimage.sha256",
+      "bytes": 144,
+      "sha256": "77d3b50748ead823e7041a27956cd0378c3915e37b4e0c361c472eb13232afba"
+    },
+    {
+      "path": "ubuntu-24.04-arm/apt-install.log",
+      "bytes": 80339,
+      "sha256": "62f2c821fd8a4f48e7dc0ff791ef2d30400bb1f0dac0d2221783ccab46080075"
+    },
+    {
+      "path": "ubuntu-24.04-arm/apt-update.log",
+      "bytes": 1795,
+      "sha256": "d38ad6a6258d4aa60cd5322bce4a20610ed289be7077129cbee9ef2951d8329b"
+    },
+    {
+      "path": "ubuntu-24.04-arm/bridge.log",
+      "bytes": 1014,
+      "sha256": "979da9c51b4bf3a3641752722489ab350118b2a4e8fa108e13d3ce3c1e74d4b8"
+    },
+    {
+      "path": "ubuntu-24.04-arm/browser-e2e.log",
+      "bytes": 210,
+      "sha256": "b766696f07c5bf2f1cf3729288a88fbbb99e0678e182874935801731d66c5ad1"
+    },
+    {
+      "path": "ubuntu-24.04-arm/cargo-test.log",
+      "bytes": 24028,
+      "sha256": "6853de160c383ab77090820eb539d28801de20e202a4fd6743382962a2b63833"
+    },
+    {
+      "path": "ubuntu-24.04-arm/disk-before.log",
+      "bytes": 372,
+      "sha256": "1d1a51eda353e0d390aad76c47040bed99d1aeccbacfde164cafba28c5945909"
+    },
+    {
+      "path": "ubuntu-24.04-arm/frontend-build.log",
+      "bytes": 668,
+      "sha256": "65b2909dcf0c517547c66182fe4a3ef34248f9e2cad35f0d1381a32eca4d765c"
+    },
+    {
+      "path": "ubuntu-24.04-arm/go-test.log",
+      "bytes": 303,
+      "sha256": "dd9fa5b5e1b5dd1af5ed82f08e732c8a49436e62f5fa063eca0fcefb6bba182f"
+    },
+    {
+      "path": "ubuntu-24.04-arm/go-vet.log",
+      "bytes": 4479,
+      "sha256": "65c8f56abd99d4193daa5aee33b69156aec4daf1b42bd9cbca3fc27c593aef7a"
+    },
+    {
+      "path": "ubuntu-24.04-arm/hosted-image.log",
+      "bytes": 51,
+      "sha256": "17c7cbd8b290054e93bc25d4b0e4997cecc369ebd5e35a4c979db8986338d47d"
+    },
+    {
+      "path": "ubuntu-24.04-arm/native.json",
+      "bytes": 1750,
+      "sha256": "e161831bd9c50b7edd9fc333f06a0be0172825022f8c271ffd081b66b16d3dcd"
+    },
+    {
+      "path": "ubuntu-24.04-arm/native.log",
+      "bytes": 849,
+      "sha256": "7e3d1025c2ac29d7710443e9115bcc2dbdf3a6bed67d8717d986cffef135e3d9"
+    },
+    {
+      "path": "ubuntu-24.04-arm/npm-ci.log",
+      "bytes": 143,
+      "sha256": "583060d204bf058e5a61135790ac16027b24a1c48e02902fb95db51902261003"
+    },
+    {
+      "path": "ubuntu-24.04-arm/playwright-install.log",
+      "bytes": 15958,
+      "sha256": "a70d74bd4815216b070daa2db06536a62dd63b87f80725a4dd67fdbc79030c78"
+    },
+    {
+      "path": "ubuntu-24.04-arm/preflight.log",
+      "bytes": 1040,
+      "sha256": "7cc4709365fabe661785cd37111d0b274e46cfe099754abf8a74ef540f398068"
+    },
+    {
+      "path": "ubuntu-24.04-arm/rust-install.log",
+      "bytes": 259,
+      "sha256": "0e6771cf192c00e7ecdfd09c3fde9a4996abba48bc69d1da477c553d7585dd67"
+    },
+    {
+      "path": "ubuntu-24.04-arm/sidecar.log",
+      "bytes": 187,
+      "sha256": "34e4897cc28aedbc03b5698ffb6a582d9476cb00addf0ea06c07575302962312"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/smoke.json",
+      "bytes": 6356,
+      "sha256": "7ba0b37001f767a4f158a877e4e8aca93bc1c1742dda5fedaf12be95a340fef7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/observation.json",
+      "bytes": 4538,
+      "sha256": "07f884e6cd90d3fa67728df770183f7fb2da4bb8296db6356dc388dff4e9e69d"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/root.png",
+      "bytes": 46464,
+      "sha256": "f415d84d7d08e898ea3bb8acd104caabe0b7cf0b66e4d57ef9f7b76fde419297"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/stderr.log",
+      "bytes": 190,
+      "sha256": "2e84a72601f97867e7b989fd0bb6f5205b2b14b698b1aa346a33f4d3881918f7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/window.initial.png",
+      "bytes": 223,
+      "sha256": "7e9f94f9988eb115c79b395ab370c251d66691a3d73d4f79adcb18455a077de8"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract/startup/window.png",
+      "bytes": 43693,
+      "sha256": "b11c8fd64c63126278e5cf80bedccaebbe5777c6a13fb122ca91c50f56b174e7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-extract.log",
+      "bytes": 565,
+      "sha256": "efa615c90fccb6e37e0d5c383200ebefe6f8fafe25c758b6bff5bb0bfa0ee7f6"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/extract.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/extract.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/smoke.json",
+      "bytes": 6571,
+      "sha256": "391186820577f09a9935a288461d9abe4c37c3fc69baecf4da49b34da6dc923e"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/observation.json",
+      "bytes": 4742,
+      "sha256": "bbc39bfc0aac460c522f603e8b792c8ed155aa292a3392e056c1fb16ac90da50"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/root.png",
+      "bytes": 46464,
+      "sha256": "f415d84d7d08e898ea3bb8acd104caabe0b7cf0b66e4d57ef9f7b76fde419297"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/stderr.log",
+      "bytes": 190,
+      "sha256": "2e84a72601f97867e7b989fd0bb6f5205b2b14b698b1aa346a33f4d3881918f7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/window.initial.png",
+      "bytes": 223,
+      "sha256": "7e9f94f9988eb115c79b395ab370c251d66691a3d73d4f79adcb18455a077de8"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse/startup/window.png",
+      "bytes": 43693,
+      "sha256": "b11c8fd64c63126278e5cf80bedccaebbe5777c6a13fb122ca91c50f56b174e7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/smoke-fuse.log",
+      "bytes": 565,
+      "sha256": "1ca1c4f4e93091c0dce2bc5f1db9c1e2d1af6a265eb8c9689b56c6f4c71731f9"
+    },
+    {
+      "path": "ubuntu-24.04-arm/system-packages.tsv",
+      "bytes": 46817,
+      "sha256": "119b9e1665cd8a8dec164f57f9a4db3491888f8834d6c558c0641ee2d0d31105"
+    },
+    {
+      "path": "ubuntu-24.04-arm/tauri-build.log",
+      "bytes": 2130,
+      "sha256": "0276d3b49be464e6e11c22cec049b3fd43d6695e4562c76662dc1ac7f1aae4d7"
+    },
+    {
+      "path": "ubuntu-24.04-arm/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "ubuntu-24.04-arm/tooling.log",
+      "bytes": 7215,
+      "sha256": "2196bf08a22ae51915bcbc2791753749da1781ee777d6acdbea76535149bc7b1"
+    },
+    {
+      "path": "ubuntu-24.04-arm/tools.log",
+      "bytes": 406,
+      "sha256": "9e9ec78aed7dc6c48887a63e6c836348d63af42d657a3d333a47690a5d9de738"
+    },
+    {
+      "path": "ubuntu-24.04-arm/typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "x64-elf.log",
+      "bytes": 9540,
+      "sha256": "759d736e1460e7e78e0557ec301fba6793cd4fca7f87b6cfc8b76991c2c17672"
+    }
+  ]
+}

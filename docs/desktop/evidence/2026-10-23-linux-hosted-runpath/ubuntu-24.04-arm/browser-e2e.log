@@ -1,0 +1,8 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test
+
+
+Running 53 tests using 2 workers
+·····················································
+  53 passed (30.9s)

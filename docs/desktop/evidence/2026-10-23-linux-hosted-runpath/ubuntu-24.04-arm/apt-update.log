@@ -1,0 +1,22 @@
+Get:1 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+Get:2 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [576 kB]
+Get:3 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [640 kB]
+Get:4 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.4 kB]
+Hit:5 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:6 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1455 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports noble-updates/main Translation-en [310 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [1748 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe Translation-en [342 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted arm64 Packages [2678 kB]
+Get:14 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted Translation-en [411 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1206 kB]
+Get:16 http://ports.ubuntu.com/ubuntu-ports noble-security/main Translation-en [231 kB]
+Get:17 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1298 kB]
+Get:18 http://ports.ubuntu.com/ubuntu-ports noble-security/universe Translation-en [246 kB]
+Get:19 http://ports.ubuntu.com/ubuntu-ports noble-security/restricted arm64 Packages [2573 kB]
+Get:20 http://ports.ubuntu.com/ubuntu-ports noble-security/restricted Translation-en [392 kB]
+Fetched 14.5 MB in 4s (3234 kB/s)
+Reading package lists...

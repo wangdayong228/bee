@@ -1,0 +1,74 @@
+[
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/root.png",
+    "stat": "1280x1024 colors=1109 mean=0.524337 sd=0.491357"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.png",
+    "stat": "1000x700 colors=1108 mean=0.981798 sd=0.0541592"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/root.png",
+    "stat": "1280x1024 colors=1109 mean=0.524337 sd=0.491357"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.png",
+    "stat": "1000x700 colors=1108 mean=0.981798 sd=0.0541592"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/root.png",
+    "stat": "1280x1024 colors=1097 mean=0.524338 sd=0.491357"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.png",
+    "stat": "1000x700 colors=1096 mean=0.981801 sd=0.0541534"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/root.png",
+    "stat": "1280x1024 colors=1084 mean=0.524337 sd=0.491358"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-22.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.png",
+    "stat": "1000x700 colors=1083 mean=0.981799 sd=0.0541654"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/root.png",
+    "stat": "1280x1024 colors=1097 mean=0.524192 sd=0.491343"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-extract/startup/window.png",
+    "stat": "1000x700 colors=1096 mean=0.981527 sd=0.0561787"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/root.png",
+    "stat": "1280x1024 colors=1097 mean=0.524192 sd=0.491343"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.initial.png",
+    "stat": "1000x700 colors=1 mean=0 sd=0"
+  },
+  {
+    "path": ".cache/qa/linux-hosted-39905806798-checks/bee-linux-checks-ubuntu-24.04-arm-22c5f912659bad7af4a602cf2e3a8b019cd5ce94/desktop-ci-evidence/smoke-fuse/startup/window.png",
+    "stat": "1000x700 colors=1096 mean=0.981527 sd=0.0561787"
+  }
+]

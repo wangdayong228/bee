@@ -1,0 +1,175 @@
+Parallel unsquashfs: Using 11 processors
+1 inodes (229 blocks) to write
+
+
+created 1 file
+created 3 directories
+created 0 symlinks
+created 0 devices
+created 0 fifos
+created 0 sockets
+created 0 hardlinks
+
+COMMAND ['readelf', '-l', '-d', '-S', '/qa/linux-hosted-39905806798-packages/ubuntu2404-arm64/extracted/usr/bin/bee']
+There are 39 section headers, starting at offset 0x238:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .tbss             NOBITS           0000000000000000  00000000
+       0000000000000010  0000000000000000 WAT       0     0     8
+  [ 2] .note.go.buildid  NOTE             0000000000010f5c  00000f5c
+       0000000000000064  0000000000000000   A       0     0     4
+  [ 3] .note.gnu.bu[...] NOTE             0000000000010fc0  00000fc0
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 4] .interp           PROGBITS         0000000000010fe5  00000fe5
+       000000000000001b  0000000000000000   A       0     0     1
+  [ 5] .text             PROGBITS         0000000000011000  00001000
+       00000000007846d4  0000000000000000  AX       0     0     16
+  [ 6] .plt              PROGBITS         00000000007956e0  007856e0
+       00000000000002e0  0000000000000004  AX       0     0     4
+  [ 7] .rodata           PROGBITS         00000000007a0000  00790000
+       00000000001705f9  0000000000000000   A       0     0     32
+  [ 8] .gopclntab        PROGBITS         0000000000910600  00900600
+       0000000000772f5b  0000000000000000   A       0     0     8
+  [ 9] .gnu.version_r    VERNEED          0000000001083560  01073560
+       0000000000000040  0000000000000000   A      14     1     8
+  [10] .gnu.version      VERSYM           00000000010835a0  010735a0
+       000000000000006c  0000000000000002   A      15     0     2
+  [11] .rela             RELA             0000000001083610  01073610
+       0000000000000090  0000000000000018   A      15     0     8
+  [12] .rela.plt         RELA             00000000010836a0  010736a0
+       0000000000000420  0000000000000018   A      15     6     8
+  [13] .hash             HASH             0000000001083ac0  01073ac0
+       00000000000000fc  0000000000000004   A      15     0     8
+  [14] .dynstr           STRTAB           0000000001083bc0  01073bc0
+       0000000000000320  0000000000000000   A       0     0     1
+  [15] .dynsym           DYNSYM           0000000001083ee0  01073ee0
+       0000000000000510  0000000000000018   A      14     1     8
+  [16] .go.type          PROGBITS         00000000010843f0  010743f0
+       000000000028bd08  0000000000000000   A       0     0     16
+  [17] .go.func          PROGBITS         00000000013100f8  013000f8
+       00000000000032c0  0000000000000000   A       0     0     8
+  [18] .go.buildinfo     PROGBITS         0000000001320000  01310000
+       0000000000001df0  0000000000000000  WA       0     0     16
+  [19] .go.fipsinfo      PROGBITS         0000000001321e00  01311e00
+       0000000000000078  0000000000000000  WA       0     0     32
+  [20] .dynamic          DYNAMIC          0000000001321e80  01311e80
+       0000000000000140  0000000000000010  WA      14     0     8
+  [21] .got.plt          PROGBITS         0000000001321fc0  01311fc0
+       0000000000000178  0000000000000008  WA       0     0     8
+  [22] .go.module        PROGBITS         0000000001322140  01312140
+       0000000000000238  0000000000000000  WA       0     0     32
+  [23] .got              PROGBITS         0000000001322380  01312380
+       0000000000000030  0000000000000008  WA       0     0     8
+  [24] .noptrdata        PROGBITS         00000000013223c0  013123c0
+       0000000000078561  0000000000000000  WA       0     0     32
+  [25] .data             PROGBITS         000000000139a940  0138a940
+       000000000002ac12  0000000000000000  WA       0     0     32
+  [26] .bss              NOBITS           00000000013c5560  013b5560
+       000000000002e0b8  0000000000000000  WA       0     0     32
+  [27] .noptrbss         NOBITS           00000000013f3620  013e3620
+       0000000002021668  0000000000000000  WA       0     0     32
+  [28] .debug_abbrev     PROGBITS         0000000000000000  013c0000
+       0000000000000170  0000000000000000   C       0     0     1
+  [29] .debug_line       PROGBITS         0000000000000000  013c0170
+       000000000015b4c1  0000000000000000   C       0     0     1
+  [30] .debug_frame      PROGBITS         0000000000000000  0151b631
+       0000000000055a0a  0000000000000000   C       0     0     1
+  [31] .debug_gdb_s[...] PROGBITS         0000000000000000  0157103b
+       0000000000000018  0000000000000000           0     0     1
+  [32] .debug_info       PROGBITS         0000000000000000  01571053
+       00000000002c7c75  0000000000000000   C       0     0     1
+  [33] .debug_loclists   PROGBITS         0000000000000000  01838cc8
+       0000000000142c7a  0000000000000000   C       0     0     1
+  [34] .debug_rnglists   PROGBITS         0000000000000000  0197b942
+       000000000006eb06  0000000000000000   C       0     0     1
+  [35] .debug_addr       PROGBITS         0000000000000000  019ea448
+       0000000000011267  0000000000000000   C       0     0     1
+  [36] .symtab           SYMTAB           0000000000000000  019fb6b0
+       00000000000c5e68  0000000000000018          37   3845     8
+  [37] .strtab           STRTAB           0000000000000000  01ac1518
+       00000000001c5f80  0000000000000000           0     0     1
+  [38] .shstrtab         STRTAB           0000000000000000  01c87498
+       0000000000000189  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+Elf file type is EXEC (Executable file)
+Entry point 0xa0b70
+There are 9 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000010040 0x0000000000010040
+                 0x00000000000001f8 0x00000000000001f8  R      0x10000
+  INTERP         0x0000000000000fe5 0x0000000000010fe5 0x0000000000010fe5
+                 0x000000000000001b 0x000000000000001b  R      0x1
+      [Requesting program interpreter: /lib/ld-linux-aarch64.so.1]
+  NOTE           0x0000000000000f5c 0x0000000000010f5c 0x0000000000010f5c
+                 0x0000000000000064 0x0000000000000064  R      0x4
+  LOAD           0x0000000000000000 0x0000000000010000 0x0000000000010000
+                 0x00000000007859c0 0x00000000007859c0  R E    0x10000
+  LOAD           0x0000000000790000 0x00000000007a0000 0x00000000007a0000
+                 0x0000000000b733b8 0x0000000000b733b8  R      0x10000
+  LOAD           0x0000000001310000 0x0000000001320000 0x0000000001320000
+                 0x00000000000a5560 0x00000000020f4c88  RW     0x10000
+  DYNAMIC        0x0000000001311e80 0x0000000001321e80 0x0000000001321e80
+                 0x0000000000000140 0x0000000000000140  RW     0x8
+  TLS            0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000010  R      0x8
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x8
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .interp 
+   02     .note.go.buildid 
+   03     .note.go.buildid .note.gnu.build-id .interp .text .plt 
+   04     .rodata .gopclntab .gnu.version_r .gnu.version .rela .rela.plt .hash .dynstr .dynsym .go.type .go.func 
+   05     .go.buildinfo .go.fipsinfo .dynamic .got.plt .go.module .got .noptrdata .data .bss .noptrbss 
+   06     .dynamic 
+   07     .tbss 
+   08     
+
+Dynamic section at offset 0x1311e80 contains 20 entries:
+  Tag        Type                         Name/Value
+ 0x0000000000000004 (HASH)               0x1083ac0
+ 0x0000000000000006 (SYMTAB)             0x1083ee0
+ 0x000000000000000b (SYMENT)             24 (bytes)
+ 0x0000000000000005 (STRTAB)             0x1083bc0
+ 0x000000000000000a (STRSZ)              800 (bytes)
+ 0x0000000000000007 (RELA)               0x1083610
+ 0x0000000000000008 (RELASZ)             144 (bytes)
+ 0x0000000000000009 (RELAENT)            24 (bytes)
+ 0x000000000000001d (RUNPATH)            Library runpath: [$ORIGIN/../lib]
+ 0x0000000000000003 (PLTGOT)             0x1321fc0
+ 0x0000000000000015 (DEBUG)              0x0
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
+ 0x000000006ffffffb (FLAGS_1)            Flags: None
+ 0x000000006ffffffe (VERNEED)            0x1083560
+ 0x000000006fffffff (VERNEEDNUM)         1
+ 0x000000006ffffff0 (VERSYM)             0x10835a0
+ 0x0000000000000014 (PLTREL)             RELA
+ 0x0000000000000002 (PLTRELSZ)           1056 (bytes)
+ 0x0000000000000017 (JMPREL)             0x10836a0
+ 0x0000000000000000 (NULL)               0x0
+
+EXIT 0
+
+COMMAND ['sha256sum', '/qa/linux-hosted-39905806798-packages/ubuntu2404-arm64/extracted/usr/bin/bee']
+14616e4797057a0874b06a4575d328d785b572e4fcf7223e5933d13ae531340d  /qa/linux-hosted-39905806798-packages/ubuntu2404-arm64/extracted/usr/bin/bee
+
+EXIT 0
+
+COMMAND ['file', '/qa/linux-hosted-39905806798-packages/ubuntu2404-arm64/extracted/usr/bin/bee']
+/usr/local/bin/docker-entrypoint.sh: line 377: exec: file: not found
+
+EXIT 127
