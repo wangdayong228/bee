@@ -1,0 +1,8 @@
+{
+  "revision": "845af2bb207e40df52b4741e9951023b75d30f66",
+  "mode": "demo",
+  "executables": {
+    "bee-desktop": "f449ea7b96168f38120e99f16cf91f38a99cddbcba8c627cb9f731d83f0e9825",
+    "bee": "f82c757b6034c296b1cd5037d204004202ad12124688e18489539a7328b975fe"
+  }
+}

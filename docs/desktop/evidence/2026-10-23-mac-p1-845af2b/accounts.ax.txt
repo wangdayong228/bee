@@ -1,0 +1,29 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 AI 账号 本机设备 演示数据
+			14 container
+				15 heading AI 账号, Value: 1
+					16 text AI 账号
+				17 text 管理这台设备用于贡献的 AI 账号。 O OpenAI Plus 演示账号 ·  可用于演示 状态正常 后续开放账号管理 ✳ Claude Pro 演示账号 ·  可用于演示 状态正常 后续开放账号管理 检测、授权、换号与移除将在后续开放。
+			18 container
+				19 text Bee · 开发版本 演示操作不会影响真实账号或资金
+	20 close button
+	21 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	22 minimize button
+	23 text Bee · 开发验证
+24 menu bar
+	25 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

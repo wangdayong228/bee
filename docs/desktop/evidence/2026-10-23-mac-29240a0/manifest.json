@@ -1,0 +1,12 @@
+{
+  "files": {
+    "README.md": "f173ba7c7e4583d6fa9aa1ccd03a0d56f4b21a09355f32f6d0309f116f90ce6e",
+    "codesign.log": "a5c05895c1ed17ec1d190752b90d0d8401655283fabd0eb13e89bcb1fcd4a883",
+    "exit.json": "8c33dcfd36a9a220bbb991047a9983d37fab541f9a80bbad98ac85362b7d6c89",
+    "ping.ax.txt": "5c32f162c56495b3ea5c8b9873708b72d2d8a934bab145cebe9ea6ffe3992757",
+    "ping.jpg": "fbd1d03e7aa5e4930bd4d4b81c0575d027fddf05e597809dd689a9c0a52cebbd",
+    "processes.json": "27c7c8c51588c5283935a6be774a682f5346dd1075cffc726a0f861521a7fc5d",
+    "rust-test.log": "ffac331e80b2c38c32eb72bc667fc6c96868765adf8c15ec0b1d655a3c344e98",
+    "sources.json": "038432fda978354c437bb2e6df37d1be91a06567bac61ed1a63d4b9a8d4c7933"
+  }
+}

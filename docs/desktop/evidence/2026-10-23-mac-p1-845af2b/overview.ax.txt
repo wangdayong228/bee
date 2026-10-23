@@ -1,0 +1,50 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 概览 本机设备 演示数据
+			14 container
+				15 heading 概览, Value: 1
+					16 text 概览
+				17 text 查看设备状态与贡献摘要。
+				18 heading 尚未开始贡献, Value: 2
+					19 text 尚未开始贡献
+				20 text 由你决定何时开始，让闲置的 AI 额度创造价值。 演示连接已准备 真实供给未启动
+				21 button 开始贡献
+				22 container 收益摘要
+					23 text 可用余额
+					24 container
+						25 text ¥ 128.56
+					26 text 收益与资金操作将在后续开放
+					27 text 今日收益
+					28 container
+						29 text ¥ 6.82
+					30 text 演示统计
+					31 text 累计收益
+					32 container
+						33 text ¥ 382.14
+					34 text 演示统计
+				35 heading AI 账号, Value: 2
+					36 text AI 账号
+				37 button 管理账号
+				38 text O OpenAI Plus 演示账号 ·  可用于演示 状态正常 后续开放账号管理 ✳ Claude Pro 演示账号 ·  可用于演示 状态正常 后续开放账号管理 当前任务： 0
+				39 pop up button 查看连接详情
+			40 container
+				41 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		42 scroll bar (settable, float) 0
+	43 close button
+	44 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	45 minimize button
+	46 text Bee · 开发验证
+47 menu bar
+	48 Bee Dev

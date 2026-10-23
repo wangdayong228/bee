@@ -1,0 +1,22 @@
+{
+  "files": {
+    "README.md": "6b676ec83219571385e2d81eec9fec0c72b5aaf51fbf0a9b00d8494577c524dc",
+    "accounts.ax.txt": "c366be137861e3bf0a50c55c48e4c34183151ae1b34a6f7fe5a538965ff61cc1",
+    "accounts.jpg": "1bb4e1306abd718e3255e78681a3da66c1366eb09c65c3c27387b68e9dc2f693",
+    "codesign.txt": "cb62ecddb524f6dd163a886e05e18fc72db3b326db24d399b53efdacc7d8f79d",
+    "connection-sheet.ax.txt": "ce8c50a011ff3481027dd76e87500f5e9724eaa7c959a6e86005c5ffb52f8f62",
+    "connection-sheet.jpg": "8940d7c095ae5eed84ea042a531a5e9419ec09f4866c881a252030720ad8a866",
+    "diagnostics.ax.txt": "c8eaf2f4cfada4f864938883c9367573433f24b77dd74e8f404dd4fd63d14532",
+    "diagnostics.jpg": "faa0f4e27f63a4a137bb5d216c9efcf728157b539557de5382a7a066d2b83950",
+    "earnings.ax.txt": "c6703ac48d20e80d221a0cb54a558e6683cb19b2782a6ec5564be1962caf8842",
+    "earnings.jpg": "3f9f1a309a42ac77040bd4710ac1e41c10d226cb3952f59901d35b7628bd1011",
+    "exit.json": "1b46f365312316697447e285bdda45c41d612af70b0c23f0d39162bae4883960",
+    "overview.ax.txt": "7b8e74ae1757be9209cb97d20b66e46a97c1d6ca7bb834d8c8015e67d284d131",
+    "overview.jpg": "56be2b3306157143564bc7466c663fc672088345d3a1de789d3f30df2a7065e0",
+    "processes.json": "b6a0a0fc1c525361bc2aec4bc0a47bf0740701cc2d8f9c44873570cf55347a0a",
+    "settings.ax.txt": "41342ba08291c0d01b3954cb1677863391eb1c73baef0f1b87daf61ed3b3854f",
+    "settings.jpg": "488d831538ead95c7244aa97a2c2cfbb4510f81a25559594525f3ab333bf6a74",
+    "sheet-escape.ax.txt": "c9c88177dea36f9a54a5d8c2d0386bec1773d516c758bd5b4d1b3569a6078606",
+    "sources.json": "3524cb10db746bce81ad9b7e74f54cf8f7e450ef274db7c5d1ccc306b3f50665"
+  }
+}
