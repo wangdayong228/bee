@@ -1,0 +1,37 @@
+{
+  "source": {
+    "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+    "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+    "target": "aarch64-apple-darwin",
+    "goos": "darwin",
+    "goarch": "arm64",
+    "go": "go version go1.27.3 darwin/arm64",
+    "beeVersion": "dev+87b28a29aa84",
+    "binarySha256": "acc8e81722813b5bdc63dcfbbaf41b7ef913dbae6fb29a9928d96417312e3f86"
+  },
+  "scope": "macOS15.7.7 arm64 P1 demo development App and DMG, ad-hoc signing, no production signing/notarization; metadata minimum is not macOS13 runtime evidence",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t15.7.7\nBuildVersion:\t\t24G720",
+  "arch": "arm64",
+  "sdk": "14.4",
+  "originalBee": {
+    "sha256": "acc8e81722813b5bdc63dcfbbaf41b7ef913dbae6fb29a9928d96417312e3f86",
+    "bytes": 30612002
+  },
+  "app": {
+    "path": "desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    "sha256": "dc8d8ad4a420427f697958bd79a1cb02e89efdb2165ce272a45190d2f80eb298",
+    "bytes": 27630672,
+    "macOSMinimum": "13.0"
+  },
+  "bundledBee": {
+    "path": "desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee",
+    "sha256": "aa6909b149a9849f03aab602e2ff899e53fbe7980687fddaf7b76f0ab8f9b3f2",
+    "bytes": 30630144,
+    "macOSMinimum": "13.0"
+  },
+  "dmg": {
+    "path": "desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_aarch64.dmg",
+    "sha256": "1c47faa7ee05393ca03aac95ce62eff4e70fa9b71997191540869a053331677b",
+    "bytes": 22892856
+  }
+}

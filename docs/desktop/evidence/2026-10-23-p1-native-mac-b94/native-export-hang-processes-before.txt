@@ -1,0 +1,4 @@
+  PID  PPID STARTED                      STAT COMMAND
+19199     1 Fri Oct 23 16:03:26 2026     S    /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop
+19206 19199 Fri Oct 23 16:03:27 2026     S    /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop
+70292 33669 Tue Oct 20 22:12:49 2026     S+   bee start --hive https://dev.tokhive.ai

@@ -1,0 +1,12 @@
+{
+  "source": "b94bc6b56eae1f5045ec57e7bcd731bb07ee93bc",
+  "timestamp": "2026-10-23T08:40:35.656025+00:00",
+  "actualAction": "CUA Bee Dev menu -> 退出",
+  "testParentPid": 35455,
+  "ownedChildPid": 35471,
+  "bothAbsent": true,
+  "preservedExternalBeePid": 70292,
+  "externalBeePresent": true,
+  "demoExitIsSeparate": true,
+  "windowHideReopen": "CUA close actions followed by observations still returned window; visibility transition not proven by this run; do not claim tray/hide acceptance"
+}

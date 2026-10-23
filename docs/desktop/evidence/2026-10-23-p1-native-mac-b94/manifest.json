@@ -1,0 +1,311 @@
+{
+  "source": "b94bc6b56eae1f5045ec57e7bcd731bb07ee93bc",
+  "scope": "macOS15.7.7 arm64 native demo evidence; RED and unverified boundaries retained; original bytes preserved",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4696,
+      "sha256": "35074220ba1504397693ccc53772f3a8909c77abe4f1b1e55380c4f21e0eec43"
+    },
+    {
+      "path": "app-macho.log",
+      "bytes": 10266,
+      "sha256": "94016d4aa102d3af695704ec6d676bd5a6e57fe81652cfcb66b1f24d1522e4bb"
+    },
+    {
+      "path": "bee-aarch64-apple-darwin.source.json",
+      "bytes": 365,
+      "sha256": "f78c93edb5e814a2f016a95dc7a6f2719cdae497c60f9961773e5f764bb5e2f8"
+    },
+    {
+      "path": "bundledBee-macho.log",
+      "bytes": 11099,
+      "sha256": "df41b552afd5da05dcab846ece603a90cdcea5133d48c2ed4f175a005360c440"
+    },
+    {
+      "path": "cargo-test-app-preserved-green.log",
+      "bytes": 5373,
+      "sha256": "806eba18e5269e0ece0bb11a93a2c6f9da9e8391fd5a33d61a10f69d8c5cc3c4"
+    },
+    {
+      "path": "cargo-test-before-app-preservation-red.log",
+      "bytes": 6488,
+      "sha256": "287745c8b0effa702537237c1f52df89d7688ff8b2208b2e34616d8b6355ff03"
+    },
+    {
+      "path": "codesign-details.log",
+      "bytes": 988,
+      "sha256": "1cf3e4ad416f56f044b14b1a4cd58748d01e1142514cf95ea4380da383e4fbb7"
+    },
+    {
+      "path": "codesign-missing-app-red.log",
+      "bytes": 83,
+      "sha256": "3398b01d9a56ad8a489b783e95c67b68211c5194a9b845c6f5c83727f92dea45"
+    },
+    {
+      "path": "codesign-verify.log",
+      "bytes": 468,
+      "sha256": "a5c05895c1ed17ec1d190752b90d0d8401655283fabd0eb13e89bcb1fcd4a883"
+    },
+    {
+      "path": "complete-cache-manifest.json",
+      "bytes": 15825,
+      "sha256": "cc9591ba1acce0f49155d3912c61000b8f7b0abc957a9d12fa38fbf5dc9aad19"
+    },
+    {
+      "path": "native-account-detail-bottom-zh.ax.txt",
+      "bytes": 1561,
+      "sha256": "eace952c666709bf8731c5c68e39685b73a664a3d78dd2378c3d3e32998b7b4d"
+    },
+    {
+      "path": "native-account-detail-bottom-zh.jpg",
+      "bytes": 158263,
+      "sha256": "feaa74a628e046ffb913eb8bada7439910f59f8f6292f3b5e6ed2d8ed86a36e5"
+    },
+    {
+      "path": "native-account-detail-escape-focus.ax.txt",
+      "bytes": 2259,
+      "sha256": "a5311452766aed03c55bba2cd8c3fa163341decec7898fa168c788ccb7c239bf"
+    },
+    {
+      "path": "native-account-detail-escape-focus.jpg",
+      "bytes": 134798,
+      "sha256": "a31b239b4f3b1ae66fe170049289559747a76a4806b6c56644462be0af90131c"
+    },
+    {
+      "path": "native-account-detail-zh.ax.txt",
+      "bytes": 1561,
+      "sha256": "eace952c666709bf8731c5c68e39685b73a664a3d78dd2378c3d3e32998b7b4d"
+    },
+    {
+      "path": "native-account-detail-zh.jpg",
+      "bytes": 162622,
+      "sha256": "29e9a4711efe077620ac645ba425f5f4a4ab843ff14dd78640ab766d2eb4fe02"
+    },
+    {
+      "path": "native-accounts-en-light.ax.txt",
+      "bytes": 2626,
+      "sha256": "0961f2b475f12ba0d7755f04d5edcaa6bc7be939acfbc2724d4280fa4935d0e8"
+    },
+    {
+      "path": "native-accounts-en-light.jpg",
+      "bytes": 162630,
+      "sha256": "52f39c95ee06a7aa5de2775f4773968e8d9396254e40987cec57bbd7d625b66b"
+    },
+    {
+      "path": "native-connection-en-light.ax.txt",
+      "bytes": 1003,
+      "sha256": "67e01ef99f6c9ae1e59a7d4b012c2a8bfdae1a5c4270167a1f2b87ea7488c0b0"
+    },
+    {
+      "path": "native-connection-en-light.jpg",
+      "bytes": 149259,
+      "sha256": "c68735d9caf20dbe41ef70246ee78b35daadc2a4b04deedc24005e3fa51b1895"
+    },
+    {
+      "path": "native-demo-update-zero-en-light.ax.txt",
+      "bytes": 1880,
+      "sha256": "b753d342fa0482d01c22fd8b8dac0f391ed42344d672159a5427ab360e238367"
+    },
+    {
+      "path": "native-demo-update-zero-en-light.jpg",
+      "bytes": 150493,
+      "sha256": "87d7202554a5f96827e71d74c3002e8862264fb31ccafe23e473d6fa47a7f688"
+    },
+    {
+      "path": "native-diagnostics-en-light.ax.txt",
+      "bytes": 1892,
+      "sha256": "b28e92ef21c9def5acf270ed68793da227a46e863c549b80f5bf67d9fd1c036b"
+    },
+    {
+      "path": "native-diagnostics-en-light.jpg",
+      "bytes": 143345,
+      "sha256": "898441162a8883a34a3d327e2b035f0837abf46b19292d89936e0b6bab07fedb"
+    },
+    {
+      "path": "native-diagnostics-result-zh.ax.txt",
+      "bytes": 2171,
+      "sha256": "e60377b870237d200516d7d837a4323226203aeb475eaa7c476f9a16e565eaed"
+    },
+    {
+      "path": "native-diagnostics-result-zh.jpg",
+      "bytes": 128683,
+      "sha256": "bfd3e05c68b9370a9d28177b85855ab5c5e731e60e44e250e3239cfb626b1cd7"
+    },
+    {
+      "path": "native-earnings-en-light.ax.txt",
+      "bytes": 3795,
+      "sha256": "d8903da31d43c9e1c04ac20fb686b3e7e7652acf1946e4aaf363c071b8ee7fe2"
+    },
+    {
+      "path": "native-earnings-en-light.jpg",
+      "bytes": 167140,
+      "sha256": "0b09c56c740c77a9459fe69f209c330458cbe99fb49ed6741e88081fb796c046"
+    },
+    {
+      "path": "native-earnings-zh.ax.txt",
+      "bytes": 3417,
+      "sha256": "19eb77d21f57cdf6a28f82b58b2e01b0202272385326b4d498d2692e40f3a26d"
+    },
+    {
+      "path": "native-earnings-zh.jpg",
+      "bytes": 144333,
+      "sha256": "d0a594bac07a2de5162a85487292c78d76b7118be685c662997008d8fb3d3747"
+    },
+    {
+      "path": "native-export-hang-observation.json",
+      "bytes": 827,
+      "sha256": "ba2e411e7e778d9cd969860a1460f4ea7c1609f6ccbad06c9b4df3e801826264"
+    },
+    {
+      "path": "native-export-hang-processes-after-term.txt",
+      "bytes": 140,
+      "sha256": "3687390d0f680482ee35015a05eff3f6d6fae2e1be099ff01361cf7b251d3ef7"
+    },
+    {
+      "path": "native-export-hang-processes-before.txt",
+      "bytes": 528,
+      "sha256": "4dde18d130b3966616aa34c3c210b1e623ce0221c81dbde8377111d7b87136f9"
+    },
+    {
+      "path": "native-lifecycle-after-real-menu-exit.txt",
+      "bytes": 140,
+      "sha256": "3687390d0f680482ee35015a05eff3f6d6fae2e1be099ff01361cf7b251d3ef7"
+    },
+    {
+      "path": "native-lifecycle-before-close.txt",
+      "bytes": 474,
+      "sha256": "59220a8b039a1f59dc8e73107e10e55c85f554cee9885bd6ba937778274ec941"
+    },
+    {
+      "path": "native-lifecycle-menu-exit-result.json",
+      "bytes": 499,
+      "sha256": "df36a39d9d9ec4d3bf77e4c58bfeb1709f3bf1872eef6b65580e375f4a01fd45"
+    },
+    {
+      "path": "native-overview-en-light-bottom.ax.txt",
+      "bytes": 3099,
+      "sha256": "e864c137b76c2fa462163f92b3fdcc5b67a4f6ee25c6e5a69230c8b654f94485"
+    },
+    {
+      "path": "native-overview-en-light-bottom.jpg",
+      "bytes": 193080,
+      "sha256": "62a67a8c7fc5d2bff6475d8d17a2c24c36fbb1785c0554d02d262bab1b29a5a3"
+    },
+    {
+      "path": "native-preferences-restored-zh-dark.ax.txt",
+      "bytes": 2536,
+      "sha256": "a7b90e5b31eaa6bd971d143250ab074c804e946187600b994e17880b1795619e"
+    },
+    {
+      "path": "native-preferences-restored-zh-dark.jpg",
+      "bytes": 114292,
+      "sha256": "661f9fa792620f4677b79985e662c75f3c0eddb17d443570dcd40341551652ac"
+    },
+    {
+      "path": "native-quotes-bottom-zh.ax.txt",
+      "bytes": 2558,
+      "sha256": "6656badde3441e3d220dbd8a176f5258c18d58c1da385978306cef1971106cd1"
+    },
+    {
+      "path": "native-quotes-bottom-zh.jpg",
+      "bytes": 156214,
+      "sha256": "163c2f1f77100932a0d9438693cf5ab69e2155b36bc2d20dad66c572b9a80160"
+    },
+    {
+      "path": "native-real-app-menu-zh.ax.txt",
+      "bytes": 186,
+      "sha256": "f84c3a65d66eeda5dd6509f6d7e2273c80dc3723968d1b0b675275c936eb4db4"
+    },
+    {
+      "path": "native-resize-attempt.jpg",
+      "bytes": 150226,
+      "sha256": "d3462e8aa608c2fbcd323b28596abf457a98121084cdd9483299a8112d428645"
+    },
+    {
+      "path": "native-settings-en-dark-complete.ax.txt",
+      "bytes": 2762,
+      "sha256": "a66be129db981a4a77cc77b37927ecf89ae0bc1f1dd10fb2e59c4b8e8bac65f7"
+    },
+    {
+      "path": "native-settings-en-dark-complete.jpg",
+      "bytes": 130024,
+      "sha256": "215cb0ffc28009db3ef7f0c08c0b1e5dad915294fcab06bae83d146b3190b93c"
+    },
+    {
+      "path": "native-settings-en-light.ax.txt",
+      "bytes": 2754,
+      "sha256": "2c227c566bfcb4fae1e9722faf3421b3130b0acb48d5147ee7985426b3860efa"
+    },
+    {
+      "path": "native-settings-en-light.jpg",
+      "bytes": 133588,
+      "sha256": "c6f95ef5382ffd61eb51159728e8874a04fcda7d38591a7ec9a9101e9c8f0482"
+    },
+    {
+      "path": "native-transfer-demo-result-zh.ax.txt",
+      "bytes": 1799,
+      "sha256": "49d00e9161c0e139c304e7653ae64e80c452058149a4752fb2c6cf52d6d03f85"
+    },
+    {
+      "path": "native-transfer-demo-result-zh.jpg",
+      "bytes": 144711,
+      "sha256": "6f89a71a28cbeebeaaf746706d57e2230d16893af61da1e3ece965bd16e4eace"
+    },
+    {
+      "path": "native-transfer-review-zh.ax.txt",
+      "bytes": 857,
+      "sha256": "da1d4e42933fb2699ea565d1cab6bff0e7212b7e54a1c2ead627cac393adb6b6"
+    },
+    {
+      "path": "native-transfer-review-zh.jpg",
+      "bytes": 146912,
+      "sha256": "82bb1bdf6de75b25bfa5e1ae21ef5ced77ce1438cd2292b8ec432f4b1b78da89"
+    },
+    {
+      "path": "native-withdrawal-unavailable-zh.ax.txt",
+      "bytes": 1509,
+      "sha256": "f782f8234c916e045d5b3043d7c54ad0c02533d5225c51cca7f030a5ea891533"
+    },
+    {
+      "path": "native-withdrawal-unavailable-zh.jpg",
+      "bytes": 107365,
+      "sha256": "891b72516d32abe8c69c4a752ef2ce59a14f3cfc0dad490a7eb44049a28bde4e"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 1508,
+      "sha256": "994883eaa3e213353c9b22845637b75bd0f409943edecb271a323d6a0f40be3b"
+    },
+    {
+      "path": "preflight.log",
+      "bytes": 799,
+      "sha256": "c32a7389e9aed934a1668ccd694a59c596f363244b848dd533778c99a20eaa6d"
+    },
+    {
+      "path": "screenshot-dimensions.json",
+      "bytes": 1911,
+      "sha256": "ab5931f27c166c46cc95eaf0b37f21515ed88449f7726e28ad425d192ed19648"
+    },
+    {
+      "path": "sidecar-b94bc6b.log",
+      "bytes": 216,
+      "sha256": "c40218398afdc9f2de8cc9c80426951529e1038afa0a120fafa860ec14a28375"
+    },
+    {
+      "path": "tauri-demo-build-app-and-dmg.log",
+      "bytes": 3898,
+      "sha256": "35c0fb36f9e3cc5d440ee4870e31d8040ef92ae5535c4cf5e000893f56254b7f"
+    },
+    {
+      "path": "tauri-demo-build-dmg-only.log",
+      "bytes": 3886,
+      "sha256": "e1c1b58dd448cd70e30b08ff14a77b87df8948365d2b48bdcf3b36fe5bebb6fc"
+    },
+    {
+      "path": "tee.log",
+      "bytes": 245,
+      "sha256": "6ec3ff1f45c9afc6d5ecd35be23c860da63ce7a40c87896f002d46572ab84402"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+36844     1 Fri Oct 23 17:52:19 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-native-local-2681edc/installed from DMG/Bee Dev.app/Contents/MacOS/bee-desktop
+36961 36844 Fri Oct 23 17:52:20 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-native-local-2681edc/installed from DMG/Bee Dev.app/Contents/MacOS/bee desktop

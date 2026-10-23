@@ -1,0 +1,64 @@
+{
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": "39931368298",
+  "environment": {
+    "installedPackageRun": "not tested",
+    "scope": "Windows Server 2022 hosted build only",
+    "imageVersion": "20261021.343.1",
+    "cpuArchitectures": [
+      9
+    ],
+    "os": {
+      "Caption": "Microsoft Windows Server 2022 Datacenter",
+      "Version": "10.0.20348",
+      "BuildNumber": "20348",
+      "ProductType": 3
+    },
+    "productionSigning": "not performed",
+    "gui": "not tested",
+    "runId": "39931368298",
+    "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+    "win10And11": "not tested",
+    "imageOS": "win22"
+  },
+  "package": {
+    "path": ".cache/qa/p1-native-remote-2681edc/windows/test/desktop/src-tauri/target/debug/bundle/nsis/Bee Dev_0.1.0_x64-setup.exe",
+    "bytes": 16283838,
+    "sha256": "1c3cc2ccd1234120b1e461b5e9e3c6ed2094ff111fdc7f4c0a520dcd1d2319d7"
+  },
+  "sourceSha256": "8708a840875d2ed3b191da1db3291225dff4ca3063acb5cba80e05235aa6fcf6",
+  "source": {
+    "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+    "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+    "target": "x86_64-pc-windows-msvc",
+    "goos": "windows",
+    "goarch": "amd64",
+    "go": "go version go1.27.3 windows/amd64",
+    "beeVersion": "dev+2681edca2c56-dirty",
+    "binarySha256": "d6c1f02a7a6a2d3dfc4cfc4d519b9a9fd8c3eb24bfd30416edbc1953394dcfbb"
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "rustSummaries": [
+    [
+      "30",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "demoBuild": true,
+  "limitations": [
+    "Original Bee not separately uploaded; hash observed by runner",
+    "NSIS not extracted, installed or executed locally",
+    "No Win10/11, GUI, tray, installed-package or clean-user acceptance"
+  ]
+}

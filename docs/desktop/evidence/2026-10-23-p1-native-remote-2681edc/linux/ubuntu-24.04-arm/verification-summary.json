@@ -1,0 +1,71 @@
+{
+  "row": "ubuntu-24.04-arm",
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": "39931368185",
+  "target": "aarch64-unknown-linux-gnu",
+  "nativeOk": true,
+  "package": {
+    "path": ".cache/qa/p1-native-remote-2681edc/linux/ubuntu-24.04-arm/test/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+    "bytes": 139078152,
+    "sha256": "b6fcd0c14889fe200d48d9d01bc38d4bc2cf3b005be1b5d7c708a174f8500eae"
+  },
+  "source": {
+    "path": ".cache/qa/p1-native-remote-2681edc/linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+    "sha256": "4fa08cb78b675b06180a873fba9c57910556d802de7ed63bb7a0eeb39e5090a2",
+    "content": {
+      "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "aarch64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "arm64",
+      "go": "go version go1.27.3 linux/arm64",
+      "beeVersion": "dev+2681edca2c56-dirty",
+      "binarySha256": "b3a5c7687767a53292b57e07a1bf04a7343d5d12a902aa8a823d274f19e3b309"
+    }
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "smokes": {
+    "extract": {
+      "ok": true,
+      "observedMs": 10247,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [
+          {
+            "pid": 49771,
+            "parent": 1,
+            "group": 49698,
+            "state": "Zl",
+            "command": "WebKitWebProces"
+          }
+        ],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    },
+    "fuse": {
+      "ok": true,
+      "observedMs": 10199,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    }
+  }
+}

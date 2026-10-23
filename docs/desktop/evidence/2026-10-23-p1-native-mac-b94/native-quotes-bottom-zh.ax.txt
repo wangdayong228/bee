@@ -1,0 +1,69 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 收益 本机设备 演示数据
+			14 container
+				15 heading 收益, Value: 1
+					16 text 收益
+				17 text 查看贡献收益与可用余额。
+				18 button 返回收益
+				19 heading 报价设置, Value: 2
+					20 text 报价设置
+				21 text 选择平台默认报价，或统一设置自己的报价系数 当前已生效 平台默认报价 版本  1
+				22 container 报价模式
+					23 text 报价模式
+					24 container
+						25 radio button 使用平台默认, Value: 1
+						26 text 使用平台默认 采用平台默认系数。
+					27 container
+						28 radio button 自定义报价系数, Value: 0
+						29 text 自定义报价系数
+					30 text 一个系数统一应用于全部平台、模型及计费项。
+				31 heading 报价预览, Value: 3
+					32 text 报价预览
+				33 text 当前草稿 · 保存后生效
+				34 table
+					35 row (selectable) 模型 / 输入
+示例基准价 / 百万 Token
+你的实收 / 百万 Token
+					36 row (selectable)
+						37 cell (selectable) GPT-5.5
+						38 cell (selectable) $
+2
+.00
+						39 cell (selectable) $0.2
+					40 row (selectable)
+						41 cell (selectable) Claude Sonnet
+						42 cell (selectable) $
+3
+.00
+						43 cell (selectable) $0.3
+				44 text 实收单价 = 示例基准价 × 有效系数。正式价格待 Hive 接入；保存不会修改已接收任务的结算价格。 已接收演示任务快照：系数  0.1  · 版本 1
+				45 button 重新读取 / 放弃修改
+				46 button 保存报价
+				47 container 演示生命周期
+					48 button 退出演示
+					49 button 更新演示
+					50 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			51 container
+				52 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		53 scroll bar (settable, float) 1
+	54 close button
+	55 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	56 minimize button
+	57 text Bee · 开发验证
+58 menu bar
+	59 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

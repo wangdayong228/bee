@@ -1,0 +1,93 @@
+{
+  "scope": "macOS 15 Intel supplemental native evidence; not macOS 13 minimum",
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": "39931368193",
+  "imageOS": "macos15",
+  "imageVersion": "20260824.0482.1",
+  "target": "x86_64-apple-darwin",
+  "checks": [
+    {
+      "name": "Source HEAD",
+      "actual": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+      "expected": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+      "ok": true
+    },
+    {
+      "name": "Node platform/arch/version",
+      "actual": "darwin/x64/v24.22.1",
+      "expected": "darwin/x64/v24.22.1",
+      "ok": true
+    },
+    {
+      "name": "Kernel architecture",
+      "actual": "x86_64",
+      "expected": "x86_64",
+      "ok": true
+    },
+    {
+      "name": "No Rosetta",
+      "actual": "",
+      "expected": "0 or empty",
+      "ok": true
+    },
+    {
+      "name": "Hosted OS",
+      "actual": "15.7.9",
+      "expected": "macOS 15.x",
+      "ok": true
+    },
+    {
+      "name": "Selected Xcode",
+      "actual": "/Applications/Xcode_16.4.app/Contents/Developer",
+      "expected": "/Applications/Xcode_16.4.app/Contents/Developer",
+      "ok": true
+    },
+    {
+      "name": "Xcode version",
+      "actual": "Xcode 16.4\nBuild version 16F6",
+      "expected": "Xcode 16.4 / Build 16F6",
+      "ok": true
+    },
+    {
+      "name": "macOS SDK",
+      "actual": "15.5",
+      "expected": "15.5",
+      "ok": true
+    },
+    {
+      "name": "Go version",
+      "actual": "go version go1.27.3 darwin/amd64",
+      "expected": "go version go1.27.3 darwin/amd64",
+      "ok": true
+    },
+    {
+      "name": "Go build/host",
+      "actual": "darwin\namd64\ndarwin\namd64",
+      "expected": "darwin\namd64\ndarwin\namd64",
+      "ok": true
+    },
+    {
+      "name": "Rust version",
+      "actual": "rustc 1.94.0 (4a4ef493e 2026-03-02)",
+      "expected": "rustc 1.94.0",
+      "ok": true
+    },
+    {
+      "name": "Rust host",
+      "actual": "x86_64-apple-darwin",
+      "expected": "x86_64-apple-darwin",
+      "ok": true
+    },
+    {
+      "name": "Cargo version",
+      "actual": "cargo 1.94.0 (85eff7c80 2026-01-15)",
+      "expected": "cargo 1.94.0",
+      "ok": true
+    }
+  ],
+  "gui": "not tested",
+  "tray": "not tested",
+  "cleanUserInstall": "not tested",
+  "productionSigning": "not performed",
+  "ok": true
+}

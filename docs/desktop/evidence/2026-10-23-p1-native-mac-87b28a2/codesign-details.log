@@ -1,0 +1,24 @@
+Executable=/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop
+Identifier=dev.tokhive.bee
+Format=app bundle with Mach-O thin (arm64)
+CodeDirectory v=20500 size=214288 flags=0x10002(adhoc,runtime) hashes=6690+3 location=embedded
+VersionPlatform=1
+VersionMin=851968
+VersionSDK=918528
+Hash type=sha256 size=32
+CandidateCDHash sha256=ed954a87be9c60d8f86677ede51c5c5c049c1b3f
+CandidateCDHashFull sha256=ed954a87be9c60d8f86677ede51c5c5c049c1b3f80ec650b3e02fb07f17fab4a
+Hash choices=sha256
+CMSDigest=ed954a87be9c60d8f86677ede51c5c5c049c1b3f80ec650b3e02fb07f17fab4a
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=14532608
+Executable Segment flags=0x1
+Page size=4096
+CDHash=ed954a87be9c60d8f86677ede51c5c5c049c1b3f
+Signature=adhoc
+Info.plist entries=16
+TeamIdentifier=not set
+Runtime Version=14.4.0
+Sealed Resources version=2 rules=13 files=2
+Internal requirements count=0 size=12

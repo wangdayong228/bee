@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 12493216184,
+      "node_id": "MDg6QXJ0aWZhY3QxMjQ5MzIxNjE4NA==",
+      "name": "bee-macos15-intel-checks-2681edca2c56bca9d2ce30db4198fb5784d98b65",
+      "size_in_bytes": 108341804,
+      "url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12493216184",
+      "archive_download_url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12493216184/zip",
+      "expired": false,
+      "digest": "sha256:1b7438e40c53868d4bf038352d530c3c395c896ee2327304d3632b0d19bda7fa",
+      "created_at": "2026-10-23T09:45:31Z",
+      "updated_at": "2026-10-23T09:45:31Z",
+      "expires_at": "2026-11-06T09:45:24Z",
+      "workflow_run": {
+        "id": 39931368193,
+        "repository_id": 1430497272,
+        "head_repository_id": 1430497272,
+        "head_branch": "feat/bee-desktop-p0",
+        "head_sha": "2681edca2c56bca9d2ce30db4198fb5784d98b65"
+      }
+    }
+  ]
+}

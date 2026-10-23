@@ -1,0 +1,2 @@
+  PID  PPID STARTED                      STAT COMMAND
+70292 33669 Tue Oct 20 22:12:49 2026     S+   bee start --hive https://dev.tokhive.ai

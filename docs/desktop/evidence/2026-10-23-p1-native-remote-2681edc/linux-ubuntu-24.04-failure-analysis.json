@@ -1,0 +1,44 @@
+{
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": 39931368185,
+  "jobId": 120344049923,
+  "failedTest": "[firefox] tests/accounts.spec.ts:8 双入口、检测登录和详情分别表达能力、市场与额度时效",
+  "rawLogLines": [
+    2787,
+    2789,
+    2809,
+    2835,
+    2836,
+    2837
+  ],
+  "sourceFailureLine": 21,
+  "error": "locator.click: Target page, context or browser has been closed",
+  "browserError": "Exiting due to channel error.",
+  "observedAction": "Overview button resolved, visible/enabled/stable, scrolled; performing click when channel closed",
+  "passed": 488,
+  "failed": 1,
+  "duration": "10.1m",
+  "skipped": [
+    "native Bee/Rust",
+    "AppImage",
+    "extract",
+    "FUSE"
+  ],
+  "limits": [
+    "Sandbox EPERM, Firefox RemoteSettings cache/JSON.parse logs co-occur; causal link to channel exit is unproven",
+    "No product assertion failure identified from raw log",
+    "Trace confirms channel closure before 30s budget; browser process exit code/signal and cause are not recorded. No fix or rerun."
+  ],
+  "trace": {
+    "embeddedSourceMatchesPinned": true,
+    "sourceSha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+    "testTimeoutMs": 30000,
+    "clickStartElapsedMs": 4397.11,
+    "clickDurationMs": 2920.235,
+    "failureElapsedMs": 7317.345,
+    "traceFiles": [
+      "test.trace"
+    ],
+    "browserExitCodeOrSignal": "not recorded"
+  }
+}

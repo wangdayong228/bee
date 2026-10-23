@@ -1,0 +1,32 @@
+{
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": 39931368193,
+  "jobId": 120340177201,
+  "failedTest": "singleton_tests::windows_registration::tests::existing_instance_waits_for_its_window_and_forwards_exactly_once",
+  "rawLogLines": [
+    1345,
+    1346,
+    1353,
+    1356
+  ],
+  "observedError": "single-instance primary window discovery exceeded 100ms; elapsed=185ms; required=valid HWND before forwarding",
+  "passed": 38,
+  "failed": 1,
+  "ignored": 2,
+  "sourceEvidence": {
+    "helper": "windows_registration.rs forward_to_primary uses real Instant deadline and real thread sleep(min(remaining,20ms)); deadline checked after find() and before send()",
+    "test": "test uses limit100ms, a Cell-based find returning Some(42) only on third probe, and expects exactly one send",
+    "compiledOnMac": "singleton_tests.rs:49-50 unconditionally includes windows_registration.rs; this run uses injected closures, not actual HWND calls"
+  },
+  "limits": [
+    "Exact probe count and scheduler cause at failure were not recorded",
+    "No product-window discovery was exercised by this injected-closure test",
+    "No fix, budget change or rerun executed"
+  ],
+  "skipped": [
+    "App+DMG",
+    "signed App verification",
+    "Mach-O and package metadata",
+    "DMG upload"
+  ]
+}

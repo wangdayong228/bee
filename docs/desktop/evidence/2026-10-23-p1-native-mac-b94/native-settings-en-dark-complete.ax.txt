@@ -1,0 +1,58 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container Main navigation
+					6 button Overview
+					7 button AI accounts
+					8 button Earnings
+					9 button Diagnostics
+					10 button Settings
+				11 text Real supply is not connected Reopen from the tray after closing B Bee Desktop Local demo workspace
+			12 container
+				13 text Workspace Settings This device Demo data
+			14 container
+				15 heading Settings, Value: 1
+					16 text Settings
+				17 text Manage device preferences and application settings.
+				18 container General preferences
+					19 container
+						20 text Language
+						21 pop up button Language, Value: English
+					22 container
+						23 text Appearance
+						24 pop up button Appearance, Value: Follow system
+					25 container
+						26 checkbox Launch at startup, Value: 0
+						27 text Launch at startup
+					28 container
+						29 checkbox Demo notifications, Value: 1
+						30 text Demo notifications
+					31 text Only local demo preferences are saved. Startup and system notification permissions are not changed.
+					32 button Check demo notifications
+				33 text Proxy address
+				34 text field (settable) Proxy address, Placeholder: Close(Leave blank)
+				35 text Supports HTTP, HTTPS and SOCKS5. This demo only validates and saves the address. No network requests are sent and system proxy settings are not changed. Real Bee proxy coverage will be verified during integration.
+				36 button Save proxy
+				37 text Hive address
+				38 text field (settable) Hive address, Value: Hive 演示连接
+				39 pop up button (disabled) Switch Hive
+				40 text Preferences are isolated by Hive and current user. An anonymous workspace is used before login. Account state and credentials are not saved in browser preferences. Version Bee 0.1.0 · Development build Platform account status 2  demo accounts
+				41 container Demo lifecycle
+					42 button Exit demo
+					43 button Update demo
+					44 text Closing the window keeps Bee running; preview exit and update flows here.
+				45 text Demo only: Settings saved; Switch Hive requires a new login and device binding.System proxy was not changed, startup or system notification permissions.
+			46 container
+				47 text Bee · Development build Demo actions do not affect real accounts or funds
+		48 scroll bar (settable, float) 0
+	49 close button
+	50 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	51 minimize button
+	52 text Bee · 开发验证
+53 menu bar
+	54 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

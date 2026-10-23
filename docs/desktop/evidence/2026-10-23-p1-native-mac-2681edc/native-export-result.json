@@ -1,0 +1,31 @@
+{
+  "source": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "parentPid": 6842,
+  "ownedChildPid": 6847,
+  "preservedUserBeePid": 70292,
+  "firstExport": {
+    "promptingAt": "2026-10-23T17:32:12.149+08:00",
+    "permissionResponseAt": "2026-10-23T17:32:29.804+08:00",
+    "msgID": "10278.2",
+    "tccResult": "Allowed; authorization_value=2; action=user-consent",
+    "cuaInitialResult": "noWindowsAvailable after 14.168s",
+    "sampleAt": "2026-10-23T17:32:46.952+08:00",
+    "sampleMainThread": "NSApplication run / normal event loop, not previous download_policy syscall chain",
+    "promptCapture": "not captured; agent neither clicked consent nor changed TCC settings; cause/actor of system response not independently observed",
+    "fileContentVerified": true
+  },
+  "secondExport": {
+    "cuaClickAndAXSeconds": 0.8757,
+    "windowResponded": true,
+    "fileContentVerified": true
+  },
+  "reportCopies": "CUA Finder exact two report files to dedicated cache directory after terminal read PermissionError; no other files copied",
+  "denyCancel": "not tested; no TCC reset or revocation attempted",
+  "postExportNavigation": "CUA Overview successful; real supply remains not started",
+  "boundaries": [
+    "first-prompt visibility and cause of consent not proven",
+    "usage key is no longer missing; it alone is not proved sufficient for all environments",
+    "native UI has started-download receipt only; no Finished error callback added",
+    "refusal/cancel/clean-user and other native platforms remain unverified"
+  ]
+}

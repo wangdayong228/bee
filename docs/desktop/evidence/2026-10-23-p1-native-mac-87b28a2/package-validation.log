@@ -1,0 +1,1 @@
+{"source": "87b28a29aa84c2543b6b80b7e31204646e4fa76a", "dmg": {"path": "desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_aarch64.dmg", "sha256": "1c47faa7ee05393ca03aac95ce62eff4e70fa9b71997191540869a053331677b", "bytes": 22892856}, "codesign": "verified", "minima": {"app": "13.0", "bundledBee": "13.0"}}

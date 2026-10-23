@@ -1,0 +1,86 @@
+{
+  "ubuntu-22.04": {
+    "browser": [
+      [
+        "489",
+        "9.7m"
+      ]
+    ],
+    "rust": [
+      [
+        "35",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "sameHelperTest": [
+      "ubuntu-22.04 / x86_64-unknown-linux-gnu\tUNKNOWN STEP\t2026-10-23T09:48:02.4747234Z test singleton_tests::windows_registration::tests::existing_instance_waits_for_its_window_and_forwards_exactly_once ... ok"
+    ]
+  },
+  "ubuntu-22.04-arm": {
+    "browser": [
+      [
+        "489",
+        "8.5m"
+      ]
+    ],
+    "rust": [
+      [
+        "35",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "sameHelperTest": [
+      "ubuntu-22.04-arm / aarch64-unknown-linux-gnu\tUNKNOWN STEP\t2026-10-23T09:46:47.4859452Z test singleton_tests::windows_registration::tests::existing_instance_waits_for_its_window_and_forwards_exactly_once ... ok"
+    ]
+  },
+  "ubuntu-24.04-arm": {
+    "browser": [
+      [
+        "489",
+        "8.7m"
+      ]
+    ],
+    "rust": [
+      [
+        "35",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "sameHelperTest": [
+      "ubuntu-24.04-arm / aarch64-unknown-linux-gnu\tUNKNOWN STEP\t2026-10-23T09:46:18.8523831Z test singleton_tests::windows_registration::tests::existing_instance_waits_for_its_window_and_forwards_exactly_once ... ok"
+    ]
+  }
+}

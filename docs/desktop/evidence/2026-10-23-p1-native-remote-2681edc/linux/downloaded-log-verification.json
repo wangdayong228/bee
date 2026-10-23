@@ -1,0 +1,35 @@
+{
+  "ubuntu-22.04": {
+    "browserPassed": 489,
+    "rustPassed": 35,
+    "rustFailed": 0,
+    "rustIgnored": 0,
+    "goPackagesPassed": 7,
+    "toolingPassed": 37,
+    "appimageToolingPassed": 16,
+    "bridgePassed": 10,
+    "demoBuild": true
+  },
+  "ubuntu-22.04-arm": {
+    "browserPassed": 489,
+    "rustPassed": 35,
+    "rustFailed": 0,
+    "rustIgnored": 0,
+    "goPackagesPassed": 7,
+    "toolingPassed": 37,
+    "appimageToolingPassed": 16,
+    "bridgePassed": 10,
+    "demoBuild": true
+  },
+  "ubuntu-24.04-arm": {
+    "browserPassed": 489,
+    "rustPassed": 35,
+    "rustFailed": 0,
+    "rustIgnored": 0,
+    "goPackagesPassed": 7,
+    "toolingPassed": 37,
+    "appimageToolingPassed": 16,
+    "bridgePassed": 10,
+    "demoBuild": true
+  }
+}

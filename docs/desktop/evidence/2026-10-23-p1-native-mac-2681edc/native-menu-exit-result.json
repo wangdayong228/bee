@@ -1,0 +1,12 @@
+{
+  "source": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "timestamp": "2026-10-23T09:44:30.010932+00:00",
+  "action": "CUA actual Bee Dev menu -> 退出",
+  "testParentPid": 6842,
+  "ownedChildPid": 6847,
+  "bothAbsent": true,
+  "externalBeePidFromBefore": 70292,
+  "externalBeePresentAfter": false,
+  "externalBeeAbsence": "70292 was observed before export, absent at after-menu sample; cause not established; preservation assertion did not pass; no agent signal or restart of this external process",
+  "notDemoExit": true
+}

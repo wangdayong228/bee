@@ -1,0 +1,43 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container 演示生命周期
+				4 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			5 container OpenAI 账号详情
+				6 container
+					7 heading OpenAI 账号详情, Value: 2
+						8 text OpenAI 账号详情
+					9 button 关闭
+				10 text 演示账号能力和市场开放状态分别列出；不包含登录凭证。
+				11 description list
+					12 text 账号
+					13 text dayong@example.com
+					14 text 订阅套餐
+					15 text Plus
+					16 text 授权
+					17 text 有效（仅演示）
+					18 text 接入来源
+					19 text 已有官方登录（演示）
+					20 text 额度窗口
+					21 text 5 小时 · 剩余 82%
+					22 text 重置时间
+					23 text 2 小时后重置
+					24 text 更新时间
+					25 text 2026-10-23T08:03:27.212Z
+				26 container 模型能力与市场开放
+					27 heading 模型能力与市场开放, Value: 3
+						28 text 模型能力与市场开放
+					29 text GPT-5
+					30 text 平台已开放 账号支持 · 可用于演示交易
+					31 text GPT-4.1
+					32 text 平台暂未开放 账号支持 · 当前不可交易
+		33 scroll bar (settable, float) 0
+	34 close button
+	35 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	36 minimize button
+	37 text Bee · 开发验证
+38 menu bar
+	39 Bee Dev
+
+The focused UI element is 9 button 关闭

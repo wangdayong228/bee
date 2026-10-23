@@ -1,0 +1,45 @@
+[
+  {
+    "name": "preflight",
+    "command": [
+      "node",
+      "desktop/scripts/preflight.mjs"
+    ],
+    "exit": 0,
+    "elapsedSeconds": 0.527
+  },
+  {
+    "name": "sidecar",
+    "command": [
+      "node",
+      "desktop/scripts/build-bee.mjs",
+      "--target",
+      "aarch64-apple-darwin"
+    ],
+    "exit": 0,
+    "elapsedSeconds": 5.707
+  },
+  {
+    "name": "tauri-demo-build-app-and-dmg",
+    "command": [
+      "npm",
+      "--prefix",
+      "desktop",
+      "run",
+      "tauri",
+      "--",
+      "build",
+      "--debug",
+      "--ci",
+      "--config",
+      "src-tauri/tauri.demo.conf.json",
+      "--bundles",
+      "app,dmg",
+      "--",
+      "--locked",
+      "--offline"
+    ],
+    "exit": 0,
+    "elapsedSeconds": 41.608
+  }
+]

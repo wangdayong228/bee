@@ -1,0 +1,103 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 收益 本机设备 演示数据
+			14 container
+				15 heading 收益, Value: 1
+					16 text 收益
+				17 text 查看贡献收益与可用余额。
+				18 heading 收益与结算, Value: 2
+					19 text 收益与结算
+				20 text 金额以 USD 计价 · 演示数据
+				21 button 报价设置
+				22 button 提现
+				23 button 划转至买家余额
+				24 container 钱包与收益
+					25 text 收益余额
+					26 container
+						27 text $ 128.56
+					28 text 全部平台，可用于划转
+					29 text 今日收益
+					30 container
+						31 text $ 12.4
+					32 text 全部平台
+					33 text 累计收益
+					34 container
+						35 text $ 382.14
+					36 text 全部已结算收益
+				37 text 平台筛选
+				38 pop up button 平台筛选, Value: 全部平台
+				39 toggle button 近 7 天, Value: on
+				40 toggle button 近 30 天, Value: off
+				41 container 收益趋势
+					42 heading 收益趋势, Value: 3
+						43 text 收益趋势
+					44 text $ 62.82 近  7  天 · 全部平台
+					45 image 近7天已结算收益62.82美元
+					46 text 6  天前 今天
+				47 container 平台收益汇总
+					48 heading 平台收益汇总, Value: 3
+						49 text 平台收益汇总
+					50 text 同为近  7  天 · 全部平台 OpenAI
+					51 container
+						52 text $ 40
+					53 text Claude
+					54 container
+						55 text $ 22.82
+					56 text 移除账号后，平台历史收益继续保留。
+				57 container 钱包流水
+					58 toggle button 结算记录, Value: on
+					59 toggle button 划转记录, Value: off
+					60 text 全部平台 · 仅展示结算与划转，不包含买家身份或请求内容
+					61 table
+						62 row (selectable) 流水号
+时间
+类型
+金额 / USD
+						63 row (selectable)
+							64 cell (selectable) ST-1022-01
+							65 cell (selectable) 10-22 14:32
+							66 cell (selectable) 收益结算
+							67 cell (selectable) +
+12.4
+						68 row (selectable)
+							69 cell (selectable) ST-1021-02
+							70 cell (selectable) 10-21 21:18
+							71 cell (selectable) 收益结算
+							72 cell (selectable) +
+14.39
+						73 row (selectable)
+							74 cell (selectable) ST-1020-03
+							75 cell (selectable) 10-20 18:06
+							76 cell (selectable) 收益结算
+							77 cell (selectable) +
+27.6
+					78 button (disabled) 上一页流水
+					79 text 1  /  2
+					80 button 下一页流水
+				81 container 演示生命周期
+					82 button 退出演示
+					83 button 更新演示
+					84 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			85 container
+				86 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		87 scroll bar (settable, float) 0
+	88 close button
+	89 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	90 minimize button
+	91 text Bee · 开发验证
+92 menu bar
+	93 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

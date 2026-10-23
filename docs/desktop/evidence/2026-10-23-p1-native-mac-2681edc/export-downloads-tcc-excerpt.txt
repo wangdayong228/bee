@@ -1,0 +1,16 @@
+2026-10-23 17:32:12.148 I  tccd[518:836955] [com.apple.TCC:access] Handling access request to kTCCServiceSystemPolicyDownloadsFolder, from Sub:{dev.tokhive.bee}Resp:{TCCDProcess: identifier=dev.tokhive.bee, pid=6842, auid=501, euid=501, binary_path=/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop}, ReqResult(Auth Right: Unknown (None), promptType: 1,DB Action:None, UpdateVerifierData)
+2026-10-23 17:32:12.149 Df tccd[518:836955] [com.apple.TCC:access] AUTHREQ_PROMPTING: msgID=10278.2, service=kTCCServiceSystemPolicyDownloadsFolder, subject=Sub:{dev.tokhive.bee}Resp:{TCCDProcess: identifier=dev.tokhive.bee, pid=6842, auid=501, euid=501, binary_path=/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop},
+2026-10-23 17:32:29.804 I  tccd[518:836955] [com.apple.TCC:access] CFUserNotification response: 0x0; service kTCCServiceSystemPolicyDownloadsFolder and subject dev.tokhive.bee
+2026-10-23 17:32:29.805 I  tccd[518:836955] [com.apple.TCC:access] Analytics Event sending: com.apple.TCC.authorization_action
+{
+    action = "user-consent";
+    "authorization_right" = Allowed;
+    "authorization_value" = 2;
+    "macbuddy_on" = 0;
+    "prompt_type" = 1;
+    service = kTCCServiceSystemPolicyDownloadsFolder;
+    "subject_ID" = "dev.tokhive.bee";
+    "subject_ID_type" = 0;
+    "subject_bundle_version" = "0.1.0";
+    "subject_codesign_ID" = "dev.tokhive.bee";
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "path": "native-after-export-overview.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-diagnostics-before-export.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-dmg-installed-ready.jpg",
+    "format": "JPEG",
+    "width": 2000,
+    "height": 1400
+  },
+  {
+    "path": "native-export-returned.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-preferences-restored.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-settings-en-860-bottom.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-settings-en-860-proxy.jpg",
+    "format": "JPEG",
+    "width": 1720,
+    "height": 1200
+  },
+  {
+    "path": "native-settings-en-final-bottom.jpg",
+    "format": "JPEG",
+    "width": 2000,
+    "height": 1400
+  },
+  {
+    "path": "native-settings-en-final-top.jpg",
+    "format": "JPEG",
+    "width": 2000,
+    "height": 1400
+  }
+]

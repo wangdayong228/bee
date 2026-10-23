@@ -1,0 +1,151 @@
+{
+  "source": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "scope": "Mac15 arm64 P1 native regression; no whole-platform acceptance",
+  "files": [
+    {
+      "path": "Info.plist",
+      "bytes": 1434,
+      "sha256": "b8f5941ee5275e61b93e9af3b3beb47c14e77c0e37b99f26823fa23e08b1dc15"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2359,
+      "sha256": "8401c5ab36742228babc144c7400324ae12695f242f3b3d2c3f999652a0b04ea"
+    },
+    {
+      "path": "app-macho.log",
+      "bytes": 10266,
+      "sha256": "97bdf22575deb2c52de67274fd64404be070838a82bb1fe57e19f2f686a4e0d6"
+    },
+    {
+      "path": "bee-aarch64-apple-darwin.source.json",
+      "bytes": 365,
+      "sha256": "0b2252f3a728860772c1ebfd72a87fac3db9d5367fe7e58bf6a7adc77ea07e6e"
+    },
+    {
+      "path": "bundledBee-macho.log",
+      "bytes": 11099,
+      "sha256": "0b49c93eb3b2c0309c90bb494d07c65f90da061060714b6ee15d8dede5a4da24"
+    },
+    {
+      "path": "cargo-full-including-signed.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "cargo-full-including-signed.log",
+      "bytes": 5481,
+      "sha256": "4c005f4d93f4c618992273fd43b281d75320dc926ebd52f27645cb64e2e8608e"
+    },
+    {
+      "path": "clock-fix-report.md",
+      "bytes": 4312,
+      "sha256": "670f5df44b61deddbf0e91f63adaa260b01377f3dfd399f0c874e51896adf138"
+    },
+    {
+      "path": "clock-fix-review.md",
+      "bytes": 2721,
+      "sha256": "ab9a6f5ccda1f6456322139659ac156d12421c59472585605b9c9d28599f32e9"
+    },
+    {
+      "path": "codesign-details.log",
+      "bytes": 988,
+      "sha256": "1b2dc9cffff23c37afb19199f360f1e3bef790c435b0f03f93aec7bf23e4d6b1"
+    },
+    {
+      "path": "codesign-verify.log",
+      "bytes": 468,
+      "sha256": "a5c05895c1ed17ec1d190752b90d0d8401655283fabd0eb13e89bcb1fcd4a883"
+    },
+    {
+      "path": "commands.json",
+      "bytes": 752,
+      "sha256": "b3e1442787cc481169c0dd203bd9308eee53c7d2752abae8e6a8d5435d038aa3"
+    },
+    {
+      "path": "dmg-verify.log",
+      "bytes": 1235,
+      "sha256": "4dfb7e50d8918e5eefcffff9bd79df8cd17d27e685a4763a1d74451b2bd10e04"
+    },
+    {
+      "path": "downloads-usage-merged.json",
+      "bytes": 179,
+      "sha256": "121b7d0692f81079ace0a49e851d6e3b10861199aafcaf2b5d34731916a3da21"
+    },
+    {
+      "path": "native-before-close-processes.txt",
+      "bytes": 312,
+      "sha256": "7582383481f893972f6c1b6646781b6abda156993bceec4e27c18c84f01fe240"
+    },
+    {
+      "path": "native-inventory-after-close.json",
+      "bytes": 234,
+      "sha256": "556de4f857bc60466652272327c778b29f05254f17c9f6c1088219ce5727125e"
+    },
+    {
+      "path": "native-manager-ready.ax.txt",
+      "bytes": 128,
+      "sha256": "1000109a7da075fe355565a7fc17e6cc4b3f3c134f6675452a6fca7655756345"
+    },
+    {
+      "path": "native-manager-ready.jpg",
+      "bytes": 124135,
+      "sha256": "53ad14870d4162451aac031c840ffa838ac7c3a99895f3c43d476b17b99e13d7"
+    },
+    {
+      "path": "native-menu-exit-processes.json",
+      "bytes": 744,
+      "sha256": "b22beb3c02c4fc61831d58a6706ee5d0cb24d917f3ef44173a22d37cfe19abd5"
+    },
+    {
+      "path": "native-real-menu-before-exit.ax.txt",
+      "bytes": 85,
+      "sha256": "7b192d23f79d87a50ad2f4d20e4d1bab74ebb1b4d0f92db4cacdd3390b3f0205"
+    },
+    {
+      "path": "package-validation.log",
+      "bytes": 313,
+      "sha256": "56c4313efeaa1ca9b92d9068ea33a8265880c9a1cca513df0566960b24c50cb8"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 1508,
+      "sha256": "4471b6e134dc2b0bc2b8680def83213d115b28a1aa3d5f848475af6bb4455bce"
+    },
+    {
+      "path": "preflight.log",
+      "bytes": 799,
+      "sha256": "c32a7389e9aed934a1668ccd694a59c596f363244b848dd533778c99a20eaa6d"
+    },
+    {
+      "path": "screenshot-dimensions.json",
+      "bytes": 112,
+      "sha256": "6e072988b5191f319b2f755fe0cef32afd44bdfe540283849eaae3288810968f"
+    },
+    {
+      "path": "sdk.log",
+      "bytes": 5,
+      "sha256": "daa1c1af6681043ffaefe494b2159a0f2812d96eecc2f196bcd11987afe107a7"
+    },
+    {
+      "path": "sidecar.log",
+      "bytes": 216,
+      "sha256": "2dc25f58e3c8e257e77bf458ea3b22b5d064b532be3b7afaf932899f464136ad"
+    },
+    {
+      "path": "sw-vers.log",
+      "bytes": 66,
+      "sha256": "1367cb95da30c8b7c0038bee2b2c889d8aa3131a053ae52e1e5f9c8adcf82b50"
+    },
+    {
+      "path": "tauri-demo-build-app-and-dmg.log",
+      "bytes": 3898,
+      "sha256": "d456a9bb88d9335a70788367f3b98811305affa4cf2fa66e77898e02a1fe4807"
+    },
+    {
+      "path": "uname.log",
+      "bytes": 6,
+      "sha256": "c1669e1d8edca98769c37d494b76442a1d6e5ffffd7b4da1fb63aef8ebaf6f01"
+    }
+  ]
+}

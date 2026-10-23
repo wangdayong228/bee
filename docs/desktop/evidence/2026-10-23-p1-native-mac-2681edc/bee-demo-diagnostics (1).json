@@ -1,0 +1,28 @@
+{
+  "product": "Bee",
+  "mode": "demo",
+  "checks": [
+    {
+      "id": "process",
+      "passed": true
+    },
+    {
+      "id": "connection",
+      "passed": true
+    },
+    {
+      "id": "proxy",
+      "passed": true
+    }
+  ],
+  "logs": [
+    {
+      "level": "info",
+      "code": "CHECK_STARTED"
+    },
+    {
+      "level": "info",
+      "code": "CHECK_PASSED"
+    }
+  ]
+}

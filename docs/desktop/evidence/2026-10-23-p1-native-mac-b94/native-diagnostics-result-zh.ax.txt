@@ -1,0 +1,58 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 诊断 本机设备 演示数据
+			14 container
+				15 heading 诊断, Value: 1
+					16 text 诊断
+				17 text 检查 Bee 运行与连接状态。
+				18 button 重试自检
+				19 button 导出脱敏报告
+				20 text 仅检查演示状态，不会探测真实账号或网络。报告只含检查代码与脱敏日志，不含登录凭证或请求内容。
+				21 container 检查结果
+					22 heading 所有演示检查通过, Value: 2
+						23 text 所有演示检查通过
+					24 text 管理进程
+					25 text 通过（仅演示）
+					26 text Hive 连接
+					27 text 通过（仅演示）
+					28 text 代理连通
+					29 text 通过（仅演示）
+				30 text 日志级别
+				31 pop up button 日志级别, Value: 全部日志
+				32 content list
+					33 container info · 自检已开始
+						34 list marker •
+						35 text info  ·  自检已开始
+					36 container info · 演示检查通过
+						37 list marker •
+						38 text info  ·  演示检查通过
+				39 summary 诊断帮助, Value: off
+					40 text 诊断帮助
+				41 text 仅演示：所有检查通过。
+				42 container 演示生命周期
+					43 button 退出演示
+					44 button 更新演示
+					45 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			46 container
+				47 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		48 scroll bar (settable, float) 0
+	49 close button
+	50 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	51 minimize button
+	52 text Bee · 开发验证
+53 menu bar
+	54 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

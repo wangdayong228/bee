@@ -1,0 +1,23 @@
+{
+  "source": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "time": "2026-10-23T10:09:45.492475+00:00",
+  "actualMenuExit": true,
+  "pids": {
+    "53551": false,
+    "53566": false,
+    "56027": true
+  },
+  "testParent": 53551,
+  "ownedBee": 53566,
+  "externalIdleManagerFixture": 56027,
+  "windowHide": "not proven; observations return window; SystemUIServer CUA timeoutReached",
+  "scope": "external idle desktop protocol fixture, no supply/accounts/Hive; does not explain old user Bee70292 absence",
+  "externalFixture": {
+    "pid": 56027,
+    "helloBeeVersion": "dev+87b28a29aa84",
+    "instance": "66bb6efe7d9f62a41ddd60f4c780d173",
+    "afterActualMenuExitPingAlive": true,
+    "ownShutdownStopped": true,
+    "ownShutdownExit": 0
+  }
+}

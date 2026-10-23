@@ -1,0 +1,28 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container Demo lifecycle
+				4 text Closing the window keeps Bee running; preview exit and update flows here.
+			5 container Connection details
+				6 container
+					7 heading Connection details, Value: 2
+						8 text Connection details
+					9 button Close
+				10 text The business demo is independent of the native manager.
+				11 description list
+					12 text Business connection
+					13 text Hive demo connection
+					14 text Native manager
+					15 text ready
+					16 text Real contribution
+					17 text Not started by demo actions
+		18 scroll bar (settable, float) 1
+	19 close button
+	20 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	21 minimize button
+	22 text Bee · 开发验证
+23 menu bar
+	24 Bee Dev
+
+The focused UI element is 9 button Close

@@ -1,0 +1,11 @@
+{
+  "externalPid": 70292,
+  "externalEventCount": 57,
+  "externalDeathCause": "not established by these logs",
+  "testParentExitEvidence": [
+    "2026-10-23 17:43:25.140 Df launchservicesd[135:84c52f] [com.apple.processmanager:front-35286506] QUITTING: pid=6842 asn=0x-0xd5ed5e foreground=1 wasFront=0",
+    "2026-10-23 17:43:25.141 I  launchservicesd[135:84c52f] [com.apple.launchservices:cas] ADDING: App:\"Bee Dev\" asn:0x0-d5ed5e pid:6842 refs=6 @ 0xa72c20a00 exitStatus=0",
+    "2026-10-23 17:43:25.148 I  launchservicesd[135:84c52f] [com.apple.launchservices:cas] Sending exit status and unregister application, app=App:\"Bee Dev\" asn:0x0-d5ed5e pid:6842 refs=4 @ 0xa72c20a00, exitStatus=0"
+  ],
+  "rawLogKeptLocalOnly": true
+}

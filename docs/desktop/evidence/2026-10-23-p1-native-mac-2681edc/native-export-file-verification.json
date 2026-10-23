@@ -1,0 +1,21 @@
+{
+  "source": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "copiedBy": "CUA Finder, exact two generated report file selection, no unrelated files copied",
+  "files": [
+    {
+      "file": "bee-demo-diagnostics.json",
+      "bytes": 377,
+      "sha256": "716ff7d89cc80a5fa275e1263fc59a431cbf4a7c14deb0de5c7590c65354eabd",
+      "mtime": "2026-10-23T09:32:29.820595+00:00",
+      "exactAllowlistContentMatches": true
+    },
+    {
+      "file": "bee-demo-diagnostics (1).json",
+      "bytes": 377,
+      "sha256": "716ff7d89cc80a5fa275e1263fc59a431cbf4a7c14deb0de5c7590c65354eabd",
+      "mtime": "2026-10-23T09:34:29.161678+00:00",
+      "exactAllowlistContentMatches": true
+    }
+  ],
+  "scope": "actual file delivery after system Downloads Allowed response; agent did not click or change TCC; permission prompt not captured; deny/cancel unverified"
+}

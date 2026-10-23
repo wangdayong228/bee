@@ -1,0 +1,10 @@
+{
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "target": "aarch64-apple-darwin",
+  "goos": "darwin",
+  "goarch": "arm64",
+  "go": "go version go1.27.3 darwin/arm64",
+  "beeVersion": "dev+2681edca2c56",
+  "binarySha256": "7ab84fbbd2d2299a614fe7049aaf1830b1206573d7139837bda6b7ebbe7c5d06"
+}

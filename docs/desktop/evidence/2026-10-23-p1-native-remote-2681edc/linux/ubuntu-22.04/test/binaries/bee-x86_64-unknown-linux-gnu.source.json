@@ -1,0 +1,10 @@
+{
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "target": "x86_64-unknown-linux-gnu",
+  "goos": "linux",
+  "goarch": "amd64",
+  "go": "go version go1.27.3 linux/amd64",
+  "beeVersion": "dev+2681edca2c56-dirty",
+  "binarySha256": "b4c72559839614827a20702a191240ced4bf4178fed7424bb9ce0573fc342daa"
+}

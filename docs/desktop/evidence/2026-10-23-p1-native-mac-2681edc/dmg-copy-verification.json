@@ -1,0 +1,17 @@
+{
+  "source": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "dmgSha256": "5ad9e81dd61e4e4262b88a12e75d7a12df3d4dd9aa27071f02a3d243a0b34b75",
+  "readonlyMount": true,
+  "installedApp": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-native-local-2681edc/installed from DMG/Bee Dev.app",
+  "codesign": "verified",
+  "exactKeyExecutableBytesMatchOriginal": true,
+  "cleanUser": false,
+  "gui": "CUA exact copied path showed native manager ready; demo supply not started",
+  "menuExit": {
+    "parentPid": 36844,
+    "ownedChildPid": 36961,
+    "bothAbsent": true,
+    "action": "CUA actual Bee Dev menu -> 退出"
+  },
+  "installationScope": "read-only DMG mount then ditto into QA directory with spaces; not Finder drag or clean-user installation"
+}

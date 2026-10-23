@@ -1,0 +1,62 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container Main navigation
+					6 button Overview
+					7 button AI accounts
+					8 button Earnings
+					9 button Diagnostics
+					10 button Settings
+				11 text Real supply is not connected Reopen from the tray after closing B Bee Desktop Local demo workspace
+			12 container
+				13 text Workspace AI accounts This device Demo data
+			14 container
+				15 heading AI accounts, Value: 1
+					16 text AI accounts
+				17 text Manage the AI accounts contributing from this device. Detect an existing official login or connect through official authorization. Accounts remain paused after connection or replacement until you choose to contribute.
+				18 container OpenAI account
+					19 text O
+					20 heading OpenAI, Value: 2
+						21 text OpenAI
+					22 text Subscription plan Plus
+					23 text dayong@example.com
+					24 container
+						25 text Connected ·  Paused
+					26 text 5 hours · Remaining 82% · 2 hours until reset
+					27 pop up button View details
+					28 button Detect existing login
+					29 button Connect with official authorization
+					30 pop up button Remove account
+				31 container Claude account
+					32 text ✳
+					33 heading Claude, Value: 2
+						34 text Claude
+					35 text Subscription plan Pro
+					36 text dayong@example.com
+					37 container
+						38 text Connected ·  Paused
+					39 text 5 hours · Remaining 46% · 48 minutes until reset
+					40 pop up button View details
+					41 button Detect existing login
+					42 button Connect with official authorization
+					43 pop up button Remove account
+				44 text Demo connections do not read or modify the official client. Official authorization is not connected yet.
+				45 container Demo lifecycle
+					46 button Exit demo
+					47 button Update demo
+					48 text Closing the window keeps Bee running; preview exit and update flows here.
+				49 text Demo only: Settings saved; Switch Hive requires a new login and device binding.System proxy was not changed, startup or system notification permissions.
+			50 container
+				51 text Bee · Development build Demo actions do not affect real accounts or funds
+		52 scroll bar (settable, float) 0
+	53 close button
+	54 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	55 minimize button
+	56 text Bee · 开发验证
+57 menu bar
+	58 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

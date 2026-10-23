@@ -1,0 +1,44 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container Main navigation
+					6 button Overview
+					7 button AI accounts
+					8 button Earnings
+					9 button Diagnostics
+					10 button Settings
+				11 text Real supply is not connected Reopen from the tray after closing B Bee Desktop Local demo workspace
+			12 container
+				13 text Workspace Diagnostics This device Demo data
+			14 container
+				15 heading Diagnostics, Value: 1
+					16 text Diagnostics
+				17 text Check Bee runtime and connection status.
+				18 button Run self-check
+				19 button Export sanitized report
+				20 text Checks demo state only, without probing real accounts or networks. Reports contain only check codes and sanitized logs, without credentials or request content.
+				21 container Check results
+					22 text Self-check has not run
+				23 text Log level
+				24 pop up button Log level, Value: All logs
+				25 summary Diagnostics help, Value: off
+					26 text Diagnostics help
+				27 container Demo lifecycle
+					28 button Exit demo
+					29 button Update demo
+					30 text Demo update flow finished; no software was installed.
+				31 text Demo only: Settings saved; Switch Hive requires a new login and device binding.System proxy was not changed, startup or system notification permissions.
+			32 container
+				33 text Bee · Development build Demo actions do not affect real accounts or funds
+		34 scroll bar (settable, float) 0.1049724
+	35 close button
+	36 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	37 minimize button
+	38 text Bee · 开发验证
+39 menu bar
+	40 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

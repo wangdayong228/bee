@@ -1,0 +1,81 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container Main navigation
+					6 button Overview
+					7 button AI accounts
+					8 button Earnings
+					9 button Diagnostics
+					10 button Settings
+				11 text Real supply is not connected Reopen from the tray after closing B Bee Desktop Local demo workspace
+			12 container
+				13 text Workspace Overview This device Demo data
+			14 container
+				15 heading Overview, Value: 1
+					16 text Overview
+				17 text View device status and contribution summary.
+				18 heading Contribution not started, Value: 2
+					19 text Contribution not started
+				20 text Choose when to start putting your unused AI quota to work. Local process:  Running Hive Connected Real supply not started
+				21 button Start contributing
+				22 text Hive demo connection Last updated:  2026-10-23T08:18:26.055Z
+				23 button Refresh status
+				24 button Check connection
+				25 container Earnings summary
+					26 text Available balance
+					27 container
+						28 text $ 128.56
+					29 text Earnings and financial operations coming later
+					30 text Today's earnings
+					31 container
+						32 text $ 12.4
+					33 text Demo statistics
+					34 text Total earnings
+					35 container
+						36 text $ 382.14
+					37 text Demo statistics
+				38 heading AI accounts, Value: 2
+					39 text AI accounts
+				40 button Manage accounts
+				41 container OpenAI supply
+					42 text O OpenAI Plus Paused 5 hours Remaining quota
+					43 container
+						44 text 82 %
+					45 level indicator Description: OpenAI Remaining quota, Value: 82
+					46 text 2 hours until reset
+					47 container
+						48 checkbox Select OpenAI, Value: 1
+						49 text Select platforms
+					50 button Resume OpenAI
+				51 container Claude supply
+					52 text ✳ Claude Pro Paused 5 hours Remaining quota
+					53 container
+						54 text 46 %
+					55 level indicator Description: Claude Remaining quota, Value: 46
+					56 text 48 minutes until reset
+					57 container
+						58 checkbox Select Claude, Value: 1
+						59 text Select platforms
+					60 button Resume Claude
+				61 button Resume all ready platforms
+				62 text Current tasks:  0
+				63 pop up button View connection details
+				64 container Demo lifecycle
+					65 button Exit demo
+					66 button Update demo
+					67 text Closing the window keeps Bee running; preview exit and update flows here.
+				68 text Demo only: Settings saved; Switch Hive requires a new login and device binding.System proxy was not changed, startup or system notification permissions.
+			69 container
+				70 text Bee · Development build Demo actions do not affect real accounts or funds
+		71 scroll bar (settable, float) 1
+	72 close button
+	73 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	74 minimize button
+	75 text Bee · 开发验证
+76 menu bar
+	77 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

@@ -1,0 +1,104 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container Main navigation
+					6 button Overview
+					7 button AI accounts
+					8 button Earnings
+					9 button Diagnostics
+					10 button Settings
+				11 text Real supply is not connected Reopen from the tray after closing B Bee Desktop Local demo workspace
+			12 container
+				13 text Workspace Earnings This device Demo data
+			14 container
+				15 heading Earnings, Value: 1
+					16 text Earnings
+				17 text View contribution earnings and available balance.
+				18 heading Earnings and settlements, Value: 2
+					19 text Earnings and settlements
+				20 text Amounts are in USD denominated · Demo data
+				21 button Pricing settings
+				22 button Withdraw
+				23 button Transfer to buyer balance
+				24 container Wallet and earnings
+					25 text Earnings balance
+					26 container
+						27 text $ 128.56
+					28 text All platforms, Available for transfer
+					29 text Today's earnings
+					30 container
+						31 text $ 12.4
+					32 text All platforms
+					33 text Total earnings
+					34 container
+						35 text $ 382.14
+					36 text All settled earnings
+				37 text Platform filter
+				38 pop up button Platform filter, Value: All platforms
+				39 toggle button Past 7 days, Value: on
+				40 toggle button Past 30 days, Value: off
+				41 container Earnings trend
+					42 heading Earnings trend, Value: 3
+						43 text Earnings trend
+					44 text $ 62.82 Past  7  days · All platforms
+					45 image Past7days settled earnings62.82USD
+					46 text 6  days ago Today
+				47 container Earnings by platform
+					48 heading Earnings by platform, Value: 3
+						49 text Earnings by platform
+					50 text Same period, past  7  days · All platforms OpenAI
+					51 container
+						52 text $ 40
+					53 text Claude
+					54 container
+						55 text $ 22.82
+					56 text Historical platform earnings remain after an account is removed.
+				57 container Wallet ledger
+					58 toggle button Settlement history, Value: on
+					59 toggle button Transfer history, Value: off
+					60 text All platforms · Only settlements and transfers are shown, without buyer identities or request content
+					61 table
+						62 row (selectable) Entry ID
+Time
+Type
+Amount / USD
+						63 row (selectable)
+							64 cell (selectable) ST-1022-01
+							65 cell (selectable) 10-22 14:32
+							66 cell (selectable) Earnings settlement
+							67 cell (selectable) +
+12.4
+						68 row (selectable)
+							69 cell (selectable) ST-1021-02
+							70 cell (selectable) 10-21 21:18
+							71 cell (selectable) Earnings settlement
+							72 cell (selectable) +
+14.39
+						73 row (selectable)
+							74 cell (selectable) ST-1020-03
+							75 cell (selectable) 10-20 18:06
+							76 cell (selectable) Earnings settlement
+							77 cell (selectable) +
+27.6
+					78 button (disabled) Previous ledger page
+					79 text 1  /  2
+					80 button Next ledger page
+				81 container Demo lifecycle
+					82 button Exit demo
+					83 button Update demo
+					84 text Closing the window keeps Bee running; preview exit and update flows here.
+				85 text Demo only: Settings saved; Switch Hive requires a new login and device binding.System proxy was not changed, startup or system notification permissions.
+			86 container
+				87 text Bee · Development build Demo actions do not affect real accounts or funds
+		88 scroll bar (settable, float) 0
+	89 close button
+	90 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	91 minimize button
+	92 text Bee · 开发验证
+93 menu bar
+	94 Bee Dev
+
+The focused UI element is 2 HTML content Description: Bee, URL: tauri://localhost

@@ -1,0 +1,63 @@
+{
+  "row": "ubuntu-22.04",
+  "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+  "runId": "39931368185",
+  "target": "x86_64-unknown-linux-gnu",
+  "nativeOk": true,
+  "package": {
+    "path": ".cache/qa/p1-native-remote-2681edc/linux/ubuntu-22.04/test/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+    "bytes": 148675064,
+    "sha256": "ec8cacdc9a53db46a093362db2cad6809547e9f0e30fc98e6db0e9cb61ca5f98"
+  },
+  "source": {
+    "path": ".cache/qa/p1-native-remote-2681edc/linux/ubuntu-22.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+    "sha256": "31f8f5a1baf43655bee0a292f4aeebb4d7336ac90842af5eb8fcb486547a2b8f",
+    "content": {
+      "revision": "2681edca2c56bca9d2ce30db4198fb5784d98b65",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "x86_64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "amd64",
+      "go": "go version go1.27.3 linux/amd64",
+      "beeVersion": "dev+2681edca2c56-dirty",
+      "binarySha256": "b4c72559839614827a20702a191240ced4bf4178fed7424bb9ce0573fc342daa"
+    }
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "smokes": {
+    "extract": {
+      "ok": true,
+      "observedMs": 10281,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    },
+    "fuse": {
+      "ok": true,
+      "observedMs": 10297,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    }
+  }
+}

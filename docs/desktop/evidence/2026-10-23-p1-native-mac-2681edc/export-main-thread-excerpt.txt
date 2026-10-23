@@ -1,0 +1,55 @@
+Analysis of sampling bee-desktop (pid 6842) every 1 millisecond
+Process:         bee-desktop [6842]
+Path:            /Users/USER/*/Bee Dev.app/Contents/MacOS/bee-desktop
+Load Address:    0x102080000
+Identifier:      dev.tokhive.bee
+Version:         0.1.0 (0.1.0)
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  launchd [1]
+Target Type:     live task
+
+Date/Time:       2026-10-23 17:32:46.952 +0800
+Launch Time:     2026-10-23 17:29:06.787 +0800
+OS Version:      macOS 15.7.7 (24G720)
+Report Version:  7
+Analysis Tool:   /usr/bin/sample
+
+Physical footprint:         26.2M
+Physical footprint (peak):  27.4M
+Idle exit:                  untracked
+----
+
+Call graph:
+    2637 Thread_8587367   DispatchQueue_1: com.apple.main-thread  (serial)
+    + 2637 start  (in dyld) + 6076  [0x19ff16b98]
+    +   2637 main  (in bee-desktop) + 36  [0x102083aa0]
+    +     2637 std::rt::lang_start::h4c14881fbe737e4a  (in bee-desktop) + 84  [0x102083a28]  rt.rs:205
+    +       2637 std::rt::lang_start_internal::hdd036a54cd97d929  (in bee-desktop) + 952  [0x1029ae568]
+    +         2637 std::rt::lang_start::_$u7b$$u7b$closure$u7d$$u7d$::h47d51557a0a7e929  (in bee-desktop) + 28  [0x102083a50]  rt.rs:206
+    +           2637 std::sys::backtrace::__rust_begin_short_backtrace::hb5d18e89946b893e  (in bee-desktop) + 24  [0x1020839c8]  backtrace.rs:166
+    +             2637 core::ops::function::FnOnce::call_once::h0b6c82fa48c3408f  (in bee-desktop) + 20  [0x102083958]  function.rs:250
+    +               2637 bee_desktop::main::hf3aabd2235520b14  (in bee-desktop) + 12  [0x102083a74]  main.rs:4
+    +                 2637 bee_desktop_lib::run::h8efd9cac43bf3592  (in bee-desktop) + 572  [0x102240684]
+    +                   2637 tauri::app::App$LT$R$GT$::run::hb36d17251a20dbb3  (in bee-desktop) + 640  [0x1020f2010]
+    +                     2637 _$LT$tauri_runtime_wry..Wry$LT$T$GT$$u20$as$u20$tauri_runtime..Runtime$LT$T$GT$$GT$::run::h575870e0db25f337  (in bee-desktop) + 208  [0x102261c60]
+    +                       2637 tao::event_loop::EventLoop$LT$T$GT$::run::hc5301d7d7a3c3d79  (in bee-desktop) + 88  [0x1022c9d54]
+    +                         2637 tao::platform_impl::platform::event_loop::EventLoop$LT$T$GT$::run::h10133cebe2892491  (in bee-desktop) + 52  [0x102328fd0]
+    +                           2637 tao::platform_impl::platform::event_loop::EventLoop$LT$T$GT$::run_return::h316c39d212eedc4f  (in bee-desktop) + 640  [0x102328ad4]
+    +                             2637 _$LT$MethodFamily$u20$as$u20$objc2..__macro_helpers..msg_send_retained..MsgSend$LT$Receiver$C$Return$GT$$GT$::send_message::h199b4ae5851903dc  (in bee-desktop) + 152  [0x1022c8f94]
+    +                               2637 objc2::runtime::message_receiver::MessageReceiver::send_message::h3fb5a34d7e1e899b  (in bee-desktop) + 176  [0x102717534]
+    +                                 2637 objc2::runtime::message_receiver::msg_send_primitive::send::hb3a036d49c7cec5c  (in bee-desktop) + 60  [0x102721a90]
+    +                                   2637 _$LT$$LP$$RP$$u20$as$u20$objc2..encode..EncodeArguments$GT$::__invoke::hb9a6b0727a16a3cc  (in bee-desktop) + 52  [0x1027298e4]
+    +                                     2637 -[NSApplication run]  (in AppKit) + 480  [0x1a42b4be4]
+    +                                       2637 -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]  (in AppKit) + 688  [0x1a4c605cc]
+    +                                         2637 _DPSNextEvent  (in AppKit) + 684  [0x1a42c1a34]
+    +                                           2637 _BlockUntilNextEventMatchingListInModeWithFilter  (in HIToolbox) + 76  [0x1abfd4484]
+    +                                             2637 ReceiveNextEventCommon  (in HIToolbox) + 676  [0x1abe494e8]
+    +                                               2637 RunCurrentEventLoopInMode  (in HIToolbox) + 324  [0x1abe4627c]
+    +                                                 2637 CFRunLoopRunSpecific  (in CoreFoundation) + 572  [0x1a03a09e8]
+    +                                                   2637 __CFRunLoopRun  (in CoreFoundation) + 1208  [0x1a03a1528]
+    +                                                     2637 __CFRunLoopServiceMachPort  (in CoreFoundation) + 160  [0x1a03a2c0c]
+    +                                                       2637 mach_msg  (in libsystem_kernel.dylib) + 24  [0x1a0275fa8]
+    +                                                         2637 mach_msg_overwrite  (in libsystem_kernel.dylib) + 484  [0x1a027e764]
+    +                                                           2637 mach_msg2_internal  (in libsystem_kernel.dylib) + 76  [0x1a0288338]
+    +                                                             2637 mach_msg2_trap  (in libsystem_kernel.dylib) + 8  [0x1a0275c34]

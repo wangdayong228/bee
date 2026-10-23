@@ -1,0 +1,22 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container 演示生命周期
+				4 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			5 container 确认划转
+				6 heading 确认划转, Value: 2
+					7 text 确认划转
+				8 container
+					9 text 演示金额  1.234567891  USD 将转入同一 Hive 账号 demo-user  的买家余额，完成后不可撤回。
+				10 button 取消
+				11 button 确认划转
+		12 scroll bar (settable, float) 1
+	13 close button
+	14 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	15 minimize button
+	16 text Bee · 开发验证
+17 menu bar
+	18 Bee Dev
+
+The focused UI element is 10 button 取消

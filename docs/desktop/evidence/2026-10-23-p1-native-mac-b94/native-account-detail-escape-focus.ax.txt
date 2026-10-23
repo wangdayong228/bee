@@ -1,0 +1,61 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 AI 账号 本机设备 演示数据
+			14 container
+				15 heading AI 账号, Value: 1
+					16 text AI 账号
+				17 text 管理这台设备用于贡献的 AI 账号。 检测已有官方登录，或通过官方授权接入。接入与换号后保持暂停，由你决定何时贡献。
+				18 container OpenAI 账号
+					19 text O
+					20 heading OpenAI, Value: 2
+						21 text OpenAI
+					22 text 订阅套餐 Plus
+					23 text dayong@example.com
+					24 container
+						25 text 已接入 ·  已暂停
+					26 text 5 小时 · 剩余 82% · 2 小时后重置
+					27 pop up button 查看详情
+					28 button 检测已有登录
+					29 button 官方授权接入
+					30 pop up button 移除账号
+				31 container Claude 账号
+					32 text ✳
+					33 heading Claude, Value: 2
+						34 text Claude
+					35 text 订阅套餐 Pro
+					36 text dayong@example.com
+					37 container
+						38 text 已接入 ·  已暂停
+					39 text 5 小时 · 剩余 46% · 48 分钟后重置
+					40 pop up button 查看详情
+					41 button 检测已有登录
+					42 button 官方授权接入
+					43 pop up button 移除账号
+				44 text 演示接入不会读取或修改官方客户端；官方授权尚未接通。
+				45 container 演示生命周期
+					46 button 退出演示
+					47 button 更新演示
+					48 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			49 container
+				50 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		51 scroll bar (settable, float) 0
+	52 close button
+	53 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	54 minimize button
+	55 text Bee · 开发验证
+56 menu bar
+	57 Bee Dev
+
+The focused UI element is 27 pop up button 查看详情

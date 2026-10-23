@@ -1,0 +1,24 @@
+✔ packaged Bee must match the pinned source metadata and actual bytes (3.080202ms)
+✔ changed packaged Bee fails with actual and required hash evidence (1.774242ms)
+✔ a package from another source revision is refused (1.08744ms)
+✔ packaged Bee symlink cannot resolve outside the extracted package (1.31268ms)
+✔ real child survives the observation period; cleanup leaves unrelated process alive (198.279851ms)
+✔ real launch clears inherited extraction and color overrides only in its child environment (210.289919ms)
+✔ captures initial and final owned window plus desktop after the actual observation interval (205.696206ms)
+✔ final desktop capture failure retains first screenshot and cleans the owned child (205.758767ms)
+✔ window ownership lost during final capture cannot pass observation (209.5869ms)
+✔ spawn failure is nonzero evidence rather than an observation success (3.152949ms)
+✔ a live child with no window fails and is cleaned up (143.349172ms)
+✔ an unrelated window cannot satisfy native startup (146.008998ms)
+✔ early nonzero exit retains stderr and actual exit code (42.890946ms)
+✔ exit zero before completing the visible observation still fails (241.793059ms)
+✔ a window that disappears during observation is not considered a startup pass (74.730779ms)
+✔ screenshot failure stops observation and still cleans the owned process (26.834784ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1773.778967
