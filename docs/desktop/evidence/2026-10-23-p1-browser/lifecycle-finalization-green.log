@@ -1,0 +1,10 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/lifecycle-ui.spec.ts --project=chromium --workers=1 --grep 回执期间
+
+
+Running 1 test using 1 worker
+
+  ✓  1 [chromium] › tests/lifecycle-ui.spec.ts:130:1 › 核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮 (2.5s)
+
+  1 passed (4.3s)

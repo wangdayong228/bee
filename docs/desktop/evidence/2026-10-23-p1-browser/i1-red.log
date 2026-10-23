@@ -1,0 +1,182 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/lifecycle-ui.spec.ts --project=chromium --workers=1 --grep 完成态|完成请求
+
+
+Running 9 tests using 1 worker
+
+  ✘  1 [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 cancel 且不改任务或主动暂停 (1.4s)
+  ✘  2 [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 check 且不改任务或主动暂停 (1.2s)
+  ✘  3 [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 wait 且不改任务或主动暂停 (1.3s)
+  ✘  4 [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 finish 且不改任务或主动暂停 (1.3s)
+  ✘  5 [chromium] › tests/lifecycle-ui.spec.ts:169:1 › 完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图 (1.9s)
+  ✓  6 [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 zero 并绑定用途 (845ms)
+  ✓  7 [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 wait 并绑定用途 (829ms)
+  ✓  8 [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 immediate 并绑定用途 (896ms)
+  ✘  9 [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 unknown 并绑定用途 (974ms)
+
+
+  1) [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 cancel 且不改任务或主动暂停 ────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "failed"
+    Received: "confirmed"
+
+      162 |       return { before, receipt, after: await c.snapshot() };
+      163 |     }, oldAction);
+    > 164 |     expect(r.receipt.kind).toBe('failed');
+          |                            ^
+      165 |     expect(r.after).toEqual(r.before);
+      166 |   });
+      167 | }
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:164:28
+
+    Error Context: test-results/lifecycle-ui-完成态拒绝旧请求-cancel-且不改任务或主动暂停-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成态拒绝旧请求-cancel-且不改任务或主动暂停-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成态拒绝旧请求-cancel-且不改任务或主动暂停-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 check 且不改任务或主动暂停 ─────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "failed"
+    Received: "confirmed"
+
+      162 |       return { before, receipt, after: await c.snapshot() };
+      163 |     }, oldAction);
+    > 164 |     expect(r.receipt.kind).toBe('failed');
+          |                            ^
+      165 |     expect(r.after).toEqual(r.before);
+      166 |   });
+      167 | }
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:164:28
+
+    Error Context: test-results/lifecycle-ui-完成态拒绝旧请求-check-且不改任务或主动暂停-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成态拒绝旧请求-check-且不改任务或主动暂停-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成态拒绝旧请求-check-且不改任务或主动暂停-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 wait 且不改任务或主动暂停 ──────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "failed"
+    Received: "confirmed"
+
+      162 |       return { before, receipt, after: await c.snapshot() };
+      163 |     }, oldAction);
+    > 164 |     expect(r.receipt.kind).toBe('failed');
+          |                            ^
+      165 |     expect(r.after).toEqual(r.before);
+      166 |   });
+      167 | }
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:164:28
+
+    Error Context: test-results/lifecycle-ui-完成态拒绝旧请求-wait-且不改任务或主动暂停-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成态拒绝旧请求-wait-且不改任务或主动暂停-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成态拒绝旧请求-wait-且不改任务或主动暂停-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 finish 且不改任务或主动暂停 ────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "failed"
+    Received: "confirmed"
+
+      162 |       return { before, receipt, after: await c.snapshot() };
+      163 |     }, oldAction);
+    > 164 |     expect(r.receipt.kind).toBe('failed');
+          |                            ^
+      165 |     expect(r.after).toEqual(r.before);
+      166 |   });
+      167 | }
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:164:28
+
+    Error Context: test-results/lifecycle-ui-完成态拒绝旧请求-finish-且不改任务或主动暂停-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成态拒绝旧请求-finish-且不改任务或主动暂停-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成态拒绝旧请求-finish-且不改任务或主动暂停-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/lifecycle-ui.spec.ts:169:1 › 完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图 ─────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "failed"
+    Received: "confirmed"
+
+      187 |   });
+      188 |   for (const attempt of results.attempts) {
+    > 189 |     expect(attempt.receipt.kind).toBe(attempt.action === 'finish' ? 'confirmed' : 'failed');
+          |                                  ^
+      190 |     expect(attempt.snapshot).toEqual(results.before);
+      191 |   }
+      192 |   expect(results.changedPurpose.kind).toBe('failed');
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:189:34
+
+    Error Context: test-results/lifecycle-ui-完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 unknown 并绑定用途 ────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "next"
+    Received: "first"
+
+      213 |     expect(r.before.lifecycle.finished).toBe(true);
+      214 |     expect(r.receipt.kind).toBe('confirmed');
+    > 215 |     expect(r.next.lifecycle.requestId).toBe('next');
+          |                                        ^
+      216 |     expect(r.next.lifecycle.purpose).toBe('update');
+      217 |     expect(r.next.accounts).toEqual(r.before.accounts);
+      218 |     expect(r.changedPurpose.kind).toBe('failed');
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:215:40
+
+    Error Context: test-results/lifecycle-ui-完成态允许合法新意图入口-unknown-并绑定用途-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-完成态允许合法新意图入口-unknown-并绑定用途-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-完成态允许合法新意图入口-unknown-并绑定用途-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 cancel 且不改任务或主动暂停 ─────────────────────
+    [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 check 且不改任务或主动暂停 ──────────────────────
+    [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 wait 且不改任务或主动暂停 ───────────────────────
+    [chromium] › tests/lifecycle-ui.spec.ts:150:3 › 完成态拒绝旧请求 finish 且不改任务或主动暂停 ─────────────────────
+    [chromium] › tests/lifecycle-ui.spec.ts:169:1 › 完成请求不可重放撤销或改用途，重复finish无副作用，旧完成请求也不能影响新意图 ──────
+    [chromium] › tests/lifecycle-ui.spec.ts:198:3 › 完成态允许合法新意图入口 unknown 并绑定用途 ─────────────────────
+  3 passed (14.6s)

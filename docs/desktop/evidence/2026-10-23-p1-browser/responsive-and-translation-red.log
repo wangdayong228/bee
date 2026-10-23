@@ -1,0 +1,78 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/visual.spec.ts tests/settings-diagnostics.spec.ts --project=chromium --workers=1 --grep 860x600-en-light-1.5|英文异步失败
+
+
+Running 2 tests using 1 worker
+
+  ✘  1 [chromium] › tests/settings-diagnostics.spec.ts:296:1 › 英文异步失败/未确认/空/加载场景及弹层无漏译 (12.0s)
+  ✘  2 [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard (705ms)
+
+
+  1) [chromium] › tests/settings-diagnostics.spec.ts:296:1 › 英文异步失败/未确认/空/加载场景及弹层无漏译 ───────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "Transfer result unconfirmed"
+    Received string:    "Demo only: 划转结果未确认, Original requestId=833bb186-d1d6-4f72-9596-de8f489a0315; Only the original operation can be checked."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        11 × locator resolved to <p role="status" class="finance-note">Demo only: 划转结果未确认, Original requestId=833bb186-d…</p>
+           - unexpected value "Demo only: 划转结果未确认, Original requestId=833bb186-d1d6-4f72-9596-de8f489a0315; Only the original operation can be checked."
+
+
+      322 |   await page.getByRole('button', { name: 'Review transfer', exact: true }).click();
+      323 |   await page.getByRole('button', { name: 'Confirm transfer', exact: true }).click();
+    > 324 |   await expect(page.getByRole('status')).toContainText('Transfer result unconfirmed'); await check();
+          |                                          ^
+      325 |   expect(await page.evaluate(async () => [...(await import(/* @vite-ignore */ String('/src/i18n/index.ts'))).missingTranslations])).toEqual([]);
+      326 |   await context.close();
+      327 | });
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/settings-diagnostics.spec.ts:324:42
+
+    Error Context: test-results/settings-diagnostics-英文异步失败-未确认-空-加载场景及弹层无漏译-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/settings-diagnostics-英文异步失败-未确认-空-加载场景及弹层无漏译-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/settings-diagnostics-英文异步失败-未确认-空-加载场景及弹层无漏译-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard 
+
+    Error: page-0: account actions stay inside their row
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      17 |   if (await page.locator('html').getAttribute('lang') === 'en') expect(await page.locator('body').innerText(), `${name}: English visible copy`).not.toMatch(/[\u4e00-\u9fff]/);
+      18 |   for (const amount of await page.locator('.amount').all()) expect(await amount.evaluate(el => el.clientHeight <= parseFloat(getComputedStyle(el).lineHeight) + 1), `${name}: monetary digits remain on one line`).toBe(true);
+    > 19 |   for (const row of await page.locator('.account-row').all()) expect(await row.evaluate(el => [...el.querySelectorAll('button')].every(button => button.getBoundingClientRect().right <= el.getBoundingClientRect().right + 1)), `${name}: account actions stay inside their row`).toBe(true);
+         |                                                                                                                                                                                                                                                                                    ^
+      20 |   await page.screenshot({ path: info.outputPath(`${name}.png`), fullPage: true, animations: 'disabled' });
+      21 | }
+      22 | async function keyboardDialog(page: Page, cancel: string) {
+        at capture (/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/visual.spec.ts:19:276)
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/visual.spec.ts:52:7
+
+    Error Context: test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/settings-diagnostics.spec.ts:296:1 › 英文异步失败/未确认/空/加载场景及弹层无漏译 ────────────────
+    [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard 

@@ -1,0 +1,391 @@
+{
+  "sourceUI": "c4a5540b5f31f3054eb8934bc13eb3c20ff0e67d",
+  "sourceLifecycleFix": "79193cab67190b9bc8ec4dd8c90672de3890f0e9",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3011,
+      "sha256": "22ce9bfa3d1aa8a14dd5be62dd1d4d73e129f418407fa733bcb96ca59da09483"
+    },
+    {
+      "path": "archive-manifest.json",
+      "bytes": 276283,
+      "sha256": "c8ea47ae02d16d2b38cf9bdb0ac103c8b885b8649b899724b7aac554cb961bae"
+    },
+    {
+      "path": "bee-task6-manual-exit.png",
+      "bytes": 115007,
+      "sha256": "73d8df4e92ac94e24f2174b147a64dc368d76bac916137cb94682bd8712f085f"
+    },
+    {
+      "path": "bee-task6-manual-light.png",
+      "bytes": 95687,
+      "sha256": "73d883d660bd9316485e3fff19488e0cd4ecbe22261e5ec516410acffccda337"
+    },
+    {
+      "path": "bee-task6-manual-overview.png",
+      "bytes": 95709,
+      "sha256": "74dcced87bd24651aec05c08bbfc9bc237b2a38d5ad49a8fdecdc7db1bce1476"
+    },
+    {
+      "path": "bee-task6-manual-reference-light.png",
+      "bytes": 105955,
+      "sha256": "6eb1716a73ee6706e3408f3f2921a68204450b469a32d3cc6371315589eebe23"
+    },
+    {
+      "path": "bee-task6-manual-reference.png",
+      "bytes": 95028,
+      "sha256": "bfe72b3f7c2eecc921c7f0e587e0289870bfe7192fdc39320b331aaf0ccddff8"
+    },
+    {
+      "path": "bridge.log",
+      "bytes": 1012,
+      "sha256": "8870e34f11f77c8c9a246f15b66e456abf91608bb80f46a612d01f69495c965c"
+    },
+    {
+      "path": "browser-e2e-before-translation-fix.log",
+      "bytes": 58396,
+      "sha256": "0a571a5be4d58394340ac7cfa2c01a66ea08682a8f339c5a6fa79c2ff2436ea8"
+    },
+    {
+      "path": "browser-e2e-final.log",
+      "bytes": 56644,
+      "sha256": "4559d0e1e942ec8fd24f920b322d79f64c4cb35910c4434f14e94c17e760ac77"
+    },
+    {
+      "path": "build-demo.log",
+      "bytes": 655,
+      "sha256": "4c869b6b2f892b98a4e7ee42e0011c6256ff36536e03c6e0c8e27ad11c7634b9"
+    },
+    {
+      "path": "build.log",
+      "bytes": 644,
+      "sha256": "15ff083f286f78aa230cb5bd81b7a45213d360341e5916d123ecfdd15429dbc8"
+    },
+    {
+      "path": "chrome-list.log",
+      "bytes": 15665,
+      "sha256": "005e94b6ae9889db10bed08c947c05dc5d68f2c2c7d5ac827e6d4864363ca238"
+    },
+    {
+      "path": "client-after-error-evidence-copy.log",
+      "bytes": 655,
+      "sha256": "e559c5f5390349d2ae1d27de7a3a24d832010f1197308194c3be26c908eda59a"
+    },
+    {
+      "path": "firefox-missing-transfer-translation-red-trace.zip",
+      "bytes": 3131543,
+      "sha256": "66652f1e695d9be5a025bfe9f464a3e6b0be310e5f2bea9b9c1ced1cf243b223"
+    },
+    {
+      "path": "firefox-missing-transfer-translation-red.md",
+      "bytes": 20153,
+      "sha256": "33da1daa53831594c4656d260ee16c11cabcdd15e306cde67539e9822560ad01"
+    },
+    {
+      "path": "i1-build-demo.log",
+      "bytes": 655,
+      "sha256": "71aee852fac8c37d88b6961c131c7c27ab2af7998e2e9ae02fa739698b5aed54"
+    },
+    {
+      "path": "i1-build.log",
+      "bytes": 644,
+      "sha256": "08dac4d1f818c857bbeae14dfdb1cedb88aa24b1373a6a206f75145330f20166"
+    },
+    {
+      "path": "i1-green.log",
+      "bytes": 12557,
+      "sha256": "9f686555c6d5ecda7746571c7cd602a5579d66ef2d0517e2b8c8cb628de10ac2"
+    },
+    {
+      "path": "i1-red.log",
+      "bytes": 12568,
+      "sha256": "eee856b48cbdc70f865da7662ca00e5363918003fa8f88eb8091eab87e71ab42"
+    },
+    {
+      "path": "i1-typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "lifecycle-finalization-green.log",
+      "bytes": 334,
+      "sha256": "3064862eab4f1c188c3728eef4e3a2d9f689ad818ab1531f0a7df1d9122e38a7"
+    },
+    {
+      "path": "lifecycle-finalization-red.log",
+      "bytes": 2992,
+      "sha256": "82e34dc0a929b5122e571941d36cea3d88fd711598f17a5ff096e9bdf77021f3"
+    },
+    {
+      "path": "matrix-manifest.json",
+      "bytes": 221014,
+      "sha256": "65cebcbed1c35532443006c3c3d5d179eddb430e8df9aea782f338852a1bfd9f"
+    },
+    {
+      "path": "responsive-and-translation-green.log",
+      "bytes": 510,
+      "sha256": "5047d2183596562940a9d6930a824720234435b28d0685d49ff0d71c6531c866"
+    },
+    {
+      "path": "responsive-and-translation-red.log",
+      "bytes": 5973,
+      "sha256": "054095132a5502ce71947bb5f2993bc70513d3c1587e3e523a97841a08069ecb"
+    },
+    {
+      "path": "screenshot-manifest.json",
+      "bytes": 146128,
+      "sha256": "f5ea4067c6947d41c15166866564a8a6984a26591081abfb7a8af2c9d63d027d"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 118275,
+      "sha256": "6e012b9dd41f1afad97668e66db931c5317d0a89178f1f732c33bc1507941398"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 136972,
+      "sha256": "7a7d0a84c3f7aaeaa3824a1e6cf4c9bc529d7478cce7cb2dca0ac817ae10366d"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 367171,
+      "sha256": "10ece80c580c7dc6954d7f651ac29f94186c3bf30f7d3ff704b7f89c8513a2fa"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 118415,
+      "sha256": "456492149abca460153899e5a9b3546a416ae507a10084382f29689203287f0b"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 132448,
+      "sha256": "916abebe4cfaea7425fb7354c6aa3d3bf15f599111ad654803f9c9f4a623d50e"
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 357307,
+      "sha256": "218871fbcece024663b342a62fc70e3bee35be3cdf94d17d269db7ad45bf1d90"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 120171,
+      "sha256": "a2ce211d376f0fbb00453b4740a04b26778fa4bcea97b9aa31b37d63483688bd"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 140401,
+      "sha256": "444740d0398ced22a9001d5f4030f8ce9c16b0802cb8276586a46ab8dce2ea3b"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 390017,
+      "sha256": "30318c88d1107aef5d3e26ff0e03841db96d823dd21ed4dcd087bf5910fe08ef"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 133662,
+      "sha256": "50cc384a8466d9b6820072069c4b5a6495c2a286134325fefb9973818ca480c8"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 120706,
+      "sha256": "ccf4a7e3e52825fbebe788701510a0361b411b85354d6a6962c466631a3c0a82"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 151440,
+      "sha256": "48d12ca6192082804020ad31da9425c15d5c1df710b6c319bd16f665b8564506"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 135770,
+      "sha256": "e8100745fabc2f3548e3f9abdd0bfb31fe5bc550a11f415e2f1baaefe92e7848"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 443424,
+      "sha256": "921bdccd58d206e6629c1b111a9115fec858ccf4d4922a906fa91646c42503d8"
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 378220,
+      "sha256": "f073981ed9b95e84015b7a2e437c8700b084877a6149b8a4b8da1e3eb07455ee"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 116328,
+      "sha256": "0638f0a497d9b9560cc7a07153375463ffd2705d4a8f999fb0266f4ec84eebf2"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 135672,
+      "sha256": "dcfcc92271be098fa0cd29e8cae1765ba2189017075b2f7add535c2658ed3472"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 353417,
+      "sha256": "ab9a2661cb488d58f12d87b3c7212589dc05837a7bc19ad2b3c3b4d9ded0b6df"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 177989,
+      "sha256": "645a258a821313027f5109b088573d0a0a2e7bc220f1cc4cd4e52951d4bace9f"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 204989,
+      "sha256": "07192962005f62f8d0ec6601b584b6cd0910e04822b4aee56b47e35ebee4fbe4"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 183725,
+      "sha256": "8d7112b6fed9a9ef6075d3e39826f0287726cc57305cb1feb92b908294042dd5"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 218218,
+      "sha256": "164eb1cf0185540f0766abebaea04d4754bb34eb180164f02352617f2dd00d0c"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 129963,
+      "sha256": "3699e8daaa84dbfa824243cec81c91750792fb33962c3e43c8fe217411ee80cc"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 201106,
+      "sha256": "4e1b94bedb9dac7c255fa787a36ce2d3dc64668ba3c2cff44434333cdbc7d606"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 242647,
+      "sha256": "4bcbd990c3e9728de86143c74f179ca3ece69637ec260fd0a60f1c6a1d324c6b"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 203962,
+      "sha256": "7512d731e576b2e3e83ebb5c31d3bf8d4cf92f787c4c334d005b38ce0de9fd92"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 251321,
+      "sha256": "70ceadfdf45755a5ae51733080c344a8e9247178964380a42ba04557a0046f35"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 143449,
+      "sha256": "3d3e942f94c40c318bf2ce6bb114f178130158e621c85e3669fa97e9c3d90a7e"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 496907,
+      "sha256": "7a1ced14b8a5abcb8bb76f2932dbe6d9511d44a8f3caf6db421f2f6fb5009c64"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 609143,
+      "sha256": "4ef8a7f61b15208d01fa4f9537f4746f8fc21e233b6f6195dd5fe048eabbc725"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 507234,
+      "sha256": "d5fb660ca00161e58aaae39ae86a4f2426e5fb8c5624f6f5e2b0560421ecdd56"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 637535,
+      "sha256": "434b968e44497450ac95ee4a063e7d2a19753259a71489adc7aebcca4bcae363"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 368267,
+      "sha256": "5a9c84036d1ed671fc9af6e4af3c1a353f7127bb49d19de34a3c12c3a4b22b17"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 123697,
+      "sha256": "c9c9c37e86135803e56ab03896be5fa6bf7a25bafacd584c31ef17f82fed84ae"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 118535,
+      "sha256": "3d8fce99e4f9a2731e2022ee12788ffc410c80d774212a75f1b2c8633af6a4f7"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 110563,
+      "sha256": "f31a96eab00422a592b4a8bdce0d96932d9b48e85e6a644f2d6b6cc08c6a605a"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 138450,
+      "sha256": "f628b0b8bd364529b98af14b8062677391c9502880d0af6de83bfcb39a855f4b"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 133018,
+      "sha256": "b640411215cc4a4daaa5050905ec33ee214f193f6d11d40c920422c47ca7c8e4"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 129124,
+      "sha256": "e74abf3bd045d35440404a692780971c18d03cf750d16a522f0d3e39d96542a7"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 377584,
+      "sha256": "e27f3f053ae503d03d2606e324027805382b40b0f01cd14bb16a5f42b823e012"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 340966,
+      "sha256": "42b8162805492d6767ed9f7abf18517c5308fcd453659c9ee640817e5b07121b"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 354371,
+      "sha256": "b6a0ef005e2b9462e1694c90a90d40851616bb0890a836842128cf118327a582"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 116094,
+      "sha256": "1f5ecb9a4960506bdc709702ad25aaca03dc905be1ae25eedc6ad94da2fa6256"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 129665,
+      "sha256": "f0b14c0bff8483fbcc8010507df4aed184d027c816776e2995f076f455d318c3"
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 340312,
+      "sha256": "79e268e2a045f6570992f11678d830eb641f070dc88b4e519ebe5594536a96ca"
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-chromium/error.png",
+      "bytes": 134969,
+      "sha256": "dd89623aa6fca2b58cac9a4c3176379a51c77c65e0fed463395c698a22ff20c1"
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-firefox/error.png",
+      "bytes": 153158,
+      "sha256": "a1be14aeebb4ca3d245b144d28a1883981fa2614dbdf904119f1c12ad0658528"
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-webkit/error.png",
+      "bytes": 426941,
+      "sha256": "da1bf0e3c16265e367a9271132b841577099163d945d600976f5e56dcba63838"
+    },
+    {
+      "path": "selected-screenshots.json",
+      "bytes": 19069,
+      "sha256": "6922d3448ba7a7864480dfb9952aae86e6db957c4db0d7de804414358b3efdee"
+    },
+    {
+      "path": "typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    }
+  ]
+}

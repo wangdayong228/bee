@@ -1,0 +1,47 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/lifecycle-ui.spec.ts --project=chromium --workers=1 --grep 回执期间
+
+
+Running 1 test using 1 worker
+
+  ✘  1 [chromium] › tests/lifecycle-ui.spec.ts:130:1 › 核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮 (6.3s)
+
+
+  1) [chromium] › tests/lifecycle-ui.spec.ts:130:1 › 核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮 ─────────────────
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: getByRole('dialog')
+    Expected: "true"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('dialog') with timeout 5000ms
+      - waiting for getByRole('dialog')
+        5 × locator resolved to <div role="dialog" tabindex="-1" id="radix-_r_3_" data-state="open" aria-busy="false" aria-labelledby="radix-_r_4_" aria-describedby="radix-_r_5_" class="dialog-content lifecycle-dialog">…</div>
+          - unexpected value "false"
+
+
+      142 |   await page.getByRole('button', { name: '核对任务状态', exact: true }).click();
+      143 |   await page.waitForFunction(() => (window as unknown as { task6Finishing?: boolean }).task6Finishing);
+    > 144 |   await expect(page.getByRole('dialog')).toHaveAttribute('aria-busy', 'true');
+          |                                          ^
+      145 |   await expect(page.getByRole('dialog').getByRole('button', { name: '取消', exact: true })).toBeDisabled();
+      146 |   await expect(page.getByTestId('lifecycle-status')).toContainText('流程已完成');
+      147 | });
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/lifecycle-ui.spec.ts:144:42
+
+    Error Context: test-results/lifecycle-ui-核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lifecycle-ui-核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lifecycle-ui-核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/lifecycle-ui.spec.ts:130:1 › 核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮 ──────────────────

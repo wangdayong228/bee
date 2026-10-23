@@ -1,0 +1,140 @@
+Listing tests:
+  [chrome] › accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效
+  [chrome] › accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功
+  [chrome] › accounts.spec.ts:32:3 › authorization-expired 不伪造额度或可交易状态
+  [chrome] › accounts.spec.ts:32:3 › quota-unknown 不伪造额度或可交易状态
+  [chrome] › accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停
+  [chrome] › accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务
+  [chrome] › accounts.spec.ts:58:3 › removal-unknown 保留卡片并停止新任务
+  [chrome] › accounts.spec.ts:71:1 › 显式移除记忆、重新接入和收益保留由真实演示适配器保证
+  [chrome] › accounts.spec.ts:91:1 › 过期授权和未确认移除不能通过检测或恢复绕过，其他平台暂停不变
+  [chrome] › accounts.spec.ts:130:1 › 任务未知时移除保留卡片和未确认提示
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 ready 返回 confirmed，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 active-tasks 返回 pending，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 unknown-tasks 返回 unknown，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 tasks-loading 返回 unknown，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 tasks-error 返回 unknown，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态
+  [chrome] › accounts.spec.ts:149:3 › 移除收尾守门 removal-unknown 返回 unknown，重试不能越过未决状态
+  [chrome] › amount-display.spec.ts:17:3 › 金额 0 精确显示为 0，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 10 精确显示为 10，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 100 精确显示为 100，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 999999999999999 精确显示为 999999999999999，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 999999999999999.999999999 精确显示为 999999999999999.999999999，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 0.000000001 精确显示为 0.000000001，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 0.000000000 精确显示为 0，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 10.000000000 精确显示为 10，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 100.100000000 精确显示为 100.1，仅移除小数尾零
+  [chrome] › amount-display.spec.ts:17:3 › 金额 100.123456780 精确显示为 100.12345678，仅移除小数尾零
+  [chrome] › bridge.spec.ts:3:1 › 普通浏览器明确显示没有原生能力并保留重新检查
+  [chrome] › bridge.spec.ts:12:3 › Tauri 调用替身验证管理握手和存活呈现
+  [chrome] › bridge.spec.ts:12:3 › Tauri 调用替身验证子进程故障呈现
+  [chrome] › earnings.spec.ts:9:1 › 收益平台筛选、统计范围、分页与删号历史保持全局余额
+  [chrome] › earnings.spec.ts:35:1 › 提现空与已填均保留输入、余额与流水，全部操作无非静态请求
+  [chrome] › earnings.spec.ts:90:1 › 划转格式与余额校验、清旧错、确认取消不扣款、成功精确扣款
+  [chrome] › earnings.spec.ts:133:1 › 演示幂等隔离、重放、不足余额、pending核对保持原标识和参数
+  [chrome] › earnings.spec.ts:201:3 › transfer-pending 禁止新操作，刷新核对仍保留原操作
+  [chrome] › earnings.spec.ts:201:3 › transfer-unknown 禁止新操作，刷新核对仍保留原操作
+  [chrome] › earnings.spec.ts:220:1 › 报价边界清旧错，草稿与生效及已接收任务快照独立
+  [chrome] › earnings.spec.ts:242:3 › quote-conflict 不将草稿冒充已生效
+  [chrome] › earnings.spec.ts:242:3 › quote-unknown 不将草稿冒充已生效
+  [chrome] › earnings.spec.ts:258:3 › earnings-loading 明确读状态
+  [chrome] › earnings.spec.ts:258:3 › earnings-error 明确读状态
+  [chrome] › earnings.spec.ts:258:3 › earnings-empty 明确读状态
+  [chrome] › earnings.spec.ts:262:1 › 页面重载恢复原pending标识且演示session不保存登录或凭证
+  [chrome] › earnings.spec.ts:298:1 › 并发同标识重放仅扣一次，原版本过期拒绝，存储失败不产生资金操作，损坏会话阻止写入
+  [chrome] › earnings.spec.ts:369:1 › 主资金按钮悬停保留可读的深色底与浅色字
+  [chrome] › earnings.spec.ts:382:1 › dispatch reject且没有snapshot pending时，原提交守门跨重进和刷新保留，missing核对不能解除
+  [chrome] › earnings.spec.ts:456:1 › 目标余额恰好15/9上界可入账，超1最小单位拒绝且源目标流水存储均不变，重放不二次累加
+  [chrome] › earnings.spec.ts:547:1 › 已入账但dispatch reject时保留原意图，核对明确confirmed才解除且不再扣款
+  [chrome] › earnings.spec.ts:597:3 › 演示意图read故障fail-closed且不调用划转
+  [chrome] › earnings.spec.ts:597:3 › 演示意图write故障fail-closed且不调用划转
+  [chrome] › earnings.spec.ts:597:3 › 演示意图corrupt故障fail-closed且不调用划转
+  [chrome] › earnings.spec.ts:650:1 › 意图模块只接受原完整身份与参数，missing/generic failed/unknown不清除，明确演示原子拒绝可解除
+  [chrome] › earnings.spec.ts:729:1 › 明确confirmed但意图删除失败时继续守门，原记录完整保留供再次核对
+  [chrome] › lifecycle-ui.spec.ts:4:3 › 退出：无任务直接完成演示，不弹有任务确认
+  [chrome] › lifecycle-ui.spec.ts:10:3 › 退出：等待临时停止派发，取消保持主动暂停
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 退出：unknown-tasks 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 退出：tasks-loading 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 退出：tasks-error 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:4:3 › 更新：无任务直接完成演示，不弹有任务确认
+  [chrome] › lifecycle-ui.spec.ts:10:3 › 更新：等待临时停止派发，取消保持主动暂停
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 更新：unknown-tasks 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 更新：tasks-loading 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:27:5 › 更新：tasks-error 不将未知或旧零当作完成
+  [chrome] › lifecycle-ui.spec.ts:41:1 › 纯reducer拒绝陈旧结果及所有非confirmed结果
+  [chrome] › lifecycle-ui.spec.ts:55:1 › 演示客户端临时停止不改主动选择，旧意图不能取消新意图或真实退出
+  [chrome] › lifecycle-ui.spec.ts:80:3 › 退出立即操作明确中断风险且仅完成演示
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 退出 lifecycle-unknown不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 退出 lifecycle-pending不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 退出 lifecycle-failed不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:80:3 › 更新立即操作明确中断风险且仅完成演示
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 更新 lifecycle-unknown不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 更新 lifecycle-pending不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:92:5 › 更新 lifecycle-failed不冒充完成并可取消
+  [chrome] › lifecycle-ui.spec.ts:103:1 › 今日与累计摘要精确等于同场景结算，概览和收益一致
+  [chrome] › lifecycle-ui.spec.ts:119:1 › confirmed收尾若回读任务未知或旧零仍然fail-closed
+  [chrome] › lifecycle-ui.spec.ts:130:1 › 核对零任务后等待完成回执期间保持处理中，不暴露无效取消按钮
+  [chrome] › lifecycle.spec.ts:4:3 › 冷启动回跳只显示收到，保持尚未开始贡献
+  [chrome] › lifecycle.spec.ts:4:3 › 后台回跳只显示收到，保持尚未开始贡献
+  [chrome] › money.spec.ts:2:1 › 金额按 Hive 的 15/9 位规则校验并以独立手算证明精度
+  [chrome] › navigation.spec.ts:3:1 › 银白壳的五页可达，演示标识始终可见且业务操作不发网络请求
+  [chrome] › navigation.spec.ts:26:1 › 抽屉与确认弹窗约束焦点，Escape 关闭并恢复焦点
+  [chrome] › navigation.spec.ts:53:1 › 未知场景拒绝载入，不降级为演示成功
+  [chrome] › navigation.spec.ts:60:1 › 客户端拒绝未知场景、清理订阅，非演示模式保持未接通
+  [chrome] › onboarding-overview.spec.ts:4:1 › 首次接入可中断继续，只接入所选平台，绑定检测不会自动贡献
+  [chrome] › onboarding-overview.spec.ts:25:1 › 未登录能修改 Hive/代理/外观，账号与收益受接入门槛保护
+  [chrome] › onboarding-overview.spec.ts:47:1 › 已有配置仍需确认绑定，替换设备需明确确认
+  [chrome] › onboarding-overview.spec.ts:60:1 › 外部 Bee 只读且不会默认接管
+  [chrome] › onboarding-overview.spec.ts:67:1 › 离线与未知状态不显示就绪，旧收益保留时间与处理入口
+  [chrome] › onboarding-overview.spec.ts:80:1 › 全部暂停逐平台反馈部分失败，单平台可恢复且刷新保留主动暂停
+  [chrome] › onboarding-overview.spec.ts:94:1 › 命令验证实际前置条件，并覆盖 pending/unknown/failed 结果
+  [chrome] › onboarding-overview.spec.ts:126:1 › 明确选择的平台才开始贡献，未选平台保持暂停
+  [chrome] › onboarding-overview.spec.ts:136:1 › 本机进程读取失败保留证据、时间和处理入口，不采用旧进程值作为就绪
+  [chrome] › onboarding-overview.spec.ts:152:1 › 本机进程已停止时不能贡献
+  [chrome] › onboarding-overview.spec.ts:172:1 › 切换 Hive 不会把外部 Bee 归属改为 App，也不把未知归属当作就绪
+  [chrome] › onboarding-overview.spec.ts:193:1 › 无效设置保留输入和当前绑定，不泄露地址中的凭证
+  [chrome] › onboarding-overview.spec.ts:206:1 › 审查 I1：首次开始前恢复不可绕过选择，明确开始后引导结束并允许正常恢复
+  [chrome] › onboarding-overview.spec.ts:229:1 › 审查 M1：partial 暂停失败反馈保留的实际暂停状态
+  [chrome] › onboarding-overview.spec.ts:248:1 › 审查 M2：地址失败区分协议凭证查询片段与解析，不回显秘密并保留输入
+  [chrome] › onboarding-overview.spec.ts:267:1 › 审查 I1：客户端拒绝首次开始前的单平台及全部恢复
+  [chrome] › p0-shell.spec.ts:3:1 › 最小验证页显示品牌、当前系统和未开始贡献状态
+  [chrome] › settings-diagnostics.spec.ts:3:1 › 普通偏好白名单按Hive/当前用户/匿名隔离，不接受带凭据地址
+  [chrome] › settings-diagnostics.spec.ts:20:1 › 语言即时覆盖导航/表单/弹窗，系统语言和主题可跟随
+  [chrome] › settings-diagnostics.spec.ts:37:1 › 设置保留普通偏好，切Hive确认后回未登录引导，原资金意图保留
+  [chrome] › settings-diagnostics.spec.ts:59:1 › 诊断逐项失败、重试、日志过滤和真实脱敏下载
+  [chrome] › settings-diagnostics.spec.ts:76:1 › 导出失败显示具体失败项，不声称成功
+  [chrome] › settings-diagnostics.spec.ts:83:1 › 演示通知对同一问题去重，关闭后不再通知，不改系统权限
+  [chrome] › settings-diagnostics.spec.ts:96:1 › 系统默认英文、五页与二级页和动态错误无漏译，业务值不变
+  [chrome] › settings-diagnostics.spec.ts:151:1 › 报告白名单拒绝自由正文和伪装敏感字段，失败存储不静默成功
+  [chrome] › settings-diagnostics.spec.ts:169:1 › 匿名身份与名为anonymous的真实用户、带点复合scope均不可碰撞
+  [chrome] › settings-diagnostics.spec.ts:189:1 › 切Hive刷新后登录与绑定的资金身份来自当前Hive和Binding
+  [chrome] › settings-diagnostics.spec.ts:207:1 › 英文错误插值和连接标签保留中文用户输入原值
+  [chrome] › settings-diagnostics.spec.ts:224:1 › 系统语言事件、显式浅深主题、可见焦点与代理校验均保持演示范围
+  [chrome] › settings-diagnostics.spec.ts:249:1 › 通知四类问题均去重，普通短暂离线不伪称持续离线
+  [chrome] › settings-diagnostics.spec.ts:265:1 › 真实下载API失败保留错误证据并允许重试，不假称文件已交付
+  [chrome] › settings-diagnostics.spec.ts:274:1 › 损坏偏好或不安全的已选Hive读取失败时不借用旧登录，不回显秘密
+  [chrome] › settings-diagnostics.spec.ts:296:1 › 英文异步失败/未确认/空/加载场景及弹层无漏译
+  [chrome] › settings-diagnostics.spec.ts:332:1 › 浅深主题正文/次要文字/金色标签与焦点均具有足够对比
+  [chrome] › settings-diagnostics.spec.ts:355:3 › 审查I1：非默认Hive登录偏好corrupt失败不提交身份或跨scope写入，可原位重试
+  [chrome] › settings-diagnostics.spec.ts:355:3 › 审查I1：非默认Hive登录偏好read-error失败不提交身份或跨scope写入，可原位重试
+  [chrome] › settings-diagnostics.spec.ts:395:1 › 审查I2：英文公共弹层只翻译一次，保留匹配词典的中文业务值
+  [chrome] › visual.spec.ts:38:3 › silver 1280x860-zh-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 1280x860-en-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 1024x768-zh-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 1024x768-en-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-zh-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-en-light-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-zh-dark-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-zh-light-1.25: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-zh-light-1.5: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-en-dark-1: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-en-light-1.25: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard
+  [chrome] › visual.spec.ts:99:3 › silver read state loading
+  [chrome] › visual.spec.ts:99:3 › silver read state empty
+  [chrome] › visual.spec.ts:99:3 › silver read state error
+  [chrome] › visual.spec.ts:99:3 › silver read state earnings-loading
+  [chrome] › visual.spec.ts:99:3 › silver read state earnings-empty
+  [chrome] › visual.spec.ts:99:3 › silver read state earnings-error
+Total: 138 tests in 12 files

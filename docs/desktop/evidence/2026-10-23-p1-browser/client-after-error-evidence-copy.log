@@ -1,0 +1,12 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/lifecycle-ui.spec.ts --workers=1 --grep 演示客户端临时停止
+
+
+Running 3 tests using 1 worker
+
+  ✓  1 [chromium] › tests/lifecycle-ui.spec.ts:55:1 › 演示客户端临时停止不改主动选择，旧意图不能取消新意图或真实退出 (1.4s)
+  ✓  2 [firefox] › tests/lifecycle-ui.spec.ts:55:1 › 演示客户端临时停止不改主动选择，旧意图不能取消新意图或真实退出 (2.1s)
+  ✓  3 [webkit] › tests/lifecycle-ui.spec.ts:55:1 › 演示客户端临时停止不改主动选择，旧意图不能取消新意图或真实退出 (1.5s)
+
+  3 passed (9.4s)

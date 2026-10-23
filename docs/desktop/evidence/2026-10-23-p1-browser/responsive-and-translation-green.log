@@ -1,0 +1,11 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/visual.spec.ts tests/settings-diagnostics.spec.ts --project=chromium --workers=1 --grep 860x600-en-light-1.5|英文异步失败
+
+
+Running 2 tests using 1 worker
+
+  ✓  1 [chromium] › tests/settings-diagnostics.spec.ts:296:1 › 英文异步失败/未确认/空/加载场景及弹层无漏译 (8.7s)
+  ✓  2 [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard (5.5s)
+
+  2 passed (16.4s)

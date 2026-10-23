@@ -1,0 +1,634 @@
+{
+  "count": 48,
+  "fullScreenshots": 558,
+  "selection": "18 normal overview +15 minimum English150% +9 minimum Chinese dark +3 onboarding +3 error",
+  "screenshots": [
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "6e012b9dd41f1afad97668e66db931c5317d0a89178f1f732c33bc1507941398",
+      "bytes": 118275,
+      "browser": "chromium",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "7a7d0a84c3f7aaeaa3824a1e6cf4c9bc529d7478cce7cb2dca0ac817ae10366d",
+      "bytes": 136972,
+      "browser": "firefox",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "10ece80c580c7dc6954d7f651ac29f94186c3bf30f7d3ff704b7f89c8513a2fa",
+      "bytes": 367171,
+      "browser": "webkit",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "456492149abca460153899e5a9b3546a416ae507a10084382f29689203287f0b",
+      "bytes": 118415,
+      "browser": "chromium",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "916abebe4cfaea7425fb7354c6aa3d3bf15f599111ad654803f9c9f4a623d50e",
+      "bytes": 132448,
+      "browser": "firefox",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "218871fbcece024663b342a62fc70e3bee35be3cdf94d17d269db7ad45bf1d90",
+      "bytes": 357307,
+      "browser": "webkit",
+      "view": {
+        "width": 1024,
+        "height": 768,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "a2ce211d376f0fbb00453b4740a04b26778fa4bcea97b9aa31b37d63483688bd",
+      "bytes": 120171,
+      "browser": "chromium",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "444740d0398ced22a9001d5f4030f8ce9c16b0802cb8276586a46ab8dce2ea3b",
+      "bytes": 140401,
+      "browser": "firefox",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "30318c88d1107aef5d3e26ff0e03841db96d823dd21ed4dcd087bf5910fe08ef",
+      "bytes": 390017,
+      "browser": "webkit",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "sha256": "50cc384a8466d9b6820072069c4b5a6495c2a286134325fefb9973818ca480c8",
+      "bytes": 133662,
+      "browser": "chromium",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "ccf4a7e3e52825fbebe788701510a0361b411b85354d6a6962c466631a3c0a82",
+      "bytes": 120706,
+      "browser": "chromium",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "sha256": "48d12ca6192082804020ad31da9425c15d5c1df710b6c319bd16f665b8564506",
+      "bytes": 151440,
+      "browser": "firefox",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "e8100745fabc2f3548e3f9abdd0bfb31fe5bc550a11f415e2f1baaefe92e7848",
+      "bytes": 135770,
+      "browser": "firefox",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "sha256": "921bdccd58d206e6629c1b111a9115fec858ccf4d4922a906fa91646c42503d8",
+      "bytes": 443424,
+      "browser": "webkit",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "f073981ed9b95e84015b7a2e437c8700b084877a6149b8a4b8da1e3eb07455ee",
+      "bytes": 378220,
+      "browser": "webkit",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "0638f0a497d9b9560cc7a07153375463ffd2705d4a8f999fb0266f4ec84eebf2",
+      "bytes": 116328,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "dcfcc92271be098fa0cd29e8cae1765ba2189017075b2f7add535c2658ed3472",
+      "bytes": 135672,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "ab9a2661cb488d58f12d87b3c7212589dc05837a7bc19ad2b3c3b4d9ded0b6df",
+      "bytes": 353417,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "sha256": "645a258a821313027f5109b088573d0a0a2e7bc220f1cc4cd4e52951d4bace9f",
+      "bytes": 177989,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "sha256": "07192962005f62f8d0ec6601b584b6cd0910e04822b4aee56b47e35ebee4fbe4",
+      "bytes": 204989,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "sha256": "8d7112b6fed9a9ef6075d3e39826f0287726cc57305cb1feb92b908294042dd5",
+      "bytes": 183725,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "sha256": "164eb1cf0185540f0766abebaea04d4754bb34eb180164f02352617f2dd00d0c",
+      "bytes": 218218,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "sha256": "3699e8daaa84dbfa824243cec81c91750792fb33962c3e43c8fe217411ee80cc",
+      "bytes": 129963,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "sha256": "4e1b94bedb9dac7c255fa787a36ce2d3dc64668ba3c2cff44434333cdbc7d606",
+      "bytes": 201106,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "sha256": "4bcbd990c3e9728de86143c74f179ca3ece69637ec260fd0a60f1c6a1d324c6b",
+      "bytes": 242647,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "sha256": "7512d731e576b2e3e83ebb5c31d3bf8d4cf92f787c4c334d005b38ce0de9fd92",
+      "bytes": 203962,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "sha256": "70ceadfdf45755a5ae51733080c344a8e9247178964380a42ba04557a0046f35",
+      "bytes": 251321,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "sha256": "3d3e942f94c40c318bf2ce6bb114f178130158e621c85e3669fa97e9c3d90a7e",
+      "bytes": 143449,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "sha256": "7a1ced14b8a5abcb8bb76f2932dbe6d9511d44a8f3caf6db421f2f6fb5009c64",
+      "bytes": 496907,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "sha256": "4ef8a7f61b15208d01fa4f9537f4746f8fc21e233b6f6195dd5fe048eabbc725",
+      "bytes": 609143,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "sha256": "d5fb660ca00161e58aaae39ae86a4f2426e5fb8c5624f6f5e2b0560421ecdd56",
+      "bytes": 507234,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "sha256": "434b968e44497450ac95ee4a063e7d2a19753259a71489adc7aebcca4bcae363",
+      "bytes": 637535,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "sha256": "5a9c84036d1ed671fc9af6e4af3c1a353f7127bb49d19de34a3c12c3a4b22b17",
+      "bytes": 368267,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "en",
+        "theme": "light",
+        "zoom": 1.5
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "sha256": "c9c9c37e86135803e56ab03896be5fa6bf7a25bafacd584c31ef17f82fed84ae",
+      "bytes": 123697,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "3d8fce99e4f9a2731e2022ee12788ffc410c80d774212a75f1b2c8633af6a4f7",
+      "bytes": 118535,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "sha256": "f31a96eab00422a592b4a8bdce0d96932d9b48e85e6a644f2d6b6cc08c6a605a",
+      "bytes": 110563,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "sha256": "f628b0b8bd364529b98af14b8062677391c9502880d0af6de83bfcb39a855f4b",
+      "bytes": 138450,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "b640411215cc4a4daaa5050905ec33ee214f193f6d11d40c920422c47ca7c8e4",
+      "bytes": 133018,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "sha256": "e74abf3bd045d35440404a692780971c18d03cf750d16a522f0d3e39d96542a7",
+      "bytes": 129124,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "sha256": "e27f3f053ae503d03d2606e324027805382b40b0f01cd14bb16a5f42b823e012",
+      "bytes": 377584,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "42b8162805492d6767ed9f7abf18517c5308fcd453659c9ee640817e5b07121b",
+      "bytes": 340966,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "sha256": "b6a0ef005e2b9462e1694c90a90d40851616bb0890a836842128cf118327a582",
+      "bytes": 354371,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "dark",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "sha256": "1f5ecb9a4960506bdc709702ad25aaca03dc905be1ae25eedc6ad94da2fa6256",
+      "bytes": 116094,
+      "browser": "chromium",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "sha256": "f0b14c0bff8483fbcc8010507df4aed184d027c816776e2995f076f455d318c3",
+      "bytes": 129665,
+      "browser": "firefox",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "sha256": "79e268e2a045f6570992f11678d830eb641f070dc88b4e519ebe5594536a96ca",
+      "bytes": 340312,
+      "browser": "webkit",
+      "view": {
+        "width": 860,
+        "height": 600,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-chromium/error.png",
+      "sha256": "dd89623aa6fca2b58cac9a4c3176379a51c77c65e0fed463395c698a22ff20c1",
+      "bytes": 134969,
+      "browser": "chromium",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1,
+        "scene": "error"
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-firefox/error.png",
+      "sha256": "a1be14aeebb4ca3d245b144d28a1883981fa2614dbdf904119f1c12ad0658528",
+      "bytes": 153158,
+      "browser": "firefox",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1,
+        "scene": "error"
+      }
+    },
+    {
+      "path": "screenshots/visual-silver-read-state-error-webkit/error.png",
+      "sha256": "da1bf0e3c16265e367a9271132b841577099163d945d600976f5e56dcba63838",
+      "bytes": 426941,
+      "browser": "webkit",
+      "view": {
+        "width": 1280,
+        "height": 860,
+        "lang": "zh",
+        "theme": "light",
+        "zoom": 1,
+        "scene": "error"
+      }
+    }
+  ]
+}
