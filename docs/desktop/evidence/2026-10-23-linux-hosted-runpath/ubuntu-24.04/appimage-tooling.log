@@ -1,0 +1,50 @@
+✔ packaged Bee must match the pinned source metadata and actual bytes (2.935993ms)
+✔ changed packaged Bee fails with actual and required hash evidence (1.427174ms)
+✔ a package from another source revision is refused (0.849157ms)
+✔ packaged Bee symlink cannot resolve outside the extracted package (1.051003ms)
+✔ real child survives the observation period; cleanup leaves unrelated process alive (239.348037ms)
+✔ real launch clears inherited extraction and color overrides only in its child environment (218.911936ms)
+✔ captures initial and final owned window plus desktop after the actual observation interval (210.056477ms)
+✔ final desktop capture failure retains first screenshot and cleans the owned child (207.951235ms)
+✔ window ownership lost during final capture cannot pass observation (216.553655ms)
+✔ spawn failure is nonzero evidence rather than an observation success (3.67195ms)
+✔ a live child with no window fails and is cleaned up (168.804ms)
+✔ an unrelated window cannot satisfy native startup (165.874484ms)
+✔ early nonzero exit retains stderr and actual exit code (50.389098ms)
+✖ exit zero before completing the visible observation still fails (254.720978ms)
+✔ a window that disappears during observation is not considered a startup pass (92.534216ms)
+✔ screenshot failure stops observation and still cleans the owned process (36.005869ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 15
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1934.431287
+
+✖ failing tests:
+
+test at desktop/tests/linux-appimage.test.mjs:162:1
+✖ exit zero before completing the visible observation still fails (254.720978ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /early exit.*code=0/. Input:
+  
+  'Error: observed window disappeared: actual=[{"id":"42","pid":18131,"title":"fixture window"}]; required window={"id":"42","pid":18131,"title":"fixture window"}'
+  
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async TestContext.<anonymous> (file:///home/runner/work/bee/bee/desktop/tests/linux-appimage.test.mjs:164:3)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: observed window disappeared: actual=[{"id":"42","pid":18131,"title":"fixture window"}]; required window={"id":"42","pid":18131,"title":"fixture window"}
+        at observeOwnedProcess (file:///home/runner/work/bee/bee/desktop/scripts/smoke-linux-appimage.mjs:136:15)
+        at async waitForActual (node:assert:646:5)
+        at async strict.rejects (node:assert:769:25)
+        at async TestContext.<anonymous> (file:///home/runner/work/bee/bee/desktop/tests/linux-appimage.test.mjs:164:3)
+        at async Test.run (node:internal/test_runner/test:1409:7)
+        at async Test.processPendingSubtests (node:internal/test_runner/test:974:7),
+    expected: /early exit.*code=0/,
+    operator: 'rejects',
+    diff: 'simple'
+  }

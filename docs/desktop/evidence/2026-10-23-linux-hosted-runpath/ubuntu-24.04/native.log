@@ -1,0 +1,7 @@
+OK CI baseline: actual="current"; required=["minimum","current"]
+OK CI target: actual="x86_64-unknown-linux-gnu"; required=["aarch64-apple-darwin","x86_64-apple-darwin","x86_64-pc-windows-msvc","x86_64-unknown-linux-gnu","aarch64-unknown-linux-gnu"]
+OK Native Node host: actual="linux/x64"; required="linux/x64"
+OK Native Linux kernel architecture: actual="x86_64"; required="x86_64"
+OK Ubuntu baseline: actual="ubuntu/24.04"; required="ubuntu/24.04"
+OK Native Rust host: actual="rustc 1.94.0 (4a4ef493e 2026-03-02)\nbinary: rustc\ncommit-hash: 4a4ef493e3a1488c6e321570238084b38948f6db\ncommit-date: 2026-03-02\nhost: x86_64-unknown-linux-gnu\nrelease: 1.94.0\nLLVM version: 21.1.8"; required="host: x86_64-unknown-linux-gnu"
+OK Native Go build and host: actual=["linux","amd64","linux","amd64"]; required=["linux","amd64","linux","amd64"]
