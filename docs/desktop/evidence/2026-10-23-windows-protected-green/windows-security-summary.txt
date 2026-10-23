@@ -1,0 +1,348 @@
+Windows x64 protected files and locks	Set up job	﻿2026-10-23T04:23:55.0102113Z Current runner version: '2.338.0'
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0170391Z ##[group]Runner Image Provisioner
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0171223Z Hosted Compute Agent
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0171734Z Version: 20261012.601
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0172313Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0172972Z Build Date: 2026-10-12T17:48:21Z
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0173566Z Worker ID: {26a92782-6b6c-4cec-8073-6c3ac439eec5}
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0174220Z Region: eastus
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0174680Z Cloud: Azure
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0175123Z ##[endgroup]
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0176418Z ##[group]Operating System
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0177007Z Microsoft Windows Server 2022
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0177606Z 10.0.20348
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0178046Z Datacenter
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0178485Z ##[endgroup]
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0178970Z ##[group]Runner Image
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0179473Z Image: windows-2022
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0179967Z Version: 20261012.333.1
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0180968Z Included Software: https://github.com/actions/runner-images/blob/win22/20261012.333/images/windows/Windows2022-Readme.md
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0182757Z Image Release: https://github.com/actions/runner-images/releases/tag/win22%2F20261012.333
+Windows x64 protected files and locks	Set up job	2026-10-23T04:23:55.0183614Z ##[endgroup]
+Windows x64 protected files and locks	Check actual native runtime	﻿2026-10-23T04:24:31.4012682Z ##[group]Run node -e 'console.log(JSON.stringify({os:process.platform,arch:process.arch,node:process.version})); if(process.platform!=="win32" || process.arch!=="x64") process.exit(1)'
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4014073Z [36;1mnode -e 'console.log(JSON.stringify({os:process.platform,arch:process.arch,node:process.version})); if(process.platform!=="win32" || process.arch!=="x64") process.exit(1)'[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4014886Z [36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4015204Z [36;1mgo version[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4015458Z [36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4015984Z [36;1m$target = go env GOOS GOARCH[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4016289Z [36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4016577Z [36;1m$target[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4017082Z [36;1mif (($target -join '/') -ne 'windows/amd64') { throw "Native Go target mismatch: actual=$($target -join '/'); required=windows/amd64" }[0m
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4107374Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4107744Z env:
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4107928Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4108131Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.4108328Z ##[endgroup]
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.6991463Z {"os":"win32","arch":"x64","node":"v24.22.1"}
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.7675771Z go version go1.27.3 windows/amd64
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.8126764Z windows
+Windows x64 protected files and locks	Check actual native runtime	2026-10-23T04:24:31.8130617Z amd64
+Windows x64 protected files and locks	Prepare canonical pinned TEE	﻿2026-10-23T04:24:31.9138297Z ##[group]Run node desktop/scripts/prepare-tee.mjs
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9138774Z [36;1mnode desktop/scripts/prepare-tee.mjs[0m
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9177920Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9178288Z env:
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9178470Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9178673Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:31.9178866Z ##[endgroup]
+Windows x64 protected files and locks	Prepare canonical pinned TEE	2026-10-23T04:24:35.0597956Z TEE dependency verified: revision=a687f86d781e825c04c1d84d75b41bba5d862254; archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; path=D:\a\bee\bee\.cache\reclaim-tee
+Windows x64 protected files and locks	Protected file and process-lock behavior	﻿2026-10-23T04:24:35.1772512Z ##[group]Run go test ./agent -run 'Test.*(PrivateFile|StateLock|Codex|ClaudeStore)' -count=1 -v
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1773277Z [36;1mgo test ./agent -run 'Test.*(PrivateFile|StateLock|Codex|ClaudeStore)' -count=1 -v[0m
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1813947Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1814301Z env:
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1814484Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1814686Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.1814905Z ##[endgroup]
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.4874591Z go: downloading github.com/prometheus/client_golang v1.24.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.4875544Z go: downloading github.com/golang-jwt/jwt/v5 v5.3.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.4876237Z go: downloading github.com/coder/websocket v1.8.14
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.5005460Z go: downloading golang.org/x/sys v0.48.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:35.9313866Z go: downloading golang.org/x/text v0.41.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:36.7318296Z go: downloading github.com/gorilla/websocket v1.5.3
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.0073029Z go: downloading github.com/beorn7/perks v1.0.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.0255215Z go: downloading github.com/cespare/xxhash/v2 v2.3.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.0921900Z go: downloading github.com/prometheus/client_model v0.6.2
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.1085367Z go: downloading github.com/prometheus/common v0.70.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.3183731Z go: downloading google.golang.org/protobuf v1.36.12
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.4905111Z go: downloading cloud.google.com/go/kms v1.33.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:38.8499675Z go: downloading cloud.google.com/go v0.123.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.0734843Z go: downloading cloud.google.com/go/logging v1.19.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.0735831Z go: downloading cloud.google.com/go/secretmanager v1.21.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.3536127Z go: downloading github.com/aws/aws-sdk-go-v2 v1.43.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.3707340Z go: downloading github.com/aws/aws-sdk-go-v2/config v1.32.37
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.5693364Z go: downloading github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.44.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.7202003Z go: downloading github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.7222675Z go: downloading github.com/fxamacker/cbor/v2 v2.9.3
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.7223739Z go: downloading github.com/google/go-eventlog v0.0.3-0.20260617163629-883cc5652c69
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:39.8266674Z go: downloading github.com/google/go-sev-guest v0.15.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:40.3915981Z go: downloading github.com/google/go-tpm-tools v0.4.9
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:40.3916635Z go: downloading github.com/google/go-tpm v0.9.8
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:40.6150365Z go: downloading go.uber.org/zap v1.28.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:40.8331012Z go: downloading golang.org/x/crypto v0.55.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:41.1932316Z go: downloading google.golang.org/grpc v1.83.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:41.2957157Z go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:41.3402707Z go: downloading cloud.google.com/go/longrunning v1.2.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:41.4255374Z go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260819154853-08b0e4226688
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:41.5255730Z go: downloading google.golang.org/genproto v0.0.0-20260819154853-08b0e4226688
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:44.0425800Z go: downloading cloud.google.com/go/iam v1.13.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:44.0427806Z go: downloading github.com/googleapis/gax-go/v2 v2.23.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:44.2160969Z go: downloading go.opentelemetry.io/otel/trace v1.45.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:44.3123198Z go: downloading go.opentelemetry.io/otel v1.45.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:44.4887357Z go: downloading google.golang.org/api v0.293.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:52.7982962Z go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260819154853-08b0e4226688
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:52.7985080Z go: downloading github.com/aws/smithy-go v1.27.8
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.3724289Z go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.36
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.4559984Z go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.37
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.4561922Z go: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.5.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.4564403Z go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.38.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.4564946Z go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.33.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.5608865Z go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.45.6
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.5740696Z go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.37
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.5813026Z go: downloading github.com/x448/float16 v0.8.4
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.6138866Z go: downloading github.com/google/logger v1.1.2
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.6190783Z go: downloading github.com/google/uuid v1.6.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.6247582Z go: downloading go.uber.org/multierr v1.11.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.6756269Z go: downloading github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260706204617-c9f710ef3461
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.6795631Z go: downloading github.com/google/go-tdx-guest v0.3.2-0.20250814004405-ffb0869e6f4d
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.7163983Z go: downloading golang.org/x/net v0.58.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.7437371Z go: downloading go.opentelemetry.io/otel/metric v1.45.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.8027004Z go: downloading cloud.google.com/go/auth v0.23.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:53.8073892Z go: downloading golang.org/x/oauth2 v0.36.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.4912442Z go: downloading cloud.google.com/go/auth/oauth2adapt v0.2.8
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.4913500Z go: downloading cloud.google.com/go/compute/metadata v0.9.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.4914777Z go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.70.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.5333862Z go: downloading golang.org/x/time v0.15.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.5650112Z go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.5908994Z go: downloading golang.org/x/sync v0.22.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.6611578Z go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.37
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.6711662Z go: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.38
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.6989816Z go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.17
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.7364404Z go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.37
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.7756127Z go: downloading github.com/go-logr/logr v1.4.4
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:54.8742798Z go: downloading github.com/google/s2a-go v0.1.9
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:55.1709740Z go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.21
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:55.7686962Z go: downloading github.com/felixge/httpsnoop v1.1.0
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:55.8054966Z go: downloading github.com/go-logr/stdr v1.2.2
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:24:55.8181168Z go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.2032404Z === RUN   TestClaudeStoreChoices
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.2063477Z --- PASS: TestClaudeStoreChoices (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.2064555Z === RUN   TestOpenAIReportsTheLocalCodexVersion
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.2119741Z --- PASS: TestOpenAIReportsTheLocalCodexVersion (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.2120520Z === RUN   TestCodexOnPath
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4241729Z --- PASS: TestCodexOnPath (0.21s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4242276Z === RUN   TestPrivateFileRoundTrip
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4520679Z --- PASS: TestPrivateFileRoundTrip (0.03s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4521431Z === RUN   TestPrivateFileRejectsSymbolicLinks
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4645284Z --- PASS: TestPrivateFileRejectsSymbolicLinks (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4646419Z === RUN   TestPrivateFileRefreshReplacementRejectsSymbolicLinks
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4776065Z --- PASS: TestPrivateFileRefreshReplacementRejectsSymbolicLinks (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4776915Z === RUN   TestPrivateFileWriteFailurePreservesPreviousFile
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4917443Z --- PASS: TestPrivateFileWriteFailurePreservesPreviousFile (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4918190Z === RUN   TestPrivateFileRefusesDirectoryReplacement
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4938150Z --- PASS: TestPrivateFileRefusesDirectoryReplacement (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.4938961Z === RUN   TestPrivateFileWindowsUsesProtectedCurrentUserACL
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5062899Z --- PASS: TestPrivateFileWindowsUsesProtectedCurrentUserACL (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5063714Z === RUN   TestPrivateFileWindowsRejectsOtherUsersReadAccess
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5081535Z --- PASS: TestPrivateFileWindowsRejectsOtherUsersReadAccess (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5082325Z === RUN   TestStateLockWindowsUsesProtectedCurrentUserACL
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5097567Z --- PASS: TestStateLockWindowsUsesProtectedCurrentUserACL (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5098352Z === RUN   TestStateLockWindowsRejectsOtherUsersReadAccess
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5115478Z --- PASS: TestStateLockWindowsRejectsOtherUsersReadAccess (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5116280Z === RUN   TestPrivateFileWindowsFailedReplacementKeepsOriginal
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5328733Z --- PASS: TestPrivateFileWindowsFailedReplacementKeepsOriginal (0.02s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5330220Z === RUN   TestPrivateFileProtectionRemedyMatchesOperatingSystem
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5331599Z === RUN   TestPrivateFileProtectionRemedyMatchesOperatingSystem/BEE-CONFIG-PERMISSIONS
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5332685Z === RUN   TestPrivateFileProtectionRemedyMatchesOperatingSystem/BEE-DEVICE-CONFIG
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5333639Z --- PASS: TestPrivateFileProtectionRemedyMatchesOperatingSystem (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5334775Z     --- PASS: TestPrivateFileProtectionRemedyMatchesOperatingSystem/BEE-CONFIG-PERMISSIONS (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5336848Z     --- PASS: TestPrivateFileProtectionRemedyMatchesOperatingSystem/BEE-DEVICE-CONFIG (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5338260Z === RUN   TestSetupFindsCodexHomeFromTheEnvironment
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5783043Z --- PASS: TestSetupFindsCodexHomeFromTheEnvironment (0.05s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5783785Z === RUN   TestStateLockChildProcess
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5784445Z --- PASS: TestStateLockChildProcess (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.5784978Z === RUN   TestStateLockExcludesOtherProcesses
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6187740Z --- PASS: TestStateLockExcludesOtherProcesses (0.04s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6188799Z === RUN   TestStateLockReleasedWhenHolderExits
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6417900Z --- PASS: TestStateLockReleasedWhenHolderExits (0.02s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6418682Z === RUN   TestStateLockUnlockCannotReleaseANewerLock
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6648246Z --- PASS: TestStateLockUnlockCannotReleaseANewerLock (0.02s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6649219Z === RUN   TestStateLockRefusesSymbolicLinks
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6673681Z --- PASS: TestStateLockRefusesSymbolicLinks (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6674877Z === RUN   TestCodexCredentialInspectionThroughMacOSKeychain
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6676568Z     codex_test.go:28: set TEST_CODEX_KEYCHAIN=1 to exercise a temporary synthetic entry in the macOS Keychain
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6677787Z --- SKIP: TestCodexCredentialInspectionThroughMacOSKeychain (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6678418Z === RUN   TestCodexLinuxKeyringDoesNotSilentlySelectFile
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6679199Z     codex_test.go:68: Linux persistent Keyring compatibility gate
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6680640Z --- SKIP: TestCodexLinuxKeyringDoesNotSilentlySelectFile (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6682273Z === RUN   TestCodexCredentialInspectionUsesOfficialFileWithoutCopyingSecrets
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6711549Z --- PASS: TestCodexCredentialInspectionUsesOfficialFileWithoutCopyingSecrets (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6712282Z === RUN   TestCodexCredentialInspectionAcceptsGroupReadableOfficialFile
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6734361Z --- PASS: TestCodexCredentialInspectionAcceptsGroupReadableOfficialFile (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6735777Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6737460Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/api_key
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6755494Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/api_mode
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6775207Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/flat_proxy
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6795096Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/expired
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6817886Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unknown_expiry
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6841665Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/wrong_account
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6865452Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/wrong_user
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6887289Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unsafe_identity
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6913016Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/bedrock
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6936541Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unknown_plan
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6959007Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/fedramp
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.6982255Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/ephemeral
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7000626Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/secrets
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7018190Z === RUN   TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/missing_store
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7034969Z --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization (0.03s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7036548Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/api_key (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7039670Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/api_mode (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7041665Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/flat_proxy (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7043484Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/expired (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7045393Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unknown_expiry (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7047282Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/wrong_account (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7049123Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/wrong_user (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7051025Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unsafe_identity (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7052857Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/bedrock (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7055011Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/unknown_plan (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7058307Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/fedramp (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7059507Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/ephemeral (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7060997Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/secrets (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7062880Z     --- PASS: TestCodexCredentialInspectionRejectsUnsupportedOrExpiredAuthorization/missing_store (0.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.7063627Z === RUN   TestCodexCredentialInspectionAcceptsEveryKnownPlan
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8409465Z --- PASS: TestCodexCredentialInspectionAcceptsEveryKnownPlan (0.14s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8410333Z === RUN   TestDoctorWarnsOnAnExpiredCodexToken
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8488983Z --- PASS: TestDoctorWarnsOnAnExpiredCodexToken (0.01s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8489865Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8490643Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/upload_retry
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8542110Z time=2026-10-23T04:25:51.850Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8552249Z time=2026-10-23T04:25:51.854Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53578/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8558121Z time=2026-10-23T04:25:51.855Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.8577030Z time=2026-10-23T04:25:51.856Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:51.9044335Z time=2026-10-23T04:25:51.904Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9085815Z time=2026-10-23T04:25:53.907Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9099193Z time=2026-10-23T04:25:53.909Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9134039Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/reencrypt
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9182236Z time=2026-10-23T04:25:53.917Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9187811Z time=2026-10-23T04:25:53.918Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53583/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9194135Z time=2026-10-23T04:25:53.918Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9207851Z time=2026-10-23T04:25:53.919Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:53.9221075Z time=2026-10-23T04:25:53.921Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9246363Z time=2026-10-23T04:25:55.924Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9258481Z time=2026-10-23T04:25:55.925Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9286560Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/expired
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9339386Z time=2026-10-23T04:25:55.933Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9344722Z time=2026-10-23T04:25:55.933Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53587/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9352760Z time=2026-10-23T04:25:55.934Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9366006Z time=2026-10-23T04:25:55.936Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:55.9877313Z time=2026-10-23T04:25:55.987Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:57.9906370Z time=2026-10-23T04:25:57.989Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:57.9924712Z time=2026-10-23T04:25:57.991Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:57.9957809Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/response_lost
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:58.0079259Z time=2026-10-23T04:25:58.004Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:58.0085968Z time=2026-10-23T04:25:58.007Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53593/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:58.0092849Z time=2026-10-23T04:25:58.009Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:25:58.0107738Z time=2026-10-23T04:25:58.010Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:00.0379710Z time=2026-10-23T04:26:00.037Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:00.9985933Z time=2026-10-23T04:26:00.997Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:00.9990878Z time=2026-10-23T04:26:00.998Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53593/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:00.9999279Z time=2026-10-23T04:26:00.999Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:01.0010997Z time=2026-10-23T04:26:01.000Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:03.0054840Z time=2026-10-23T04:26:03.004Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0004132Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/official_updated
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0076305Z time=2026-10-23T04:26:04.007Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0082144Z time=2026-10-23T04:26:04.007Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53600/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0089475Z time=2026-10-23T04:26:04.008Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0104884Z time=2026-10-23T04:26:04.010Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:04.0299005Z time=2026-10-23T04:26:04.027Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0326608Z time=2026-10-23T04:26:06.031Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0340809Z time=2026-10-23T04:26:06.033Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0368402Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/account_changed
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0418272Z time=2026-10-23T04:26:06.041Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0424983Z time=2026-10-23T04:26:06.041Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53605/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0431054Z time=2026-10-23T04:26:06.042Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:06.0445087Z time=2026-10-23T04:26:06.043Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:09.0409724Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/partial_write
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:09.0486382Z time=2026-10-23T04:26:09.047Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:09.0492188Z time=2026-10-23T04:26:09.048Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53615/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:09.0498849Z time=2026-10-23T04:26:09.049Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:09.0513164Z time=2026-10-23T04:26:09.050Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:12.0446750Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/save_failure
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:12.0514766Z time=2026-10-23T04:26:12.045Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:12.0520995Z time=2026-10-23T04:26:12.051Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53620/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:12.0529585Z time=2026-10-23T04:26:12.052Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:12.0542224Z time=2026-10-23T04:26:12.052Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:14.0801939Z time=2026-10-23T04:26:14.078Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:15.0465734Z time=2026-10-23T04:26:15.045Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:15.0470595Z time=2026-10-23T04:26:15.046Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53620/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:15.0478576Z time=2026-10-23T04:26:15.047Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:15.0488948Z time=2026-10-23T04:26:15.047Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:17.0514959Z time=2026-10-23T04:26:17.050Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0493236Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/concurrent_bees
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0549851Z time=2026-10-23T04:26:18.054Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0551220Z time=2026-10-23T04:26:18.054Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0556184Z time=2026-10-23T04:26:18.055Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53627/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0558342Z time=2026-10-23T04:26:18.055Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53627/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0564047Z time=2026-10-23T04:26:18.056Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0566109Z time=2026-10-23T04:26:18.056Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0584442Z time=2026-10-23T04:26:18.057Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.0586631Z time=2026-10-23T04:26:18.058Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:18.2564660Z time=2026-10-23T04:26:18.256Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0621252Z time=2026-10-23T04:26:20.061Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0638169Z time=2026-10-23T04:26:20.063Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0674557Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/key_rotates_on_upload
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0742652Z time=2026-10-23T04:26:20.073Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0748590Z time=2026-10-23T04:26:20.074Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53634/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0754545Z time=2026-10-23T04:26:20.074Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.0796311Z time=2026-10-23T04:26:20.078Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:20.1472353Z time=2026-10-23T04:26:20.146Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1504387Z time=2026-10-23T04:26:22.149Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=rotated-task key_version=2
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1517581Z time=2026-10-23T04:26:22.150Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=rotated-task
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1550034Z === RUN   TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/expires_on_upload
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1595095Z time=2026-10-23T04:26:22.159Z level=INFO msg="bee dev windows/amd64" service=bee module=connect
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1600951Z time=2026-10-23T04:26:22.159Z level=INFO msg="connecting to Hive" service=bee module=connect endpoint=ws://127.0.0.1:53644/api/bee/agent delay_backoff=1s
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1607711Z time=2026-10-23T04:26:22.160Z level=INFO msg="authorization synchronization started" service=bee module=sync platform=OpenAI
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.1621928Z time=2026-10-23T04:26:22.161Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:22.2069171Z time=2026-10-23T04:26:22.206Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2099526Z time=2026-10-23T04:26:24.209Z level=INFO msg="openai maintenance task received" service=bee module=maintenance task=maintenance-test key_version=1
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2112093Z time=2026-10-23T04:26:24.210Z level=INFO msg="openai maintenance task completed" service=bee module=maintenance task=maintenance-test
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2147583Z --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry (32.37s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2150103Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/upload_retry (2.06s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2151727Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/reencrypt (2.02s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2153190Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/expired (2.07s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2155328Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/response_lost (6.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2157044Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/official_updated (2.04s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2159011Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/account_changed (3.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2160762Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/partial_write (3.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2162284Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/save_failure (6.00s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2163790Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/concurrent_bees (2.02s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2165353Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/key_rotates_on_upload (2.09s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2166875Z     --- PASS: TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry/expires_on_upload (2.06s)
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2167719Z PASS
+Windows x64 protected files and locks	Protected file and process-lock behavior	2026-10-23T04:26:24.2188621Z ok  	github.com/tokhive/bee/agent	33.045s
+Windows x64 protected files and locks	Go vet	﻿2026-10-23T04:26:25.0319499Z ##[group]Run go vet ./...
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0319871Z [36;1mgo vet ./...[0m
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0377488Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0377850Z env:
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0378025Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0378223Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Go vet	2026-10-23T04:26:25.0378402Z ##[endgroup]
+Windows x64 protected files and locks	Full Go regression	﻿2026-10-23T04:26:37.3588304Z ##[group]Run go test ./... -count=1
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3588719Z [36;1mgo test ./... -count=1[0m
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3630363Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3630726Z env:
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3630902Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3631096Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:26:37.3631289Z ##[endgroup]
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4029076Z ok  	github.com/tokhive/bee/agent	53.982s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4029761Z ok  	github.com/tokhive/bee/beewire	0.085s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4030129Z ok  	github.com/tokhive/bee/cmd/bee	0.247s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4030498Z ok  	github.com/tokhive/bee/desktopbridge	0.049s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4030904Z ok  	github.com/tokhive/bee/logx	0.077s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4031240Z ok  	github.com/tokhive/bee/relay	1.061s
+Windows x64 protected files and locks	Full Go regression	2026-10-23T04:27:34.4031569Z ok  	github.com/tokhive/bee/telemetry	0.036s
+Windows x64 protected files and locks	Build actual Windows Bee	﻿2026-10-23T04:27:34.6587766Z ##[group]Run go build -trimpath -o bee-windows-test.exe ./cmd/bee
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6588396Z [36;1mgo build -trimpath -o bee-windows-test.exe ./cmd/bee[0m
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6629818Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6630170Z env:
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6630594Z   GOTOOLCHAIN: local
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6630807Z   CGO_ENABLED: 0
+Windows x64 protected files and locks	Build actual Windows Bee	2026-10-23T04:27:34.6630990Z ##[endgroup]
