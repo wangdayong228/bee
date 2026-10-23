@@ -86,16 +86,17 @@ func readEgress(ctx context.Context, path string) (*egressConfig, error) {
 		return nil, fail("BEE-CONFIG-UNREADABLE", path)
 	case !info.Mode().IsRegular():
 		return nil, fail("BEE-CONFIG-NOT-REGULAR", path)
-	case info.Mode().Perm()&0077 != 0:
-		return nil, failf("BEE-CONFIG-PERMISSIONS", "%s has mode %04o", path, info.Mode().Perm())
 	case info.Size() > 65536:
 		return nil, fail("BEE-CONFIG-TOO-LARGE", path)
 	}
-	file, err := os.Open(path)
+	file, err := openRegularNoFollow(path)
 	if err != nil {
 		return nil, fail("BEE-CONFIG-UNREADABLE", path)
 	}
 	defer file.Close()
+	if err := validatePrivateFile(file); err != nil {
+		return nil, fail("BEE-CONFIG-PERMISSIONS", err.Error())
+	}
 	raw, err := io.ReadAll(io.LimitReader(file, 65537))
 	if err != nil {
 		return nil, fail("BEE-CONFIG-UNREADABLE", path)

@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"syscall"
 	"testing"
 	"time"
 
@@ -143,7 +142,7 @@ func TestDoctorRunsBesideALockedConfiguration(t *testing.T) {
 		t.Fatal(err)
 	}
 	defer lock.Close()
-	if err := syscall.Flock(int(lock.Fd()), syscall.LOCK_EX|syscall.LOCK_NB); err != nil {
+	if err := lockDoctorTestFile(lock); err != nil {
 		t.Fatal(err)
 	}
 	if report, err := runDoctor(t, "--config", config, "--egress-config", egress); err != nil || !report.OK {

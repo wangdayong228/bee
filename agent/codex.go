@@ -8,13 +8,12 @@ import (
 	"encoding/json"
 	"errors"
 	"flag"
+	"fmt"
 	"io"
 	"net/http"
-	"os"
 	"os/exec"
 	"path/filepath"
 	"runtime"
-	"syscall"
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
@@ -140,23 +139,19 @@ func (source codexSource) readForMaintenance(ctx context.Context) (codexCredenti
 }
 
 func readCodexFile(path string) ([]byte, error) {
-	info, err := os.Lstat(path)
-	if err != nil || !info.Mode().IsRegular() {
-		return nil, errors.New("official auth.json does not exist or is not a regular file; verify the authorization directory")
-	}
-	fd, err := syscall.Open(path, syscall.O_RDONLY|syscall.O_NOFOLLOW, 0)
+	file, err := openRegularNoFollow(path)
 	if err != nil {
-		return nil, errors.New("failed to read official auth.json; sign in with official Codex and verify --codex-home and the storage mode")
+		return nil, fmt.Errorf("open official authorization file without following links: %w", err)
 	}
-	file := os.NewFile(uintptr(fd), path)
 	defer file.Close()
-	info, err = file.Stat()
-	if err != nil || !info.Mode().IsRegular() {
-		return nil, errors.New("official auth.json must be a regular file")
-	}
 	raw, err := io.ReadAll(io.LimitReader(file, 65537))
-	if err != nil || len(raw) > 65536 {
-		return nil, errors.New("failed to read official auth.json or file exceeds 64 KiB")
+	if err != nil {
+		return nil, fmt.Errorf("read official authorization file %q: %w", path, err)
+	}
+	if len(raw) > 65536 {
+		size := len(raw)
+		clear(raw)
+		return nil, fmt.Errorf("official authorization file %q exceeds 64 KiB: bytes read=%d; required<=65536", path, size)
 	}
 	return raw, nil
 }
