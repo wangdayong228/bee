@@ -1,0 +1,12 @@
+[
+  {
+    "pid": 87342,
+    "ppid": 1,
+    "command": "/Users/dayong/Applications/Bee P0 Acceptance 20261023/Bee Dev.app/Contents/MacOS/bee-desktop"
+  },
+  {
+    "pid": 87427,
+    "ppid": 87342,
+    "command": "/Users/dayong/Applications/Bee P0 Acceptance 20261023/Bee Dev.app/Contents/MacOS/bee desktop"
+  }
+]

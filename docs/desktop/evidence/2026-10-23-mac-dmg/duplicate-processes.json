@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-23T03:18:11.505652+00:00",
+  "trigger": "spawn exact signed App executable as a second native process",
+  "secondary_pid": 64857,
+  "secondary_exit": 0,
+  "stdout": "",
+  "stderr": "",
+  "before": [
+    {
+      "pid": 34970,
+      "ppid": 1,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+    },
+    {
+      "pid": 35004,
+      "ppid": 34970,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+    }
+  ],
+  "samples": [
+    {
+      "elapsed": 0.043,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        },
+        {
+          "pid": 64857,
+          "ppid": 64846,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.121,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.191,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.258,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.333,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.402,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.463,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.524,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.589,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.652,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.729,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.802,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.872,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 0.941,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    },
+    {
+      "elapsed": 1.008,
+      "processes": [
+        {
+          "pid": 34970,
+          "ppid": 1,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+        },
+        {
+          "pid": 35004,
+          "ppid": 34970,
+          "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "pid": 34970,
+      "ppid": 1,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+    },
+    {
+      "pid": 35004,
+      "ppid": 34970,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+    }
+  ]
+}

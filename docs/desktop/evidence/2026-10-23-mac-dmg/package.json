@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-23T03:22:46.516590+00:00",
+  "dmg": "desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_aarch64.dmg",
+  "bytes": 22837507,
+  "sha256": "c4c663e253c22a62d55d1f8aa16073dc9ce8e1e23aa1c1293a1f5f508c59e6a9",
+  "mount_readonly": true,
+  "installation": "ditto copy from mounted DMG into per-user Applications; no developer tool installation",
+  "installed_app": "/Users/dayong/Applications/Bee P0 Acceptance 20261023/Bee Dev.app",
+  "codesign_exit": 0,
+  "app_sha256": "ffcb462486e553b4558e94dffd7a3c0dec8abcd857276f656cf6077e01694eb4",
+  "bee_sha256": "f34969cfe6cf849a75cbf8a73a78f73ce1851e271ff9ea9071ac228b4a617738"
+}

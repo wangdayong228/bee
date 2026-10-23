@@ -1,0 +1,32 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 heading Bee, Value: 1
+					5 text Bee
+				6 text P0 · 桌面底座验证
+				7 container 验证状态
+					8 heading 尚未开始贡献, Value: 2
+						9 text 尚未开始贡献
+					10 text 已收到登录返回
+					11 text 此验证页仅用于检查桌面底座，不启动贡献或连接账号。
+					12 description list
+						13 text 当前系统（构建目标）
+						14 container 当前系统
+							15 text darwin/arm64
+						16 text 管理进程
+						17 container 管理进程
+							18 text 管理协议已就绪
+						19 text 内置 Bee 版本
+						20 text dev+f4374af17a6c-dirty
+						21 text 管理进程系统
+						22 container
+							23 text darwin / arm64
+					24 button 检查存活
+	25 close button
+	26 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	27 minimize button
+	28 text Bee · 开发验证
+29 menu bar
+	30 Bee Dev

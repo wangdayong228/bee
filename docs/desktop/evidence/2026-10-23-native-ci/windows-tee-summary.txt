@@ -1,0 +1,54 @@
+10.0.20348
+{"os":"win32","arch":"x64","node":"v24.22.1"}
+✔ preflight accepts the approved macOS toolchain and rejects macOS/SDK below 13 (1.4568ms)
+✔ preflight reports actual and required versions instead of accepting old tools (0.5132ms)
+✔ preflight reports a missing native tool and fails for unsupported systems (0.2157ms)
+✔ target mapping preserves all five approved OS/architecture pairs (13.3172ms)
+✔ TEE export matches git archive and the existing shell cache marker (738.8197ms)
+✔ TEE archive keeps pinned blob LF bytes and canonical SHA despite CRLF Git configuration (780.3878ms)
+✔ TEE refuses altered cache content and preserves the existing data (488.0621ms)
+✔ Windows TEE export copies archive file targets and revalidates the deterministic cache (681.7546ms)
+✔ Windows TEE cache rejects tampered service-link and preserves existing bytes (532.243ms)
+✔ Windows TEE cache rejects tampered go.mod and preserves existing bytes (520.7718ms)
+✔ Windows TEE cache rejects tampered .archive-sha256 and preserves existing bytes (504.9453ms)
+✔ TEE archive rejects absolute link targets before creating a cache (418.583ms)
+✔ TEE archive rejects Windows absolute link targets before creating a cache (471.2449ms)
+✔ TEE archive rejects escaping link targets before creating a cache (399.3611ms)
+✔ TEE archive rejects missing link targets before creating a cache (409.7046ms)
+✔ TEE archive rejects missing intermediate directory link targets before creating a cache (386.1533ms)
+✔ TEE archive rejects file as intermediate directory link targets before creating a cache (389.1329ms)
+✔ TEE archive rejects cyclic link targets before creating a cache (452.1555ms)
+✔ TEE archive rejects directory link targets before creating a cache (453.8317ms)
+✔ TEE validates the complete archive before writing: special target (248.8006ms)
+✔ TEE validates the complete archive before writing: non-directory parent (249.5558ms)
+✔ TEE validates the complete archive before writing: duplicate path (233.3531ms)
+✔ TEE validates the complete archive before writing: missing end marker (231.3461ms)
+✔ TEE link resolution refuses a missing archive target even when the existing cache supplies it (385.9008ms)
+✔ TEE rejects an invalid revision before creating a cache (230.7707ms)
+✔ sidecar build rejects a Rust target mismatch before running Go (234.8554ms)
+✔ sidecar build records the actual binary version, target and SHA256 (235.8646ms)
+✔ macOS sidecar enforces deployment target 13 and rejects a newer actual minimum (253.7172ms)
+✔ sidecar build rejects a binary reporting a different OS or architecture (227.9965ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 10374.6584
+✔ native host verifies the real pinned TEE export, existing cache and tamper rejection (19221.8731ms)
+ℹ OS=win32; release=10.0.20348; arch=x64; node=v24.22.1; git=git version 2.56.0.windows.2; revision=a687f86d781e825c04c1d84d75b41bba5d862254
+ℹ archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; requiredArchiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38
+ℹ result=PASS first-export; serviceSHA256=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; representation=ordinary-file-copy
+ℹ result=PASS existing-cache-revalidation
+ℹ result=PASS tamper-rejection; evidence=TEE cache deploy\snp-image\mkosi.extra\etc\systemd\system\multi-user.target.wants\snp-prober.service SHA256 mismatch: actual=a55cfcbd015ea011cee4e4812b06a2d8d9b9356b1f3aaf3662a2c7c94b56b9cb; expected=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; existing cache preserved
+ℹ result=PASS tamper-rejection; evidence=TEE cache deploy\snp-image\mkosi.extra\etc\systemd\system\snp-prober.service SHA256 mismatch: actual=a55cfcbd015ea011cee4e4812b06a2d8d9b9356b1f3aaf3662a2c7c94b56b9cb; expected=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; existing cache preserved
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19387.5237

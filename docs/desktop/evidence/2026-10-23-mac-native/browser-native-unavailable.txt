@@ -1,0 +1,30 @@
+[p1 "Bee" | space "Bee P0 Mac 自动验收 2026-10-23"(15): 1 managed, 0 untracked — p1* "Bee"]
+root
+  container
+    container
+      image
+      container
+        heading
+          text "Bee"
+        paragraph
+          text "P0 · 桌面底座验证"
+    container "验证状态"
+      heading
+        text "尚未开始贡献"
+      paragraph
+        text "此验证页仅用于检查桌面底座，不启动贡献或连接账号。"
+      unordered_list
+        list_item
+          text "当前系统（构建目标）"
+        list_item "当前系统"
+          text "darwin/arm64"
+        list_item
+          text "管理进程"
+        list_item "管理进程"
+          text "管理进程检查失败"
+      alert
+        text "NATIVE_UNAVAILABLE"
+        text "："
+        text "当前页面没有 Tauri 原生运行环境，无法检查内置 Bee。"
+      button [ref=1]
+        text "重新检查"

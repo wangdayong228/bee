@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-23T03:32:11.003854+00:00",
+  "scope": "current macOS arm64 duplicate native process and per-user Applications installation from development DMG; not clean user/minimum OS/tray acceptance",
+  "files": {
+    "duplicate-processes.json": "91dc06bfed8b0eca9ca2acb6e225ec7028c5ce6be1e3000f90fe2597f0c61413",
+    "duplicate-window.ax.txt": "426ddefed0d16eac4d359514fc6819a611d6f8e448fb4f42eafb884729387003",
+    "duplicate-window.jpg": "a6bd6b2a62980d9f4fadd2e87e8d0ba2f94f36f99c42587a512b3f47b0179d6e",
+    "installed-ping.ax.txt": "9654e23dc7073822992e0a2f8618221a6fc821128e61491ed97a60c26256ecad",
+    "installed-ping.jpg": "155cceed6d099b11d598a54fb7b685932bfe0409d054ec9cb004283de3d53165",
+    "package.json": "d3f13773fe97e76bed18416f8b3e3398076e0e25a6a34b4cfbe49c92eb35297c",
+    "processes-before-exit.json": "105208c4b11e597955150e473fd441a1412d279eb6149dd59105c1f832b48c9a",
+    "exit-result.json": "4228a012dce7f23764a58dd058fcd1af876a85105ecc4ae0f329d2e60dd70093",
+    "dmg-verify.log": "ec4e5c2297306a8494ff3513f1184a1d4a69e99a4554e1fa82b2d57901c70a26",
+    "codesign-installed.log": "bc04baa6291f1cdf578f799444262a32c6032805db1817826f6197047f546476"
+  }
+}

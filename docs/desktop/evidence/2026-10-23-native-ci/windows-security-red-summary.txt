@@ -1,0 +1,50 @@
+go version go1.27.3 windows/amd64
+go version go1.27.3 windows/amd64
+=== RUN   TestPrivateFileRoundTrip
+    private_file_test.go:13: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileRoundTrip2082790103\\001\\bee.json"
+--- FAIL: TestPrivateFileRoundTrip (0.00s)
+=== RUN   TestPrivateFileRejectsSymbolicLinks
+    private_file_test.go:30: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileRejectsSymbolicLinks374880663\\001\\original.json"
+--- FAIL: TestPrivateFileRejectsSymbolicLinks (0.00s)
+=== RUN   TestPrivateFileRefreshReplacementRejectsSymbolicLinks
+    private_file_test.go:54: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileRefreshReplacementRejectsSymbolicLinks3446340397\\001\\auth.json"
+--- FAIL: TestPrivateFileRefreshReplacementRejectsSymbolicLinks (0.00s)
+=== RUN   TestPrivateFileWriteFailurePreservesPreviousFile
+    private_file_test.go:70: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileWriteFailurePreservesPreviousFile2621482690\\001\\bee.json"
+--- FAIL: TestPrivateFileWriteFailurePreservesPreviousFile (0.00s)
+=== RUN   TestPrivateFileRefusesDirectoryReplacement
+=== RUN   TestPrivateFileWindowsUsesProtectedCurrentUserACL
+    private_file_windows_test.go:17: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileWindowsUsesProtectedCurrentUserACL1512402145\\001\\bee.json"
+--- FAIL: TestPrivateFileWindowsUsesProtectedCurrentUserACL (0.00s)
+=== RUN   TestPrivateFileWindowsRejectsOtherUsersReadAccess
+=== RUN   TestPrivateFileWindowsFailedReplacementKeepsOriginal
+    private_file_windows_test.go:84: Windows synced private-file replacement is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestPrivateFileWindowsFailedReplacementKeepsOriginal2765866210\\001\\bee.json"
+--- FAIL: TestPrivateFileWindowsFailedReplacementKeepsOriginal (0.00s)
+    setup_test.go:113: [BEE-CODEX-SOURCE] Bee cannot read the official Codex sign-in: open official authorization file without following links: Windows no-reparse regular-file open is not implemented for "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\TestSetupFindsCodexHomeFromTheEnvironment3216428111\\001\\auth.json"
+          openai  not found: [BEE-CODEX-SOURCE] Bee cannot read the official Codex sign-in: open official authorization file without following links: Windows no-reparse regular-file open is not implemented for "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\TestSetupFindsCodexHomeFromTheEnvironment3216428111\\001\\auth.json"
+=== RUN   TestStateLockChildProcess
+=== RUN   TestStateLockExcludesOtherProcesses
+    state_lock_test.go:43: Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestStateLockExcludesOtherProcesses2758446292\\001\\bee.json.lock"
+--- FAIL: TestStateLockExcludesOtherProcesses (0.00s)
+=== RUN   TestStateLockReleasedWhenHolderExits
+--- FAIL: TestStateLockReleasedWhenHolderExits (0.01s)
+=== RUN   TestStateLockUnlockCannotReleaseANewerLock
+    state_lock_test.go:96: Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestStateLockUnlockCannotReleaseANewerLock2755824325\\001\\bee.json.lock"
+--- FAIL: TestStateLockUnlockCannotReleaseANewerLock (0.00s)
+=== RUN   TestStateLockRefusesSymbolicLinks
+    codex_test.go:100: open official authorization file without following links: Windows no-reparse regular-file open is not implemented for "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\TestCodexCredentialInspectionUsesOfficialFileWithoutCopyingSecre3452649808\\001\\auth.json"
+    codex_test.go:128: open official authorization file without following links: Windows no-reparse regular-file open is not implemented for "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\TestCodexCredentialInspectionAcceptsGroupReadableOfficialFile3136116624\\001\\auth.json"
+    codex_test.go:206: plan go rejected: open official authorization file without following links: Windows no-reparse regular-file open is not implemented for "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\TestCodexCredentialInspectionAcceptsEveryKnownPlan2117966143\\001\\auth.json"
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry1411982500\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry1470861139\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry1761771179\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry3128396673\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry194870320\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry182149048\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry3002590709\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry1749171205\\001\\bee.json.lock" output=
+    maintenance_test.go:228: Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry2165829293\\001\\other-bee.json.lock"
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry2165829293\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry3972283808\\001\\bee.json.lock" output=
+    maintenance_test.go:248: refresh/retry failed: refresh=0 upload=0 error=Windows exclusive configuration LockFileEx is not implemented for "C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\TestCodexMaintenanceRefreshPersistsBeforeUploadAndSurvivesRetry755788939\\001\\bee.json.lock" output=
+FAIL	github.com/tokhive/bee/agent	0.131s

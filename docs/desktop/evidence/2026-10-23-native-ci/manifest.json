@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "e4b0df8b72c223e4754a3e552baaa6e27490cfd7",
+  "files": {
+    "README.md": "233dc5de5f6381d59c3fa7c9917365c1b661952dad4a5a21e76eda52153d9398",
+    "linux-go-report.md": "9baae5f35f52ec39e0ce3c7ce6fe26a20c6fea0debf1317791613dd380932054",
+    "windows-security-red-summary.txt": "ce0159f2e183d73f3d926b65db3eea7fe59831aa5bb8737b8b4ae3dcb4409daf",
+    "windows-tee-summary.txt": "d6f1b8eeab355aa686b6174a2d6e9e3e846d790027c874028090c468def8ab09"
+  },
+  "rawLogs": {
+    "run-39896456139.log": "2ef99b7fa11dbd73c755106272182547071df829fbdc5d187fb919b82269b96a",
+    "windows-security-run-39896456172.log": "60f2c01639c01cfba999d1e36f47f30253da4824f42d002c43609837d18b51f5"
+  }
+}
