@@ -1,0 +1,70 @@
+{
+  "source": "1aca2d309d691f3f8668c7c5e7dffcefd2ca2a31",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1292,
+      "sha256": "46c45030dab4ebd0a7a2b55f391908098a74dd250e343591e19b905f3cfae277"
+    },
+    {
+      "path": "build-demo.log",
+      "bytes": 655,
+      "sha256": "f25fa2022967ae402959bdb8394f6febc7752e0d438126636c081478d9ce55e7"
+    },
+    {
+      "path": "build.log",
+      "bytes": 644,
+      "sha256": "de28209e50c84e86d8708ab36c256a94ada954012bddcc8039305915793cfce5"
+    },
+    {
+      "path": "relative-screenshots.json",
+      "bytes": 20113,
+      "sha256": "c84fb693bea6876beb3e78aab298ea3621960759d8f667c00910d0d46addc058"
+    },
+    {
+      "path": "screenshot-manifest.json",
+      "bytes": 20649,
+      "sha256": "5a25a72cceaf305589fb8563c8bae2af7de6a24605b2c2a059861e81e620e93a"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 208591,
+      "sha256": "01f76f837683ab2459c4d53dc66993134b840642a91bc83f00ddbe16b885d680"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 234380,
+      "sha256": "efe43b8eec39e43e16014c46e5444adee10d6be3a24da9d014cceb8c434cab99"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 615296,
+      "sha256": "a5cf632f9b057e936e4bff53db8daf8d824b1bc07bcc5577a50370cca135edd9"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 116255,
+      "sha256": "01b08770fc3bff2a20940efed5106ae8c33ac7f045052497ec68d4daccd82a43"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 129861,
+      "sha256": "131ea89b8501e2f81f7daddc4e1a7f2cb2fc44693926449c46da246e236e88d9"
+    },
+    {
+      "path": "test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 338703,
+      "sha256": "3f832ffef916adf0dcf3ba88cffc4f2fc51b8f432a58c69943059b9cc7cd26a9"
+    },
+    {
+      "path": "typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "visual.log",
+      "bytes": 1021,
+      "sha256": "7365ab793fe773bd17c1564f5527d8907390fbfcc0827ab69bf34575f4be9f85"
+    }
+  ]
+}

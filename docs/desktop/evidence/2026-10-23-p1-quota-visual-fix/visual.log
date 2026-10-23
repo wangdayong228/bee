@@ -1,0 +1,15 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/visual.spec.ts --workers=3 --grep 860x600-(en-light-1.5|zh-light-1): --output=/tmp/bee-p1-quota-visual-fix/test-results
+
+
+Running 6 tests using 3 workers
+
+  ✓  2 [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-zh-light-1: pages, secondary flows, lifecycle, keyboard (5.3s)
+  ✓  1 [chromium] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard (5.8s)
+  ✓  3 [firefox] › tests/visual.spec.ts:38:3 › silver 860x600-zh-light-1: pages, secondary flows, lifecycle, keyboard (7.4s)
+  ✓  5 [webkit] › tests/visual.spec.ts:38:3 › silver 860x600-zh-light-1: pages, secondary flows, lifecycle, keyboard (6.1s)
+  ✓  4 [firefox] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard (7.8s)
+  ✓  6 [webkit] › tests/visual.spec.ts:38:3 › silver 860x600-en-light-1.5: pages, secondary flows, lifecycle, keyboard (6.4s)
+
+  6 passed (16.8s)
