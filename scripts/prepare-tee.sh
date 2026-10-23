@@ -17,8 +17,8 @@ fi
 destination="$cache/reclaim-tee"
 temporary=$(mktemp -d "$cache/tee-XXXXXX")
 trap 'rm -rf "$temporary"' EXIT
-git -C "$source_repo" archive "$revision" | tar -x -C "$temporary"
-git -C "$source_repo" archive "$revision" | shasum -a 256 > "$temporary/.archive-sha256"
+git -c core.autocrlf=false -c core.eol=lf -C "$source_repo" archive "$revision" | tar -x -C "$temporary"
+git -c core.autocrlf=false -c core.eol=lf -C "$source_repo" archive "$revision" | shasum -a 256 > "$temporary/.archive-sha256"
 if [[ -e "$destination" ]]; then
   if ! diff -qr "$temporary" "$destination"; then
     echo 'TEE cache does not match the pinned commit; move .cache/reclaim-tee aside and retry.' >&2

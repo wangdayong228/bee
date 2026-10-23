@@ -153,7 +153,9 @@ export function prepareTee({ root = beeRoot, source = process.env.TEE_SOURCE ?? 
     // The pinned source includes 153 MB of circuit/native assets. Write the
     // archive directly to disk instead of overflowing child_process stdout.
     const archivePath = join(temporary, 'source.tar');
-    run('git', ['-C', source, 'archive', '--format=tar', `--output=${archivePath}`, revision], { cwd: root });
+    // Git archive applies checkout EOL conversion unless explicitly disabled;
+    // keep pinned bytes and archive SHA independent of local/global Git config.
+    run('git', ['-c', 'core.autocrlf=false', '-c', 'core.eol=lf', '-C', source, 'archive', '--format=tar', `--output=${archivePath}`, revision], { cwd: root });
     const archive = readFileSync(archivePath);
     digest = createHash('sha256').update(archive).digest('hex');
     const extracted = join(temporary, 'export');

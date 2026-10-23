@@ -52,7 +52,7 @@ test('native host verifies the real pinned TEE export, existing cache and tamper
   const destination = prepareTee({ root, source });
   assert.equal(destination, join(root, '.cache/reclaim-tee'));
   const archive = join(root, 'pinned-source.tar');
-  git(['-C', source, 'archive', '--format=tar', `--output=${archive}`, revision]);
+  git(['-c', 'core.autocrlf=false', '-c', 'core.eol=lf', '-C', source, 'archive', '--format=tar', `--output=${archive}`, revision]);
   const actualArchiveSha256 = sha256(readFileSync(archive));
   t.diagnostic(`archiveSHA256=${actualArchiveSha256}; requiredArchiveSHA256=${archiveSha256}`);
   assert.equal(actualArchiveSha256, archiveSha256, 'Pinned archive differs from the historical verified SHA256; stop and investigate without updating the expected hash');

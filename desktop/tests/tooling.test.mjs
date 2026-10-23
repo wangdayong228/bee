@@ -64,6 +64,8 @@ function fixture(t, links = {}) {
     return r.stdout.trim();
   }
   git('init', '--quiet');
+  git('config', 'core.autocrlf', 'false');
+  git('config', 'core.eol', 'lf');
   writeFileSync(join(source, 'go.mod'), 'module example.test/pinned\n\ngo 1.27.3\n');
   writeFileSync(join(source, '.gitattributes'), 'excluded export-ignore\n');
   writeFileSync(join(source, 'excluded'), 'must not be exported');
@@ -88,10 +90,32 @@ test('TEE export matches git archive and the existing shell cache marker', t => 
   const dest = join(f.root, '.cache/reclaim-tee');
   assert.equal(readFileSync(join(dest, f.longPath), 'utf8'), 'long path from git archive\n');
   assert.equal(existsSync(join(dest, 'excluded')), false);
-  const archive = spawnSync('git', ['-C', f.source, 'archive', f.revision]);
+  const archive = spawnSync('git', ['-c', 'core.autocrlf=false', '-c', 'core.eol=lf', '-C', f.source, 'archive', f.revision]);
   const expected = createHash('sha256').update(archive.stdout).digest('hex');
   assert.equal(readFileSync(join(dest, '.archive-sha256'), 'utf8'), expected + '  -\n');
   prepareTee(f);
+});
+
+test('TEE archive keeps pinned blob LF bytes and canonical SHA despite CRLF Git configuration', t => {
+  const f = fixture(t, { 'service-link': 'go.mod' });
+  function git(...args) {
+    const result = spawnSync('git', ['-C', f.source, ...args]);
+    assert.equal(result.status, 0, result.stderr.toString());
+    return result.stdout;
+  }
+  git('config', 'core.autocrlf', 'true');
+  git('config', 'core.eol', 'crlf');
+  const canonical = git('-c', 'core.autocrlf=false', '-c', 'core.eol=lf', 'archive', f.revision);
+  assert.notDeepEqual(git('archive', f.revision), canonical, 'Fixture must reproduce configured CRLF archive conversion');
+  const destination = prepareTee({ ...f, platform: 'win32' });
+  for (const name of [f.longPath, 'go.mod', 'service-link']) {
+    const blobPath = name === 'service-link' ? 'go.mod' : name;
+    assert.deepEqual(readFileSync(join(destination, name)), git('show', `${f.revision}:${blobPath}`), `${name}: must match original LF Git blob`);
+  }
+  assert.equal(readFileSync(join(destination, '.archive-sha256'), 'utf8'), createHash('sha256').update(canonical).digest('hex') + '  -\n');
+  prepareTee({ ...f, platform: 'win32' });
+  assert.equal(git('config', 'core.autocrlf').toString().trim(), 'true');
+  assert.equal(git('config', 'core.eol').toString().trim(), 'crlf');
 });
 
 test('TEE refuses altered cache content and preserves the existing data', t => {
@@ -110,7 +134,7 @@ test('Windows TEE export copies archive file targets and revalidates the determi
     assert.equal(lstatSync(join(destination, name)).isFile(), true, `${name} must be a regular file on Windows`);
     assert.deepEqual(readFileSync(join(destination, name)), readFileSync(join(destination, 'go.mod')));
   }
-  const archive = spawnSync('git', ['-C', f.source, 'archive', f.revision]);
+  const archive = spawnSync('git', ['-c', 'core.autocrlf=false', '-c', 'core.eol=lf', '-C', f.source, 'archive', f.revision]);
   assert.equal(readFileSync(join(destination, '.archive-sha256'), 'utf8'), createHash('sha256').update(archive.stdout).digest('hex') + '  -\n');
   prepareTee({ ...f, platform: 'win32' });
 });
