@@ -1,0 +1,56 @@
+{
+  "runId": 39904695326,
+  "revision": "30487662d0eab4c42a392648818e1378e2b79ffa",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1480,
+      "sha256": "ebd52a8855deb137e94e53b2968e1152d3534bcba399c906780477aff1c00dc6"
+    },
+    {
+      "path": "cargo-linker.log",
+      "bytes": 277,
+      "sha256": "8fcc317603184ba5ddee2abe9680e9f1491845f487c1b164778a44a7a7046c02"
+    },
+    {
+      "path": "cargo-test.log",
+      "bytes": 18994,
+      "sha256": "f947f806c32d07588d0736f64825765ef0e00cfacad0fa10dd739a4a00ff0b27"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 536,
+      "sha256": "353dc70daad6521b50c9f1095eccbb3bc589ac9ff3bff9f26073f708eecae897"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 1187,
+      "sha256": "8ad3e4c5cb72258acd1ffa31b52767e31610527d824ad745297ae28f9869acf9"
+    },
+    {
+      "path": "run.json",
+      "bytes": 3952,
+      "sha256": "893ec464853dfc21cb2103e7ff5eb04fb034d0d1da710961659a0a065990ac37"
+    },
+    {
+      "path": "tauri-build.log",
+      "bytes": 2062,
+      "sha256": "fa2cadc00054f48393917337f98422951ae142197e4fa58765f4a6141072f2cd"
+    },
+    {
+      "path": "tauri-linker.log",
+      "bytes": 277,
+      "sha256": "52da1549fef84210383c00c01d4cfc279f6a68f00f49a26bda09146b1bc1f0d0"
+    },
+    {
+      "path": "test-boundaries.log",
+      "bytes": 152,
+      "sha256": "0fbdd4920b94721c215f8ed80635a6ce29421132989321b48b5d312871383b1e"
+    },
+    {
+      "path": "webview2.json",
+      "bytes": 91,
+      "sha256": "2c531582d9b0a27335fc436ab565f7f04c974a3d3688f7f4922e9784b3189174"
+    }
+  ]
+}

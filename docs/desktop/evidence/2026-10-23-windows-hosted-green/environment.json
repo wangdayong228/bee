@@ -1,0 +1,20 @@
+{
+  "scope": "Windows Server 2022 hosted build only",
+  "win10And11": "not tested",
+  "productionSigning": "not performed",
+  "installedPackageRun": "not tested",
+  "imageVersion": "20261021.343.1",
+  "revision": "30487662d0eab4c42a392648818e1378e2b79ffa",
+  "imageOS": "win22",
+  "runId": "39904695326",
+  "gui": "not tested",
+  "cpuArchitectures": [
+    9
+  ],
+  "os": {
+    "Caption": "Microsoft Windows Server 2022 Datacenter",
+    "Version": "10.0.20348",
+    "BuildNumber": "20348",
+    "ProductType": 3
+  }
+}

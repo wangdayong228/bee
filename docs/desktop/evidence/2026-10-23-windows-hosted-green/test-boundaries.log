@@ -1,0 +1,1 @@
+Windows cfg applies; UNIX process and macOS signed-App tests are excluded; fixture tests are distinct from real Bee; GUI/installed package not tested.

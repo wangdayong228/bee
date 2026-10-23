@@ -1,0 +1,28 @@
+{
+  "scope": "Server2022 x64 development build, not installed or launched",
+  "packages": [
+    {
+      "sha256": "fb86428fbac7a44756e8c15fd7f493937a2140009964c437947a226afd11c13b",
+      "path": "D:\\a\\bee\\bee\\desktop\\src-tauri\\target\\debug\\bundle\\nsis\\Bee Dev_0.1.0_x64-setup.exe",
+      "bytes": 16257683
+    }
+  ],
+  "sidecar": {
+    "sha256": "291e21470dc80fa1108fb1d5c32f69c250be3244a00c10a944e4970c317a8794",
+    "path": "desktop/src-tauri/binaries/bee-x86_64-pc-windows-msvc.exe",
+    "bytes": 31655936,
+    "source": {
+      "revision": "30487662d0eab4c42a392648818e1378e2b79ffa",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "x86_64-pc-windows-msvc",
+      "goos": "windows",
+      "goarch": "amd64",
+      "go": "go version go1.27.3 windows/amd64",
+      "beeVersion": "dev+30487662d0ea-dirty",
+      "binarySha256": "291e21470dc80fa1108fb1d5c32f69c250be3244a00c10a944e4970c317a8794"
+    },
+    "sourceSha256": "abcc63d56666378cb61170f64c4626074cb28654238c47581e2679d717999ac0"
+  },
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "revision": "30487662d0eab4c42a392648818e1378e2b79ffa"
+}
