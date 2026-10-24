@@ -1,0 +1,9 @@
+Error: go version failed: exit=null; go: downloading go1.27.3 (darwin/arm64); signal=SIGTERM
+    at run (file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/scripts/process.mjs:12:11)
+    at buildBee (file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/scripts/build-bee.mjs:24:19)
+    at file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/scripts/build-bee.mjs:53:3
+    at cli (file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/scripts/process.mjs:18:9)
+    at file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/scripts/build-bee.mjs:50:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)

@@ -1,0 +1,281 @@
+{
+  "at": "2026-10-24T03:37:00.558Z",
+  "apps": [
+    {
+      "displayName": "ego lite",
+      "id": "com.citrolabs.ego.lite",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 283
+    },
+    {
+      "displayName": "Google Chrome",
+      "id": "com.google.Chrome",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 1470
+    },
+    {
+      "displayName": "Microsoft Teams",
+      "id": "com.microsoft.teams2",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 732
+    },
+    {
+      "displayName": "iTerm2",
+      "id": "com.googlecode.iterm2",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 654
+    },
+    {
+      "displayName": "Cursor",
+      "id": "com.todesktop.230313mzl4w4u92",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 281
+    },
+    {
+      "displayName": "网易邮箱大师",
+      "id": "com.netease.macmail",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 245
+    },
+    {
+      "displayName": "ChatGPT",
+      "id": "com.openai.codex",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 220
+    },
+    {
+      "displayName": "微信",
+      "id": "com.tencent.xinWeChat",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 112
+    },
+    {
+      "displayName": "文本编辑",
+      "id": "com.apple.TextEdit",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 80
+    },
+    {
+      "displayName": "有道云笔记",
+      "id": "ynote-desktop",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 65
+    },
+    {
+      "displayName": "访达",
+      "id": "com.apple.finder",
+      "isRunning": true,
+      "lastUsedDate": 814492800,
+      "useCount": 55
+    },
+    {
+      "displayName": "提醒事项",
+      "id": "com.apple.reminders",
+      "isRunning": true,
+      "lastUsedDate": 814406400,
+      "useCount": 408
+    },
+    {
+      "displayName": "Sublime Text",
+      "id": "com.sublimetext.4",
+      "isRunning": true,
+      "lastUsedDate": 814406400,
+      "useCount": 109
+    },
+    {
+      "displayName": "股市",
+      "id": "com.apple.stocks",
+      "isRunning": true,
+      "lastUsedDate": 814406400,
+      "useCount": 91
+    },
+    {
+      "displayName": "Microsoft Outlook",
+      "id": "com.microsoft.Outlook",
+      "isRunning": true,
+      "lastUsedDate": 814406400,
+      "useCount": 87
+    },
+    {
+      "displayName": "系统设置",
+      "id": "com.apple.systempreferences",
+      "isRunning": true,
+      "lastUsedDate": 814406400,
+      "useCount": 56
+    },
+    {
+      "displayName": "钉钉",
+      "id": "5ZSL2CJU2T.com.dingtalk.mac",
+      "isRunning": true,
+      "lastUsedDate": 814320000,
+      "useCount": 67
+    },
+    {
+      "displayName": "CC Switch",
+      "id": "com.ccswitch.desktop",
+      "isRunning": true,
+      "lastUsedDate": 814320000,
+      "useCount": 61
+    },
+    {
+      "displayName": "iPhone镜像",
+      "id": "com.apple.ScreenContinuity",
+      "isRunning": true,
+      "lastUsedDate": 814320000,
+      "useCount": 40
+    },
+    {
+      "displayName": "Grok Bot",
+      "id": "com.anysphere.sand",
+      "isRunning": true,
+      "lastUsedDate": 814320000,
+      "useCount": 9
+    },
+    {
+      "displayName": "Clash for Windows",
+      "id": "com.lbyczf.clashwin",
+      "isRunning": true
+    },
+    {
+      "displayName": "Safari浏览器",
+      "id": "com.apple.Safari",
+      "isRunning": true
+    },
+    {
+      "displayName": "Bee Dev",
+      "id": "dev.tokhive.bee",
+      "isRunning": false,
+      "lastUsedDate": 814406400,
+      "useCount": 3
+    },
+    {
+      "displayName": "SystemUIServer",
+      "id": "com.apple.systemuiserver",
+      "isRunning": false,
+      "lastUsedDate": 814406400,
+      "useCount": 2
+    },
+    {
+      "displayName": "归档实用工具",
+      "id": "com.apple.archiveutility",
+      "isRunning": false,
+      "lastUsedDate": 814320000,
+      "useCount": 13
+    },
+    {
+      "displayName": "App Store",
+      "id": "com.apple.AppStore",
+      "isRunning": false,
+      "lastUsedDate": 814320000,
+      "useCount": 9
+    },
+    {
+      "displayName": "安装器",
+      "id": "com.apple.installer",
+      "isRunning": false,
+      "lastUsedDate": 814233600,
+      "useCount": 6
+    },
+    {
+      "displayName": "Postman",
+      "id": "com.postmanlabs.mac",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 116
+    },
+    {
+      "displayName": "WPS Office",
+      "id": "com.kingsoft.wpsoffice.mac",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 38
+    },
+    {
+      "displayName": "福昕阅读器",
+      "id": "com.foxit-software.Foxit.PDF.Reader",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 37
+    },
+    {
+      "displayName": "日历",
+      "id": "com.apple.iCal",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 16
+    },
+    {
+      "displayName": "Telegram",
+      "id": "ru.keepcoder.Telegram",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 10
+    },
+    {
+      "displayName": "Fork",
+      "id": "com.DanPristupov.Fork",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 6
+    },
+    {
+      "displayName": "SQLPro for MySQL",
+      "id": "com.hankinsoft.osx.mysql",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 5
+    },
+    {
+      "displayName": "夸克",
+      "id": "com.quark.desktop",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 4
+    },
+    {
+      "displayName": "DaisyDisk",
+      "id": "com.daisydiskapp.DaisyDiskStandAlone",
+      "isRunning": false,
+      "lastUsedDate": 814147200,
+      "useCount": 2
+    },
+    {
+      "displayName": "活动监视器",
+      "id": "com.apple.ActivityMonitor",
+      "isRunning": false,
+      "lastUsedDate": 813888000,
+      "useCount": 23
+    },
+    {
+      "displayName": "CleanMyMac X",
+      "id": "com.macpaw.zh.CleanMyMac4",
+      "isRunning": false,
+      "lastUsedDate": 813801600,
+      "useCount": 11
+    },
+    {
+      "displayName": "Visual Studio Code",
+      "id": "com.microsoft.VSCode",
+      "isRunning": false,
+      "lastUsedDate": 813628800,
+      "useCount": 7
+    },
+    {
+      "displayName": "音乐",
+      "id": "com.apple.Music",
+      "isRunning": false,
+      "lastUsedDate": 813456000,
+      "useCount": 5
+    }
+  ]
+}

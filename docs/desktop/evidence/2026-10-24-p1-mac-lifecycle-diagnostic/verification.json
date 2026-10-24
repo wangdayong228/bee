@@ -1,0 +1,16 @@
+{
+  "axTrials": 2,
+  "screenshotTrials": 1,
+  "hideSucceeded": 3,
+  "readTriggeredReopen": 3,
+  "secondTrialHideToReopenMs": 13894,
+  "deferredProcessSnapshotMsAfterHide": 6567,
+  "trayConstructionSucceeded": true,
+  "trayClickVerified": false,
+  "diagnosticOnly": true,
+  "originalParent": 37620,
+  "originalOwnedChild": 37628,
+  "originalRestoredReady": true,
+  "originalBytesUnchanged": true,
+  "diagnosticParentAndChildExited": true
+}

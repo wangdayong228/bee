@@ -1,0 +1,1 @@
+Cancelled exact owned go version process PID31636/PPID31619: system Go selected auto-toolchain path; use already installed pinned Go1.27.3 instead. No App signal.

@@ -1,0 +1,20 @@
+[
+  {
+    "pid": 5669,
+    "ppid": 1,
+    "elapsed": "22:59",
+    "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+  },
+  {
+    "pid": 5787,
+    "ppid": 5669,
+    "elapsed": "22:58",
+    "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  },
+  {
+    "pid": 31619,
+    "ppid": 15855,
+    "elapsed": "00:37",
+    "command": "node desktop/scripts/build-bee.mjs"
+  }
+]

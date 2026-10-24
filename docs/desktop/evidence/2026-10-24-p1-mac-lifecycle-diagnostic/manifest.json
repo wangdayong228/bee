@@ -1,0 +1,282 @@
+{
+  "sourceRevision": "eb3bf109b0e941628fdec01629ed2d3f963ae16e",
+  "note": "Temporary instrumented build only; original 87 app preserved. Runtime logs and snapshots copied byte-for-byte.",
+  "files": [
+    {
+      "path": "01-inventory.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/01-inventory.json",
+      "bytes": 6646,
+      "sha256": "164d1b0c024938a14004dbb406aa0e4830b3a71ae32dd0704a0470512c37ad75"
+    },
+    {
+      "path": "02-processes.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/02-processes.json",
+      "bytes": 588,
+      "sha256": "8f6a0e3f6586b1ea1fc5cc8c04cb3c5efa308050b9dafb55bb048ec2a36ce557"
+    },
+    {
+      "path": "03-original-before-quit-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/03-original-before-quit-ax.txt",
+      "bytes": 186,
+      "sha256": "f84c3a65d66eeda5dd6509f6d7e2273c80dc3723968d1b0b675275c936eb4db4"
+    },
+    {
+      "path": "04-original-after-quit-inventory.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/04-original-after-quit-inventory.json",
+      "bytes": 6546,
+      "sha256": "463fa0c5139a5439b5d4c0c61e6b453e356efa25b91e16aab7c6ee084e9c38d6"
+    },
+    {
+      "path": "05-original-quit-processes.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/05-original-quit-processes.json",
+      "bytes": 50,
+      "sha256": "af635d15c024dd413458812e8a7d43d85ce872116cce4aabeecd8fe1cb5a0fd1"
+    },
+    {
+      "path": "06-diagnostic-before-close-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/06-diagnostic-before-close-ax.txt",
+      "bytes": 2727,
+      "sha256": "25a3878c985ad0d1a474edce018cf2e790c06ee3116d4a2fe9d43fb23b6c4af7"
+    },
+    {
+      "path": "06-diagnostic-before-close.jpg",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/06-diagnostic-before-close.jpg",
+      "bytes": 189307,
+      "sha256": "39702078fcb216c057b2e54531b30cd695e39f140821ceb6e1a7119f6693e653"
+    },
+    {
+      "path": "07-after-close-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/07-after-close-ax.txt",
+      "bytes": 2727,
+      "sha256": "25a3878c985ad0d1a474edce018cf2e790c06ee3116d4a2fe9d43fb23b6c4af7"
+    },
+    {
+      "path": "07-close-action-start.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/07-close-action-start.json",
+      "bytes": 78,
+      "sha256": "0273c466d656aa2fa02d94f7aae14cee6f14ddcb00b61d86f9e3e54f0c33b060"
+    },
+    {
+      "path": "07-runtime-after-close-before-getter.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/07-runtime-after-close-before-getter.log",
+      "bytes": 721,
+      "sha256": "bf8e7dbe25c16f11c3c9e40b2fb8653e48c2c933c674f7a7201017d64e1cde2f"
+    },
+    {
+      "path": "07-runtime-after-getter.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/07-runtime-after-getter.log",
+      "bytes": 995,
+      "sha256": "13e191607126a1c99df9f248d58c4b9e541a3f125566e4ea2dc60bbc2df95134"
+    },
+    {
+      "path": "08-close-control-start.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/08-close-control-start.json",
+      "bytes": 104,
+      "sha256": "7c588cad1b53ff4a018e2827c0c205054bbfae02efcae00e45e228c7d9b4dfe8"
+    },
+    {
+      "path": "08-control-processes.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/08-control-processes.json",
+      "bytes": 488,
+      "sha256": "b9f46b35d0788cefad79d2fe62e00feef72ffa39a4fcba08a2dcfc77fddfa4c2"
+    },
+    {
+      "path": "08-runtime-before-observation-delayed.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/08-runtime-before-observation-delayed.log",
+      "bytes": 1461,
+      "sha256": "c0ec977d168334cf8484194e2ed51a321985ff117707375b5df7131f71f350d2"
+    },
+    {
+      "path": "08-runtime-immediate.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/08-runtime-immediate.log",
+      "bytes": 1461,
+      "sha256": "c0ec977d168334cf8484194e2ed51a321985ff117707375b5df7131f71f350d2"
+    },
+    {
+      "path": "09-after-getter-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/09-after-getter-ax.txt",
+      "bytes": 2727,
+      "sha256": "25a3878c985ad0d1a474edce018cf2e790c06ee3116d4a2fe9d43fb23b6c4af7"
+    },
+    {
+      "path": "09-getter-start.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/09-getter-start.json",
+      "bytes": 93,
+      "sha256": "9dc170b474cf652d6499a1f2aa52011c37f9cfe863e24ab60b70590279791338"
+    },
+    {
+      "path": "09-runtime-after-getter.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/09-runtime-after-getter.log",
+      "bytes": 1737,
+      "sha256": "7432abe43705afaf706b21ab4e432ef04cc373754e1896dda44c05fe1f621b95"
+    },
+    {
+      "path": "10-after-close-screenshot.jpg",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/10-after-close-screenshot.jpg",
+      "bytes": 195939,
+      "sha256": "e575a5a5710626bcab251e5fc64faceaa46afea5e6b68ad8a151d321248d8630"
+    },
+    {
+      "path": "10-runtime-after-screenshot.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/10-runtime-after-screenshot.log",
+      "bytes": 2617,
+      "sha256": "02a3a6a336b3300e6f9af61a027f9afa0f9dd4b9d731c03972235cc20e2c25ae"
+    },
+    {
+      "path": "10-runtime-before-screenshot.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/10-runtime-before-screenshot.log",
+      "bytes": 2206,
+      "sha256": "f593d9833bad1ec2f7f0038517aa445c80928ad2828923ffda7fee72c08167b0"
+    },
+    {
+      "path": "10-screenshot-control-start.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/10-screenshot-control-start.json",
+      "bytes": 101,
+      "sha256": "80204fd371ced0d09b8c72421b3869c84f0b11deb3ba55dd9a5a813ae69d7874"
+    },
+    {
+      "path": "11-diagnostic-ready-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/11-diagnostic-ready-ax.txt",
+      "bytes": 957,
+      "sha256": "fd987ea05dce3e62ce7813918c110e8e5b3885e7bcf7b24070c47616154655ca"
+    },
+    {
+      "path": "11-diagnostic-ready.jpg",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/11-diagnostic-ready.jpg",
+      "bytes": 167594,
+      "sha256": "058aac814173c58fae43d085f154e8bcdd5c0f3934a2700e122f7260acfb5f4f"
+    },
+    {
+      "path": "12-diagnostic-after-quit-inventory.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/12-diagnostic-after-quit-inventory.json",
+      "bytes": 6546,
+      "sha256": "448744b7748dbdb2b29c1bc365ca4ef520ed5373e959d8c7d22b9710731f877b"
+    },
+    {
+      "path": "13-diagnostic-quit-processes.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/13-diagnostic-quit-processes.json",
+      "bytes": 94,
+      "sha256": "2c7d800cb6266aa40430c7d33c777f1046d4f1410ad43bd605f5e061f92443ac"
+    },
+    {
+      "path": "14-original-restored-ready-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/14-original-restored-ready-ax.txt",
+      "bytes": 957,
+      "sha256": "fd987ea05dce3e62ce7813918c110e8e5b3885e7bcf7b24070c47616154655ca"
+    },
+    {
+      "path": "14-original-restored-ready.jpg",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/14-original-restored-ready.jpg",
+      "bytes": 167020,
+      "sha256": "a28da4f79d193cc3d81b73c7b4b991cc204fd6fc260c377ab28a11c026d2b073"
+    },
+    {
+      "path": "15-original-restored-final-ax.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/15-original-restored-final-ax.txt",
+      "bytes": 2789,
+      "sha256": "d74be92a4613eb92a177e8dee97f0151cc77cb77b77b6b1497cb4ef92a3cc4cc"
+    },
+    {
+      "path": "16-final-binding.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/16-final-binding.json",
+      "bytes": 1215,
+      "sha256": "6dda2ebc372faf04d226151b7c8d19f5e9a87d368a2761a96e5306a8e8c9fea2"
+    },
+    {
+      "path": "baseline.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/baseline.json",
+      "bytes": 1086,
+      "sha256": "a1870478db17a791eb6301a10d58885c9ebe1bb35d578f4460ea3f1982660df7"
+    },
+    {
+      "path": "build-native.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-native.log",
+      "bytes": 2116,
+      "sha256": "c1ed49c5a279b046e78d040e5707ce0dae3d67518671bc9f9bae09765f04076f"
+    },
+    {
+      "path": "build-sidecar-attempt-2-cancel.txt",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar-attempt-2-cancel.txt",
+      "bytes": 163,
+      "sha256": "e301891c12b04eb9d4c9f18ec3d136ecf9e43194d3f2fd22bee32b0838bfcabf"
+    },
+    {
+      "path": "build-sidecar-attempt-2.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar-attempt-2.log",
+      "bytes": 1154,
+      "sha256": "d0887510945493b7c7abf100cd408988742976b4177efa12cda8160777ae8331"
+    },
+    {
+      "path": "build-sidecar-attempt-3.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar-attempt-3.log",
+      "bytes": 1118,
+      "sha256": "7f187eb9fdd7ec3999b46aaf87c606f9079c98dff699ec4cf5d5380a75bd5024"
+    },
+    {
+      "path": "build-sidecar-attempt-4.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar-attempt-4.log",
+      "bytes": 1387,
+      "sha256": "5f89308aa5c5baba7b348e8679fc78efd52f4e1350a80ac678847afebfefdf3b"
+    },
+    {
+      "path": "build-sidecar-attempt-5.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar-attempt-5.log",
+      "bytes": 269,
+      "sha256": "79edeb097827f4f03a2d5bca8e2b4d94bd3412e26c85d0d4e1af887758681290"
+    },
+    {
+      "path": "build-sidecar.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/build-sidecar.log",
+      "bytes": 1120,
+      "sha256": "aaaef18cacb6321bb14bc29dc587126dd5bb7ec836bcc013ff2cb10301af56bd"
+    },
+    {
+      "path": "codesign.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/codesign.log",
+      "bytes": 1174,
+      "sha256": "4860a25f37e316a70bedacfac5b0bf7a9875998b4e457d64063aa0cab4eeedfa"
+    },
+    {
+      "path": "diagnostic-app-manifest.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/diagnostic-app-manifest.json",
+      "bytes": 1103,
+      "sha256": "ab5d04d8f36bc55b4fbc43a90e3104740e873dbde3c120916a5bf83ea0812326"
+    },
+    {
+      "path": "diagnostic.patch",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/diagnostic.patch",
+      "bytes": 3048,
+      "sha256": "64457fb360e5485e984e13c465aa6b58cb02a1f4234e5a4af2b2ddd883923bda"
+    },
+    {
+      "path": "runtime.log",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/runtime.log",
+      "bytes": 2898,
+      "sha256": "0b1797f30a338002eb3955a534808db69c347c931a23b3ea25b2ba8ee4a2fef2"
+    },
+    {
+      "path": "verification.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/verification.json",
+      "bytes": 439,
+      "sha256": "a86238225cc3fbb6e35c6958a07efc176e5ef726231cffb88b74e412a909b636"
+    },
+    {
+      "path": "diagnostic-lib.rs",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/src-tauri/src/lib.rs",
+      "bytes": 4386,
+      "sha256": "cacfea93ce5c421793a477a0f21734190885e2b33fff3c33fb214681b60a581b"
+    },
+    {
+      "path": "diagnostic-lifecycle.rs",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/src-tauri/src/lifecycle.rs",
+      "bytes": 5646,
+      "sha256": "ac163b51ec0bf9f9aadcba4135d5e1673e63a4c5fb87acf45f19e978cce54fb6"
+    },
+    {
+      "path": "diagnostic-sidecar.source.json",
+      "source": ".cache/qa/2026-10-24-mac-lifecycle-diagnostic/source/desktop/src-tauri/binaries/bee-aarch64-apple-darwin.source.json",
+      "bytes": 365,
+      "sha256": "f2e859240245a53a92e4d04fa4908c7d4bfde92c410c14f03699f250d7bb72c4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T03:38:02.563813+00:00",
+  "parent": {
+    "status": 0,
+    "stdout": "35734     1 /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/Bee Lifecycle QA.app/Contents/MacOS/bee-desktop\n",
+    "stderr": ""
+  },
+  "children": [
+    "35749 35734 /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/Bee Lifecycle QA.app/Contents/MacOS/bee desktop"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-24T03:40:17.634087+00:00",
+  "processes": [
+    {
+      "pid": 37620,
+      "ppid": 1,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+    },
+    {
+      "pid": 37628,
+      "ppid": 37620,
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+    }
+  ],
+  "codesign": {
+    "status": 0,
+    "stdout": "",
+    "stderr": "--prepared:/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee\n--validated:/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee\n/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app: valid on disk\n/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app: satisfies its Designated Requirement\n"
+  },
+  "originalFilesUnchanged": true
+}

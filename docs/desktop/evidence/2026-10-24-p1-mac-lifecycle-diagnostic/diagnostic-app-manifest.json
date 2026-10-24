@@ -1,0 +1,30 @@
+{
+  "note": "Instrumented QA app only, built from eb3bf10 archive plus diagnostic.patch. No acceptance substitution. Same identifier; original app was quit via menu.",
+  "files": [
+    {
+      "path": "Bee Lifecycle QA.app/Contents/Info.plist",
+      "bytes": 1434,
+      "sha256": "b8f5941ee5275e61b93e9af3b3beb47c14e77c0e37b99f26823fa23e08b1dc15"
+    },
+    {
+      "path": "Bee Lifecycle QA.app/Contents/_CodeSignature/CodeResources",
+      "bytes": 2653,
+      "sha256": "d725e707dba213206e3bebfdbc00c13ca0e3b8e5f1418a4bd4a9134fb1cd1611"
+    },
+    {
+      "path": "Bee Lifecycle QA.app/Contents/MacOS/bee",
+      "bytes": 30630144,
+      "sha256": "782c2a4777bf998e44088c3fe148ff36cc612b7e549cbdc1e41f46bc2b549866"
+    },
+    {
+      "path": "Bee Lifecycle QA.app/Contents/MacOS/bee-desktop",
+      "bytes": 27672576,
+      "sha256": "4163966fb68ca17261afab9213d59d24c7a1064ed7f87ab768c09685300627d8"
+    },
+    {
+      "path": "Bee Lifecycle QA.app/Contents/Resources/icon.icns",
+      "bytes": 70626,
+      "sha256": "e7ab4e5a8656cbea2c3e66ab07a78656b13b5cdd6b6f4a8638925f11e62246f1"
+    }
+  ]
+}

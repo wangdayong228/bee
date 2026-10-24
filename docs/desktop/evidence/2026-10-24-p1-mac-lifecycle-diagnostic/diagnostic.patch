@@ -1,0 +1,63 @@
+--- base/lib.rs
++++ diagnostic/lib.rs
+@@ -20,6 +20,7 @@
+         }))
+         .on_window_event(|window, event| {
+             if window.label() == "main" {
++                lifecycle::qa_trace(window.app_handle(), &format!("window.event {event:?}"));
+                 if let tauri::WindowEvent::CloseRequested { api, .. } = event {
+                     api.prevent_close();
+                     lifecycle::dispatch(
+@@ -53,6 +54,7 @@
+                 .on_new_window(|_, _| tauri::webview::NewWindowResponse::Deny)
+                 .build()?;
+             lifecycle::install_menu_and_tray(app)?;
++            lifecycle::qa_trace(app.handle(), "setup.complete");
+             for argument in std::env::args().skip(1) {
+                 lifecycle::deliver_callback(app.handle(), &argument);
+             }
+--- base/lifecycle.rs
++++ diagnostic/lifecycle.rs
+@@ -66,10 +66,13 @@
+ }
+ 
+ pub fn dispatch(app: &tauri::AppHandle, event: WindowEvent) {
++    qa_trace(app, &format!("dispatch.before event={event:?}"));
+     let intent = intent_for(event);
+     if let Err(cause) = apply(app, intent) {
++        qa_trace(app, &format!("dispatch.error intent={intent:?} cause={cause}"));
+         eprintln!("apply Bee main window intent={intent:?}: {cause}");
+     }
++    qa_trace(app, &format!("dispatch.after event={event:?}"));
+ }
+ 
+ fn apply(app: &tauri::AppHandle, intent: WindowIntent) -> tauri::Result<()> {
+@@ -116,7 +119,9 @@
+     }
+     // A desktop can have no notification area. Single-instance relaunch and the
+     // macOS dock reopen remain available, so tray absence must not abort startup.
+-    if let Err(cause) = tray.build(app) {
++    let tray_result = tray.build(app);
++    qa_trace(app.handle(), &format!("tray.build success={}", tray_result.is_ok()));
++    if let Err(cause) = tray_result {
+         eprintln!(
+             "create Bee tray icon failed; recover the window by launching Bee again: {cause}"
+         );
+@@ -132,3 +137,17 @@
+     release_instance();
+     Ok(())
+ }
++
++// Temporary QA-only trace. Observes the same Tauri window API; performs no UI actions.
++pub fn qa_trace(app: &tauri::AppHandle, event: &str) {
++    use std::io::Write;
++    static SEQ: std::sync::atomic::AtomicU64 = std::sync::atomic::AtomicU64::new(0);
++    let seq = SEQ.fetch_add(1, Ordering::SeqCst);
++    let now = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).unwrap().as_millis();
++    let state = app.get_webview_window("main").map(|w| format!("visible={:?} minimized={:?} focused={:?}", w.is_visible(), w.is_minimized(), w.is_focused()));
++    let record = format!("ms={now} seq={seq} pid={} event={event} state={state:?}\n", std::process::id());
++    let mut file = std::fs::OpenOptions::new().create(true).append(true).open(TRACE_PATH).expect("open temporary QA lifecycle trace");
++    file.write_all(record.as_bytes()).expect("append temporary QA lifecycle trace");
++}
++
++const TRACE_PATH: &str = "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-lifecycle-diagnostic/runtime.log";

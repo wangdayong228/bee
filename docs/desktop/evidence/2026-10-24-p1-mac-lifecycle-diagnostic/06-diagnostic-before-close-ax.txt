@@ -1,0 +1,78 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 概览 本机设备 演示数据
+			14 container
+				15 heading 概览, Value: 1
+					16 text 概览
+				17 text 查看设备状态与贡献摘要。
+				18 heading 尚未开始贡献, Value: 2
+					19 text 尚未开始贡献
+				20 text 由你决定何时开始，让闲置的 AI 额度创造价值。 本机进程： 运行中 Hive 已连接 真实供给未启动
+				21 button 开始贡献
+				22 text Hive 演示连接 上次更新： 2026-10-24T03:37:23.422Z
+				23 button 刷新状态
+				24 button 检查连接
+				25 container 收益摘要
+					26 text 可用余额
+					27 container
+						28 text $ 128.56
+					29 text 收益与资金操作将在后续开放
+					30 text 今日收益
+					31 container
+						32 text $ 12.4
+					33 text 演示统计
+					34 text 累计收益
+					35 container
+						36 text $ 382.14
+					37 text 演示统计
+				38 heading AI 账号, Value: 2
+					39 text AI 账号
+				40 button 管理账号
+				41 container OpenAI 供给
+					42 text O OpenAI Plus 已暂停 5 小时 剩余额度
+					43 container
+						44 text 82 %
+					45 level indicator Description: OpenAI 剩余额度, Value: 82
+					46 text 2 小时后重置
+					47 container
+						48 checkbox 选择 OpenAI, Value: 1
+						49 text 选择平台
+					50 button 恢复 OpenAI
+				51 container Claude 供给
+					52 text ✳ Claude Pro 已暂停 5 小时 剩余额度
+					53 container
+						54 text 46 %
+					55 level indicator Description: Claude 剩余额度, Value: 46
+					56 text 48 分钟后重置
+					57 container
+						58 checkbox 选择 Claude, Value: 1
+						59 text 选择平台
+					60 button 恢复 Claude
+				61 button 恢复全部就绪平台
+				62 text 当前任务： 0
+				63 pop up button 查看连接详情
+				64 container 演示生命周期
+					65 button 退出演示
+					66 button 更新演示
+					67 text 关窗继续后台运行；这里仅预览退出和更新流程。
+			68 container
+				69 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		70 scroll bar (settable, float) 0
+	71 close button
+	72 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	73 minimize button
+	74 text Bee · 开发验证
+75 menu bar
+	76 Bee Dev
