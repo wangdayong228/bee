@@ -1,0 +1,251 @@
+{
+  "scope": "2026-10-24 macOS15.7.7 arm64 visible-window lifecycle; package87; visibility/tray unresolved",
+  "files": [
+    {
+      "path": "00-baseline.json",
+      "bytes": 1334,
+      "sha256": "5bec4b407f118ae3d93e5fc250118df55610259a6e53feb59fea735cab8420cd",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/00-baseline.json"
+    },
+    {
+      "path": "00-bee-inventory.json",
+      "bytes": 234,
+      "sha256": "556de4f857bc60466652272327c778b29f05254f17c9f6c1088219ce5727125e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/00-bee-inventory.json"
+    },
+    {
+      "path": "01-visible-ax.txt",
+      "bytes": 2440,
+      "sha256": "e2dafa440c08229d6cc1fa1ef61e530095cbc61b0a2d6663ef54c58744da8520",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/01-visible-ax.txt"
+    },
+    {
+      "path": "01-visible.jpg",
+      "bytes": 172204,
+      "sha256": "9b9627b2e8c45dcaef6d6d6cb67dd30865a8d392884eb7697481ec42e56a81a0",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/01-visible.png"
+    },
+    {
+      "path": "02-overview-ax.txt",
+      "bytes": 2937,
+      "sha256": "c37f3befdbb3924b2fcac3f3c4739538cf3ca55b2ef54265a7920f5e3d3f2f45",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/02-overview-ax.txt"
+    },
+    {
+      "path": "02-overview.jpg",
+      "bytes": 226760,
+      "sha256": "59d730005a68e1dec42b6f8682a66cdb09b516d8ea608c2aad6ce9bdbcc18660",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/02-overview.png"
+    },
+    {
+      "path": "03-native-ready-ax.txt",
+      "bytes": 940,
+      "sha256": "4502d3d0c9fe508e3d8785af41e6773519eddcd8071dbd755702055aca177053",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/03-native-ready-ax.txt"
+    },
+    {
+      "path": "03-native-ready.jpg",
+      "bytes": 202539,
+      "sha256": "619d8717a56371125011325c1c48bbf0a5815f93469a277c7adb06139d3b0b1e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/03-native-ready.png"
+    },
+    {
+      "path": "04-after-close-ax.txt",
+      "bytes": 2917,
+      "sha256": "2b0212458b49cf34b6b841c791d941b60418b534694f177f39320cdd24f6f7ce",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/04-after-close-ax.txt"
+    },
+    {
+      "path": "04-after-close.jpg",
+      "bytes": 223689,
+      "sha256": "13dafd69e45247770ad7b3b4b3b433bd5b54561dc8cc5784f5320122a02f507e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/04-after-close.png"
+    },
+    {
+      "path": "05-coordinate-close-ax.txt",
+      "bytes": 2855,
+      "sha256": "b8505e15581293cad6a969de2d624148a0988e6f21ce1367cc31a905b3a29476",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/05-coordinate-close-ax.txt"
+    },
+    {
+      "path": "06-after-close-processes.json",
+      "bytes": 524,
+      "sha256": "07e39ef97fd9c941541526b2950ef9a336a16de9d17a49c0b40e01cf53a3a4ce",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/06-after-close-processes.json"
+    },
+    {
+      "path": "06-close-fresh-after-ax.txt",
+      "bytes": 2855,
+      "sha256": "b8505e15581293cad6a969de2d624148a0988e6f21ce1367cc31a905b3a29476",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/06-close-fresh-after-ax.txt"
+    },
+    {
+      "path": "06-close-fresh-before-ax.txt",
+      "bytes": 2855,
+      "sha256": "b8505e15581293cad6a969de2d624148a0988e6f21ce1367cc31a905b3a29476",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/06-close-fresh-before-ax.txt"
+    },
+    {
+      "path": "07-native-menu-ax.txt",
+      "bytes": 186,
+      "sha256": "f84c3a65d66eeda5dd6509f6d7e2273c80dc3723968d1b0b675275c936eb4db4",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/07-native-menu-ax.txt"
+    },
+    {
+      "path": "08-menu-open-ax.txt",
+      "bytes": 2917,
+      "sha256": "2b0212458b49cf34b6b841c791d941b60418b534694f177f39320cdd24f6f7ce",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/08-menu-open-ax.txt"
+    },
+    {
+      "path": "08-menu-open-processes.json",
+      "bytes": 510,
+      "sha256": "77d74b7f9bc62eb9da54f1d7c65b02d33a2a5bfafffa0f9b925f9e162ca65a98",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/08-menu-open-processes.json"
+    },
+    {
+      "path": "08-menu-open.jpg",
+      "bytes": 231126,
+      "sha256": "4e952e2a9a06d4358693a81c05d07f7522b649356d82eb5d6a363b061fbf4093",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/08-menu-open.png"
+    },
+    {
+      "path": "09-before-quit-menu-ax.txt",
+      "bytes": 186,
+      "sha256": "f84c3a65d66eeda5dd6509f6d7e2273c80dc3723968d1b0b675275c936eb4db4",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/09-before-quit-menu-ax.txt"
+    },
+    {
+      "path": "10-after-quit-inventory.json",
+      "bytes": 234,
+      "sha256": "556de4f857bc60466652272327c778b29f05254f17c9f6c1088219ce5727125e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/10-after-quit-inventory.json"
+    },
+    {
+      "path": "10-after-quit-processes.json",
+      "bytes": 288,
+      "sha256": "627528b9a50233e601539c9fe1add8f17cae6f59ad002d78847688bfef29b9d4",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/10-after-quit-processes.json"
+    },
+    {
+      "path": "11-after-quit-final-inventory.json",
+      "bytes": 144,
+      "sha256": "918e5266a0e731b5ce1b33542a98ac5e916b96f8249fd06322eef9ef1e3f1ed6",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/11-after-quit-final-inventory.json"
+    },
+    {
+      "path": "12-finder-app-path-ax.txt",
+      "bytes": 3272,
+      "sha256": "4f31fff0b6673936311ece28919dad40ac8709be177a164bf27a14ced8f4c529",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/12-finder-app-path-ax.txt"
+    },
+    {
+      "path": "13-relaunch-processes.json",
+      "bytes": 511,
+      "sha256": "3fbabff9e50beb48a88e18a825af7e10b5a5abc5ebb67d241899c4f3b89a4911",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/13-relaunch-processes.json"
+    },
+    {
+      "path": "14-relaunch-ready-ax.txt",
+      "bytes": 2727,
+      "sha256": "800dc04efa49e421f2bc09b3c9de4a11489f0276752325b62fb78f4adb1c0809",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/14-relaunch-ready-ax.txt"
+    },
+    {
+      "path": "14-relaunch-ready.jpg",
+      "bytes": 187399,
+      "sha256": "6eeb01c03fbf281a0d6357e9fcd23ae99cfeae483d1fd4ee66a31b12b3104a2f",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/14-relaunch-ready.png"
+    },
+    {
+      "path": "15-relaunch-ready-ax.txt",
+      "bytes": 2727,
+      "sha256": "800dc04efa49e421f2bc09b3c9de4a11489f0276752325b62fb78f4adb1c0809",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/15-relaunch-ready-ax.txt"
+    },
+    {
+      "path": "15-relaunch-ready.jpg",
+      "bytes": 187379,
+      "sha256": "f53eca67c378cc20954af96872a8e4231ba62241130cdeed2d151da3f652c99d",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/15-relaunch-ready.png"
+    },
+    {
+      "path": "16-coordinate-details-ax.txt",
+      "bytes": 2727,
+      "sha256": "800dc04efa49e421f2bc09b3c9de4a11489f0276752325b62fb78f4adb1c0809",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/16-coordinate-details-ax.txt"
+    },
+    {
+      "path": "17-focused-relaunch-ready-ax.txt",
+      "bytes": 957,
+      "sha256": "fd987ea05dce3e62ce7813918c110e8e5b3885e7bcf7b24070c47616154655ca",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/17-focused-relaunch-ready-ax.txt"
+    },
+    {
+      "path": "17-focused-relaunch-ready.jpg",
+      "bytes": 167024,
+      "sha256": "b954d6633c760c616de51f7abf761b5edc8694d1e69dcb4387ef1688cf146050",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/17-focused-relaunch-ready.png"
+    },
+    {
+      "path": "18-focused-close-ax.txt",
+      "bytes": 957,
+      "sha256": "fd987ea05dce3e62ce7813918c110e8e5b3885e7bcf7b24070c47616154655ca",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/18-focused-close-ax.txt"
+    },
+    {
+      "path": "18-focused-close.jpg",
+      "bytes": 165201,
+      "sha256": "46af598a5f669596a5da67918e6a5ed9b664fd5c452a35d9970ee5ef2d371bee",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/18-focused-close.png"
+    },
+    {
+      "path": "19-retina-coordinate-close-ax.txt",
+      "bytes": 957,
+      "sha256": "fd987ea05dce3e62ce7813918c110e8e5b3885e7bcf7b24070c47616154655ca",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/19-retina-coordinate-close-ax.txt"
+    },
+    {
+      "path": "20-final-overview-ax.txt",
+      "bytes": 2789,
+      "sha256": "ddf39b6ed71638f6b78539247b9cce89d2774c6e10f3e077159a45415fed860e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/20-final-overview-ax.txt"
+    },
+    {
+      "path": "20-final-overview.jpg",
+      "bytes": 189388,
+      "sha256": "696bd23873331eb0c418fc991749466feeb4f82da5f9e2caeacbccdb48f4dade",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/20-final-overview.png"
+    },
+    {
+      "path": "21-signature.json",
+      "bytes": 263,
+      "sha256": "4c319b83b73027b49da6ccb4a85454837e08bb7313e7eba5c3bba00112bf72e8",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/21-signature.json"
+    },
+    {
+      "path": "22-binding-final-processes.json",
+      "bytes": 1475,
+      "sha256": "eea5b15b3d3bf96ea59d80cb01831e2406f1efd403ab29829f8978a30135c497",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/22-binding-final-processes.json"
+    },
+    {
+      "path": "events.md",
+      "bytes": 3170,
+      "sha256": "a1ad324bf6eb3069febbd440efa5d427ee894e37a2024c296ff901ef90af9222",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/events.md"
+    },
+    {
+      "path": "reference-packages.json",
+      "bytes": 1508,
+      "sha256": "4471b6e134dc2b0bc2b8680def83213d115b28a1aa3d5f848475af6bb4455bce",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/reference-packages.json"
+    },
+    {
+      "path": "source.json",
+      "bytes": 365,
+      "sha256": "0b2252f3a728860772c1ebfd72a87fac3db9d5367fe7e58bf6a7adc77ea07e6e",
+      "source": ".cache/qa/2026-10-24-mac-visible-lifecycle/source.json"
+    }
+  ]
+}

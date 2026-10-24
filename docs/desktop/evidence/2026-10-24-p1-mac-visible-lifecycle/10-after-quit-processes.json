@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-24T03:12:11.006643+00:00",
+  "after": "native menu Quit; no Bee getter",
+  "probe": {
+    "args": [
+      "ps",
+      "-p",
+      "96946,96975",
+      "-o",
+      "pid=,ppid=,stat=,lstart=,command="
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": ""
+  }
+}

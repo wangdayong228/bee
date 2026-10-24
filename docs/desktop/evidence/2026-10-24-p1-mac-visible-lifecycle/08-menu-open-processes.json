@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-24T03:11:51.017060+00:00",
+  "after": "native app menu Open Bee",
+  "processes": [
+    "96946     1 S    Sat Oct 24 11:03:23 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    "96975 96946 S    Sat Oct 24 11:03:23 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  ]
+}

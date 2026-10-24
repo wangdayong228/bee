@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-24T03:16:08.765317+00:00",
+  "packageRevision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "sourceLocation": "desktop/src-tauri/binaries/bee-aarch64-apple-darwin.source.json",
+  "sourceSha256": "0b2252f3a728860772c1ebfd72a87fac3db9d5367fe7e58bf6a7adc77ea07e6e",
+  "sourceMatchesReference": true,
+  "binaries": [
+    {
+      "file": "Contents/MacOS/bee-desktop",
+      "actual": {
+        "size": 27630672,
+        "sha256": "dc8d8ad4a420427f697958bd79a1cb02e89efdb2165ce272a45190d2f80eb298"
+      },
+      "reference": "docs/desktop/evidence/2026-10-23-p1-native-mac-87b28a2/packages.json",
+      "matches": true
+    },
+    {
+      "file": "Contents/MacOS/bee",
+      "actual": {
+        "size": 30630144,
+        "sha256": "aa6909b149a9849f03aab602e2ff899e53fbe7980687fddaf7b76f0ab8f9b3f2"
+      },
+      "reference": "docs/desktop/evidence/2026-10-23-p1-native-mac-87b28a2/packages.json",
+      "matches": true
+    }
+  ],
+  "finalProcesses": [
+    " 5669     1 S    Sat Oct 24 11:12:39 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    " 5787  5669 S    Sat Oct 24 11:12:40 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  ],
+  "scope": "macOS15.7.7 arm64; development demo; close/hide visibility unresolved; tray untested"
+}

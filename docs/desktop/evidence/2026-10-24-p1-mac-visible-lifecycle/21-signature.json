@@ -1,0 +1,12 @@
+{
+  "command": [
+    "codesign",
+    "--verify",
+    "--deep",
+    "--strict",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

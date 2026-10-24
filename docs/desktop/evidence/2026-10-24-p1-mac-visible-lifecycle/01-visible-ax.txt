@@ -1,0 +1,56 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container
+				4 text Bee
+				5 container 主导航
+					6 button 概览
+					7 button AI 账号
+					8 button 收益
+					9 button 诊断
+					10 button 设置
+				11 text 尚未接通真实供给 关窗后可从托盘找回 B Bee 桌面端 本地演示空间
+			12 container
+				13 text 工作空间 设置 本机设备 演示数据
+			14 container
+				15 heading 设置, Value: 1
+					16 text 设置
+				17 text 管理设备偏好与应用设置。
+				18 container 普通偏好
+					19 container
+						20 text 语言
+						21 pop up button 语言, Value: 跟随系统
+					22 container
+						23 text 外观
+						24 pop up button 外观, Value: 浅色
+					25 container
+						26 checkbox 开机启动, Value: 0
+						27 text 开机启动
+					28 container
+						29 checkbox 演示通知, Value: 1
+						30 text 演示通知
+					31 text 只保存本地演示偏好，不会修改开机启动或系统通知权限。
+					32 button 检查演示通知
+				33 text 代理地址
+				34 text field (settable) 代理地址, Placeholder: 关闭（留空）
+				35 text 支持 HTTP / HTTPS / SOCKS5。此演示仅校验并保存地址；不发送网络请求，不改变系统代理。真实 Bee 代理覆盖范围将在业务接入时核验。
+				36 button 保存代理
+				37 text Hive 地址
+				38 text field (settable) Hive 地址, Value: Hive 演示连接
+				39 pop up button (disabled) 切换 Hive
+				40 text 普通偏好按 Hive 与当前用户隔离；登录前使用未登录空间。账号状态与凭证不会保存到浏览器偏好。 版本 Bee 0.1.0 · 开发版本 平台账号状态 2  个演示账号
+				41 container 演示生命周期
+					42 button 退出演示
+					43 button 更新演示
+					44 text 演示退出流程已完成；App 仍在运行。
+				45 text 仅演示：已保存设置；切换 Hive 后需重新登录和绑定。未修改系统代理、开机启动或系统通知权限。
+			46 container
+				47 text Bee · 开发版本 演示操作不会影响真实账号或资金
+		48 scroll bar (settable, float) 0
+	49 close button
+	50 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	51 minimize button
+	52 text Bee · 开发验证
+53 menu bar
+	54 Bee Dev

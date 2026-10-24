@@ -1,0 +1,5 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 Bee Dev, Secondary Actions: Cancel, Pick
+	1 menu Secondary Actions: Cancel
+		2 打开 Bee, ID: customAction:
+		3 退出, ID: customAction:

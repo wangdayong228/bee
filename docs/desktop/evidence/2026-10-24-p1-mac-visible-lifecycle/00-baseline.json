@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-24T03:09:19.335637+00:00",
+  "head": "5ada0898eda96e212895e559c93b52e57f60e2e7",
+  "app": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app",
+  "files": [
+    {
+      "path": "Contents/MacOS/bee-desktop",
+      "size": 27630672,
+      "sha256": "dc8d8ad4a420427f697958bd79a1cb02e89efdb2165ce272a45190d2f80eb298"
+    },
+    {
+      "path": "Contents/MacOS/bee",
+      "size": 30630144,
+      "sha256": "aa6909b149a9849f03aab602e2ff899e53fbe7980687fddaf7b76f0ab8f9b3f2"
+    },
+    {
+      "path": "Contents/Resources/bee-source.json",
+      "exists": false
+    }
+  ],
+  "info": {
+    "CFBundleIdentifier": "dev.tokhive.bee",
+    "CFBundleShortVersionString": "0.1.0",
+    "LSMinimumSystemVersion": "13.0"
+  },
+  "processes": [
+    "96946     1 S    Sat Oct 24 11:03:23 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    "96975 96946 S    Sat Oct 24 11:03:23 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  ],
+  "system": "ProductName:\t\tmacOS\nProductVersion:\t\t15.7.7\nBuildVersion:\t\t24G720\n",
+  "arch": "arm64"
+}

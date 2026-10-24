@@ -1,0 +1,28 @@
+Window: "Bee · 开发验证", App: Bee Dev.
+0 standard window Bee · 开发验证, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Bee, URL: tauri://localhost
+			3 container 演示生命周期
+				4 text 演示退出流程已完成；App 仍在运行。
+			5 container 连接详情
+				6 container
+					7 heading 连接详情, Value: 2
+						8 text 连接详情
+					9 button 关闭
+				10 text 业务演示与原生管理进程独立。
+				11 description list
+					12 text 业务连接
+					13 text Hive 演示连接
+					14 text 原生管理进程
+					15 text ready
+					16 text 真实贡献
+					17 text 未由演示操作启动
+		18 scroll bar (settable, float) 1
+	19 close button
+	20 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	21 minimize button
+	22 text Bee · 开发验证
+23 menu bar
+	24 Bee Dev
+
+The focused UI element is 9 button 关闭

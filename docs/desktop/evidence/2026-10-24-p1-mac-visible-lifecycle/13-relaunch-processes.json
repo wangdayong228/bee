@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-24T03:12:45.776599+00:00",
+  "after": "Finder exact package open",
+  "processes": [
+    " 5669     1 S    Sat Oct 24 11:12:39 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    " 5787  5669 S    Sat Oct 24 11:12:40 2026     /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  ]
+}

@@ -1,0 +1,92 @@
+Window: "macos", App: 访达.
+0 标准窗口 macos, ID: FinderWindow, Secondary Actions: Raise
+	1 分离组
+		2 滚动区
+			3 外框 边栏
+				4 row (selectable, expanded) Value: 个人收藏, Secondary Actions: Collapse
+				5 row (selectable) 隔空投送
+				6 row (selectable) 应用程序
+				7 row (selectable) 桌面
+				8 row (selectable) 文稿
+				9 row (selectable) 下载
+				10 row (selectable) myspace
+				11 row (selectable) mywork
+				12 row (selectable) mybook
+				13 row (selectable) mydefi
+				14 row (selectable) myairdrop
+				15 row (selectable) dayong
+				16 row (selectable, expanded) Value: iCloud, Secondary Actions: Collapse
+				17 row (selectable) iCloud云盘
+				18 row (selectable) 共享
+				19 row (selectable, expanded) Value: 位置, Secondary Actions: Collapse
+				20 row (selectable) 推出, Value: Install ChatGPT
+				21 row (selectable) 推出, Value: WorkBuddy AI 5.8.4
+				22 row (selectable) 推出, Value: Wokey Provider Node
+				23 row (selectable) 推出, Value: Grok Bot Installer
+				24 row (selectable, expanded) Value: 标签, Secondary Actions: Collapse
+				25 row (selectable) 红色
+				26 row (selectable) 橙色
+				27 row (selectable) 黄色
+				28 row (selectable) 绿色
+				29 row (selectable) 蓝色
+				30 row (selectable) 紫色
+				31 row (selectable) 灰色
+				32 row (selectable) 所有标签…
+		33 分离器 (disabled, settable, float) 157
+		34 滚动区
+			35 外框 Description: 列表视图, ID: ListView
+				36 row (selectable)
+				37 row (selectable)
+					38 单元格
+						39 图像
+						40 文本栏 (settable) Value: Bee Dev, Secondary Actions: 打开“访达”项目, URL: file:///Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee%20Dev.app/
+					41 单元格
+						42 文本 昨天 18:04
+					43 单元格
+						44 文本 58.3 MB
+					45 单元格
+						46 文本 应用程序
+				47 container
+					48 排序按钮 名称
+					49 排序按钮 修改日期
+					50 排序按钮 大小
+					51 排序按钮 种类
+			52 按钮 名称, 升序
+				53 文本 名称
+				54 图像 向上移动
+			55 按钮 修改日期
+				56 文本 修改日期
+			57 按钮 大小
+				58 文本 大小
+			59 按钮 种类
+				60 文本 种类
+	61 工具栏
+		62 container 返回/前进
+			63 按钮 返回
+			64 按钮 (disabled) 前进
+		65 单选按钮 Description: 图标视图, Value: 0
+		66 单选按钮 Description: 列表视图, Value: 1
+		67 单选按钮 Description: 分栏视图, Value: 0
+		68 单选按钮 Description: 画廊视图, Value: 0
+		69 菜单按钮 Description: 群组, Help: 更改项目的分组方式（按住Option键来更改排列顺序）
+			70 菜单按钮
+		71 按钮 (disabled) Description: 共享, Help: 共享所选项目
+		72 按钮 (disabled) 编辑标签
+		73 菜单按钮 Description: 操作, Help: 用所选项执行任务
+			74 菜单按钮
+		75 搜索文本栏
+			76 按钮 搜索
+	77 关闭按钮
+	78 全屏幕按钮 Help: 此按钮也可以执行缩放窗口的操作, Secondary Actions: 缩放窗口
+	79 最小化按钮
+	80 文本 macos
+81 menu bar
+	82 访达
+	83 文件
+	84 编辑
+	85 显示
+	86 前往
+	87 窗口
+	88 帮助
+
+The focused UI element is 35 外框 Description: 列表视图, ID: ListView
