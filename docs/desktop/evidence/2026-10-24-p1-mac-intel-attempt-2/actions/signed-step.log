@@ -1,0 +1,40 @@
+﻿2026-10-24T04:12:07.2317300Z ##[debug]Evaluating condition for step: 'Verify packaged App seal and real bundled Bee without GUI'
+2026-10-24T04:12:07.2322240Z ##[debug]Evaluating: success()
+2026-10-24T04:12:07.2322970Z ##[debug]Evaluating success:
+2026-10-24T04:12:07.2324030Z ##[debug]=> true
+2026-10-24T04:12:07.2325370Z ##[debug]Result: true
+2026-10-24T04:12:07.2329210Z ##[debug]Starting: Verify packaged App seal and real bundled Bee without GUI
+2026-10-24T04:12:07.2355720Z ##[debug]Loading inputs
+2026-10-24T04:12:07.2357700Z ##[debug]Loading env
+2026-10-24T04:12:07.2365870Z ##[group]Run cargo test --locked --manifest-path desktop/src-tauri/Cargo.toml signed -- --ignored 2>&1 | tee desktop-ci-evidence/signed-app.log
+2026-10-24T04:12:07.2367730Z [36;1mcargo test --locked --manifest-path desktop/src-tauri/Cargo.toml signed -- --ignored 2>&1 | tee desktop-ci-evidence/signed-app.log[0m
+2026-10-24T04:12:07.2457500Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-24T04:12:07.2458040Z env:
+2026-10-24T04:12:07.2458320Z   CI: true
+2026-10-24T04:12:07.2458660Z   GOTOOLCHAIN: local
+2026-10-24T04:12:07.2459060Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-24T04:12:07.2459550Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-24T04:12:07.2460140Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-24T04:12:07.2460790Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-24T04:12:07.2461210Z   APPLE_SIGNING_IDENTITY: -
+2026-10-24T04:12:07.2461610Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-24T04:12:07.2461990Z ##[endgroup]
+2026-10-24T04:12:07.2464990Z ##[debug]Overwrite 'shell' base on job defaults.
+2026-10-24T04:12:07.2547050Z ##[debug]/bin/bash --noprofile --norc -e -o pipefail /Users/runner/work/_temp/2514f325-3d54-4dc7-abbf-34847cfdff92.sh
+2026-10-24T04:12:07.8302780Z    Compiling bee-desktop v0.1.0 (/Users/runner/work/bee/bee/desktop/src-tauri)
+2026-10-24T04:12:14.3972670Z     Finished `test` profile [unoptimized + debuginfo] target(s) in 7.08s
+2026-10-24T04:12:14.8166640Z      Running unittests src/lib.rs (desktop/src-tauri/target/debug/deps/bee_desktop_lib-4bbb0c8176e6cbc7)
+2026-10-24T04:12:14.8363760Z 
+2026-10-24T04:12:14.8365080Z running 2 tests
+2026-10-24T04:12:15.1473910Z test sidecar::tests::signed_app_bee_handshakes_pings_and_reaps_without_gui_or_path_lookup ... ok
+2026-10-24T04:12:15.5057430Z test build_source::tests::macos_signed_bundle_seal_accepts_signing_changes_and_rejects_tampering ... ok
+2026-10-24T04:12:15.5058330Z 
+2026-10-24T04:12:15.5059140Z test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 40 filtered out; finished in 0.67s
+2026-10-24T04:12:15.5059830Z 
+2026-10-24T04:12:15.5065550Z      Running unittests src/main.rs (desktop/src-tauri/target/debug/deps/bee_desktop-83d52deb49301627)
+2026-10-24T04:12:15.5241800Z 
+2026-10-24T04:12:15.5242390Z running 0 tests
+2026-10-24T04:12:15.5242690Z 
+2026-10-24T04:12:15.5243500Z test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+2026-10-24T04:12:15.5244200Z 
+2026-10-24T04:12:15.5306930Z ##[debug]Finishing: Verify packaged App seal and real bundled Bee without GUI

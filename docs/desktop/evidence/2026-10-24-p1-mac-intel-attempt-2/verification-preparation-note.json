@@ -1,0 +1,6 @@
+{
+  "check": "optional Playwright .last-run.json",
+  "expectedByFirstLocalInspection": "desktop/test-results/.last-run.json",
+  "presentInArtifactZip": false,
+  "result": "File not uploaded; first local inspection stopped on FileNotFoundError. No test assertion failure. Use raw browser-e2e.log and successful source-bound workflow results."
+}

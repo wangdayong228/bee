@@ -1,0 +1,2934 @@
+{
+  "files": [
+    {
+      "path": "test/desktop/src-tauri/binaries/bee-x86_64-apple-darwin.source.json",
+      "bytes": 370,
+      "sha256": "4b5e8f22e0b9ea6850e2b4aa2d0b18df7858b8246258e2d410e61cfde07f538c"
+    },
+    {
+      "path": "test/desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_x64.dmg",
+      "bytes": 24174868,
+      "sha256": "1a734744561a6d02b13bee2e02859461280a191c818a7aee4134ad6efadaf5f7"
+    },
+    {
+      "path": "test/desktop-ci-evidence/packages.json",
+      "bytes": 1507,
+      "sha256": "72639ed16781ea8a8c2b75719f62074bfafd01a8a6bd461cd63f85d9eb20bf68"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 127854,
+      "sha256": "07536a83e3ede626faffc6f3a21a917c0c44b46eba9c06548d216c49de145491"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 133883,
+      "sha256": "7673ac3e94b2a295805f5e2ffe274c1cb30884a2621dc607dea27aa0f7c3bac4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 135272,
+      "sha256": "393ba68eba7c80e0027f274844874f5968714681b7ea5e15d2d6d426dd10c6a8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 134391,
+      "sha256": "2b934507ec049ab827a90c3bc416da91862e434262d2f1d01712b5e0512de11e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 129918,
+      "sha256": "9dd661a1078a6a35e56905b1ebee3300cd607e19e2cf9344717648e8e021fe79"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 117986,
+      "sha256": "2d65324029c9d0610c3dbb38df1b59df500297a2b5a0eefbca7c6ce08022e915"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 91078,
+      "sha256": "0e8eb9eefa382fa04a198a5537e533644e8c13689f3f7f95eaa5fc082187e74b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 132722,
+      "sha256": "a66a459a899107f02b0ff9a67fb5f539d695667e8d0d7ccad5f9cc770730e960"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 70337,
+      "sha256": "2e7c93aa9d673848870b506c8218ae4e353070891e3cb7b3da73df339952f0ec"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 118526,
+      "sha256": "e2bcb0364d8a3aeb255eafd746c4c5a46b31ea9d0b89112970175ca2a50b1044"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 110211,
+      "sha256": "cf43f25e07d5ebb098d0dcf60fa86ae51dd6b22c42a828dde9886d74ab2e822c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 78856,
+      "sha256": "244d6a76dd00927e247a5fa11ff4a7e92017c3be0b57aa4e45e662b3cd19e0ce"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 135272,
+      "sha256": "393ba68eba7c80e0027f274844874f5968714681b7ea5e15d2d6d426dd10c6a8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 135139,
+      "sha256": "a7fd860de9e799d9a26903ad6721013940afde864b8db3473bbbd096b9197c60"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 64403,
+      "sha256": "15a5e1e894cf3abea9a2c165901bcfb586979043e51fe0045a7f3af85efdeaf2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 149502,
+      "sha256": "9372baaf454536f5ba03bc4822dbd8a00817b8705081970aa6c527d730c8f387"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 158770,
+      "sha256": "38a2040888d061016497e874d73630a35415b29312d6d40266032fb306cc5ffd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 160377,
+      "sha256": "fc654e5960db1e9aff3d5e53e7f893a7b7d694ae3a45a7093fa9f59714dbb89e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 159981,
+      "sha256": "14e71bed69d67ffb01ff80be77bf8f1e39a49b02a1ec460c50c42bedf8ada776"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 153118,
+      "sha256": "fa8df8099ec91ff7fd651ec7ef358679c921313ffc1619cabf57f8c7ecb899a1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 136387,
+      "sha256": "86771ec508c56bea2ccba7ef5cbab2c2d703c5244b0ae60d07befbc082adc35b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 109685,
+      "sha256": "da0b8f139f0b001cece59bdaf331802e2698a2bad1e71347c6e3953c92746aed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 156494,
+      "sha256": "fd726258ac823592333d87c6d37d417613b2eecc3f9a9e9651cc8a917b3133f2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 82698,
+      "sha256": "436e69cb770dafeb23f3c80c6c3b7498af7ccf38dd3a98b3d502b565148956f5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 141899,
+      "sha256": "ad123fcd7deddc498cbd4cb38fa85c1c26e92d93c069e46e4512e75914f66593"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 129106,
+      "sha256": "3cf932fb9df4415ade193ac4b55633d8ea4d8bbf39cfc7ecdc3f89383517066f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 92851,
+      "sha256": "3bf4d2f81c6b9c5d7bc86f6c8ee3b0e4fd7dc069945933042216e1fc3b2e4f59"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 160377,
+      "sha256": "fc654e5960db1e9aff3d5e53e7f893a7b7d694ae3a45a7093fa9f59714dbb89e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 160587,
+      "sha256": "ae9dd6aa593d1935dc2858578b8ef21f7001f1a678a552acd693e4a484cefdab"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 76890,
+      "sha256": "309b0308d71a409e4301b2bb380983d52abfddd9f1cb26da0281a9a552b165e6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 376209,
+      "sha256": "ee21e179e9f90ad728954d132cd6af37331a4afb53728589eed532e84af811c0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 413036,
+      "sha256": "cd10ec63c192fc623465bcff80a3ee6ffcfcd419c55c56a49898e9b444c1c096"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 413774,
+      "sha256": "cd3c8a969b12e973349989bfe5377b611464d76ed673aec24e592d37f5f2acb9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 417964,
+      "sha256": "a0dd9c04465f8e6f800d040c1c1d0f906d6f80c3e5305633454402f2019c372d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 419461,
+      "sha256": "ec6f39270df0db2b4c2de8844a106914a166a21195dd6a3234f760a73f276463"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 364664,
+      "sha256": "99cc6f39645c5e12a7ee9b4522613cbce9cf1e191ff9f82eeb2b561fc9285bea"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 281648,
+      "sha256": "3c81089c325690c70c7c668aecf0b747c46249d9a1f91a4a04444c864ff0abe1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 413471,
+      "sha256": "bfbb6fae4115254e6f48ae020b8d65a710897cbcf77c0fd5fb8d7c52fe10ea3f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 231180,
+      "sha256": "f9c6ee2a5507aac284f78b9cade04a81ce7ad9bafafed1973507b74828222714"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 392015,
+      "sha256": "b8711d672339a7e1f0e33795186eb7fc87ed4d80cb426f085f4187be0385c728"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 345737,
+      "sha256": "8460afcfb1b3addc384a7212a6c30c0787810e3c026cbceb5238cd959acae70c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 253807,
+      "sha256": "a58caa124042ffff2ab451da03a309b16f087fea0083662bef35415ea4942dea"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 413774,
+      "sha256": "cd3c8a969b12e973349989bfe5377b611464d76ed673aec24e592d37f5f2acb9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 419621,
+      "sha256": "2df81cf6e6f1707bfa032171ee1ae8b32efa4972348d611f1a274ea0942d51a0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-en--a73f9-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 218854,
+      "sha256": "c66739830166e086ba73eb5b1da730056eed39789bdb9167ec8b05b34b12b42c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 120983,
+      "sha256": "e34c8e1007757f0f2b7a68d7414ec0a0c748b158581d197ba2b8258d7098222b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 137285,
+      "sha256": "242a9103258cdaf0a002f016aa64fb05928f218ce8d0890d10ad9fa720e81de9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 136582,
+      "sha256": "5484c349c1f6cc90251476d0f0c9c835cd38f40904bc59aa8b702a1d50ac5087"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 136937,
+      "sha256": "bc04b388738719a41f87dc0d6e6895b86689e6776152a746c37a37b8e2eeec7c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 134429,
+      "sha256": "a3cb7cd75b86ca9583c8c569c3b51ed2a14182fcb8b0a5cd7a344b68b11c7691"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 120266,
+      "sha256": "19dfd552827efd75dc153b2e7792777f43e997dc84b025011b1222a9aacdf50e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 89452,
+      "sha256": "911fda7bc88af67f04d4710f47bf789be2dcc9995771290b503fccbc520a76e6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 129786,
+      "sha256": "5beb4ae6abdb2a35e3d1878cf3d2a830ab05e6ce4632eb7a0698db79402f4c80"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 71338,
+      "sha256": "ebf7172ab24400fe391916283e4470fd5bff243a0917a97f1568915af1f8795e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 114540,
+      "sha256": "e71512cf75fec49a72bd68bb86051f50ffe65b6a9f744c2fec996a3f8c4d0c36"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 111839,
+      "sha256": "52a113d4cf646bb022e46d718c26da39918c0d6b96d6f5fee9052b85ecb41f97"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 79248,
+      "sha256": "a155b84861125c8bc46c79f4ec34e0a4a48d91f087d5df43fd4fc8e11fdc5aa7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 136582,
+      "sha256": "5484c349c1f6cc90251476d0f0c9c835cd38f40904bc59aa8b702a1d50ac5087"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 137249,
+      "sha256": "b1de1e9515d937bfea2042a3a5c86de637e25472b81978f09db8b6833d12d558"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 62522,
+      "sha256": "3c31a0551d3c7136b9eabcdd616f42a12eb7530082f628ba64f3ad8e6fe70553"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 138098,
+      "sha256": "8410d3be84cc440be337f53d98d7a09a1b828841320ef86ba8e2aaaacbcb99dc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 155499,
+      "sha256": "8a68b308f3aee1a1c61f080ebe3c171e6aec3b62395f5777f3d9f7c840f4c497"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 155959,
+      "sha256": "72158178fb43e0ca153277ff6c6fa706de3998f1ec745b1379941c1366e66585"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 156531,
+      "sha256": "ec6d390a834b70e7dafa825cb46e7b9c631dbb2f787ad4084d6941c51b594a75"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 151624,
+      "sha256": "57d3c76d00246de60bf1a2a0a6ba62465d9d46daa2fc832416c2cfc51df39478"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 134087,
+      "sha256": "6bf357747d96523a3f8632ad3e11301491b2908c4b2da138cac122f0f954ce36"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 103007,
+      "sha256": "8ec11c307dda73e9a7ed6e3f4f4d851c105b568507bcab628c029ac7187ba4da"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 148602,
+      "sha256": "2be81fdb10805b1e5bfae8ff6de49af3feb3234ad07a101c10e61a3980dfb50b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 80079,
+      "sha256": "fed9b3d7526c8759061b374142e04ef0cd7783df103e27973d20c596f1ac8a81"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 132271,
+      "sha256": "462509847f2bd75b765adf04e16b9d1f0cd24da0723e7d80317be219a406292d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 125922,
+      "sha256": "ca278f6f0f2083e7bdc0c5be9488df6134bc9f7c9cbd9cbe9ae0af822ea747ac"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 89194,
+      "sha256": "4eef88d7cb30cd33ef94e40e2e86bc8f9721dec790bf73aa153a2f062d76ce0e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 155959,
+      "sha256": "72158178fb43e0ca153277ff6c6fa706de3998f1ec745b1379941c1366e66585"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 156743,
+      "sha256": "6527c0b98c800bd6a22dbe597b3f96335e888b286bf08b25b3d508f164a74d83"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 71764,
+      "sha256": "de95e59f735f56ac226ceb3f478aac80c1a798c251d9251218f35e392e62e8c7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 351087,
+      "sha256": "55911acf4fd2c7f21a4795238b70a011cc05a2a31660cf3e700e0573c247e8a8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 406700,
+      "sha256": "9f10d95e07c1f074dc8c17d2eba191939ec942f1172d0f2a3593435c823b5bab"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 404225,
+      "sha256": "d01ae36460603e5c5c65ee9c2494a3398619c1850d93d882b187590ea0c88341"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 405249,
+      "sha256": "4fa196c18ffa5528a7afb7e61060d793cad2401a6f7c5783f0a2f1a0bf86835b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 416351,
+      "sha256": "5367e01de22d5d6e752c81b85ca32c467ce9f5b94c05f7e8ecd3d7978e046caf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 353549,
+      "sha256": "6e90ccda117a9bc31435ddfd2d9751b8c9b0da2f68b985e898ea631729b5012d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 268632,
+      "sha256": "122bf1d7e463fa23993959f23b7471fc18dbb1d2c6b723c1be0c9582f5f9613b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 396109,
+      "sha256": "848ee69abf35762c89e796f3632f2d2bbde401065e19d765ec5f3d017d665e28"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 226029,
+      "sha256": "4b5a9d220639b18e690bdc0ad7277e7bba6fa2c90081e0fec4c501c612d44d58"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 370328,
+      "sha256": "d7fc2711cc7d440ce2d226a5a0b57b4a66975fbd383bc0f683f18c78ef1d161d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 346120,
+      "sha256": "f9d4a9b1a2eadcd7fb6fcc6eb0e9187437f5bcefce593004e2e51dba61bdb741"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 248671,
+      "sha256": "b9d12dd042e73bd9cdd761a8e7e312eb1cae5190bb07eb1762cdd6327c42741b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 404225,
+      "sha256": "d01ae36460603e5c5c65ee9c2494a3398619c1850d93d882b187590ea0c88341"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 406028,
+      "sha256": "575ba35bb8a0a01b453f37466998e7fcb003ec8a3971efa33f81daa1418d150c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1024x768-zh--07b57-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 203621,
+      "sha256": "1a532137dd23a4ca8e8180c7ba266dbcadb256a5bfc05f6acc5b6eafb66fe842"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 138920,
+      "sha256": "284c331a677b73428108f68aba98128c5d64027b927bd30162c91132961c5b89"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 140605,
+      "sha256": "5a4e565bbd9cdf15fa1a9d78bd6e747d1bd59d1888fb9124ca1eb73d5bd7b47c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 141368,
+      "sha256": "ffd9f399c310fe5eb50544f7d25363abb65fb6f4cefda53f7bf2f0b49b6e8e07"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 141069,
+      "sha256": "bb1c68723918931bb674b2db56e559bfaaa8018613b650ea3ddeb392c1695344"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 132741,
+      "sha256": "c5465be0b00e382c02fe5d4c88a2400cfdc9ac98c76c05037ac1776ded2bf440"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 120300,
+      "sha256": "da6f3643cc0aa1086df923479d93ec0aa2c56edf2b562ed4854c4b21ec333c67"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 92585,
+      "sha256": "033633b92e1b7f7bf9f0b6933dc43f435726c0d2379a0e299dc3f94b57566a29"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 134496,
+      "sha256": "c7a702f2c41cb2c72963431b711a6b49e767dfa9a378c9907bb7eac8d2e97602"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 70631,
+      "sha256": "87d554dacd0634b0e08c0e444e22ae29afde6a93090b18d7ed2fea55283e2826"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 120290,
+      "sha256": "7ef6e7ebf3812a70fa9d4eaf5355726ca04d0a9f9f6e2777c83c6a093ae9397a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 109087,
+      "sha256": "ad2f61d281fa9c2551a8a79e8b7f8d30e5a63975cf2cd17e781372a52e28150e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 80646,
+      "sha256": "011b28ef59f0e74cd3569118a799e6820b45262341ab99c68c885b69e0079123"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 141348,
+      "sha256": "39a1c2ba224dc889e387c7659babe1b7f4077cb3bfd169b77552c0c08a6cc60f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 141771,
+      "sha256": "acb6fa4fd09b9f075aa6a35e7b8592ea6b5151a419231ac362d94c09ca26aa82"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 66157,
+      "sha256": "58ac9046c592b29a615887ae87ffb37a0051fd91f4e8f2ca3499e711e809abca"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 167671,
+      "sha256": "c88c016fa5a73ef9d9fde77fb63398c77c523ff9e0df00747e8f5c3021aa5649"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 165908,
+      "sha256": "43863a88275d52ad78d78b9efece44135114377a9c2ee09c88ce769ec10e70b2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 166856,
+      "sha256": "e0199da5429839b6da7c7adfe98bb0f7ebd57e95d13afefa261b627613b05370"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 166970,
+      "sha256": "92c2ca2fd0a7ffbde4c4c95193316b52b87b386c8407ccccab13d013fbb04320"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 156159,
+      "sha256": "a4fe2d8e0e8c5f5f32eae70801bd724a6cc5f8615a14d950de25c42c3c663a5c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 139884,
+      "sha256": "618a7c593a3a86f9ced7775e590d6212e23be32a75448d4ff96136abd1967a54"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 111474,
+      "sha256": "7f6596179b0415a28c01433a92b346adcc4e480f243ee4c90330219fa09ccd08"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 159554,
+      "sha256": "c4dc862de98b341c9330535a7bd8ab961fc2f3b301656c02e3a98b7bebd0573e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 84031,
+      "sha256": "8e4ee88c264f9464f28a498c44f7a0cb2bd55ebdb9304059b7f726ee510605f9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 144334,
+      "sha256": "72e70455f1581475d49628023a8eda9b63422be0c5429c078b50a8e67250fa7f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 128337,
+      "sha256": "d353549fba2b4674313b18a1fbdd743151973f41b9130b5df74ec122cdb173b3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 95282,
+      "sha256": "aaf7cbcfb55d64c169964fc0beada188f649e9c3e4a0bb1c28ee151fa26ac365"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 166796,
+      "sha256": "1a29d0fb76d79084fecec724e18ec967b2fd9d4a1efd06bd1516620882d99548"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 167509,
+      "sha256": "c11d0503190e8995a24b9d140656cc8e7b59b6e8107efbc95a5dcb556f4b6032"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 79903,
+      "sha256": "bf15eb947d16494c1e668adf531ba3c884e72d0e2d6daa92f48b67f4a252410f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 427239,
+      "sha256": "7bd87ff6d2089d9795321b2f822239d5743f0fbf9f216e72ba39989f017a009c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 444238,
+      "sha256": "b514ad94c80e4dc08614123112025bb5d32a2479400bbe309573e29391636c6b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 444780,
+      "sha256": "68764f2302bd419249ebdd2d4f66fe0208723dbda918f2ba0c984fe86ead79fd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 448918,
+      "sha256": "4f1770e66150c3ef06f728270d7e56f3aac2f00d7236806f7118313b7cd5e583"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 447427,
+      "sha256": "c62c40bb4e4d73ef103df6bb9dc915128ec0662c33c54f2ac76d6199699257fc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 386776,
+      "sha256": "9dbe414e60afe12b4661d3bdfd90bb73e232084d5c940fc818191ea8d9d561f8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 304899,
+      "sha256": "7db134210d92596994c6a1caf923b8278e362c04e8c2245a28a1be8284a0644d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 434467,
+      "sha256": "51ca9326ca10a403eb012f1e34281dbd8c69cbf256fa1706b31b987d2342cb5d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 251788,
+      "sha256": "fbdad90065f71d98102d97ee68b3e55fe7c876919eed50ca2cee946ca20571a4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 419193,
+      "sha256": "91be84a1c3ac2af92324e85e3e086f331d7c850d3149c6ccfda0923f62c349cd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 362654,
+      "sha256": "5801d6dde7fefabf5b45008fb226605c46371d2588ce418b89fedf54bc89972f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 276733,
+      "sha256": "d9aa4e6faf2507a4d2385089ca5a808c008bd4581ab48cb566604d409883ab04"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 445226,
+      "sha256": "0ca87fc2895e221d5c9abcdcaaaa074207135113b0cd56c3be7c6759fe31cc90"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 451532,
+      "sha256": "79b134fcb9929025dbce6f3775e08afdcf3bd864925c83e78e2b5e2d0bbb7b15"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-en--113e7-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 243362,
+      "sha256": "886b585a0da5e2706eac3137199b8d4d535a8491dbd3d2d245cde264a153795d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 130097,
+      "sha256": "771568fa3530d490f7f6af527f00fd4f985068780b35b9a43d07af01cb2692ee"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 143139,
+      "sha256": "a72be1541bcac7396466d894cd0f2635f7b7deff934c72ae25eda89531aff56e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 142910,
+      "sha256": "daedb36cbb2619c9f3f48a63d78ee37dcf6167115bd4a196ae90c5425bc7b894"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 143194,
+      "sha256": "757ba18008e4794ba9260b20a68b8501ae60537b73a25f31346796a2d1227dd3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 136591,
+      "sha256": "5d7abe25b489aa484d3fc60331890a7a38978b6f4fc43a6c233fc99625d01693"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 122175,
+      "sha256": "834b9493a321106b372efb72f3dd3c88a0a9525c2d8abcbe4c6abc9cd55d07df"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 91826,
+      "sha256": "4e00c9698d997b66a9877b1f2a517927c7e5948d4a92ee38ba18a54c32cbb72d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 131503,
+      "sha256": "e4d7597fa8ef0d0033c29968cfa917682b46054bda7261b61f54e39d7d14954e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 73196,
+      "sha256": "1970b9bef92a86cb0eec98788a7ca9991ff2f4b572f293dd3da6b866ceac0c82"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 116344,
+      "sha256": "d56bf30d86cc49b8af5be1759d5feb8e9d6d05cba31f880245014dd40e712ad4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 114874,
+      "sha256": "3973d70ca0c20da99154ad9c64f13716eddf5e4056c678161aaa5f700679b380"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 80739,
+      "sha256": "506dc00c542ba08488d3f20de1b5e92be4a16719ea75ae17498946c04e06f443"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 142982,
+      "sha256": "48e2923a55dd95ea6b3b6dff0bd88c86f212ba647747ff81be37533355447b34"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 143651,
+      "sha256": "c267639c3531b9df11a6d7a1a655314953308fea905943b46ed325182bf3d925"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 64487,
+      "sha256": "9fd8e631445508a5b2e87b1e3dceafeaa7b50bb479e28109f220e67cae331ad6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 152955,
+      "sha256": "131c61556c6d22bc6349baab2cf90bc91c6b0c146e99aca1126a8baba327351c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 162516,
+      "sha256": "b9ed0432a6b8c302dc0d3f2915f3ebc4b2aaef4e2d02f3396b8b43eb9e9e12e1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 163024,
+      "sha256": "ce56ae57c423cf7cac12b857b97ce45c0b056653d9a6792d9e549c637382a264"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 163382,
+      "sha256": "fa5a807f2edf4ef78eeb54aef277bc8b0639837c3eb8747b90e38b12acfd4cfc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 154361,
+      "sha256": "e37c3642009f2c625976acfe44696d87b35bf1d509ba29855b8a6f876a145be4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 137323,
+      "sha256": "02dfb14b71a2a49f3e1adc2adef47c731d554d23e82ff9180cf24ac4d0245329"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 106457,
+      "sha256": "c7e57de4ced3218108f3f9a80b8bb669c2abdc806d1b1039e681dd0f53bbaeb7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 152696,
+      "sha256": "0005342df8f27fea7b8cc55ba3df8c81887b97034c83c280891c3aef9b54c968"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 82717,
+      "sha256": "fe3c872c41f101784d73d62b3eff68f323e5e5954527e742840f588abed89e1d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 134795,
+      "sha256": "e7f56a6e00b1f1a851f4d8b6aa7547e5b4e0c99567caafeb76320c8e8e4df9c1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 129769,
+      "sha256": "d9aa94cb43be72f607d9f93419f29235e6c764a49aade532f137c1ab7c3add0f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 91809,
+      "sha256": "792ab7cb1f87c254097d248319a90c783c77ac21a0593cc1c36b9d90bf71fe0e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 163074,
+      "sha256": "ba30a28b58cfd028f2765f151590a9132e93f1e28a5274ac1eea8f49d5cadeed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 163662,
+      "sha256": "1157898ac5e318bbd3859922d394d2353c3b0823fada170468fd2e201b5dbed6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 74957,
+      "sha256": "1b78aa75c68e4da673386d534f3f29d5788eef185450a7c53b2ee159700de55d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 393205,
+      "sha256": "f045754d75e10d4a4f04a720c61087b1ed1c41c97d13ae70b8aa2c462dc6d482"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 436377,
+      "sha256": "efdceca85e8f1f2cdba9a2dffb681d1395b045d93e375776d7cace882c5a537f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 434822,
+      "sha256": "d785cca5c2c8c093a19a99b6c3ab9663fc0bc5278279a5a274863749e42b00c7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 435875,
+      "sha256": "089f15ada137af5efe52de0f870ecd8cb079669f0a072764c1c19ca72fd070ef"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 441625,
+      "sha256": "3384edbf1a988e0bb6bfa1426a00ef8c47a0f286dadb2db10da0d98934bf813b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 375347,
+      "sha256": "5c16a844ce747f3c6621ba89770e18a0a583f99846c611138edb492e9026c566"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 294270,
+      "sha256": "81c0148f9b4de157962b760ef6d5e4887b04c77a2341ee9a684134df3e2edb21"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 421640,
+      "sha256": "e7efbf6fc5cc9e07fbe7fbc2fed24a49b15b655e5f3f7210c5b8aa4f2fae1c3c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 250624,
+      "sha256": "4c70e39579501cfc017b3ce744b4814888604bb53ac7cc25b439c5c35ceaae87"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 396109,
+      "sha256": "6799cee543245319f04ba7d73b3a8a04e8fdd502dab66b7e24c4256950e9a111"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 368168,
+      "sha256": "56373da25210452409385d2121beb2ae035de2ec09094181593e2ad7ef12e0bf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 270943,
+      "sha256": "fd1c55c61ad0142ea2f612f1576b1caa45b66e78e2832b17c83471b3444b4960"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 434496,
+      "sha256": "6065e86fe6448fba7cca94e44ce86068528f332700d6261641ef8a16e37953b7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 436268,
+      "sha256": "55f32142a8567c1f54fa2c1a6521e4ceab49e7a69db25c28233db088c9e66d51"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-1280x860-zh--08e65-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 228937,
+      "sha256": "598b9df9a3afaeebec2b1fb382d900db9ee1f2829bf8e309141f6e21ff15ace1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 128737,
+      "sha256": "4dc4ca2d364dc37b42eedb3d42458740edc18a316d105bccea76fb49a834e5c6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 120196,
+      "sha256": "0e0ac2602a05e528d332ffde4b17219d5a48a5e9fda6a93a63fbb37f57dfeba7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 118103,
+      "sha256": "38d575d4196704c237ff0941b79b30d70eb5d97fc2f770f5da9e28145551c310"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 119256,
+      "sha256": "054d42bbd48028ca08a1a207a6d195ebbc5fec5ab20ffc7f3fe1b547022ada8f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 129870,
+      "sha256": "34465274054b0168a02fd4dbf3dd87e5b70af7471dcab065bf22d927b55d149e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 119194,
+      "sha256": "bd877db63202a4251ad022ee01db3c8e429afe98c82d693baa64b9e059acfe62"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 105926,
+      "sha256": "b1304a10673bde60da93272d0736d2ae54fa0d47ab32fa69a2f2f2c9c431e1ed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 133969,
+      "sha256": "ff4151a3f0cc1a91ef3bcd2d0796fb10f21fbf99f3d62027591550db3cd78808"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 69802,
+      "sha256": "21062f0d05bd75663504c34dab2b0c5090cda20f27450ae9b29b1d72a50a4f7c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 117514,
+      "sha256": "ab7c3c2e83cc92b470d7b22b3fa20e1d462e5d630e15eaec25ab79cc0b9407ab"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 109819,
+      "sha256": "d5d8c1fca918cfeab9013a8a33d0b1f6d8686277c89d13e7086d7b33a97919fc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 78643,
+      "sha256": "569511947a9fe08045db2875d807e37b815895419cc5d64c391822555510d6a6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 118103,
+      "sha256": "38d575d4196704c237ff0941b79b30d70eb5d97fc2f770f5da9e28145551c310"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 120025,
+      "sha256": "876a6dbdd0942d78caf82082e0931e9595e5015c0f88e23ba51059e82d5ba9e7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 63347,
+      "sha256": "7dc7ca9d8ec4eb5a44da3ecfadae07db6b5e0e52179ad0c6d343b238f861dd23"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 150973,
+      "sha256": "5505afdeb394e2570451107871f86fecfd69d7de9e1ae1c1b5555528b6e62397"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 142424,
+      "sha256": "5cccef606eea9e103c37ba5362d8827d8d255b2a4d059511376c509264ffa238"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 139587,
+      "sha256": "5cc145675e46ec353e651689c6a4ee3ab51076c8fe46322691b7ca2082e5d032"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 142438,
+      "sha256": "62c63ff1745acb2c67d6b43600cb5acec842d1dfb322ef50f6b62db5534c7023"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 152559,
+      "sha256": "16079053f112ef141f63777afb1a41b6d6e682c377db0271fc9d0bbd569fb215"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 138108,
+      "sha256": "f7f82bfc955b92eb42fc0320f45e673206245893ae054a124642a335c63c6c0f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 124236,
+      "sha256": "ebfaa2bee3bc505b52359c98532be46ace5be0df5ae339d94a9c246f7a3898b4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 159084,
+      "sha256": "1deb988c8bc799f0b48f3c62ab92e19f3cb6c9281dbfe7592a53f3d150aad867"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 81372,
+      "sha256": "c8269f24c8d3eeecf4f5edd39b315201681ed8013a76f16ecccd2fc5110b953a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 141125,
+      "sha256": "ff8569df4537118440b85430b39c24ab0d9e97f386913e72423a5dce5bd86048"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 128327,
+      "sha256": "b47728687c3100bc1dea6c4ad15bfa604b82a8b1cebc94938f6277b4429ef9ff"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 91763,
+      "sha256": "cc1be875b44fb3cc67909a8a11a43b278872f2fe7a92a4e89284af78134ddcb6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 139587,
+      "sha256": "5cc145675e46ec353e651689c6a4ee3ab51076c8fe46322691b7ca2082e5d032"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 143091,
+      "sha256": "8168d3dfbf32a16b6a1016a93f992d0585d12e78a2ea92907fbe152883de7f0b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 75102,
+      "sha256": "c7458e005e601eb7797ec1ded7b3f4e71c3ed3ce628901c75cc33dae3c1b7660"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 390956,
+      "sha256": "2ee6677ddbfe207a256fe7454e2777472f5c63e4fdb7c44d6ebb62cc813b4432"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 371024,
+      "sha256": "346e10b7b83e6da92821d31ef18fc08d1cdcbd63f0e1b89b9c3ab9855b6d6eb1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 363718,
+      "sha256": "7bc4a71d3597035309ae20a3a83340c8039bbf7be0ac01f5d2d987bb7bae108f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 374288,
+      "sha256": "0746431dbd494cf9b31bb94333ae2d7dfd266e2bb7cfe35a249c9483dc3abf4d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 401146,
+      "sha256": "eff5b4456d4397fa7aa1150b55540f2b47a20b5302e36020a0472c69d6a3e9d0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 352626,
+      "sha256": "af404eab4a2b47f294ddc457979bc02ceda862d2c0872d6e70d589ae2decd7db"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 327387,
+      "sha256": "9bf819a6b846b46711c5b7506e6dc92bfc21e4c64efccafb23c2ec328a914394"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 395841,
+      "sha256": "91ec6350f296650f6327081e3178905a14aa215647e5042cb63dec190845d0d6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 215007,
+      "sha256": "38f4d84b37ea65fdd36fef189f61ae6b92034d3067b01d93938202e5c0507a2d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 372036,
+      "sha256": "f2db6aa1ca84b25e0573681b794a0099e0b5ecb7db62a1ecd5528232f54c55c4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 330909,
+      "sha256": "d57cdcc0a8ea6f267b52e2e9ec7b7334e12348f5fe1e47afab67f8da1684b089"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 241273,
+      "sha256": "5d773f2c5b4f61d4dffa53e9e381ed318d44df5781b57e57445093f8383c583b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 363718,
+      "sha256": "7bc4a71d3597035309ae20a3a83340c8039bbf7be0ac01f5d2d987bb7bae108f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 375873,
+      "sha256": "b515c856c69099b0e10206377a700b3167da61c591a1b4a7f7c08aa340112ff0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-d-b6a73-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 202829,
+      "sha256": "8f5fbe14b82ba14f126cce98125f540f18bf7d7ed39836ccf516ae9457858045"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 152972,
+      "sha256": "a10c5db79b8e72f9c731e6a8901d32ed03d3f0bf4b38e7baccbcdf168db6fae0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 165271,
+      "sha256": "87905e17d29fff4fad7939f37a7d9e84dc26f01f1c6cd96f21846561f133b979"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 163293,
+      "sha256": "dc95531eafbe4aabf49fe073bc0b7b9aaa6faf2f9a80d2458cd94a44d7140d73"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 164730,
+      "sha256": "1d6ca9c059b7b11934cb8fa63909cdfa4c68943b53a01e750011c17ae0eb7c16"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 176466,
+      "sha256": "93cc6bfb234cd4bdabb479c4503c8bdd5995c58f9d0c4055725f1ecdc1130bc1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 162818,
+      "sha256": "90d886c484ee06a2b11fe8e4722d3c8dadced0bd2066163712b0e30121b38f8b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 142609,
+      "sha256": "bc528895c0e222fa04da17265f90c2955108b568d7b2bc1002e496485da906ce"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 177404,
+      "sha256": "2dbad534c940619e4d92ce19ed61608fedd1d33563e950f6ee336a3367442756"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 91850,
+      "sha256": "14a946674ea2d8ec4582bbfe0a89ff974844d5be610012f78a4c8c9c157571c3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 154292,
+      "sha256": "6082f5034d30870f4461b0948b42a05dfd33d546c51ed61e5566e8028f4c2b24"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 142854,
+      "sha256": "b9f7b3e3b02cc100d4ca103a5966036caa4ec9dcae307b920f794e8a2b2a5b2c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 104241,
+      "sha256": "ba7af9ed98ff1d734b7400ac8145e40970989dc6a0bdadd59129264538f418ac"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 163361,
+      "sha256": "548546a2518bbc6cab1e9c564ed780c111ea3c84cc92facf21d552563ddf94b5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 165590,
+      "sha256": "6ecdb99e8591b59d7f7500c676c624193733761e73a414f60f79dbe18467a57c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 84320,
+      "sha256": "b9724872466a9828e95b3c10943ac3c619e3d2b7dd90e1ad0a23d2136e4c339e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 176292,
+      "sha256": "b3ca7c187928d931875e1bf74530fcb92b2269fa0064e0f183d3c3b519470158"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 189348,
+      "sha256": "aa7c5a667264ea6d46415b6845e71a46aa019d50989ed77afa9b573ad76c27a8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 187642,
+      "sha256": "ad3b95737de1df963ace0a1147f4c03d004a35b23ab0f6e0e2e35f796c395526"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 188764,
+      "sha256": "9b80aef88b7d35937e18c253d80c02b19042b4f32991423ff29d036b16e70331"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 200240,
+      "sha256": "968023c376d7c28b6524d319a2ee11a3f45c6c4e40204a2aaeb6fa69f5cf14db"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 183572,
+      "sha256": "7eefc5ea7c2ba4ab4cf3c40df553d95b64d0afed4d51a3ef5e17a7296bc7f91d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 162410,
+      "sha256": "c81dda7cc7875c24d2b01a167fe6c4bea7401358d4967314f40aca5a1fafdf8f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 202099,
+      "sha256": "18dfb2ce9e5e839ec79d9a9f0c97b1b5a4e7e6b38d2648d249a468a45475f208"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 104011,
+      "sha256": "b0a9fe770da87a743c74eaa4d788fce784c6f412318c6d0d19e07d0a89b6e4eb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 177227,
+      "sha256": "f30919fa4e5271ecdb2ac594067847fc2753ced4eb3dd55fe369e2713837daed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 160616,
+      "sha256": "634e7e86dd2eda8761f28cdf6324d25b8a63a34b28749c14a7be8c15dafedf62"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 116807,
+      "sha256": "1f68e2855630b4a86bdc488aad7aa0c07e5a5cdfdf1a6072b77415e4cd54dad9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 187641,
+      "sha256": "bb9980e46e13e4c387bb53f12c0bf20d51d9d1e6aa5e7933728afc8f71708cd0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 189426,
+      "sha256": "723f450fb2ec8e5371cac55567d096c76b429343daf577facb81fd4117383e3c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 95381,
+      "sha256": "3f05ac3652094f1d0df3cb490121bbb546d1776109beed3a4feb065f600b5dce"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 447873,
+      "sha256": "2be7e0eece2f201f40d7724e995ce0341e3bf0ae3b61e8da47a005ed7e6e77ae"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 498791,
+      "sha256": "929dd25a5d75072498d77c7039a5fb8de58e054f019f79151023d4d7f7cdc8e6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 489425,
+      "sha256": "5db3d562976832426a038e55c5b7515acef27ac174e563c01e3bfd5d7975e59d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 498610,
+      "sha256": "fc5e293f555e9c798cc3d2b7863ab6eec4b5cd218164bba83b44e0578bcb266b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 524655,
+      "sha256": "76e9f6a9879e50c4e20522fc9e03cc5dfab623fded3b762a4d5ae5ccc3ed29e8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 488305,
+      "sha256": "5bcebb363d82faffc16b58977ba7345603cc59704edda0e3859d6c5d9e6982c2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 416970,
+      "sha256": "30dd0987bcb2974188beaa9dcb76d4f20d98a08ddbef1ba34aedc92ccca0c2eb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 519351,
+      "sha256": "9f034825653eab620524f819311a44d7774b3d380b23c03c362c86e06dc9f876"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 267358,
+      "sha256": "5b141cbc1d413997896720943d51dff0c6e9796b5ea7fac68b814f09ea9c2269"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 471361,
+      "sha256": "0b6587b41c97b45bbaa689d6f8166086ab66c8137acf400016cdf3516cf17a92"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 413727,
+      "sha256": "702b5932a6ccea5adbe876c56535753e42433a85bd3835cb3bf6c0076195ac9d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 304606,
+      "sha256": "438f582c64b9b69783bb0e91682d752777f2842a982fcac3e0623a81fdafd7bf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 489465,
+      "sha256": "98c450e5925c1fc5860a7e8ce820178117f9c7d89e6bddb5bec7fae88cc27cbe"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 499447,
+      "sha256": "33aa63e32fc29c75fdba0415f4c70ffc3b8a74142500bfb79ce7bbd84dd85dfb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-11a41-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 253521,
+      "sha256": "e5a52dbad04b39fb7475e6d127a20f2e2e3aca966af9d77edba4934cbac75477"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 127686,
+      "sha256": "6c1e553f853731ed86454dcbfeba18c0656be6da366682f6d250fe8b06016f25"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 119183,
+      "sha256": "7eb12cb9be55f48c82d18d32e717293cae8540d5de2f73db87ad9ec48cb9e679"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 117350,
+      "sha256": "0d3630775688df2ba28c2274c95a94e59293fb42cfe81243a1a6498ad4f11055"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 118647,
+      "sha256": "025a71baaf0020d2bd97e09659af36256e7e5a4d45b2418a35da4e4fba2717bf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 126924,
+      "sha256": "eb148413adcbaefcfb08988003fc9b64119443e4ac50dcdf2fe75e8a4a23e071"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 116356,
+      "sha256": "2278c92beb3c65f514d39d2fa7d10674d6ec7288c8156911100c9363cb9bdddc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 103621,
+      "sha256": "431df3a019756eaeab98d3de79676871b57a808326a514e4b30abf50cd9921e4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 131101,
+      "sha256": "a32a1796b9279f48484f78f340884fd4ffc46e3c55d93bfcfc8c8a0613eda996"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 68653,
+      "sha256": "a43fe7f5e9c5014c38d12508a72bdf3bc5567532103161e1c0a6543c3aabab00"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 115631,
+      "sha256": "6c3cf3d3fd5abbaaf4e18da7cc03d571bc665b912327f8ede2f816696b04a196"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 107634,
+      "sha256": "37d3cac76dd11ca9ef66958994c2d2a3b5374da5df8f30728ebff9af20dd2bdb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 77173,
+      "sha256": "ea29d9ba296349df3c15ea7dd5d4d5407eaeb2329c6ad0fb0053fd4f6b41dd61"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 117350,
+      "sha256": "0d3630775688df2ba28c2274c95a94e59293fb42cfe81243a1a6498ad4f11055"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 119405,
+      "sha256": "6245dd25c9d6d42bfbf2aa0e81417306654c32f4a0b36919fc9a6d6fafcd5bff"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 62390,
+      "sha256": "e31a459630d42da91340d021cf77801bf7d943582994ca7f0def09e9e31ff6e2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 150749,
+      "sha256": "f8745a8392878bfa64184b3b4ded1256a4a508ba0580509f493e527a442d4760"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 140384,
+      "sha256": "d22d2834a4d4c685b265f9fece20e2c0a6c2d429fa0ed91c41934a684c546c97"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 137617,
+      "sha256": "caa2b96c7d65935dac9a37269736df1a78c84168c8b78edd3651800990b63a4a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 140412,
+      "sha256": "0e6c1ce8a9e2587af94821f3af670129543d6220f054fa9daf8c1cdb8c14b347"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 150131,
+      "sha256": "8af4c5c6299c1e28a115e00153d0a95e154be0eabea26d2a1e2318a3ff447e6e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 135261,
+      "sha256": "03bd70e633acecbf92743c019306e502f677c5f288fa3d5ce0d8f0752010c95b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 121752,
+      "sha256": "8ec26007efffe44d3e8f02e4cb7bd36a1b61c6d9c49388c05488d1e1ab403db6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 155755,
+      "sha256": "5da77e54182eeb498048122243058cdeb0872b176a1fc131f5989e15778937a5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 79791,
+      "sha256": "415091d81d190e5ebca1071d75ef2cd71f6fa69239f76a78d2582802a4ddba36"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 138551,
+      "sha256": "737d14cb7568726cdf4ae5b8f8769f5c308219c6dcb1c0c16b81c4f8f2790a0e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 125919,
+      "sha256": "bfe7e7a4f1387da8a1afd0cec62db909c0578349eeb4c424bfb65b94fa097428"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 90473,
+      "sha256": "5451fa8cd6000d7bd700e85a90c6f2b59cd758c1af2c2c066cf777cec26c9d02"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 137617,
+      "sha256": "caa2b96c7d65935dac9a37269736df1a78c84168c8b78edd3651800990b63a4a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 140952,
+      "sha256": "7859443b14750e89fef3f8b7ce5add8ca750b4667cf86c5bf53f06b6be3e19d1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 74129,
+      "sha256": "c76e6ffde0f0100c766c49f0f7e67477904afb796b83a3f446e63fc8559d1584"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 389488,
+      "sha256": "7c4bdc6889f6e9901cc76502cd099a4e2a12cdfa5b73217e76f5346953b4c550"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 370861,
+      "sha256": "56f3e451ae4baae4a4af1a91e0a4f259b6275d28e0589f66a6c2ef58a0f1ca63"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 365554,
+      "sha256": "7337d1d27b8754bc54fa78611562b08edb9def2b4ec6e8386ba0d0a5196e589a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 374332,
+      "sha256": "840b618d92c780cba0e27dbf9ccc60e70a59372e1fbe4cf965307feea6bffa5c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 398401,
+      "sha256": "eeba45c3a047db8f84f142c67e41d9557a66f8a023c7776d6426531fcc12f6b0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 351414,
+      "sha256": "33cd6e3a4a9ac359e863c52742649683d53f04cab67823274f6bb62ee847006a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 326001,
+      "sha256": "588ec2c4a408d8efcc42212b083a881bbcae7e6eae42fee42b9ac35328a0db36"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 394872,
+      "sha256": "6bced490b9aa61d1c6b4de6004d59352620216c6904346a8e67bf596c1f56f60"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 213377,
+      "sha256": "b9445d6a6db7177e473d800867aaf9ef0c486287d5ac9b7ab1ea9f1957019022"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 369138,
+      "sha256": "279a8ebb18fa319f1d38aa6e3aca008030c0de3c00a5cc95902f9b48cd75d9ee"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 330280,
+      "sha256": "548f36ac20ac70f8f43c23d6ffa630bb0bb7f0e31858420c58dde6532b8829e1"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 240952,
+      "sha256": "d6bd231674e6986ffb128f78028a6798ba17dc0c1ecab20cc312bb263960e9b3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 365554,
+      "sha256": "7337d1d27b8754bc54fa78611562b08edb9def2b4ec6e8386ba0d0a5196e589a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 375938,
+      "sha256": "15f77a21bed26bc154a08ff82f555d1601213390f8973de56342a5a1798a014a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-39456-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 202675,
+      "sha256": "6085d63c96640b7487f9b97c1bb467a5d80db4f195b25eac2c95a645ec6c9971"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 178146,
+      "sha256": "a298878a8493c9253303796c38b2a0a18065cbc8811c7678839094c3177bd59d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 208530,
+      "sha256": "442f03a4340d4559d258ee69f19efe2c4d95526680bc6cc620a051b4b4647752"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 206961,
+      "sha256": "5f0d68ff0647e73502b3a578f2eb792316e8318663d6892d20604c8a9175ce6d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 206933,
+      "sha256": "33e5c17fc4877400893abbe208858cd54de1f28c10a8c5a6a95574529b30b93c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 226041,
+      "sha256": "edd917055dbe219776b94c7ae8a534678160f3c2458972c01b88e1d17539fba6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 208293,
+      "sha256": "e8de92adbdb20f30c84b8ff170b91d501730e057f0ae0ea67ebfce9c6b4826ca"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 183725,
+      "sha256": "8d7112b6fed9a9ef6075d3e39826f0287726cc57305cb1feb92b908294042dd5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 218218,
+      "sha256": "164eb1cf0185540f0766abebaea04d4754bb34eb180164f02352617f2dd00d0c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 117356,
+      "sha256": "70bf4b1c73f43657b39a455063ef827c5b99223513ce6d05564efd361ae20936"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 195627,
+      "sha256": "2b811bcdbfe3ab94d861a4575b093a46bedbafe17ae071c4afcf6c01b1021b60"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 179195,
+      "sha256": "79a83e1f0ee0212a1a9ba4f0f168301c303b563f8450a7ac5be3b66b81c7551f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 129963,
+      "sha256": "3699e8daaa84dbfa824243cec81c91750792fb33962c3e43c8fe217411ee80cc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 207050,
+      "sha256": "8dd070dfef704766322ff13459e808228779fc07cb0476ed83fec8f494acafb9"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 207950,
+      "sha256": "a7f963ca65495f739df9d924bb1887be0478d1bfec1db722210ffbedda7a92ee"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 104784,
+      "sha256": "e9fb69d5b90269be6eb6600ee5bf49e2ee9adf56b8f59eaf4b14d578ab9fd18c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 198128,
+      "sha256": "9020824450ada39ddefe9fc8fb7893d512af0bc4a408476b0bd43e07d24f1583"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 240036,
+      "sha256": "665a583ab11c3ec4e82e31aa4455f6a69c77709bb051282de8d552a31950dc86"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 239862,
+      "sha256": "7a08bd7b09416bf1ef27fd91ce7b0e0217ab0873a68bd103b1418df68f73d628"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 239381,
+      "sha256": "5fed2cdf720847435de7cce2eb0e2a9924e64fc87b00e4bde5b5748649dfd691"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 249679,
+      "sha256": "eccb80ca2b5b2f1831b0531084af19121933c90aab18b4ad208601bd49cedc2c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 233714,
+      "sha256": "291d57278ccec53f8f0521318af4b36f3cc9ddf08b4a4efe5428c33636d5095a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 203380,
+      "sha256": "ad160eb389c4ae822613ef62b59410e1ba4f9a0cadb3e085e834cf3e29091f5a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 250777,
+      "sha256": "ed14c67f4eff4d1b0d914de2c3d117eb28f71f6db6a82a06234b3aef03619c44"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 127576,
+      "sha256": "ae34c9c29a108d57bae759eea937080490b1c7c06239f6a4a3da0a166700e745"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 218610,
+      "sha256": "3b59be79cd128586b7f8e991dccbae53f8adeaab06dd40b23a6773d29abd9495"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 192434,
+      "sha256": "2ade2aa0ae4175599730199f0fcc2183b006a3bbb74c9c9b7e2f8f27c08b3f4f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 143154,
+      "sha256": "d72e3b790038ccc2fce9220f21b6b6efe3e50c422cd1ada84f639948495812e8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 239744,
+      "sha256": "00d8ab114a6f5537372de033d4fa8f9470150f78149b723aeff07f3d1eb1009d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 240682,
+      "sha256": "78ee75d00db8305097ecd181bab9918dc42093d8d54218c2fc8a79af847b644c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 116817,
+      "sha256": "5960853d0f2d56842cce73132fd3e7e56192bb3f03c7b0e27822015aaf7bb0fc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 491028,
+      "sha256": "a1de38377c89a1daade776f51dac67b200a38cd0d1aaf35acbb16a2ed783c4a7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 614328,
+      "sha256": "b22e30decdfa9ddb217dc5514d419f4a9084b9f1e551adc7310e2cbe4470d796"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 609404,
+      "sha256": "5226be8cb374eeabae445947e51baf51f013960b73d6810f1b491f1813577749"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 616474,
+      "sha256": "82bdff08163d6dfed1f67eb3414ecd43276580421aa224520b27060064919343"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 632163,
+      "sha256": "45e7459f47d31af96c199db6187281c3c88413776ff22cd530489d696360db79"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 611910,
+      "sha256": "b27c519578bc9b9a25fb2f791f3222ac74503cc62ff6fa6712ca3633c6c849ac"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 506386,
+      "sha256": "2c4e35d085e5922f9df70934b4053a1b3a32a66e7766f7b1a5386daa45e26abf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 636660,
+      "sha256": "c1d9adb33ae654dbe584486e261f1e96e8167750f0131009fcb3205ad1858e44"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 320382,
+      "sha256": "59793ec9dd768a5f6ebdd2f47d07121d6b0cd4c3da2bd54a664d97a346d329c7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 555440,
+      "sha256": "e1f096787846286f5ba432790300e449bc71d78a5beebce5a131200cb61ebc80"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 482170,
+      "sha256": "561ba43faa355abd3bf2e8196e196aa5b173be90c1e4f75bc48678674da9e74e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 367373,
+      "sha256": "33b82f6030902e7b0b735f0d0970c9b2419a5da582664481786126ce315e7569"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 609745,
+      "sha256": "9d4295bec9a9755019e96587707ba80c17fa27b88e3318cbdab153e8cee0f2ce"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 619585,
+      "sha256": "7013ee5eeb68d35e12b3bbede17a91e2685bccb39d903601d64590ba64f3467c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-en-l-b4eed-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 306781,
+      "sha256": "0ffc4f9c6336c45407beb9536e367506c3233100de34acf2bf3b3edac2761e3c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 126106,
+      "sha256": "2ff8147fc2f9d8510e7f2318f6c792b65f73bee5614200972a7277e783fd0686"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 124933,
+      "sha256": "cbf85257aad9c4bcc81000663997a3c09db3300fa0d0fe0b2044239d4bded5fb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 121087,
+      "sha256": "78d073404402bed92be16770986eea903e9ae6440eac473b6780381019c05db5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 121425,
+      "sha256": "e14252da1ef15829dc5466a32e8527fb75a81262bf66f07b8165de61b25c50e5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 133772,
+      "sha256": "c5b008671a3d083422f3dfb588f59d348a7be296f59d43cbd5cd755b34029c26"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 120047,
+      "sha256": "321b7b1ac922b23f4e2d417d23f25c7046e35341cbbc12a3a01552aba365fefa"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 104485,
+      "sha256": "bf409e2b775331c2de2d9b4d63ab16ae999d197ea4a347b0af71f65e3d8aaa1a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 130143,
+      "sha256": "b0d585631b0daf9814cac7413abcc05692abe3bf1642376eab97b3985687026d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 70279,
+      "sha256": "29afc1cabc9087ef4250c14be8ab2013b49246fdcd37cab924944f3a39502aa6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 113620,
+      "sha256": "914855f0ecbc1cdc3186c00d2ad8cca0c7acd9c43a16e4335b6a15cb96695382"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 111109,
+      "sha256": "35be1ff679483ef3bd292357e2c52ff071ec393e7e274067e77b7924d7f09f9d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 78497,
+      "sha256": "f70be4eddb8880f743a939a70ee602c00c95708193a781e292d83788cd746d43"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 121087,
+      "sha256": "78d073404402bed92be16770986eea903e9ae6440eac473b6780381019c05db5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 121754,
+      "sha256": "81893d5a782146225d3bab14f3bc6090c0113ae2d67cc64b6d796a5c1f280844"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 61345,
+      "sha256": "421de5999ab198f2a82e6f7c3723e96fc736d3ce9c12d590b6464fc39a435856"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 142387,
+      "sha256": "d95f6ec9aff32198c1491fdffced1f1c7e1636326eaf004e0130a0317f319868"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 142025,
+      "sha256": "df3d963428b6f47c321cf0f823242d00ae7698ea062d99d7a9229cf6ee69b3cd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 138369,
+      "sha256": "6add4336ef79500983f17f406dfa41ded2ccfb972130c79b3c946f6cb8cea43d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 138607,
+      "sha256": "b2e719b7363f270a4f56e542cf3e9f92328ca479276b4da6fb471934a0dff542"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 150910,
+      "sha256": "5ee2d537bc4b52053b788eb681eabb23acb1ada29b9846eea9e49be4e6d6a0e4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 134675,
+      "sha256": "1cfeaf1e7bdedf5b61afc3e27e200dc79cab844b2a8081904110390aec523bef"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 117705,
+      "sha256": "c51f4ab2b46a942ae25bdbfdffe0f93a2f1476d4f0595bb85557b5e20b830d0d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 149481,
+      "sha256": "212edf5e96e0904398392b001ae1ac9e80269d3f84beb82da030a9ef332b59bd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 78661,
+      "sha256": "3ea32fe7e73a08c37fa8e95e0db65f16a662a0e8ffd13ecfdfd5f0a78da24d0d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 132207,
+      "sha256": "0a44a9d8b676ef651ac61281d9de127957f53d83a53fba9c09a38dd7beda43b5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 125293,
+      "sha256": "586d0ec7d785aba22fa983855e47739683b4fddefc0ec72028dde69da8c5beed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 88099,
+      "sha256": "e3839e4ff39535ea3d0bc40a9f3b64ad5d70a6e7a4e581e0436ea9aa66b5bc93"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 138369,
+      "sha256": "6add4336ef79500983f17f406dfa41ded2ccfb972130c79b3c946f6cb8cea43d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 138858,
+      "sha256": "c2f0347860173599507b1bb0f05b4cddc0b74cd535447aa132324bcab2801155"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 69930,
+      "sha256": "5dbc15eeeb551603d79be48a540975ffc8283fcd4a0c3298a9c1bec5690b01c5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 367005,
+      "sha256": "9ad94267a12b262448ee333f8c7b9347eb6c16f113164b33fadf745bf004d278"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 363110,
+      "sha256": "f17841e1740e464211826a03b838a4ebdb1a60833ffe0083e3e55d4ac600ac2e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 352006,
+      "sha256": "cf20c31373a040b89f078d2d9dbb6cd42ef53946412178eca13695309403d7fd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 353585,
+      "sha256": "39f6003ef2a45409e9a4b6a07fbe0b12a9c9a88997ec08feba5029b3c1add2ec"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 396078,
+      "sha256": "e51650b9cdbc5587b19031ad528d6182257706fb37c96ad80ee634bc75a4d6e6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 338913,
+      "sha256": "99bace76ba89d7d72e7dfbb61be51c2c2cd599e6e4c9628ea8adb7e93bf25bbf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 312660,
+      "sha256": "65e5cac99a9f5796f23d137eaea5dcc00ad62cc5ae0f166cd429fd1f6b0a62c7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 376458,
+      "sha256": "28eaf37e131092571c35a65235378601491a85495b76310adcfa6747a0eb8f45"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 206190,
+      "sha256": "9d70737d3d3892216b0bca3008699bd7d48b7559fcae0960a0f197fc556a1b4d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 353798,
+      "sha256": "9923fb212f51a72a915a51e023955c450981dd50e16cb960922809f5688b2952"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 331069,
+      "sha256": "d319f3fff0c455f8c24849ea865b6c25f43aaebf99a77fb05f3e00c9b27276b4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 236891,
+      "sha256": "81454d795b33de937743b72e5f650a15a39798459693ac30a991d40fae9c3313"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 352006,
+      "sha256": "cf20c31373a040b89f078d2d9dbb6cd42ef53946412178eca13695309403d7fd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 354139,
+      "sha256": "bbe52c2b0d64139e803884153fdcf4a67adfb08d175f1d65fe10dc16dcad8ebb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-d-dac36-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 189615,
+      "sha256": "c1118c08daaa3255650b61fba85d90bc098e86905af58f3e30c615d5620f615b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 151097,
+      "sha256": "107284893087a7cc3061b3fd65e3d2cc381d971f68629b017f58107e2db8f6bd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 197518,
+      "sha256": "e4abaaa56d7b57a949c6e9e9e9a57ee4ab0a80c16000978f6cfe7cf050ee819b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 192803,
+      "sha256": "3b35f6728e520aa7dd4dc0baeee415a95254d7ad73e094b4c7453cf8994ce3e0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 193939,
+      "sha256": "88784b4a76eb45dd0849a4e1986026be3c2371aa941da101d71f75fe7cfffa3e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 206386,
+      "sha256": "956c8566aa146d2c6e69749f11da3f2ac194380175b0aea095c4387f4a490911"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 189661,
+      "sha256": "c05664d43a34cf6dd00c535bca8ef0c1716900e255e31ce1a145126794851fe5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 160506,
+      "sha256": "02cb69493713aa00c1e5419ae90c876804a645611f91898716ba3efdce150670"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 201750,
+      "sha256": "b21ef8802ef020084f4a10143ff757b64e312284dfa5d762af8d2aa85e6e3fcb"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 108752,
+      "sha256": "e6bd39e828149c6224a5e482f846aeb9384cea850d3afb82e8eb6d3094d0985e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 175118,
+      "sha256": "46e3bf2c47133389da65787ce7af364f4f3fb13b3c99192c4242b2aa816cb9ed"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 169515,
+      "sha256": "25c9188fd740bf6344516404d60b0d8141d0cb5ff6bf8a844cdc317ca80c8f79"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 120114,
+      "sha256": "8ee16523cd5d6d8e9cf2d2bce81f742c60fef4419cdb8f4eba43215591233f5c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 192918,
+      "sha256": "cbd2130c0401288aebc206905afc9e45de5587aebc94bf2b474120c7f4fdc05f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 194558,
+      "sha256": "1721dc984681ff30fafa1a40e9e6bc59ef5a20acc59380f99f091ce61577aa6b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 94878,
+      "sha256": "45cff95a6ce41c42ddf870fdc5848c2dc1a752fe78fa80eaef3a1b527f1be4ff"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 168144,
+      "sha256": "1543f0288615eae357a8c94df2c6def8ba3723b77243b1143893baf35c025995"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 221810,
+      "sha256": "60b3e39413d5e8bbd7861cc4bc964093ea150599bba424fdc975398c6d4f6b37"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 218907,
+      "sha256": "a8ae9df3d51cb75168cc2fb48cb8491d4e4c051395848d6d57613fa3b0968c87"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 219522,
+      "sha256": "58a0ce7c500899096f74690bbcafaeee53788d73b95002f8b7f95804ca6acf31"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 228083,
+      "sha256": "5533b34f6573986adb91bd943dcaf0d077c07731636507e0c999cd1bec681392"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 211562,
+      "sha256": "d8236bab8cdf430499cbbbe12a6f66f6e13c9c071123302ed13873da00c65df3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 175378,
+      "sha256": "4eb212795afaefb582e990e883163d07aa95dffb841c338eafe41f10e7a49dc6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 227603,
+      "sha256": "aaa47d20101d0c33821c812e8ab66cbf945b0ebaa5f31ac04f8ce21c3186b399"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 117183,
+      "sha256": "86e9f468987c47dcae9c60677f09fd0a7378875386bf28968d1899b6f992bdf0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 193750,
+      "sha256": "4be35f688c364627d255243211fda52c8a4314617122e7d76f28dc16a6e6ee70"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 184022,
+      "sha256": "771093e444db70d1f54854dd7aafc383849b1de52a6f623a93708e494001a72a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 131097,
+      "sha256": "3b77258451bf87a7c67c8e0cf0f420e6fcbe73c47e3ed068e6fac755c018e88e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 218721,
+      "sha256": "f7b39b7348070c33a83a80371ffcaed6ffe8ec3f829fbe5953c6ec93c53d42e7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 219809,
+      "sha256": "5c230fd65ab89fc2e351c4437629992757abb73a472275d733c0f141952a8338"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 104598,
+      "sha256": "614cc18974de34211cf10ff3088ca29db8a58951f181059f2c81c84d1e1961d2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 441961,
+      "sha256": "902b1281dd7c148697ca383d17fef8273471e54f8813552d07fed78739120a9f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 590077,
+      "sha256": "a944e367b0b5286c9c5ce49a7f15b22242762b830bf75402b927142544cb1b4c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 584214,
+      "sha256": "6d79fb478c9b8a79cdfaf7a53ea5e284714fa379347e697a372c11bb24bbcdfc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 584938,
+      "sha256": "34d83e1d13978abafe618ecaec89363584cf0c592bc7d02d50d14c7443987971"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 606814,
+      "sha256": "011e2294a305b5c2d37e94746c5e501adca8146531ba9aab081853f414695a0b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 570420,
+      "sha256": "219644c45c3b209e09e5ed42fa73f128bd6762cdb3f416e5b01aa796d554bd07"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 462579,
+      "sha256": "777a3a3fbba636ff2444a83d1f04cdf376337c02dd7c488ca8e174cbd0cec121"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 597867,
+      "sha256": "3d5234de7e79ba3b5b13fc0a3c413f072a62ff031c58af1c36bdb0f2f3cd4281"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 309213,
+      "sha256": "a40b567f871c0f00263990a80d12aee1f345dd03f8b0ee53422a6dae87047d80"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 525465,
+      "sha256": "4986c6576c72e38e35b578314f52377eb2af0f6104e334ef7a35123fadd08367"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 489356,
+      "sha256": "04e1832efbd9317039d8ebb316a848eef92fb03e03a304865884e20fdac49789"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 349753,
+      "sha256": "30a5d1aa39181c2a1327fd1edf3401ef4bf123b5ba5ee3383e6f5671fa55544a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 584419,
+      "sha256": "15d95eeb6234797b0ef00a20eab5d224802251d2242fcf932183eb07b3c32b36"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 586411,
+      "sha256": "f60f471172a7070447030199c5cdbe2f799c306b51b057c460cf043ae6da3b92"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-20249-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 278860,
+      "sha256": "fdcf9fc3ae42b32e30eb47fc87cbed18ce71be3141277a4194c1a141f6aac241"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 141875,
+      "sha256": "295aad75a23562c697d3f47382c91f132c833fd5a754282ca10d682d5a6c309e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 161652,
+      "sha256": "7adb7648fad334051ea1d1b0e6b02b1ad54b901ec165fad42433e3bd05201406"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 155744,
+      "sha256": "2eea91e4cf679672929f97f9a7f66fffef07de9b57b1b34b60609570d9a0e13e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 156032,
+      "sha256": "f7da1afe1b7435579adbfc2f18a4f0291b5adba37e24796129dad20b39db1bb3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 170300,
+      "sha256": "d00c04c0a6182ddfbac0e91f38624e4ab72d62db310b7091c96f20ddbe805cdf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 154594,
+      "sha256": "64639d91f7514cfb50588064e87fe3a6b2486b208581ab6073b741ec230412c5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 132336,
+      "sha256": "1d4189d5ac6897dd9c38fb8976dec4606696067be609c5eb89da42f6e25e50a3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 163789,
+      "sha256": "c46763b6cb294f91397c855eb7c454530329d6c80abdca1f143cd4c6dd4ffe97"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 89905,
+      "sha256": "2bc9335a30813b97cd78e3f799e03b301f18f1fc348ef54115bbc73e36ddb4cc"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 142736,
+      "sha256": "7c4463a2d96a10ca573598bec0b0d91fa91b1a939b4cbb68f26ac976ba676797"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 142575,
+      "sha256": "02e39d07c9f6fe30a3aa649fbc39240567846c83cd900b12a1b626811a319fd8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 99523,
+      "sha256": "c5559661c52d2ca0a166c75057d22af0390a420d479a9c7b1c8fc3f48e2f2ac6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 155744,
+      "sha256": "2eea91e4cf679672929f97f9a7f66fffef07de9b57b1b34b60609570d9a0e13e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 156432,
+      "sha256": "41432a880ea2b965de9a3b817d1605de63bf30f9bfeeb270fe120b8ceb032eb6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 78297,
+      "sha256": "703cbb9704818d95b413a4cb4959ac5dbce4165932d2c0a389c3a73f8da77baf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 159364,
+      "sha256": "241f3ae59df84156cf07c0b86e9705df701de4d6a828af9caad7312465dda8bf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 182862,
+      "sha256": "2e4df427f3424dacd36d5beb6580b3bd4dfa0bc7669b2eda382c253d0a1aa47f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 177262,
+      "sha256": "1d512d604e3454c373de77b44dabef43863edd098202b448cbef3117b3842d66"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 178024,
+      "sha256": "d0aa8c001003095d812dca5fee4347217162d107523fd11b81ceaf41ee2f5733"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 190106,
+      "sha256": "7f6215b244c0a37a74bb06591e3874df7831e21c17b57a0b1eef2a5421f52f08"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 172412,
+      "sha256": "b1a11a591aa90f1e8db305cfc111d8611dd5d454a6ce66613872145fc9caeaa5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 146965,
+      "sha256": "86d2db512c750817b6470c6858cf6b49a40686e1fcd5a69db88bde20f43dd472"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 184594,
+      "sha256": "e5ed1f98204c75ef01cc7f7523fe15354066e177334c5d191b7648ebdca1c31b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 99244,
+      "sha256": "c8538c1400a7ed7eeb5d086beca32bf18815dcce2b109fb7c1f3636ee4304d99"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 161267,
+      "sha256": "ebfe84b2e033bed316a154d0a1d5ba3adc4f8b0750eed28c14fe2a691633c121"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 157242,
+      "sha256": "91df8f48e3d2711334f52088def5db5b8ed7cf5aba12c62b1d67bad6418e2c8f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 110044,
+      "sha256": "9f94e57aea6c9240223ba0a3139b409dbd44a4c459e98229083781657a51eeb6"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 177262,
+      "sha256": "1d512d604e3454c373de77b44dabef43863edd098202b448cbef3117b3842d66"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 178307,
+      "sha256": "f74df619bdb76fea830a200b81d21f8c4bf54d287255fef4b2e296f5dfa3eabd"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 87754,
+      "sha256": "066b0e5e00c9cfda8faade0718debca4213288410faddc53f2eb52b921237753"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 398905,
+      "sha256": "9b00af668877ba59e7b7e838a72d3b375c5c34e9a97c3875729bb587560d8452"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 480672,
+      "sha256": "4e86d544dfb6de674b513d24ad1515f2b6495058ea4e6b1def1fd4ef75e15972"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 464620,
+      "sha256": "3ba2ea03dc1687923b7908efdd13804a854f8b628b82b0e3488745fe1de8f83e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 466345,
+      "sha256": "1a368d07cc4dd4f80bf9f644f59cff80ef53feb16c4b90b9dec7d488e3d32292"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 498591,
+      "sha256": "6bbbfa1f42c6be0ec190776724ead0bd990b1b548d1b0b7dc946009aee4c24b4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 453923,
+      "sha256": "8ac7d9814ce36fff954d15effd3d6f72776ab358dbb93b59d8bbd0d8ac8d5338"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 388774,
+      "sha256": "8cf98706f4a6e5f5d6e26545864f05584dbfb16285602e1c2566c939aa7a8637"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 485102,
+      "sha256": "c51bc1e1baab8919b0f9585880ba2d626752681de243b86bc1c3ac767a04137f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 259698,
+      "sha256": "cc5315e7568f72e390154bab58fb67d993b5c388d1a55982154da105c4cd8114"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 439015,
+      "sha256": "4494421e06a8118c44ab935b99d53da74af77aec7fdaf364bc78f7f8cba59f80"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 418551,
+      "sha256": "c552dba2557dc3d206c4a479a65ca4d684afdb03352431763c2c2ab5a90d63be"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 293891,
+      "sha256": "f26360fd71b08c3566a177f066a109ae8f6ad23b20bbd760448f9e5aafc845c3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 464620,
+      "sha256": "3ba2ea03dc1687923b7908efdd13804a854f8b628b82b0e3488745fe1de8f83e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 467219,
+      "sha256": "ab65de5493244e19c5232b1565e597936081413a552cab7e51ebc8407e151f4e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-73f25-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 235468,
+      "sha256": "3f622bc19712de72348c720de009d5cac7ebdbf49521fdc920e9edbc3b0cb58d"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/account-sheet.png",
+      "bytes": 124668,
+      "sha256": "6d8427b77402625b8263e8df17cd809a9584ace8fcabf3af61be4cd7491e8d29"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/exit-unknown.png",
+      "bytes": 123281,
+      "sha256": "3ecd7de6aab57097fd89e0ef73fe1ab237060060143cde3d0f01b9309ad1ad5a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/exit-waiting.png",
+      "bytes": 119809,
+      "sha256": "8100ed29958b7fcb3e4bfe19773d141e0589c9541353ddb99e0b517553da752a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/exit.png",
+      "bytes": 120202,
+      "sha256": "7c27ca8bfa6bdb5c07ef8c972e1163f8c3308973b9f80b47b35006fe67008253"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/onboarding.png",
+      "bytes": 131323,
+      "sha256": "89d215d34950c22ddb9219a28334babdc43e0a6ad7e01ca09399dab43bdf6f3e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-0.png",
+      "bytes": 117409,
+      "sha256": "2eb637ca40496f778db53be424bd1c2ba68dd565abeb5a84c5e2e112fddf0fb0"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-1.png",
+      "bytes": 102179,
+      "sha256": "6fda39f4ca787269da83d66441b444651a23dd35cff3b93a0a9fd7860837f2c5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-2.png",
+      "bytes": 127576,
+      "sha256": "661512fec3dac941d933f2dc824e857d54973023f9e0046ac2c51377c877aa33"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-3.png",
+      "bytes": 68762,
+      "sha256": "25144b99e77513a1f7487aa2c8f1b7532e3a2f053e90bfc14e3dc2983b13d821"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/page-4.png",
+      "bytes": 111329,
+      "sha256": "a0b5fb318543978a1235eebd4391d9c7a3692873d1bb23d29442a5466b0e6317"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/pricing.png",
+      "bytes": 109019,
+      "sha256": "3cb1d279f33bd8e6faabddec0a37bdf413750eb8c4a65312cca4e64e05cdecd2"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/transfer.png",
+      "bytes": 77271,
+      "sha256": "da6f365485d17dd670f3845f7e0bddc54990ad268facbca9fd58c35813b8c1b4"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/update-waiting.png",
+      "bytes": 119809,
+      "sha256": "8100ed29958b7fcb3e4bfe19773d141e0589c9541353ddb99e0b517553da752a"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/update.png",
+      "bytes": 120516,
+      "sha256": "bcd52bbd2084944382413bd27c1c4b19df28b125edb5bd6422d08af62ce40e60"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-chromium/withdrawal.png",
+      "bytes": 60745,
+      "sha256": "4f9e8e29021817c4175ccaa04880efaec37173ffce54e8c5c57980e68d1bd795"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/account-sheet.png",
+      "bytes": 142291,
+      "sha256": "176ed2e3de83994f35e2f7fd42929fd7602c36307914b22179abdb573c1556a3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/exit-unknown.png",
+      "bytes": 139624,
+      "sha256": "4a238c428a633703d01048b8a8baebe51b1ebef4a9575e1ff2f6b661c6efc9e3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/exit-waiting.png",
+      "bytes": 136070,
+      "sha256": "e721f269d7fe44fd2838e6c726ad28228b5a1082f080723f6c8438958c931c17"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/exit.png",
+      "bytes": 136546,
+      "sha256": "eeb56944f15ea3ffddd48e8ddb7ee5a3d6bc06b512f42f3d613502c9e3fbc5bf"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/onboarding.png",
+      "bytes": 147660,
+      "sha256": "f1d9752c5794df88c42f7bbb2e940d1bfd4ddfb37507a64636dc0ea79d83b368"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-0.png",
+      "bytes": 130928,
+      "sha256": "4e61e58d18911c408e8198bc214aee82816eb74bfb69903757c2b7730e98f404"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-1.png",
+      "bytes": 114829,
+      "sha256": "3dbae940580ef8fcce584ba2e35cc332ace142ecae79b4322609d6f73001d185"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-2.png",
+      "bytes": 145385,
+      "sha256": "fb54f5d77f66d571e53ed34ad00c38d4bfe6bcaf9e9cb93c806e00bb8f65ce63"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-3.png",
+      "bytes": 76614,
+      "sha256": "e5ae2f698cb9bde49eb8a37c49c47d8c73037c2300747384ef18ae396cddc13c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/page-4.png",
+      "bytes": 128781,
+      "sha256": "84377e8e76974330e550604257d5353979167014df9db42d19add590326f567f"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/pricing.png",
+      "bytes": 122257,
+      "sha256": "33b0738607283b6c7b35226c710ceaa457834f0221a06f0f06872eec455f5aff"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/transfer.png",
+      "bytes": 86529,
+      "sha256": "7f974ec40cbbec034e5cdb91090b10997626354d916ada15c9171e6e11527af3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/update-waiting.png",
+      "bytes": 136070,
+      "sha256": "e721f269d7fe44fd2838e6c726ad28228b5a1082f080723f6c8438958c931c17"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/update.png",
+      "bytes": 136721,
+      "sha256": "e4c219277579d8896753a253d42abc5eaffc7dc3f70db432642d4f6cd6257062"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-firefox/withdrawal.png",
+      "bytes": 69091,
+      "sha256": "cb1c22735a627f666b921bf6099b16bcfe7fd9a12007899fc01fdd5237d47921"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/account-sheet.png",
+      "bytes": 367994,
+      "sha256": "c39659f70e7fe851c76d25f4558fe9a551502ecb100b941bb4538def95c9e42e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/exit-unknown.png",
+      "bytes": 364824,
+      "sha256": "b45b3c14a33df0648b59829a7c8f1e20b2d8f4ef0cf63e7741b658a473fa12ee"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/exit-waiting.png",
+      "bytes": 355434,
+      "sha256": "213339b02fd6d682565720fefee41c3fe9cefbebcfb0ad45410c8c9c63969455"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/exit.png",
+      "bytes": 356127,
+      "sha256": "cc9622ad910da67eed26d2c67a4444e83a58aff4a5f4209a99fa4446cf8461f7"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/onboarding.png",
+      "bytes": 392122,
+      "sha256": "0c7b876e16da9ee60401f3fe52a940876993822561374322a552f55836b6d5aa"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-0.png",
+      "bytes": 337119,
+      "sha256": "7d07a22114771165723ca20189e48bf9a210e007c008f2604cf25441adaa9c7e"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-1.png",
+      "bytes": 309859,
+      "sha256": "40967e51e6d835091d507a0770a118df8249bcee6e7ae807348ea863fe77c895"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-2.png",
+      "bytes": 373930,
+      "sha256": "d531dea9dddd908fc27ae8498b672f4e0b6b26cf1619daf0eecd7ce9365cda9b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-3.png",
+      "bytes": 203888,
+      "sha256": "176c861de09c880cb5f67ad62ff0768a8978d5c81b7abe87cab18c5d9b96b529"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/page-4.png",
+      "bytes": 350488,
+      "sha256": "1d9083e549300d6f1229ccc819655635d01b7e49298883ca22bc2aa20bc9bc02"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/pricing.png",
+      "bytes": 328699,
+      "sha256": "6cbdb79a2efb874a5362ee1e19417ae5baf5c3346d5e66938585b72380bdbf64"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/transfer.png",
+      "bytes": 235380,
+      "sha256": "1a8f906bcf68f16398996f002fcf140ab7f4a2c3c9bf9de4419f45e0aba41743"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/update-waiting.png",
+      "bytes": 355434,
+      "sha256": "213339b02fd6d682565720fefee41c3fe9cefbebcfb0ad45410c8c9c63969455"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/update.png",
+      "bytes": 356693,
+      "sha256": "b227fedd48554eefe7303a9778e68f308b83b3040dedd82f25ca535f0fe8d5af"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-860x600-zh-l-7bf0f-ry-flows-lifecycle-keyboard-webkit/withdrawal.png",
+      "bytes": 188739,
+      "sha256": "753baa007bb95d84578941ae770926d0a92acaf33fd54345253cc6d08c5f123c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-empty-chromium/earnings-empty.png",
+      "bytes": 119353,
+      "sha256": "a111bb1f935ac90cc6b6eb8db0d72a4b7bf904f77e61a9cca62949dd5d815e43"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-empty-firefox/earnings-empty.png",
+      "bytes": 136879,
+      "sha256": "946036101d7b4a39d35b7488a7f3c0737b08d891e037efc13e8bae4379eaf2d5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-empty-webkit/earnings-empty.png",
+      "bytes": 378766,
+      "sha256": "e05ed3da5379b87d7642c8eb456fce66db50d2248844d56a4e38e730ae9ae88c"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-error-chromium/earnings-error.png",
+      "bytes": 62713,
+      "sha256": "b5b42deaff8f50cefa4be2543cd45e7ad3063bf4149afef5e13ac8246a934ea5"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-error-firefox/earnings-error.png",
+      "bytes": 71197,
+      "sha256": "5aa2621b5ca6e4b0853862442b3f439f5e6adc02387a10b76bb43b99c33d161b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-error-webkit/earnings-error.png",
+      "bytes": 222086,
+      "sha256": "d89cc40ab3d163154dd21c94670615b436ea9becf24b36c551f9bf889d935da3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-loading-chromium/earnings-loading.png",
+      "bytes": 54004,
+      "sha256": "fee57db2aa2c0f37446ae4d2c838a0646758b3f760a762378ab8c2ec59439ef3"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-loading-firefox/earnings-loading.png",
+      "bytes": 61792,
+      "sha256": "cc4c89a080ef11404cc9f2d466c6169b3042c41411ad3e830824aad51f52fc8b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-earnings-loading-webkit/earnings-loading.png",
+      "bytes": 199920,
+      "sha256": "284aefedebaba2c8dab945d049185cef9f6764af2a626d048d9de975a8865c72"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-empty-chromium/empty.png",
+      "bytes": 125752,
+      "sha256": "2265c59c8a8dd76ee89129a34f2794ee9b91303b1336e1a535db1d07ff7c444b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-empty-firefox/empty.png",
+      "bytes": 141399,
+      "sha256": "9212c6655e0df9c0cc27ab2edca0377b940381d04aa935875fe1478f1a20a325"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-empty-webkit/empty.png",
+      "bytes": 393060,
+      "sha256": "dfe1b4bf86efde630bc02de807ce9bfb922ea65580ae1b095d289c2adebc9512"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-error-chromium/error.png",
+      "bytes": 137524,
+      "sha256": "94aea809f1d5ffcfc1e9ea461cf7d91c239908ec94f62caeadbd6f054a17ab52"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-error-firefox/error.png",
+      "bytes": 154100,
+      "sha256": "b157dd01b0853b5197763ac2cc69f05a251f637ea5f15ef22f366437fa34af8b"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-error-webkit/error.png",
+      "bytes": 426274,
+      "sha256": "bebf0cc5133cd4b14b8eb46ca660e708113a7e6a51fd3dc6b4ba35f048eed3ee"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-loading-chromium/loading.png",
+      "bytes": 128493,
+      "sha256": "43bd06331843f5c8859a3a07a246cc772ffe4c284a317e5b56a09a7a5f746cf8"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-loading-firefox/loading.png",
+      "bytes": 144601,
+      "sha256": "1920894dc71dc6e1d30d7cae4116cfb5e6b4236b058c3e4b5b344a532f2f0942"
+    },
+    {
+      "path": "checks/desktop/test-results/visual-silver-read-state-loading-webkit/loading.png",
+      "bytes": 404660,
+      "sha256": "8a01bce35c43ad3c849db93264378dfe682d4595a52e1c484ba529646f439fed"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1016,
+      "sha256": "12cfefdc1d6893a549bf67577985e77854cd78d6331961d0538fa21700d3566b"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1090,
+      "sha256": "b4914ec5f88403321f2da711a4808426bc6fd020842f71df1a2279affe878c08"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 22410,
+      "sha256": "da184cc6a7fdea9ba82af530a637e0b581d7071779162afa3fbb8cb321df9ae0"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/frontend-build.log",
+      "bytes": 674,
+      "sha256": "50b8ede700bb367ca434874cb77875e42d50a7543dc2a4cab41c5d656e05d8c8"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/frontend-demo-build.log",
+      "bytes": 685,
+      "sha256": "d4fd2f75b94c0e8e38122734d1838c35425fba4a57d3dc9bed3d0c537c45403f"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "376f97a92241ed9590e6459b7b69c5893e76ae31334e140c725525c69785506d"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/go-vet.log",
+      "bytes": 4215,
+      "sha256": "1987ef7163c0c593ea23c6f6d5253a4ba62f4a0dc939375348d0e6cc7d1fa039"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/macho.log",
+      "bytes": 21354,
+      "sha256": "5ada0912c7fe40357a7676edc92866bb0e974211841cbcec52ed6a1f5085aa2a"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/native.json",
+      "bytes": 2319,
+      "sha256": "b61be400263d90c228859b2c10d569353149a78974069c0e969e56f6dd4c84ae"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/native.log",
+      "bytes": 1586,
+      "sha256": "a06eb579e37952834b27d73be4eb9c3b0f05de60174e9b55d899bb5656919c62"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/npm-ci.log",
+      "bytes": 450,
+      "sha256": "b5bf36152a5213534fb8ebbf5543ac89023c9c4698652d1a574edffae4fe18da"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/package-scope.log",
+      "bytes": 133,
+      "sha256": "fcee4c6821c5c3a54b98983408a746fa0a3e22d378c38e71d178d0699622b56f"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/packages.json",
+      "bytes": 1507,
+      "sha256": "72639ed16781ea8a8c2b75719f62074bfafd01a8a6bd461cd63f85d9eb20bf68"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/packages.log",
+      "bytes": 1507,
+      "sha256": "72639ed16781ea8a8c2b75719f62074bfafd01a8a6bd461cd63f85d9eb20bf68"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/playwright-install.log",
+      "bytes": 11288,
+      "sha256": "1326cc1f605c19dd122043737fef30450c67fbb29e2347686336d5c05ae3c679"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/preflight.log",
+      "bytes": 791,
+      "sha256": "3fbb7dc258d67f2c49f59de14485059fbaf0678cc58ffdefa7e6b919e707b5be"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/rust-install.log",
+      "bytes": 387,
+      "sha256": "3a07e228af4643ce93bc33f5471a10ed3b53a78de834e99cf0e7af451333f720"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 176,
+      "sha256": "5f8de9dddfe0ebc6231c9323f1fd359d5ff3dd62717d2274b73838538cd6f1d5"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/signed-app.log",
+      "bytes": 787,
+      "sha256": "cf459f68746c0c0482f81549eebed819113b9abef5d298716a26653f74ad82e9"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 5352,
+      "sha256": "c7cc501c919a1df2ecfc6d34ae7aad51c54c4b42579d0b07841bd1f7821502dc"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/tee-source.log",
+      "bytes": 134,
+      "sha256": "92f974f661a98e3775cc18c1985de26f2ebb32262e8c1273430ac2737d3ee0f0"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/tee.log",
+      "bytes": 207,
+      "sha256": "af59cdfa8f1d0daaeabac20157bf71b8a7db848eb445b94fddf15c21f11f9156"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/tooling.log",
+      "bytes": 8043,
+      "sha256": "2fe698b5c213b9d03199a26daecd32ab57970bc0628d3e05ad6e414bbab90298"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "checks/desktop-ci-evidence/xcode-select.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

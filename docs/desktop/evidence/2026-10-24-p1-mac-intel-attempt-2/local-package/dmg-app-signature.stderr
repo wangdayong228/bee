@@ -1,0 +1,24 @@
+Executable=/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-readonly-mount/Bee Dev.app/Contents/MacOS/bee-desktop
+Identifier=dev.tokhive.bee
+Format=app bundle with Mach-O thin (x86_64)
+CodeDirectory v=20500 size=207280 flags=0x10002(adhoc,runtime) hashes=6471+3 location=embedded
+VersionPlatform=1
+VersionMin=851968
+VersionSDK=984320
+Hash type=sha256 size=32
+CandidateCDHash sha256=f0f2eb537014dbb607b91b63919451f3b9e920fd
+CandidateCDHashFull sha256=f0f2eb537014dbb607b91b63919451f3b9e920fdde4e9e36ecc0b060193ad1d1
+Hash choices=sha256
+CMSDigest=f0f2eb537014dbb607b91b63919451f3b9e920fdde4e9e36ecc0b060193ad1d1
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=13656064
+Executable Segment flags=0x1
+Page size=4096
+CDHash=f0f2eb537014dbb607b91b63919451f3b9e920fd
+Signature=adhoc
+Info.plist entries=16
+TeamIdentifier=not set
+Runtime Version=15.5.0
+Sealed Resources version=2 rules=13 files=2
+Internal requirements count=0 size=12

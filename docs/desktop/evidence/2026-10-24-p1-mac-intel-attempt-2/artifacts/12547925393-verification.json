@@ -1,0 +1,15 @@
+{
+  "artifactId": 12547925393,
+  "artifactName": "bee-macos15-intel-test-87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378073,
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "attempt": 2,
+  "artifactCreatedAt": "2026-10-24T04:12:19Z",
+  "zip": ".cache/qa/p1-macos-intel-87-attempt-2-debug/artifact-zips/12547925393.zip",
+  "bytes": 23990953,
+  "sha256": "9ca5fb312213491cfd59c9ec3d940be8e8e0503e76487041c0e144c175c8a0b5",
+  "matchesMetadataDigest": true,
+  "zipCrcOk": true,
+  "destination": ".cache/qa/p1-macos-intel-87-attempt-2-debug/test",
+  "scope": "remote ZIP verified; extracted package/source verification is separate"
+}

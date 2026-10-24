@@ -1,0 +1,38 @@
+{
+  "scope": "macOS 15 Intel P1 demo development build; no GUI, tray, clean-user installation or macOS 13 verification",
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": "39936378073",
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "source": {
+    "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+    "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+    "target": "x86_64-apple-darwin",
+    "goos": "darwin",
+    "goarch": "amd64",
+    "go": "go version go1.27.3 darwin/amd64",
+    "beeVersion": "dev+87b28a29aa84-dirty",
+    "binarySha256": "f9d843bfad4f00d664f90c071423866f7d4b8558e0a2721c2a45315c4b329b70"
+  },
+  "sourceFile": {
+    "path": "desktop/src-tauri/binaries/bee-x86_64-apple-darwin.source.json",
+    "bytes": 370,
+    "sha256": "4b5e8f22e0b9ea6850e2b4aa2d0b18df7858b8246258e2d410e61cfde07f538c"
+  },
+  "originalBee": {
+    "path": "desktop/src-tauri/binaries/bee-x86_64-apple-darwin",
+    "bytes": 32423600,
+    "sha256": "f9d843bfad4f00d664f90c071423866f7d4b8558e0a2721c2a45315c4b329b70"
+  },
+  "signedBundledBee": {
+    "path": "desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee",
+    "bytes": 32695168,
+    "sha256": "35276b2faabb4645aa4b5e6383f0a85accd5ce84cdf908c1d1fb10516ffea73d"
+  },
+  "packages": [
+    {
+      "path": "desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_x64.dmg",
+      "bytes": 24174868,
+      "sha256": "1a734744561a6d02b13bee2e02859461280a191c818a7aee4134ad6efadaf5f7"
+    }
+  ]
+}

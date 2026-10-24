@@ -1,0 +1,21 @@
+{
+  "scope": "Attempt 2 runner diagnostic logs contain no CPU/Memory keywords or Runner environment resources samples; this does not explain attempt 1 failure. Full diagnostic ZIP remains in ignored QA cache.",
+  "logs": [
+    {
+      "file": "Runner_20261024-034455-utc.log",
+      "bytes": 17415,
+      "sha256": "e71030db349888d8c33e1a782cd50daf14848e1a44c44650fc05d6953ce65d10",
+      "runnerEnvironmentResourceLines": 0,
+      "cpuKeywordMatches": 0,
+      "memoryKeywordMatches": 0
+    },
+    {
+      "file": "Worker_20261024-034458-utc.log",
+      "bytes": 452424,
+      "sha256": "72b86235b7691a813cc29c902985f48a6e99676f3172ce1c4a5bf955efaffd4d",
+      "runnerEnvironmentResourceLines": 0,
+      "cpuKeywordMatches": 0,
+      "memoryKeywordMatches": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "observedAt": "2026-10-24T03:58:55.805803+00:00",
+  "runId": 39936378073,
+  "attempt": 2,
+  "jobId": 120769897286,
+  "runRevision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "workspaceHead": "19d14ccd039f898d54b533cd6000b239785c3528",
+  "unchangedInputs": [
+    {
+      "path": ".github/workflows/desktop-hosted-macos.yml",
+      "runSourceSha256": "0431f0b5a74c704e2f793ad5049a4c40ddb328858f7e7fe19677c39c6babae5f",
+      "currentSha256": "0431f0b5a74c704e2f793ad5049a4c40ddb328858f7e7fe19677c39c6babae5f",
+      "equal": true
+    },
+    {
+      "path": "desktop/playwright.config.ts",
+      "runSourceSha256": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7",
+      "currentSha256": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7",
+      "equal": true
+    },
+    {
+      "path": "desktop/tests/accounts.spec.ts",
+      "runSourceSha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+      "currentSha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+      "equal": true
+    }
+  ],
+  "scope": "These three inputs match; current HEAD is not the executed revision. Final artifacts must be attributed using artifact ID and creation time, not name alone."
+}

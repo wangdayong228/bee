@@ -1,0 +1,173 @@
+{
+  "runId": 39936378073,
+  "attempt": 2,
+  "source": {
+    "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+    "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+    "target": "x86_64-apple-darwin",
+    "goos": "darwin",
+    "goarch": "amd64",
+    "go": "go version go1.27.3 darwin/amd64",
+    "beeVersion": "dev+87b28a29aa84-dirty",
+    "binarySha256": "f9d843bfad4f00d664f90c071423866f7d4b8558e0a2721c2a45315c4b329b70"
+  },
+  "dmg": {
+    "path": "test/desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_x64.dmg",
+    "bytes": 24174868,
+    "sha256": "1a734744561a6d02b13bee2e02859461280a191c818a7aee4134ad6efadaf5f7"
+  },
+  "checks": [
+    {
+      "name": "source JSON fields",
+      "actual": {
+        "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-apple-darwin",
+        "goos": "darwin",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 darwin/amd64",
+        "beeVersion": "dev+87b28a29aa84-dirty",
+        "binarySha256": "f9d843bfad4f00d664f90c071423866f7d4b8558e0a2721c2a45315c4b329b70"
+      },
+      "required": {
+        "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-apple-darwin",
+        "goos": "darwin",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 darwin/amd64",
+        "beeVersion": "dev+87b28a29aa84-dirty",
+        "binarySha256": "f9d843bfad4f00d664f90c071423866f7d4b8558e0a2721c2a45315c4b329b70"
+      },
+      "ok": true
+    },
+    {
+      "name": "source revision",
+      "actual": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "required": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "ok": true
+    },
+    {
+      "name": "source teeRevision",
+      "actual": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "required": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "ok": true
+    },
+    {
+      "name": "source target",
+      "actual": "x86_64-apple-darwin",
+      "required": "x86_64-apple-darwin",
+      "ok": true
+    },
+    {
+      "name": "source goos",
+      "actual": "darwin",
+      "required": "darwin",
+      "ok": true
+    },
+    {
+      "name": "source goarch",
+      "actual": "amd64",
+      "required": "amd64",
+      "ok": true
+    },
+    {
+      "name": "source go",
+      "actual": "go version go1.27.3 darwin/amd64",
+      "required": "go version go1.27.3 darwin/amd64",
+      "ok": true
+    },
+    {
+      "name": "source file bytes",
+      "actual": 370,
+      "required": 370,
+      "ok": true
+    },
+    {
+      "name": "source file sha256",
+      "actual": "4b5e8f22e0b9ea6850e2b4aa2d0b18df7858b8246258e2d410e61cfde07f538c",
+      "required": "4b5e8f22e0b9ea6850e2b4aa2d0b18df7858b8246258e2d410e61cfde07f538c",
+      "ok": true
+    },
+    {
+      "name": "DMG count",
+      "actual": 1,
+      "required": 1,
+      "ok": true
+    },
+    {
+      "name": "DMG bytes",
+      "actual": 24174868,
+      "required": 24174868,
+      "ok": true
+    },
+    {
+      "name": "DMG sha256",
+      "actual": "1a734744561a6d02b13bee2e02859461280a191c818a7aee4134ad6efadaf5f7",
+      "required": "1a734744561a6d02b13bee2e02859461280a191c818a7aee4134ad6efadaf5f7",
+      "ok": true
+    },
+    {
+      "name": "bee-desktop architecture",
+      "actual": true,
+      "required": true,
+      "ok": true
+    },
+    {
+      "name": "bee-desktop minos",
+      "actual": [
+        "13.0"
+      ],
+      "required": [
+        "13.0"
+      ],
+      "ok": true
+    },
+    {
+      "name": "bee architecture",
+      "actual": true,
+      "required": true,
+      "ok": true
+    },
+    {
+      "name": "bee minos",
+      "actual": [
+        "13.0"
+      ],
+      "required": [
+        "13.0"
+      ],
+      "ok": true
+    },
+    {
+      "name": "signed bundled Bee bytes",
+      "actual": 32695168,
+      "required": 32695168,
+      "ok": true
+    },
+    {
+      "name": "signed bundled Bee sha256",
+      "actual": "35276b2faabb4645aa4b5e6383f0a85accd5ce84cdf908c1d1fb10516ffea73d",
+      "required": "35276b2faabb4645aa4b5e6383f0a85accd5ce84cdf908c1d1fb10516ffea73d",
+      "ok": true
+    }
+  ],
+  "appFiles": [
+    {
+      "path": "dmg-readonly-mount/Bee Dev.app/Contents/MacOS/bee-desktop",
+      "bytes": 26729168,
+      "sha256": "ba51312e4bd0339c38de616601913d0b1cb1d29061206b0e7c3b758eae545a45"
+    },
+    {
+      "path": "dmg-readonly-mount/Bee Dev.app/Contents/MacOS/bee",
+      "bytes": 32695168,
+      "sha256": "35276b2faabb4645aa4b5e6383f0a85accd5ce84cdf908c1d1fb10516ffea73d"
+    }
+  ],
+  "info": {
+    "CFBundleIdentifier": "dev.tokhive.bee",
+    "CFBundleShortVersionString": "0.1.0",
+    "LSMinimumSystemVersion": "13.0"
+  },
+  "scope": "Read-only DMG integrity, package bytes, x86_64/minos and ad-hoc App seal verified on arm64 host; did not execute Intel code, install App or test GUI."
+}

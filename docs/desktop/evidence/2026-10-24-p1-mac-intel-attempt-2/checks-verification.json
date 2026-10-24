@@ -1,0 +1,255 @@
+{
+  "runId": 39936378073,
+  "attempt": 2,
+  "jobId": 120769897286,
+  "source": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "nativeEnvironment": {
+    "scope": "macOS 15 Intel supplemental native evidence; not macOS 13 minimum",
+    "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+    "runId": "39936378073",
+    "imageOS": "macos15",
+    "imageVersion": "20260824.0482.1",
+    "target": "x86_64-apple-darwin",
+    "checks": [
+      {
+        "name": "Source HEAD",
+        "actual": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+        "expected": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+        "ok": true
+      },
+      {
+        "name": "Node platform/arch/version",
+        "actual": "darwin/x64/v24.22.1",
+        "expected": "darwin/x64/v24.22.1",
+        "ok": true
+      },
+      {
+        "name": "Kernel architecture",
+        "actual": "x86_64",
+        "expected": "x86_64",
+        "ok": true
+      },
+      {
+        "name": "No Rosetta",
+        "actual": "",
+        "expected": "0 or empty",
+        "ok": true
+      },
+      {
+        "name": "Hosted OS",
+        "actual": "15.7.9",
+        "expected": "macOS 15.x",
+        "ok": true
+      },
+      {
+        "name": "Selected Xcode",
+        "actual": "/Applications/Xcode_16.4.app/Contents/Developer",
+        "expected": "/Applications/Xcode_16.4.app/Contents/Developer",
+        "ok": true
+      },
+      {
+        "name": "Xcode version",
+        "actual": "Xcode 16.4\nBuild version 16F6",
+        "expected": "Xcode 16.4 / Build 16F6",
+        "ok": true
+      },
+      {
+        "name": "macOS SDK",
+        "actual": "15.5",
+        "expected": "15.5",
+        "ok": true
+      },
+      {
+        "name": "Go version",
+        "actual": "go version go1.27.3 darwin/amd64",
+        "expected": "go version go1.27.3 darwin/amd64",
+        "ok": true
+      },
+      {
+        "name": "Go build/host",
+        "actual": "darwin\namd64\ndarwin\namd64",
+        "expected": "darwin\namd64\ndarwin\namd64",
+        "ok": true
+      },
+      {
+        "name": "Rust version",
+        "actual": "rustc 1.94.0 (4a4ef493e 2026-03-02)",
+        "expected": "rustc 1.94.0",
+        "ok": true
+      },
+      {
+        "name": "Rust host",
+        "actual": "x86_64-apple-darwin",
+        "expected": "x86_64-apple-darwin",
+        "ok": true
+      },
+      {
+        "name": "Cargo version",
+        "actual": "cargo 1.94.0 (85eff7c80 2026-01-15)",
+        "expected": "cargo 1.94.0",
+        "ok": true
+      }
+    ],
+    "gui": "not tested",
+    "tray": "not tested",
+    "cleanUserInstall": "not tested",
+    "productionSigning": "not performed",
+    "ok": true
+  },
+  "checks": [
+    {
+      "name": "native revision",
+      "actual": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "expected": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "ok": true
+    },
+    {
+      "name": "native runId",
+      "actual": "39936378073",
+      "expected": "39936378073",
+      "ok": true
+    },
+    {
+      "name": "native target",
+      "actual": "x86_64-apple-darwin",
+      "expected": "x86_64-apple-darwin",
+      "ok": true
+    },
+    {
+      "name": "native checks",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "native ok",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "packages duplicate raw bytes",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    },
+    {
+      "name": "browser workers",
+      "actual": [
+        [
+          "489",
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "489",
+          "2"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "name": "browser final counts",
+      "actual": [
+        [
+          "489",
+          "13.9m"
+        ]
+      ],
+      "expected": [
+        [
+          "489",
+          "13.9m"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "name": "browser failures",
+      "actual": [],
+      "expected": [],
+      "ok": true
+    },
+    {
+      "name": "normal Rust results",
+      "actual": [
+        [
+          "40",
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "40",
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "name": "signed Rust results",
+      "actual": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "name": "Go ok package count",
+      "actual": 7,
+      "expected": 7,
+      "ok": true
+    },
+    {
+      "name": "fixed TEE",
+      "actual": true,
+      "expected": true,
+      "ok": true
+    }
+  ],
+  "optionalLastRunJsonUploaded": false,
+  "scope": "Attempt 2 only; attempt 1 remains failure. Browser pass does not establish previous timeout cause or native GUI acceptance."
+}

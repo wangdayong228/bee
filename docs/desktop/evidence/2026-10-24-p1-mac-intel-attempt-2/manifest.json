@@ -1,0 +1,369 @@
+{
+  "runId": 39936378073,
+  "attempt": 2,
+  "jobId": 120769897286,
+  "source": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "entries": [
+    {
+      "path": "run-final.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/run-final.json",
+      "bytes": 12252,
+      "sha256": "d4d6b1504497c320b2affba42dff091a17187a5d664b686c65993f8e358788eb"
+    },
+    {
+      "path": "jobs-final.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/jobs-final.json",
+      "bytes": 4609,
+      "sha256": "e5fb3805cbdb84711b2f3e96bbb6ddb617fdbd02f10c2bc934707971b38b8340"
+    },
+    {
+      "path": "artifacts-final.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/artifacts-final.json",
+      "bytes": 2266,
+      "sha256": "32fb63eff26197c63a1580b50f5e3decd544b97e15dd6b6a81698f11ba6c106b"
+    },
+    {
+      "path": "annotations-final.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/annotations-final.json",
+      "bytes": 581,
+      "sha256": "03f39bc7e46e128a648f436acdb78b52ea78606799897aff209ca5ac44aa07e7"
+    },
+    {
+      "path": "input-comparison.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/input-comparison.json",
+      "bytes": 1247,
+      "sha256": "b5ee475e1c4c3a02fdbce6330119f61b7fe16ca7240300c2ac63bd06ab2c227b"
+    },
+    {
+      "path": "artifacts-before-attempt-2-upload.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/artifacts-before-attempt-2-upload.json",
+      "bytes": 777,
+      "sha256": "e5fbbab9802fce41f89b42ccd0f4a2e2b1ff069c6083ee2ed5d4f5e50356f12b"
+    },
+    {
+      "path": "checks-verification.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks-verification.json",
+      "bytes": 5294,
+      "sha256": "894f5440ff4d71c352b52640da154a776fad57f4ff3cb1e3eee9b130f5180784"
+    },
+    {
+      "path": "package-verification.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/package-verification.json",
+      "bytes": 4901,
+      "sha256": "0d329fe9515461471a5511c82376b4b93586e77fb3c1df807ff6465a8d205267"
+    },
+    {
+      "path": "diagnostic-search-summary.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/diagnostic-search-summary.json",
+      "bytes": 773,
+      "sha256": "d24cbb4280a2191e9f7d448875f9cca4fc0da600635a7e70363fc3437b28fd70"
+    },
+    {
+      "path": "verification-preparation-note.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/verification-preparation-note.json",
+      "bytes": 344,
+      "sha256": "a12cbeaaa88f124d74806fcd204237727880fdd2d0833e5d8ca9f5caa35656ed"
+    },
+    {
+      "path": "local-byte-manifest.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/local-byte-manifest.json",
+      "bytes": 141984,
+      "sha256": "b42cb1b808e6c6eacf54109c5c600def4e10d3fdc5d07363e62ac80aca44e1e6"
+    },
+    {
+      "path": "ci/bridge.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1016,
+      "sha256": "12cfefdc1d6893a549bf67577985e77854cd78d6331961d0538fa21700d3566b"
+    },
+    {
+      "path": "ci/browser-e2e.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1090,
+      "sha256": "b4914ec5f88403321f2da711a4808426bc6fd020842f71df1a2279affe878c08"
+    },
+    {
+      "path": "ci/cargo-test.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 22410,
+      "sha256": "da184cc6a7fdea9ba82af530a637e0b581d7071779162afa3fbb8cb321df9ae0"
+    },
+    {
+      "path": "ci/frontend-build.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/frontend-build.log",
+      "bytes": 674,
+      "sha256": "50b8ede700bb367ca434874cb77875e42d50a7543dc2a4cab41c5d656e05d8c8"
+    },
+    {
+      "path": "ci/frontend-demo-build.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/frontend-demo-build.log",
+      "bytes": 685,
+      "sha256": "d4fd2f75b94c0e8e38122734d1838c35425fba4a57d3dc9bed3d0c537c45403f"
+    },
+    {
+      "path": "ci/go-test.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "376f97a92241ed9590e6459b7b69c5893e76ae31334e140c725525c69785506d"
+    },
+    {
+      "path": "ci/go-vet.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/go-vet.log",
+      "bytes": 4215,
+      "sha256": "1987ef7163c0c593ea23c6f6d5253a4ba62f4a0dc939375348d0e6cc7d1fa039"
+    },
+    {
+      "path": "ci/macho.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/macho.log",
+      "bytes": 21354,
+      "sha256": "5ada0912c7fe40357a7676edc92866bb0e974211841cbcec52ed6a1f5085aa2a"
+    },
+    {
+      "path": "ci/native.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/native.json",
+      "bytes": 2319,
+      "sha256": "b61be400263d90c228859b2c10d569353149a78974069c0e969e56f6dd4c84ae"
+    },
+    {
+      "path": "ci/native.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/native.log",
+      "bytes": 1586,
+      "sha256": "a06eb579e37952834b27d73be4eb9c3b0f05de60174e9b55d899bb5656919c62"
+    },
+    {
+      "path": "ci/npm-ci.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/npm-ci.log",
+      "bytes": 450,
+      "sha256": "b5bf36152a5213534fb8ebbf5543ac89023c9c4698652d1a574edffae4fe18da"
+    },
+    {
+      "path": "ci/package-scope.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/package-scope.log",
+      "bytes": 133,
+      "sha256": "fcee4c6821c5c3a54b98983408a746fa0a3e22d378c38e71d178d0699622b56f"
+    },
+    {
+      "path": "ci/packages.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/packages.json",
+      "bytes": 1507,
+      "sha256": "72639ed16781ea8a8c2b75719f62074bfafd01a8a6bd461cd63f85d9eb20bf68"
+    },
+    {
+      "path": "ci/packages.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/packages.log",
+      "bytes": 1507,
+      "sha256": "72639ed16781ea8a8c2b75719f62074bfafd01a8a6bd461cd63f85d9eb20bf68"
+    },
+    {
+      "path": "ci/playwright-install.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/playwright-install.log",
+      "bytes": 11288,
+      "sha256": "1326cc1f605c19dd122043737fef30450c67fbb29e2347686336d5c05ae3c679"
+    },
+    {
+      "path": "ci/preflight.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/preflight.log",
+      "bytes": 791,
+      "sha256": "3fbb7dc258d67f2c49f59de14485059fbaf0678cc58ffdefa7e6b919e707b5be"
+    },
+    {
+      "path": "ci/rust-install.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/rust-install.log",
+      "bytes": 387,
+      "sha256": "3a07e228af4643ce93bc33f5471a10ed3b53a78de834e99cf0e7af451333f720"
+    },
+    {
+      "path": "ci/sidecar.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 176,
+      "sha256": "5f8de9dddfe0ebc6231c9323f1fd359d5ff3dd62717d2274b73838538cd6f1d5"
+    },
+    {
+      "path": "ci/signed-app.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/signed-app.log",
+      "bytes": 787,
+      "sha256": "cf459f68746c0c0482f81549eebed819113b9abef5d298716a26653f74ad82e9"
+    },
+    {
+      "path": "ci/tauri-build.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 5352,
+      "sha256": "c7cc501c919a1df2ecfc6d34ae7aad51c54c4b42579d0b07841bd1f7821502dc"
+    },
+    {
+      "path": "ci/tee-source.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/tee-source.log",
+      "bytes": 134,
+      "sha256": "92f974f661a98e3775cc18c1985de26f2ebb32262e8c1273430ac2737d3ee0f0"
+    },
+    {
+      "path": "ci/tee.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/tee.log",
+      "bytes": 207,
+      "sha256": "af59cdfa8f1d0daaeabac20157bf71b8a7db848eb445b94fddf15c21f11f9156"
+    },
+    {
+      "path": "ci/tooling.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 8043,
+      "sha256": "2fe698b5c213b9d03199a26daecd32ab57970bc0628d3e05ad6e414bbab90298"
+    },
+    {
+      "path": "ci/typecheck.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    },
+    {
+      "path": "ci/xcode-select.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/checks/desktop-ci-evidence/xcode-select.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-app-seal.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-app-seal.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-app-signature.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-app-signature.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-attach.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-attach.stdout",
+      "bytes": 1003,
+      "sha256": "c20e23eae6829fe70d6112139e270d7fb011d166083a143f3d8c205858b8c63c"
+    },
+    {
+      "path": "local-package/dmg-bee-desktop-file.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-desktop-file.stdout",
+      "bytes": 200,
+      "sha256": "937e037462a4777dbd7ba72f1827be5b8066f9a450657dc6ce9673f9e4e450cc"
+    },
+    {
+      "path": "local-package/dmg-bee-desktop-otool.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-desktop-otool.stdout",
+      "bytes": 10339,
+      "sha256": "16b52bb0ee019677d15db8faacc49b4f9790ebe043b2463177bf3f1a026a0cfd"
+    },
+    {
+      "path": "local-package/dmg-bee-file.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-file.stdout",
+      "bytes": 192,
+      "sha256": "ab44be1822fa9b6b3feeb8afc939b71a5f126b0bf8e74132f271536e08476221"
+    },
+    {
+      "path": "local-package/dmg-bee-otool.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-otool.stdout",
+      "bytes": 10959,
+      "sha256": "e3c704efc3509d78981c1415f8871baaa7c46c564dac5c73e8b36c48e3b41cb1"
+    },
+    {
+      "path": "local-package/dmg-detach.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-detach.stdout",
+      "bytes": 18,
+      "sha256": "5f0dcc912fe9ed9158660791106db17c8c7b4225ad963f5894eaf265a90d64bc"
+    },
+    {
+      "path": "local-package/dmg-verify.stdout",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-verify.stdout",
+      "bytes": 1060,
+      "sha256": "d9ec51315fd4546296e41668e8e6a05823dd902d512ad6c99158096f00eba3de"
+    },
+    {
+      "path": "local-package/dmg-app-seal.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-app-seal.stderr",
+      "bytes": 674,
+      "sha256": "d78994ed3706d334994780b1e57a59aa5e062e5d73a54ac24519b1f5f5196e3f"
+    },
+    {
+      "path": "local-package/dmg-app-signature.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-app-signature.stderr",
+      "bytes": 1008,
+      "sha256": "cff7567732726fe17073eb6f6bc1208cd0f8140d68ed37e2fbd9293750064794"
+    },
+    {
+      "path": "local-package/dmg-attach.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-attach.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-bee-desktop-file.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-desktop-file.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-bee-desktop-otool.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-desktop-otool.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-bee-file.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-file.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-bee-otool.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-bee-otool.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-detach.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-detach.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "local-package/dmg-verify.stderr",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/dmg-verify.stderr",
+      "bytes": 218,
+      "sha256": "bac2dfbfb88c87b4d0b558d753377b249fe94dcd2c8f952259e5691b93dd46c3"
+    },
+    {
+      "path": "artifacts/12547925393-verification.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/artifact-zips/12547925393-verification.json",
+      "bytes": 656,
+      "sha256": "05e241fcd0b557040833c21a3d0da109a44eeafc670b6826b184e8438ae17a8d"
+    },
+    {
+      "path": "artifacts/12547234173-verification.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/artifact-zips/12547234173-verification.json",
+      "bytes": 661,
+      "sha256": "bfe63a99edcfddb94f357f519eac2e34be088d90d6c82dd54a89de6c78ec4856"
+    },
+    {
+      "path": "bee-x86_64-apple-darwin.source.json",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/test/desktop/src-tauri/binaries/bee-x86_64-apple-darwin.source.json",
+      "bytes": 370,
+      "sha256": "4b5e8f22e0b9ea6850e2b4aa2d0b18df7858b8246258e2d410e61cfde07f538c"
+    },
+    {
+      "path": "actions/browser-step.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/logs/macOS 15 Intel native Bee, Rust bridge and P1 demo DMG/10_Locked Chromium, Firefox and WebKit browser E2E.txt",
+      "bytes": 16621,
+      "sha256": "031f5863e94272474952344cd3a9ac3f6d7f58b032829662f1918e8a8a979430"
+    },
+    {
+      "path": "actions/native-step.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/logs/macOS 15 Intel native Bee, Rust bridge and P1 demo DMG/11_Build actual native Bee and test locked Rust bridge.txt",
+      "bytes": 42287,
+      "sha256": "0c83ca16b9ad6539c9be182d3131144e969adfe9190a537718406aa851cc2c71"
+    },
+    {
+      "path": "actions/signed-step.log",
+      "source": ".cache/qa/p1-macos-intel-87-attempt-2-debug/logs/macOS 15 Intel native Bee, Rust bridge and P1 demo DMG/13_Verify packaged App seal and real bundled Bee without GUI.txt",
+      "bytes": 3154,
+      "sha256": "9419a3fb278c494b8108527fd6b5ef25b67ae6da6be37bdd983aec06df74b4c1"
+    }
+  ],
+  "scope": "Selected source bytes only; binaries/DMG/ZIP/screenshots and complete runner diagnostic logs remain in ignored QA cache."
+}
