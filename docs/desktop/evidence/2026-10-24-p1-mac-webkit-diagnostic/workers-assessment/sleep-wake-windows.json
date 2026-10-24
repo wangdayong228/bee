@@ -1,0 +1,62 @@
+[
+  {
+    "case": "accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit",
+    "title": "Evaluate",
+    "startUTC": "2026-10-23T10:57:43.602+00:00",
+    "endUTC": "2026-10-23T11:00:14.171+00:00",
+    "startShanghai": "2026-10-23T18:57:43.602+08:00",
+    "endShanghai": "2026-10-23T19:00:14.171+08:00",
+    "startEpochMs": 1792753063602.375,
+    "endEpochMs": 1792753214171.932
+  },
+  {
+    "case": "accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit",
+    "title": "Click",
+    "startUTC": "2026-10-23T10:57:44.184+00:00",
+    "endUTC": "2026-10-23T11:00:14.212+00:00",
+    "startShanghai": "2026-10-23T18:57:44.184+08:00",
+    "endShanghai": "2026-10-23T19:00:14.212+08:00",
+    "startEpochMs": 1792753064184.302,
+    "endEpochMs": 1792753214212.6812
+  },
+  {
+    "case": "accounts-removal-pending-保留卡片并停止新任务-webkit",
+    "title": "After Hooks",
+    "startUTC": "2026-10-23T10:57:44.264+00:00",
+    "endUTC": "2026-10-23T11:00:14.172+00:00",
+    "startShanghai": "2026-10-23T18:57:44.264+08:00",
+    "endShanghai": "2026-10-23T19:00:14.172+08:00",
+    "startEpochMs": 1792753064264.249,
+    "endEpochMs": 1792753214172.089
+  },
+  {
+    "case": "accounts-removal-pending-保留卡片并停止新任务-webkit",
+    "title": "Fixture \"context\"",
+    "startUTC": "2026-10-23T10:57:44.265+00:00",
+    "endUTC": "2026-10-23T11:00:14.121+00:00",
+    "startShanghai": "2026-10-23T18:57:44.265+08:00",
+    "endShanghai": "2026-10-23T19:00:14.121+08:00",
+    "startEpochMs": 1792753064265.873,
+    "endEpochMs": 1792753214121.82
+  },
+  {
+    "case": "accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit",
+    "title": "Expect \"toContainText\"",
+    "startUTC": "2026-10-23T10:57:44.281+00:00",
+    "endUTC": "2026-10-23T11:00:14.167+00:00",
+    "startShanghai": "2026-10-23T18:57:44.281+08:00",
+    "endShanghai": "2026-10-23T19:00:14.167+08:00",
+    "startEpochMs": 1792753064281.768,
+    "endEpochMs": 1792753214167.236
+  },
+  {
+    "case": "accounts-官方授权未接通，不伪造接入成功-webkit",
+    "title": "Click",
+    "startUTC": "2026-10-24T01:27:09.274+00:00",
+    "endUTC": "2026-10-24T01:42:35.498+00:00",
+    "startShanghai": "2026-10-24T09:27:09.274+08:00",
+    "endShanghai": "2026-10-24T09:42:35.498+08:00",
+    "startEpochMs": 1792805229274.465,
+    "endEpochMs": 1792806155498.349
+  }
+]

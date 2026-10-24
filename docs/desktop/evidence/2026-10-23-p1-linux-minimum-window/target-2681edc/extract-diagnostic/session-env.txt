@@ -1,0 +1,12 @@
+BEE_CI_TARGET=aarch64-unknown-linux-gnu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-SAhkuO0NOn,guid=b218d9d30c5207252a912da86adb3c0f
+DISPLAY=:99
+GITHUB_SHA=2681edca2c56bca9d2ce30db4198fb5784d98b65
+GIT_CONFIG_COUNT=1
+GIT_CONFIG_KEY_0=safe.directory
+GIT_CONFIG_VALUE_0=/target
+HOME=/home/beeqa
+HOSTNAME=72eb56538a40
+PATH=/opt/node/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/target
+XAUTHORITY=/tmp/xvfb-run.aC1y1T/Xauthority

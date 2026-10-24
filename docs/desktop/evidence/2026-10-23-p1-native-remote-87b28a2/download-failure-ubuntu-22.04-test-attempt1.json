@@ -1,0 +1,14 @@
+{
+  "artifactId": 12494054216,
+  "artifactName": "bee-linux-test-ubuntu-22.04-87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378139,
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "recordedAt": "2026-10-23T10:36:31.558659+00:00",
+  "attempt": 1,
+  "exitCode": 1,
+  "stderr": "error downloading bee-linux-test-ubuntu-22.04-87b28a29aa84c2543b6b80b7e31204646e4fa76a: error writing zip archive: unexpected EOF",
+  "scope": "local artifact download; not CI job failure",
+  "cause": "unknown; response ended before ZIP write completed",
+  "successfulComparison": "22x64 checks same source/run download exited0; other artifacts still downloading",
+  "handling": "retry exact same read-only artifact download; no CI writes; validate full downloaded package bytes against smoke SHA before success claim"
+}

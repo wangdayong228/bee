@@ -1,0 +1,74 @@
+{
+  "recordedAt": "2026-10-23T11:35:19.395Z",
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": "39941148651",
+  "target": "aarch64-unknown-linux-gnu",
+  "baseline": "minimum",
+  "platform": "linux",
+  "arch": "arm64",
+  "kernel": "6.8.0-1064-azure",
+  "checks": [
+    {
+      "name": "CI baseline",
+      "actual": "minimum",
+      "expected": [
+        "minimum",
+        "current"
+      ],
+      "ok": true
+    },
+    {
+      "name": "CI target",
+      "actual": "aarch64-unknown-linux-gnu",
+      "expected": [
+        "aarch64-apple-darwin",
+        "x86_64-apple-darwin",
+        "x86_64-pc-windows-msvc",
+        "x86_64-unknown-linux-gnu",
+        "aarch64-unknown-linux-gnu"
+      ],
+      "ok": true
+    },
+    {
+      "name": "Native Node host",
+      "actual": "linux/arm64",
+      "expected": "linux/arm64",
+      "ok": true
+    },
+    {
+      "name": "Native Linux kernel architecture",
+      "actual": "aarch64",
+      "expected": "aarch64",
+      "ok": true
+    },
+    {
+      "name": "Ubuntu baseline",
+      "actual": "ubuntu/22.04",
+      "expected": "ubuntu/22.04",
+      "ok": true
+    },
+    {
+      "name": "Native Rust host",
+      "actual": "rustc 1.94.0 (4a4ef493e 2026-03-02)\nbinary: rustc\ncommit-hash: 4a4ef493e3a1488c6e321570238084b38948f6db\ncommit-date: 2026-03-02\nhost: aarch64-unknown-linux-gnu\nrelease: 1.94.0\nLLVM version: 21.1.8",
+      "expected": "host: aarch64-unknown-linux-gnu",
+      "ok": true
+    },
+    {
+      "name": "Native Go build and host",
+      "actual": [
+        "linux",
+        "arm64",
+        "linux",
+        "arm64"
+      ],
+      "expected": [
+        "linux",
+        "arm64",
+        "linux",
+        "arm64"
+      ],
+      "ok": true
+    }
+  ],
+  "ok": true
+}

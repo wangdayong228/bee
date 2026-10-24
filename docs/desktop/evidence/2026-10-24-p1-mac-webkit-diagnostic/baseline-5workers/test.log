@@ -1,0 +1,116 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/accounts.spec.ts --project=webkit --grep 双入口|官方授权未接通|换号明确|removal-pending --reporter=line --output /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results
+
+
+Running 5 tests using 5 workers
+
+[1/5] [webkit] › tests/accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态
+[2/5] [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功
+[3/5] [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停
+[4/5] [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务
+[5/5] [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效
+  1) [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ───────────────────────────
+
+    Tearing down "context" exceeded the test timeout of 30000ms.
+
+    Error Context: ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  2) [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ─────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: '概览', exact: true })
+        - locator resolved to <button>…</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      19 |   await expect(sheet).toContainText('更新时间');
+      20 |   await page.keyboard.press('Escape');
+    > 21 |   await page.getByRole('button', { name: '概览', exact: true }).click();
+         |                                                               ^
+      22 |   await expect(page.getByText('尚未开始贡献', { exact: true })).toBeVisible();
+      23 | });
+      24 | test('官方授权未接通，不伪造接入成功', async ({ page }) => {
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:21:63
+
+    Error Context: ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  3) [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ──────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('region', { name: 'OpenAI 账号' })
+    Expected substring: "another@example.com"
+    Received string:    ""
+
+    Call log:
+      - Expect "toContainText" getByRole('region', { name: 'OpenAI 账号' }) with timeout 5000ms
+      - waiting for getByRole('region', { name: 'OpenAI 账号' })
+      - 
+
+
+      52 |   await openai.getByRole('button', { name: '确认换号' }).click();
+      53 |   await page.getByRole('button', { name: '确认切换', exact: true }).click();
+    > 54 |   await expect(openai).toContainText('another@example.com');
+         |                        ^
+      55 |   await expect(openai).toContainText('已暂停');
+      56 | });
+      57 | for (const scene of ['removal-pending', 'removal-unknown']) {
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:54:24
+
+    Error Context: ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  4) [webkit] › tests/accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态 ────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error Context: ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  4 failed
+    [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ──────────────────────────────
+    [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ───────────────────────────────
+    [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ────────────────────────────
+    [webkit] › tests/accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态 ─────────
+  1 passed (2.8m)

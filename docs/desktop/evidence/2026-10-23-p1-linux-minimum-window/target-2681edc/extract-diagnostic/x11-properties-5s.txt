@@ -1,0 +1,8 @@
+WM_NAME(STRING) = "bee-desktop"
+_NET_WM_NAME(UTF8_STRING) = "bee-desktop"
+_NET_WM_PID(CARDINAL) = 34
+WM_STATE:  not found.
+WM_NAME(STRING) = "bee-desktop"
+_NET_WM_NAME(UTF8_STRING) = "bee-desktop"
+_NET_WM_PID(CARDINAL) = 34
+WM_STATE:  not found.

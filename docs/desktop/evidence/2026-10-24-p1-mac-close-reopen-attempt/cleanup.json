@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-24T02:29:18.802117+00:00",
+  "scope": "cleanup only for this QA-launched App; not menu-exit or close-hide acceptance",
+  "before": {
+    "66092": {
+      "pid": 66092,
+      "ppid": 1,
+      "stat": "S",
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop"
+    },
+    "66099": {
+      "pid": 66099,
+      "ppid": 66092,
+      "stat": "S",
+      "command": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+    }
+  },
+  "signal": "SIGTERM to verified exact QA parent only",
+  "after": {
+    "66092": null,
+    "66099": null
+  }
+}

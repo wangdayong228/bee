@@ -1,0 +1,787 @@
+{
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378073,
+  "jobId": 120356825943,
+  "result": {
+    "passed": 485,
+    "failed": 4,
+    "browser": "webkit",
+    "durationReported": "34.3m"
+  },
+  "rawLog": "macos-job.log:731-867",
+  "method": [
+    "All four embedded test source byte strings equal git show exact87:desktop/tests/accounts.spec.ts",
+    "All relative timestamps preserve recorded monotonic time. Trace origin and Before Hooks are explicit bases; they are not asserted as exact charged timeout-clock origin",
+    "The first two cases include a recorded worker browser fixture. The arithmetic subtraction field is diagnostic only; exact Playwright charged budget cannot be reconstructed from timestamp-free timeout error events",
+    "Library actions may lack an after event or later buffered logs at timeout; runner error Call log preserves later action stages separately",
+    "No CPU/product/browser root cause inferred; slow steps and shared test-deadline observation do not prove why actions were slow"
+  ],
+  "cause": "unknown",
+  "skipped": [
+    "native Bee and normal Rust bridge",
+    "App/DMG",
+    "signed bundled Bee tests",
+    "Mach-O/package hashes",
+    "test artifact"
+  ],
+  "cases": [
+    {
+      "case": "accounts-removal-pending-保留卡片并停止新任务-webkit",
+      "tracePath": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip",
+      "traceZipSha256": "d554656b7f89570e4af77eadfefc1848c058dada86c45d74d08e66e322cf6e4f",
+      "embeddedSource": {
+        "pathInZip": "src/24ffe3cdaf7eec5032231fe15046e3b5e069a472.ts",
+        "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+        "exact87GitBlobBytesEqual": true
+      },
+      "playwrightVersion": "1.63.0",
+      "testTimeoutMs": 30000,
+      "traceOriginMonotonicTime": 1399488.707,
+      "beforeHooksStartTime": 1399491.256,
+      "workerBrowserFixtureDurationMs": 0,
+      "runnerSteps": [
+        {
+          "callId": "hook@1",
+          "title": "Before Hooks",
+          "params": {},
+          "startTime": 1399491.256,
+          "startFromTraceOriginMs": 2.549,
+          "startFromBeforeHooksMs": 0.0,
+          "endTime": 1400521.935,
+          "durationMs": 1030.679
+        },
+        {
+          "callId": "pw:api@25",
+          "title": "Create context",
+          "params": {},
+          "startTime": 1399514.988,
+          "startFromTraceOriginMs": 26.281,
+          "startFromBeforeHooksMs": 23.732,
+          "endTime": 1399528.714,
+          "durationMs": 13.726
+        },
+        {
+          "callId": "pw:api@27",
+          "title": "Create page",
+          "params": {},
+          "startTime": 1399554.952,
+          "startFromTraceOriginMs": 66.245,
+          "startFromBeforeHooksMs": 63.696,
+          "endTime": 1400521.646,
+          "durationMs": 966.694
+        },
+        {
+          "callId": "pw:api@28",
+          "title": "Navigate",
+          "params": {
+            "url": "/?scene=removal-pending"
+          },
+          "startTime": 1400524.433,
+          "startFromTraceOriginMs": 1035.726,
+          "startFromBeforeHooksMs": 1033.177,
+          "endTime": 1412469.687,
+          "durationMs": 11945.254
+        },
+        {
+          "callId": "pw:api@29",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+          },
+          "startTime": 1412493.279,
+          "startFromTraceOriginMs": 13004.572,
+          "startFromBeforeHooksMs": 13002.023,
+          "endTime": 1426948.145,
+          "durationMs": 14454.866
+        },
+        {
+          "callId": "pw:api@30",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })"
+          },
+          "startTime": 1426977.541,
+          "startFromTraceOriginMs": 27488.834,
+          "startFromBeforeHooksMs": 27486.285,
+          "endTime": 1432122.641,
+          "durationMs": 5145.1,
+          "error": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })\n    - locator resolved to <button class=\"quiet\" type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">移除账号</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n"
+        },
+        {
+          "callId": "hook@31",
+          "title": "After Hooks",
+          "params": {},
+          "startTime": 1429523.523,
+          "startFromTraceOriginMs": 30034.816,
+          "startFromBeforeHooksMs": 30032.267,
+          "endTime": 1432196.213,
+          "durationMs": 2672.69
+        },
+        {
+          "callId": "pw:api@34",
+          "title": "Close context",
+          "params": {},
+          "startTime": 1431779.23,
+          "startFromTraceOriginMs": 32290.523,
+          "startFromBeforeHooksMs": 32287.974,
+          "endTime": 1432123.049,
+          "durationMs": 343.819
+        }
+      ],
+      "libraryActions": [
+        {
+          "callId": "call@34",
+          "stepId": "pw:api@28",
+          "method": "goto",
+          "params": {
+            "url": "/?scene=removal-pending",
+            "waitUntil": "load"
+          },
+          "startTime": 1400526.086,
+          "startFromTraceOriginMs": 1037.379,
+          "endTime": 1404691.894,
+          "durationMs": 4165.808,
+          "logs": [
+            {
+              "time": 1400537.877,
+              "fromActionStartMs": 11.791,
+              "message": "navigating to \"http://127.0.0.1:1420/?scene=removal-pending\", waiting until \"load\""
+            }
+          ]
+        },
+        {
+          "callId": "call@36",
+          "stepId": "pw:api@29",
+          "method": "click",
+          "params": {
+            "selector": "internal:role=navigation >> internal:role=button[name=\"AI 账号\"s]",
+            "strict": true
+          },
+          "startTime": 1412502.697,
+          "startFromTraceOriginMs": 13013.99,
+          "endTime": 1426934.366,
+          "durationMs": 14431.669,
+          "logs": [
+            {
+              "time": 1414365.755,
+              "fromActionStartMs": 1863.058,
+              "message": "waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+            },
+            {
+              "time": 1417909.122,
+              "fromActionStartMs": 5406.425,
+              "message": "  locator resolved to <button>…</button>"
+            },
+            {
+              "time": 1417919.834,
+              "fromActionStartMs": 5417.137,
+              "message": "attempting click action"
+            },
+            {
+              "time": 1417920.012,
+              "fromActionStartMs": 5417.315,
+              "message": "  waiting for element to be visible, enabled and stable"
+            },
+            {
+              "time": 1417965.409,
+              "fromActionStartMs": 5462.712,
+              "message": "  element is visible, enabled and stable"
+            },
+            {
+              "time": 1417965.426,
+              "fromActionStartMs": 5462.729,
+              "message": "  scrolling into view if needed"
+            },
+            {
+              "time": 1417967.412,
+              "fromActionStartMs": 5464.715,
+              "message": "  done scrolling"
+            },
+            {
+              "time": 1418001.822,
+              "fromActionStartMs": 5499.125,
+              "message": "  performing click action"
+            },
+            {
+              "time": 1426931.766,
+              "fromActionStartMs": 14429.069,
+              "message": "  click action done"
+            },
+            {
+              "time": 1426931.794,
+              "fromActionStartMs": 14429.097,
+              "message": "  waiting for scheduled navigations to finish"
+            },
+            {
+              "time": 1426933.915,
+              "fromActionStartMs": 14431.218,
+              "message": "  navigations have finished"
+            }
+          ]
+        },
+        {
+          "callId": "call@38",
+          "stepId": "pw:api@30",
+          "method": "click",
+          "params": {
+            "selector": "internal:role=region[name=\"OpenAI 账号\"i] >> internal:role=button[name=\"移除账号\"i]",
+            "strict": true
+          },
+          "startTime": 1426985.084,
+          "startFromTraceOriginMs": 27496.377,
+          "endTime": null,
+          "durationMs": null,
+          "logs": [
+            {
+              "time": 1426993.937,
+              "fromActionStartMs": 8.853,
+              "message": "waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })"
+            },
+            {
+              "time": 1428965.834,
+              "fromActionStartMs": 1980.75,
+              "message": "  locator resolved to <button class=\"quiet\" type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">移除账号</button>"
+            },
+            {
+              "time": 1428982.066,
+              "fromActionStartMs": 1996.982,
+              "message": "attempting click action"
+            },
+            {
+              "time": 1428982.318,
+              "fromActionStartMs": 1997.234,
+              "message": "  waiting for element to be visible, enabled and stable"
+            }
+          ]
+        }
+      ],
+      "errors": [
+        "Test timeout of 30000ms exceeded.",
+        "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })\n    - locator resolved to <button class=\"quiet\" type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">移除账号</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n"
+      ]
+    },
+    {
+      "case": "accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit",
+      "tracePath": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip",
+      "traceZipSha256": "f8be50a9159e64a184be7d6a9722e9d596c5df9e7451d7cf376b8955e507db76",
+      "embeddedSource": {
+        "pathInZip": "src/24ffe3cdaf7eec5032231fe15046e3b5e069a472.ts",
+        "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+        "exact87GitBlobBytesEqual": true
+      },
+      "playwrightVersion": "1.63.0",
+      "testTimeoutMs": 30000,
+      "traceOriginMonotonicTime": 1338438.494,
+      "beforeHooksStartTime": 1338617.576,
+      "workerBrowserFixtureDurationMs": 17783.135,
+      "runnerSteps": [
+        {
+          "callId": "hook@1",
+          "title": "Before Hooks",
+          "params": {},
+          "startTime": 1338617.576,
+          "startFromTraceOriginMs": 179.082,
+          "startFromBeforeHooksMs": 0.0,
+          "endTime": 1367281.84,
+          "durationMs": 28664.264
+        },
+        {
+          "callId": "pw:api@30",
+          "title": "Launch browser",
+          "params": {},
+          "startTime": 1338660.418,
+          "startFromTraceOriginMs": 221.924,
+          "startFromBeforeHooksMs": 42.842,
+          "endTime": 1356426.563,
+          "durationMs": 17766.145
+        },
+        {
+          "callId": "pw:api@34",
+          "title": "Create context",
+          "params": {},
+          "startTime": 1356446.037,
+          "startFromTraceOriginMs": 18007.543,
+          "startFromBeforeHooksMs": 17828.461,
+          "endTime": 1359659.104,
+          "durationMs": 3213.067,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 45.326
+        },
+        {
+          "callId": "pw:api@36",
+          "title": "Create page",
+          "params": {},
+          "startTime": 1359699.583,
+          "startFromTraceOriginMs": 21261.089,
+          "startFromBeforeHooksMs": 21082.007,
+          "endTime": 1367278.034,
+          "durationMs": 7578.451,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 3298.872
+        },
+        {
+          "callId": "pw:api@37",
+          "title": "Navigate",
+          "params": {
+            "url": "/?scene=empty"
+          },
+          "startTime": 1367290.665,
+          "startFromTraceOriginMs": 28852.171,
+          "startFromBeforeHooksMs": 28673.089,
+          "endTime": 1385846.844,
+          "durationMs": 18556.179,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 10889.954
+        },
+        {
+          "callId": "pw:api@38",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+          },
+          "startTime": 1385857.308,
+          "startFromTraceOriginMs": 47418.814,
+          "startFromBeforeHooksMs": 47239.732,
+          "endTime": 1388088.855,
+          "durationMs": 2231.547,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 29456.597,
+          "error": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\n    - locator resolved to <button>…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n"
+        },
+        {
+          "callId": "hook@39",
+          "title": "After Hooks",
+          "params": {},
+          "startTime": 1386443.084,
+          "startFromTraceOriginMs": 48004.59,
+          "startFromBeforeHooksMs": 47825.508,
+          "endTime": 1388202.268,
+          "durationMs": 1759.184,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 30042.373
+        },
+        {
+          "callId": "pw:api@42",
+          "title": "Close context",
+          "params": {},
+          "startTime": 1388061.89,
+          "startFromTraceOriginMs": 49623.396,
+          "startFromBeforeHooksMs": 49444.314,
+          "endTime": 1388095.77,
+          "durationMs": 33.88,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 31661.179
+        }
+      ],
+      "libraryActions": [
+        {
+          "callId": "call@11",
+          "stepId": "pw:api@37",
+          "method": "goto",
+          "params": {
+            "url": "/?scene=empty",
+            "waitUntil": "load"
+          },
+          "startTime": 1367297.658,
+          "startFromTraceOriginMs": 28859.164,
+          "endTime": 1384795.775,
+          "durationMs": 17498.117,
+          "logs": [
+            {
+              "time": 1368005.302,
+              "fromActionStartMs": 707.644,
+              "message": "navigating to \"http://127.0.0.1:1420/?scene=empty\", waiting until \"load\""
+            }
+          ]
+        },
+        {
+          "callId": "call@13",
+          "stepId": "pw:api@38",
+          "method": "click",
+          "params": {
+            "selector": "internal:role=navigation >> internal:role=button[name=\"AI 账号\"s]",
+            "strict": true
+          },
+          "startTime": 1385859.08,
+          "startFromTraceOriginMs": 47420.586,
+          "endTime": null,
+          "durationMs": null,
+          "logs": [
+            {
+              "time": 1385929.458,
+              "fromActionStartMs": 70.378,
+              "message": "waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+            }
+          ]
+        }
+      ],
+      "errors": [
+        "Test timeout of 30000ms exceeded.",
+        "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\n    - locator resolved to <button>…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n"
+      ]
+    },
+    {
+      "case": "accounts-官方授权未接通，不伪造接入成功-webkit",
+      "tracePath": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip",
+      "traceZipSha256": "422ba7566f5e8d20bf2a40e597b862348958c511090031f4c0ff9105c1dbd42e",
+      "embeddedSource": {
+        "pathInZip": "src/24ffe3cdaf7eec5032231fe15046e3b5e069a472.ts",
+        "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+        "exact87GitBlobBytesEqual": true
+      },
+      "playwrightVersion": "1.63.0",
+      "testTimeoutMs": 30000,
+      "traceOriginMonotonicTime": 1338489.167,
+      "beforeHooksStartTime": 1338734.869,
+      "workerBrowserFixtureDurationMs": 17648.924,
+      "runnerSteps": [
+        {
+          "callId": "hook@1",
+          "title": "Before Hooks",
+          "params": {},
+          "startTime": 1338734.869,
+          "startFromTraceOriginMs": 245.702,
+          "startFromBeforeHooksMs": 0.0,
+          "endTime": 1367277.104,
+          "durationMs": 28542.235
+        },
+        {
+          "callId": "pw:api@30",
+          "title": "Launch browser",
+          "params": {},
+          "startTime": 1338794.145,
+          "startFromTraceOriginMs": 304.978,
+          "startFromBeforeHooksMs": 59.276,
+          "endTime": 1356420.06,
+          "durationMs": 17625.915
+        },
+        {
+          "callId": "pw:api@34",
+          "title": "Create context",
+          "params": {},
+          "startTime": 1356440.396,
+          "startFromTraceOriginMs": 17951.229,
+          "startFromBeforeHooksMs": 17705.527,
+          "endTime": 1359702.63,
+          "durationMs": 3262.234,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 56.603
+        },
+        {
+          "callId": "pw:api@36",
+          "title": "Create page",
+          "params": {},
+          "startTime": 1359729.12,
+          "startFromTraceOriginMs": 21239.953,
+          "startFromBeforeHooksMs": 20994.251,
+          "endTime": 1367276.88,
+          "durationMs": 7547.76,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 3345.327
+        },
+        {
+          "callId": "pw:api@37",
+          "title": "Navigate",
+          "params": {
+            "url": "/?scene=empty"
+          },
+          "startTime": 1367290.534,
+          "startFromTraceOriginMs": 28801.367,
+          "startFromBeforeHooksMs": 28555.665,
+          "endTime": 1388517.062,
+          "durationMs": 21226.528,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 10906.741
+        },
+        {
+          "callId": "hook@38",
+          "title": "After Hooks",
+          "params": {},
+          "startTime": 1386441.649,
+          "startFromTraceOriginMs": 47952.482,
+          "startFromBeforeHooksMs": 47706.78,
+          "endTime": 1388751.926,
+          "durationMs": 2310.277,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 30057.856
+        },
+        {
+          "callId": "pw:api@41",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+          },
+          "startTime": 1388534.794,
+          "startFromTraceOriginMs": 50045.627,
+          "startFromBeforeHooksMs": 49799.925,
+          "endTime": 1388703.741,
+          "durationMs": 168.947,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 32151.001,
+          "error": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\n"
+        },
+        {
+          "callId": "pw:api@42",
+          "title": "Close context",
+          "params": {},
+          "startTime": 1388642.229,
+          "startFromTraceOriginMs": 50153.062,
+          "startFromBeforeHooksMs": 49907.36,
+          "endTime": 1388706.213,
+          "durationMs": 63.984,
+          "startFromBeforeHooksMinusRecordedBrowserFixtureMs": 32258.436
+        }
+      ],
+      "libraryActions": [
+        {
+          "callId": "call@11",
+          "stepId": "pw:api@37",
+          "method": "goto",
+          "params": {
+            "url": "/?scene=empty",
+            "waitUntil": "load"
+          },
+          "startTime": 1367292.756,
+          "startFromTraceOriginMs": 28803.589,
+          "endTime": 1384122.99,
+          "durationMs": 16830.234,
+          "logs": [
+            {
+              "time": 1368020.416,
+              "fromActionStartMs": 727.66,
+              "message": "navigating to \"http://127.0.0.1:1420/?scene=empty\", waiting until \"load\""
+            }
+          ]
+        }
+      ],
+      "errors": [
+        "Test timeout of 30000ms exceeded.",
+        "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\n"
+      ]
+    },
+    {
+      "case": "accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit",
+      "tracePath": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip",
+      "traceZipSha256": "649d347721650e0527cb95b0d4d6c6ee26ba6913cb8f4df0bc16dd28263d1351",
+      "embeddedSource": {
+        "pathInZip": "src/24ffe3cdaf7eec5032231fe15046e3b5e069a472.ts",
+        "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+        "exact87GitBlobBytesEqual": true
+      },
+      "playwrightVersion": "1.63.0",
+      "testTimeoutMs": 30000,
+      "traceOriginMonotonicTime": 1399336.189,
+      "beforeHooksStartTime": 1399338.417,
+      "workerBrowserFixtureDurationMs": 0,
+      "runnerSteps": [
+        {
+          "callId": "hook@1",
+          "title": "Before Hooks",
+          "params": {},
+          "startTime": 1399338.417,
+          "startFromTraceOriginMs": 2.228,
+          "startFromBeforeHooksMs": 0.0,
+          "endTime": 1400462.282,
+          "durationMs": 1123.865
+        },
+        {
+          "callId": "pw:api@25",
+          "title": "Create context",
+          "params": {},
+          "startTime": 1399375.106,
+          "startFromTraceOriginMs": 38.917,
+          "startFromBeforeHooksMs": 36.689,
+          "endTime": 1399530.559,
+          "durationMs": 155.453
+        },
+        {
+          "callId": "pw:api@27",
+          "title": "Create page",
+          "params": {},
+          "startTime": 1399554.245,
+          "startFromTraceOriginMs": 218.056,
+          "startFromBeforeHooksMs": 215.828,
+          "endTime": 1400462.152,
+          "durationMs": 907.907
+        },
+        {
+          "callId": "pw:api@28",
+          "title": "Navigate",
+          "params": {
+            "url": "/?scene=account-change"
+          },
+          "startTime": 1400465.443,
+          "startFromTraceOriginMs": 1129.254,
+          "startFromBeforeHooksMs": 1127.026,
+          "endTime": 1405205.638,
+          "durationMs": 4740.195
+        },
+        {
+          "callId": "pw:api@29",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+          },
+          "startTime": 1405208.753,
+          "startFromTraceOriginMs": 5872.564,
+          "startFromBeforeHooksMs": 5870.336,
+          "endTime": 1426953.509,
+          "durationMs": 21744.756
+        },
+        {
+          "callId": "pw:api@30",
+          "title": "Click",
+          "params": {
+            "locator": "getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })"
+          },
+          "startTime": 1426962.21,
+          "startFromTraceOriginMs": 27626.021,
+          "startFromBeforeHooksMs": 27623.793,
+          "endTime": 1431819.719,
+          "durationMs": 4857.509,
+          "error": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })\n    - locator resolved to <button type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">确认换号</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n"
+        },
+        {
+          "callId": "hook@31",
+          "title": "After Hooks",
+          "params": {},
+          "startTime": 1429381.071,
+          "startFromTraceOriginMs": 30044.882,
+          "startFromBeforeHooksMs": 30042.654,
+          "endTime": 1431898.492,
+          "durationMs": 2517.421
+        },
+        {
+          "callId": "pw:api@34",
+          "title": "Close context",
+          "params": {},
+          "startTime": 1431792.752,
+          "startFromTraceOriginMs": 32456.563,
+          "startFromBeforeHooksMs": 32454.335,
+          "endTime": 1431821.538,
+          "durationMs": 28.786
+        }
+      ],
+      "libraryActions": [
+        {
+          "callId": "call@36",
+          "stepId": "pw:api@28",
+          "method": "goto",
+          "params": {
+            "url": "/?scene=account-change",
+            "waitUntil": "load"
+          },
+          "startTime": 1400466.54,
+          "startFromTraceOriginMs": 1130.351,
+          "endTime": 1404393.997,
+          "durationMs": 3927.457,
+          "logs": [
+            {
+              "time": 1400480.781,
+              "fromActionStartMs": 14.241,
+              "message": "navigating to \"http://127.0.0.1:1420/?scene=account-change\", waiting until \"load\""
+            }
+          ]
+        },
+        {
+          "callId": "call@38",
+          "stepId": "pw:api@29",
+          "method": "click",
+          "params": {
+            "selector": "internal:role=navigation >> internal:role=button[name=\"AI 账号\"s]",
+            "strict": true
+          },
+          "startTime": 1405211.674,
+          "startFromTraceOriginMs": 5875.485,
+          "endTime": 1426937.431,
+          "durationMs": 21725.757,
+          "logs": [
+            {
+              "time": 1411870.323,
+              "fromActionStartMs": 6658.649,
+              "message": "waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"
+            },
+            {
+              "time": 1414368.351,
+              "fromActionStartMs": 9156.677,
+              "message": "  locator resolved to <button>…</button>"
+            },
+            {
+              "time": 1416111.175,
+              "fromActionStartMs": 10899.501,
+              "message": "attempting click action"
+            },
+            {
+              "time": 1416111.323,
+              "fromActionStartMs": 10899.649,
+              "message": "  waiting for element to be visible, enabled and stable"
+            },
+            {
+              "time": 1417664.001,
+              "fromActionStartMs": 12452.327,
+              "message": "  element is visible, enabled and stable"
+            },
+            {
+              "time": 1417664.021,
+              "fromActionStartMs": 12452.347,
+              "message": "  scrolling into view if needed"
+            },
+            {
+              "time": 1417675.854,
+              "fromActionStartMs": 12464.18,
+              "message": "  done scrolling"
+            },
+            {
+              "time": 1420631.158,
+              "fromActionStartMs": 15419.484,
+              "message": "  performing click action"
+            },
+            {
+              "time": 1426935.523,
+              "fromActionStartMs": 21723.849,
+              "message": "  click action done"
+            },
+            {
+              "time": 1426935.541,
+              "fromActionStartMs": 21723.867,
+              "message": "  waiting for scheduled navigations to finish"
+            },
+            {
+              "time": 1426935.965,
+              "fromActionStartMs": 21724.291,
+              "message": "  navigations have finished"
+            }
+          ]
+        },
+        {
+          "callId": "call@40",
+          "stepId": "pw:api@30",
+          "method": "click",
+          "params": {
+            "selector": "internal:role=region[name=\"OpenAI 账号\"i] >> internal:role=button[name=\"确认换号\"i]",
+            "strict": true
+          },
+          "startTime": 1426963.059,
+          "startFromTraceOriginMs": 27626.87,
+          "endTime": null,
+          "durationMs": null,
+          "logs": [
+            {
+              "time": 1426970.587,
+              "fromActionStartMs": 7.528,
+              "message": "waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })"
+            },
+            {
+              "time": 1427003.437,
+              "fromActionStartMs": 40.378,
+              "message": "  locator resolved to <button type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">确认换号</button>"
+            },
+            {
+              "time": 1429190.986,
+              "fromActionStartMs": 2227.927,
+              "message": "attempting click action"
+            },
+            {
+              "time": 1429191.171,
+              "fromActionStartMs": 2228.112,
+              "message": "  waiting for element to be visible, enabled and stable"
+            }
+          ]
+        }
+      ],
+      "errors": [
+        "Test timeout of 30000ms exceeded.",
+        "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })\n    - locator resolved to <button type=\"button\" data-state=\"closed\" aria-expanded=\"false\" aria-haspopup=\"dialog\">确认换号</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n"
+      ]
+    }
+  ]
+}

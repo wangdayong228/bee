@@ -1,0 +1,285 @@
+{
+  "scope": "Mac15 arm64 WebKit accounts sample diagnostics; baseline sleep overlap and one awake5/5 result; Intel cause remains unknown",
+  "sourceRoot": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0",
+  "sourceHead": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "notes": [
+    "Copies preserve original bytes; .trace members are extracted verbatim from retained original Playwright ZIPs",
+    "No test/config/product/system preference changed; no installation packages or full screenshot collections",
+    "README is scoped evidence, not complete P0/P1 acceptance"
+  ],
+  "fileCountExcludingManifest": 43,
+  "totalBytesExcludingManifest": 415646,
+  "files": [
+    {
+      "path": "INDEX.md",
+      "source": ".superpowers/sdd/p1-mac-webkit-archive-navigation.md",
+      "bytes": 1198,
+      "sha256": "b1538c3cd7c72d2e60a6aab493e06585265c706ff9eaf68a6635599af7f6f9cc"
+    },
+    {
+      "path": "README.md",
+      "source": ".superpowers/sdd/p1-macos-webkit-awake-diagnostic-report.md",
+      "bytes": 3501,
+      "sha256": "479f6d31d12442821891356e5dfca7a95c489fbb1ba9cf07f007db2a3e438e4a"
+    },
+    {
+      "path": "awake-5workers/assertions-after.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/assertions-after.log",
+      "bytes": 1351,
+      "sha256": "3c189dae2b0443e170745330cce43c2e7ae2efef3e23e72dc9def7f2d5dcf963"
+    },
+    {
+      "path": "awake-5workers/assertions-before.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/assertions-before.log",
+      "bytes": 1351,
+      "sha256": "499147f55fd8b770673160f95d94913e129736be215987f409dce118d76e10b8"
+    },
+    {
+      "path": "awake-5workers/assertions-during.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/assertions-during.log",
+      "bytes": 1351,
+      "sha256": "de32cbbc561d1bcbb02fc02bf60f58ff67e1f8575c30b18ac11db8478565fd56"
+    },
+    {
+      "path": "awake-5workers/caffeinate-assertion-events.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/caffeinate-assertion-events.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "awake-5workers/command.json",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/command.json",
+      "bytes": 1016,
+      "sha256": "ace007bc38b96847b834e12c6da6d483fd2140e0620ea5426cc19bd575dc406d"
+    },
+    {
+      "path": "awake-5workers/playwright-report.json",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/playwright-report.json",
+      "bytes": 8888,
+      "sha256": "49083126e69e194b7ff764f2c49d2251f928ab765f451e619ae5d7f629890a69"
+    },
+    {
+      "path": "awake-5workers/power-window.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/power-window.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "awake-5workers/result.json",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/result.json",
+      "bytes": 1057,
+      "sha256": "7b4380ea2163bee91ce67291bdda17905d3fd862cba21d801e98ba21f1e07547"
+    },
+    {
+      "path": "awake-5workers/test.log",
+      "source": ".cache/qa/p1-mac-webkit-awake-diagnostic/test.log",
+      "bytes": 942,
+      "sha256": "c4b27b5eebc688f17c438b1380621831983200ae0c102da31a2d0d35ef53a664"
+    },
+    {
+      "path": "baseline-5workers/command.json",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/command.json",
+      "bytes": 765,
+      "sha256": "fcd4e3150e43a0ce8d373cd973d9a2e24696e35d1bc2dd3a696933e4b6eff2bf"
+    },
+    {
+      "path": "baseline-5workers/result.json",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/result.json",
+      "bytes": 778,
+      "sha256": "bbaa4bc023b311fd692cd9ff2030f6f19efcbb9a26803b25602b3828b58d14ab"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md",
+      "bytes": 384,
+      "sha256": "f014c2e3f8c4e95933f8eaba10625b970eac186ea517bf877702669149bb768c"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-removal-pending-保留卡片并停止新任务-webkit/test.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip",
+      "sourceMember": "test.trace",
+      "bytes": 8972,
+      "sha256": "4af2649df58535f5724e29279e343eb922aa372f7f197d811f91398edadc695b"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/0-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip",
+      "sourceMember": "0-trace.trace",
+      "bytes": 323,
+      "sha256": "f242ec8e0c1a51365089f7bb672f5b9d45df531e01d3d8125fb0be08d5623f46"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/1-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip",
+      "sourceMember": "1-trace.trace",
+      "bytes": 69806,
+      "sha256": "fd7d94ba2c437a502ae17ddd4b93293114ca83b9aea4740a82b7de34670952fb"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md",
+      "bytes": 12818,
+      "sha256": "2be649d2fec7da2c59e83b60198e367128ea64225ac832ee0cc63ff8b19162cd"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/test.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip",
+      "sourceMember": "test.trace",
+      "bytes": 14293,
+      "sha256": "2cfba87cf9d8c2d73f5a2fd6d9c73fd39584503709c2004ff16dd77116a4f49b"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/0-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip",
+      "sourceMember": "0-trace.trace",
+      "bytes": 318,
+      "sha256": "b46e802623119930041ee6a6ba551d624134c07d76f05b2c7ced099aeceffb2f"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/1-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip",
+      "sourceMember": "1-trace.trace",
+      "bytes": 72688,
+      "sha256": "3e75df74623d1ccd9d7a36a87db68f92aed87a9b9e9a948f7df032508b117506"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md",
+      "bytes": 13432,
+      "sha256": "1821f8099dc655065b137f7da07a8ff9434c70d0cfffb64a09a01702ac2047f7"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/test.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip",
+      "sourceMember": "test.trace",
+      "bytes": 14566,
+      "sha256": "c4245c7efbb791c8ac33296eb7c19ac852b0c5cf549b42b23e1a686a7cfb21a8"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/0-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/trace.zip",
+      "sourceMember": "0-trace.trace",
+      "bytes": 332,
+      "sha256": "7ddd870261642615c820015f709ada9edaed6ba0fe0000cccc8d73b73ec5db0b"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/1-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/trace.zip",
+      "sourceMember": "1-trace.trace",
+      "bytes": 55445,
+      "sha256": "88ff82dd19a9ba4edfb064104d09feacccf8f3dfaa6cbb16cbc53b7a33715d8c"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/error-context.md",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/error-context.md",
+      "bytes": 6520,
+      "sha256": "c61cf76d5dbb60a310fe62dca88e0df41883686c175370e4f809039996341ed3"
+    },
+    {
+      "path": "baseline-5workers/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/test.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/results/accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit/trace.zip",
+      "sourceMember": "test.trace",
+      "bytes": 9702,
+      "sha256": "7d92a48b528d728cf0c03fbc2942b6e8f1957e78335ce138f2567eb543600c98"
+    },
+    {
+      "path": "baseline-5workers/test.log",
+      "source": ".cache/qa/p1-mac-webkit-87-accounts-diagnostic/test.log",
+      "bytes": 8660,
+      "sha256": "ca45f06261f1f14cf051ee01ac0ee23ec74a6ad772715a6534df13a3b7ebaea0"
+    },
+    {
+      "path": "pinned-source/desktop/playwright.config.ts",
+      "source": "docs/desktop/evidence/2026-10-23-p1-native-remote-87b28a2/pinned-source/desktop/playwright.config.ts",
+      "bytes": 661,
+      "sha256": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7"
+    },
+    {
+      "path": "pinned-source/desktop/tests/accounts.spec.ts",
+      "source": "docs/desktop/evidence/2026-10-23-p1-native-remote-87b28a2/pinned-source/desktop/tests/accounts.spec.ts",
+      "bytes": 9309,
+      "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f"
+    },
+    {
+      "path": "sleep-and-workers-assessment.md",
+      "source": ".superpowers/sdd/p1-macos-webkit-parallelism-assessment-report.md",
+      "bytes": 8919,
+      "sha256": "76e528f043cead84a3de4fab5fccec3a9e55f1d8857c4754b4bef117de7b974a"
+    },
+    {
+      "path": "workers-assessment/baseline-timing.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/baseline-timing.json",
+      "bytes": 6678,
+      "sha256": "abc30cf0fa311726c2795b2152de6a4755643fa5cd031515de7d06c5b6df64f9"
+    },
+    {
+      "path": "workers-assessment/pmset-window-lines.log",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/pmset-window-lines.log",
+      "bytes": 2887,
+      "sha256": "e3d1cebe5ae95bfa703e54bbe3067d04ad4a1c36e4317536340f8f636c16bce0"
+    },
+    {
+      "path": "workers-assessment/sleep-wake-windows.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/sleep-wake-windows.json",
+      "bytes": 2447,
+      "sha256": "a349e9f5460fa72ed6f362b882726b9528741eea40b3fe3e82b46516c16df83f"
+    },
+    {
+      "path": "workers-assessment/source-binding.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/source-binding.json",
+      "bytes": 292,
+      "sha256": "cd0f59dc8a260f472c380f6bbc9090f204533c7d91038c34427037370e3c6275"
+    },
+    {
+      "path": "workers-assessment/workers-1/command.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/command.json",
+      "bytes": 712,
+      "sha256": "c77cae74e2b35a3cefca1469ed1401a6d94adb5b465c167f22e28a03c02dbe28"
+    },
+    {
+      "path": "workers-assessment/workers-1/result.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/result.json",
+      "bytes": 754,
+      "sha256": "ef5e788bbdfc90110ffeddf7e346bd164b6c67deb8cd03afcd7e0cc2b1649820"
+    },
+    {
+      "path": "workers-assessment/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/0-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip",
+      "sourceMember": "0-trace.trace",
+      "bytes": 293,
+      "sha256": "a4607218084d6a51e60a877735d4802921ef2ea6ad206013802141984b718768"
+    },
+    {
+      "path": "workers-assessment/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/1-trace.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip",
+      "sourceMember": "1-trace.trace",
+      "bytes": 34224,
+      "sha256": "820f69a8795dda877ec4242a373ffb5b7ee5cf153f31622c6d4ec685643982be"
+    },
+    {
+      "path": "workers-assessment/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md",
+      "bytes": 13411,
+      "sha256": "941974cd87fffd9d33b0d8afa50a5f08d903e554423a1e0f5c19a5eb0d1e963a"
+    },
+    {
+      "path": "workers-assessment/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/test.trace",
+      "sourceArchive": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip",
+      "sourceMember": "test.trace",
+      "bytes": 9054,
+      "sha256": "d5e18e9a3f5123c03f86faf3369796bea267803284bd4c339e5da8fa92c7b1c8"
+    },
+    {
+      "path": "workers-assessment/workers-1/test.log",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/test.log",
+      "bytes": 3504,
+      "sha256": "fe48fc4552c2b00fdcd5f3ba4fa0a2a5082831742a9444583aac557ef730d681"
+    },
+    {
+      "path": "workers-assessment/workers-1/trace-events.json",
+      "source": ".cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/trace-events.json",
+      "bytes": 12042,
+      "sha256": "ce9678346b652107077fa69ae92086fb887e0d062a44f986e8e75373aa3a8500"
+    }
+  ]
+}

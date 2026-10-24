@@ -1,0 +1,52 @@
+{
+  "ok": false,
+  "program": "/tmp/bee-appimage-smoke-HYW9nU/squashfs-root/AppRun",
+  "args": [],
+  "scope": "native client window size and startup only; no readiness, content visibility or desktop decoration assertion",
+  "processes": [
+    {
+      "pid": 34,
+      "parent": 24,
+      "group": 34,
+      "state": "Ssl",
+      "command": "bee-desktop"
+    },
+    {
+      "pid": 62,
+      "parent": 34,
+      "group": 34,
+      "state": "SLl",
+      "command": "WebKitNetworkPr"
+    },
+    {
+      "pid": 117,
+      "parent": 34,
+      "group": 34,
+      "state": "SLl",
+      "command": "WebKitWebProces"
+    },
+    {
+      "pid": 220,
+      "parent": 34,
+      "group": 34,
+      "state": "Sl",
+      "command": "bee"
+    }
+  ],
+  "samples": [],
+  "pid": 34,
+  "lastWindows": [],
+  "error": "Error: no owned visible window: actual=[]; required=window belonging to live process group 34 within 20000ms\n    at observeOwnedProcess (file:///target/desktop/scripts/smoke-linux-appimage.mjs:192:63)\n    at async smoke (file:///target/desktop/scripts/smoke-linux-appimage.mjs:254:25)\n    at async file:///target/desktop/scripts/smoke-linux-appimage.mjs:268:9",
+  "exit": {
+    "code": null,
+    "signal": "SIGTERM"
+  },
+  "cleanup": {
+    "signals": [
+      "SIGTERM"
+    ],
+    "liveRemaining": [],
+    "zombies": [],
+    "parentClosed": true
+  }
+}

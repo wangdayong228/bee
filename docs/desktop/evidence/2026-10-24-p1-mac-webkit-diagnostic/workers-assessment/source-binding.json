@@ -1,0 +1,10 @@
+{
+  "desktop/tests/accounts.spec.ts": {
+    "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+    "equals87": true
+  },
+  "desktop/playwright.config.ts": {
+    "sha256": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7",
+    "equals87": true
+  }
+}

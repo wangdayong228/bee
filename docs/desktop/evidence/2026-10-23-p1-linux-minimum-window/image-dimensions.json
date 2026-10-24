@@ -1,0 +1,37 @@
+[
+  {
+    "path": "target-2681edc/extract-diagnostic/root-15s.png",
+    "width": 1280,
+    "height": 1024
+  },
+  {
+    "path": "target-2681edc/extract-utf8/startup/root.png",
+    "width": 1280,
+    "height": 1024
+  },
+  {
+    "path": "target-2681edc/extract-utf8/startup/window.initial.png",
+    "width": 1000,
+    "height": 700
+  },
+  {
+    "path": "target-2681edc/extract-utf8/startup/window.png",
+    "width": 860,
+    "height": 600
+  },
+  {
+    "path": "target-87b28a2/extract-runnable-utf8/startup/root.png",
+    "width": 1280,
+    "height": 1024
+  },
+  {
+    "path": "target-87b28a2/extract-runnable-utf8/startup/window.initial.png",
+    "width": 1000,
+    "height": 700
+  },
+  {
+    "path": "target-87b28a2/extract-runnable-utf8/startup/window.png",
+    "width": 860,
+    "height": 600
+  }
+]

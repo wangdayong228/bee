@@ -1,0 +1,6 @@
+2026-10-23T20:40:41.621247+00:00 artifact=12499791357 resumeBytes=0
+curl: (28) Operation timed out after 951305 milliseconds with 30588928 out of 103790407 bytes received
+curl: (22) The requested URL returned error: 403
+curl: (22) The requested URL returned error: 403
+curl: (22) The requested URL returned error: 403
+curl exit=22; bytes=0

@@ -1,0 +1,117 @@
+{
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": 39941148651,
+  "linuxConclusion": "success",
+  "rows": [
+    {
+      "runner": "ubuntu-22.04",
+      "goOkPackages": 7,
+      "packageBytes": 148675064,
+      "packageSha256": "4d3cb97ece12c946395691e2156256a1f177daaa4285a928dda202f748b77235",
+      "sourceJsonSha256": "aa93def8ed1d879c7cb13b866152d90d6360a76c735528e7242041a2e130d8fb",
+      "pngs": [
+        {
+          "mode": "extract",
+          "width": 860,
+          "height": 600,
+          "sha256": "1e9e2a7cafaf141a94e74aebcd707a146dc6be4289bf4f28900cbb109bd135bf"
+        },
+        {
+          "mode": "fuse",
+          "width": 860,
+          "height": 600,
+          "sha256": "934fdd68b80d17408bca50ef3160a80869537866b8e54a261e0cd7c43ff99407"
+        }
+      ]
+    },
+    {
+      "runner": "ubuntu-22.04-arm",
+      "goOkPackages": 7,
+      "packageBytes": 138983944,
+      "packageSha256": "6e8fb8faaabcf649ed3f0c8a6e593ca21c6a130d5d697e69e8fb6909bb188e77",
+      "sourceJsonSha256": "81df25c67125db368828a8d093aac1699ded97dab7644bab44945ce6682f4407",
+      "pngs": [
+        {
+          "mode": "extract",
+          "width": 860,
+          "height": 600,
+          "sha256": "5544e3d15a489f7d036d5a5a73fca095e374cd771bfa9819b6a5ae0a571c458f"
+        },
+        {
+          "mode": "fuse",
+          "width": 860,
+          "height": 600,
+          "sha256": "c6c2cc48852c7e43ad9464a8a0ba7112215117b9978e7bc3653093a0a3007c52"
+        }
+      ]
+    },
+    {
+      "runner": "ubuntu-24.04",
+      "goOkPackages": 7,
+      "packageBytes": 148912632,
+      "packageSha256": "07355ee68591a14d1d9fec0d06a141cc4117d38db042296513caf80cce71ede4",
+      "sourceJsonSha256": "853f8737117c1d632b3bfa369d03e82e191852277321227b8acada0221c2914c",
+      "pngs": [
+        {
+          "mode": "extract",
+          "width": 860,
+          "height": 600,
+          "sha256": "86d28ccbbbad7f6999e06ca5ca04733bb55afec5b06bf24b84be959d4770937d"
+        },
+        {
+          "mode": "fuse",
+          "width": 860,
+          "height": 600,
+          "sha256": "e9c484608aa953a8e9e10b37f82f3334edc3206d1bbfa5359a4776838d35450f"
+        }
+      ]
+    },
+    {
+      "runner": "ubuntu-24.04-arm",
+      "goOkPackages": 7,
+      "packageBytes": 139078152,
+      "packageSha256": "e56cb6596caa97dc0048c22e8961a0146f9162993fe70995243549e740324499",
+      "sourceJsonSha256": "a7ee237f504dbcf8b63408390861880c71b248d77d5174c75c0e6687cce59a90",
+      "pngs": [
+        {
+          "mode": "extract",
+          "width": 860,
+          "height": 600,
+          "sha256": "b6111c9c9596482e3b7201bffa62023a82d1fd934b00b0dd6f2900d04cd9ecd2"
+        },
+        {
+          "mode": "fuse",
+          "width": 860,
+          "height": 600,
+          "sha256": "158269a1cbff9ce2d9dd5f9ebb203c08e2796723274ee51708ddc5e8b07391c6"
+        }
+      ]
+    }
+  ],
+  "redundantRuns": [
+    {
+      "runId": 39941148799,
+      "name": "Desktop hosted macOS 15 Intel supplemental evidence",
+      "beforeStatus": "pending",
+      "finalStatus": "completed",
+      "finalConclusion": "cancelled"
+    },
+    {
+      "runId": 39941148637,
+      "name": "Desktop protected files on Windows",
+      "beforeStatus": "in_progress",
+      "finalStatus": "completed",
+      "finalConclusion": "cancelled"
+    },
+    {
+      "runId": 39941148571,
+      "name": "Desktop hosted Windows Server 2022 build evidence",
+      "beforeStatus": "in_progress",
+      "finalStatus": "completed",
+      "finalConclusion": "cancelled"
+    }
+  ],
+  "scope": "read-only verification of existing evidence; no product execution or CI mutation",
+  "zipArtifactCount": 8,
+  "allChecksPassed": true
+}

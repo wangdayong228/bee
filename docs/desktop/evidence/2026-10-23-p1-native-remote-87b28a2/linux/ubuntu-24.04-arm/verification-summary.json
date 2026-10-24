@@ -1,0 +1,93 @@
+{
+  "row": "ubuntu-24.04-arm",
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": "39936378139",
+  "target": "aarch64-unknown-linux-gnu",
+  "nativeOk": true,
+  "package": {
+    "path": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/test/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+    "bytes": 139078152,
+    "sha256": "db710f967c04eb938affcb0db9fb3cfeac4460bc11c8b135082ba69e31fbe20a"
+  },
+  "source": {
+    "path": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+    "sha256": "f0c21ee7a01fe11f70759a69a093468a26a7883ccde0a95435708301ff481363",
+    "content": {
+      "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "aarch64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "arm64",
+      "go": "go version go1.27.3 linux/arm64",
+      "beeVersion": "dev+87b28a29aa84-dirty",
+      "binarySha256": "3e940d479ccf9e0358dafd7491cbfaf3b0a48d281810c360ec7f898e71c8eae7"
+    }
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "downloadedLogCounts": {
+    "browser-e2e.log": [
+      "489"
+    ],
+    "cargo-test.log": [
+      [
+        "36",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "smokes": {
+    "extract": {
+      "ok": true,
+      "observedMs": 10288,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [
+          {
+            "pid": 50059,
+            "parent": 1,
+            "group": 49986,
+            "state": "Zl",
+            "command": "WebKitWebProces"
+          }
+        ],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    },
+    "fuse": {
+      "ok": true,
+      "observedMs": 10265,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    }
+  }
+}

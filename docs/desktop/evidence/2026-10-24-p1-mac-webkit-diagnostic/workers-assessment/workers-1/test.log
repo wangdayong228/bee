@@ -1,0 +1,48 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/accounts.spec.ts --project=webkit --grep 双入口|官方授权未接通|换号明确|removal-pending --reporter=line --output /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results --workers=1
+
+
+Running 5 tests using 1 worker
+
+[1/5] [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效
+[2/5] [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功
+  1) [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ──────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })
+        - locator resolved to <button>…</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      4 | async function accounts(page: import('@playwright/test').Page, scene = 'ready') {
+      5 |   await page.goto(`/?scene=${scene}`);
+    > 6 |   await page.getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true }).click();
+        |                                                                                          ^
+      7 | }
+      8 | test('双入口、检测登录和详情分别表达能力、市场与额度时效', async ({ page }) => {
+      9 |   await accounts(page, 'empty');
+        at accounts (/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:6:90)
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:25:3
+
+    Error Context: ../.cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../.cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../.cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[3/5] [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停
+[4/5] [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务
+[5/5] [webkit] › tests/accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态
+  1 failed
+    [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ───────────────────────────────────────
+  4 passed (15.6m)

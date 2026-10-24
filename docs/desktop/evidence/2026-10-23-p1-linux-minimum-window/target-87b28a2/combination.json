@@ -1,0 +1,11 @@
+{
+  "targetRevision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "harnessRevision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "harnessFile": "desktop/scripts/smoke-linux-appimage.mjs",
+  "harnessSha256": "644aee1db290acba42a3ae10727b2d067154cd178bd4112149d04e570f2671e4",
+  "targetCheckoutChanges": [
+    "desktop/scripts/smoke-linux-appimage.mjs"
+  ],
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "scope": "isolated old-source target checkout with exact reviewed new smoke tool overlay; preserves CLI checkout/source/SHA gates; this does not build or assert a 9ca837d product package"
+}

@@ -1,0 +1,167 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: accounts.spec.ts >> 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态
+- Location: tests/accounts.spec.ts:149:3
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]: Bee
+    - navigation "主导航" [ref=e7]:
+      - button "概览" [ref=e8] [cursor=pointer]
+      - button "AI 账号" [ref=e14] [cursor=pointer]
+      - button "收益" [ref=e20] [cursor=pointer]
+      - button "诊断" [ref=e24] [cursor=pointer]
+      - button "设置" [ref=e27] [cursor=pointer]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - text: 尚未接通真实供给
+        - paragraph [ref=e34]: 关窗后可从托盘找回
+      - generic [ref=e35]:
+        - generic [ref=e36]: B
+        - generic [ref=e37]:
+          - text: Bee 桌面端
+          - generic [ref=e38]: 本地演示空间
+  - generic [ref=e39]:
+    - banner [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: 工作空间
+        - generic [ref=e45]: 概览
+      - generic [ref=e46]:
+        - generic [ref=e47]: 本机设备
+        - generic [ref=e50]: 演示数据
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "概览" [level=1] [ref=e54]
+          - paragraph [ref=e55]: 查看设备状态与贡献摘要。
+        - generic [ref=e56]:
+          - text: 演示场景
+          - combobox "演示场景" [ref=e57]:
+            - option "lifecycle-failed"
+            - option "lifecycle-unknown"
+            - option "lifecycle-pending"
+            - option "ready" [selected]
+            - option "diagnostics-partial"
+            - option "diagnostics-export-error"
+            - option "earnings-loading"
+            - option "earnings-error"
+            - option "earnings-empty"
+            - option "quote-conflict"
+            - option "quote-unknown"
+            - option "transfer-pending"
+            - option "transfer-unknown"
+            - option "authorization-expired"
+            - option "account-change"
+            - option "quota-unknown"
+            - option "removal-pending"
+            - option "removal-unknown"
+            - option "loading"
+            - option "empty"
+            - option "error"
+            - option "unknown-tasks"
+            - option "active-tasks"
+            - option "tasks-loading"
+            - option "tasks-error"
+            - option "onboarding"
+            - option "configured"
+            - option "external"
+            - option "offline"
+            - option "unknown"
+            - option "partial"
+            - option "pending"
+            - option "unknown-result"
+            - option "operation-error"
+      - generic [ref=e58]:
+        - generic [ref=e63]:
+          - heading "尚未开始贡献" [level=2] [ref=e64]
+          - paragraph [ref=e65]: 由你决定何时开始，让闲置的 AI 额度创造价值。
+          - generic [ref=e66]:
+            - generic [ref=e67]: 本机进程：运行中
+            - generic [ref=e68]: Hive 已连接
+            - generic [ref=e69]: 真实供给未启动
+        - button "开始贡献" [ref=e70] [cursor=pointer]
+      - generic [ref=e71]:
+        - generic [ref=e72]: Hive 演示连接
+        - generic [ref=e73]: 上次更新：2026-10-23T10:57:42.927Z
+        - generic [ref=e74]:
+          - button "刷新状态" [ref=e75] [cursor=pointer]
+          - button "检查连接" [ref=e76] [cursor=pointer]
+      - region "收益摘要" [ref=e77]:
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: 可用余额
+          - generic [ref=e80]: $128.56
+          - generic [ref=e81]: 收益与资金操作将在后续开放
+        - generic [ref=e82]:
+          - paragraph [ref=e83]: 今日收益
+          - generic [ref=e84]: $12.4
+          - generic [ref=e85]: 演示统计
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: 累计收益
+          - generic [ref=e88]: $382.14
+          - generic [ref=e89]: 演示统计
+      - generic [ref=e90]:
+        - heading "AI 账号" [level=2] [ref=e91]
+        - button "管理账号" [ref=e92] [cursor=pointer]
+      - generic [ref=e93]:
+        - region "OpenAI 供给" [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: O
+            - generic [ref=e97]:
+              - strong [ref=e98]: OpenAIPlus
+              - generic [ref=e99]: 已暂停
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: 5 小时 剩余额度
+              - strong [ref=e103]: 82%
+            - meter "OpenAI 剩余额度" [ref=e104]
+            - generic [ref=e105]: 2 小时后重置
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - checkbox "选择 OpenAI" [checked] [ref=e108]
+              - text: 选择平台
+            - button "恢复 OpenAI" [ref=e109] [cursor=pointer]
+        - region "Claude 供给" [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: ✳
+            - generic [ref=e113]:
+              - strong [ref=e114]: ClaudePro
+              - generic [ref=e115]: 已暂停
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: 5 小时 剩余额度
+              - strong [ref=e119]: 46%
+            - meter "Claude 剩余额度" [ref=e120]
+            - generic [ref=e121]: 48 分钟后重置
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - checkbox "选择 Claude" [checked] [ref=e124]
+              - text: 选择平台
+            - button "恢复 Claude" [ref=e125] [cursor=pointer]
+      - button "恢复全部就绪平台" [ref=e126] [cursor=pointer]
+      - generic [ref=e127]:
+        - generic [ref=e128]: 当前任务：0
+        - button "查看连接详情" [ref=e129] [cursor=pointer]
+      - region "演示生命周期" [ref=e130]:
+        - generic [ref=e131]:
+          - button "退出演示" [ref=e132] [cursor=pointer]
+          - button "更新演示" [ref=e133] [cursor=pointer]
+        - paragraph [ref=e134]: 关窗继续后台运行；这里仅预览退出和更新流程。
+    - contentinfo [ref=e135]:
+      - text: Bee · 开发版本
+      - generic [ref=e136]: 演示操作不会影响真实账号或资金
+```

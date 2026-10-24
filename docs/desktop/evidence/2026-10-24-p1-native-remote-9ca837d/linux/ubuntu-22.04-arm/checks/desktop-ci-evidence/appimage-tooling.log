@@ -1,0 +1,42 @@
+✔ packaged Bee must match the pinned source metadata and actual bytes (3.24354ms)
+✔ changed packaged Bee fails with actual and required hash evidence (1.694931ms)
+✔ a package from another source revision is refused (1.055566ms)
+✔ packaged Bee symlink cannot resolve outside the extracted package (1.20848ms)
+✔ real child survives the observation period; cleanup leaves unrelated process alive (221.89031ms)
+✔ real launch clears inherited extraction and color overrides only in its child environment (229.46341ms)
+✔ captures initial and final owned window plus desktop after the actual observation interval (225.935504ms)
+✔ final desktop capture failure retains first screenshot and cleans the owned child (215.729128ms)
+✔ minimum client resize targets only the same owned window and starts observation after resize (384.358133ms)
+✔ resize exit success cannot replace actual minimum geometry (33.966121ms)
+✔ minimum geometry rejects missing fields with raw evidence and cleanup (32.813589ms)
+✔ minimum geometry rejects inline fields with raw evidence and cleanup (32.219827ms)
+✔ minimum geometry rejects illegal fields with raw evidence and cleanup (32.139138ms)
+✔ minimum geometry rejects negative fields with raw evidence and cleanup (33.393622ms)
+✔ minimum geometry rejects duplicate fields with raw evidence and cleanup (33.272593ms)
+✔ minimum geometry rejects conflicting fields with raw evidence and cleanup (33.928205ms)
+✔ minimum geometry rebound before final capture fails and cleans the child (194.386222ms)
+✔ minimum geometry rebound after final capture fails and cleans the child (223.695807ms)
+✔ resize failure preserves fixture resize refused exit=19 stderr=E45 and cleans the child (32.67708ms)
+✔ resize failure preserves spawnSync xdotool ETIMEDOUT and cleans the child (34.772663ms)
+✔ ownership loss before resize refuses success and cleans the child (32.087271ms)
+✔ ownership loss during resize refuses success and cleans the child (36.624043ms)
+✔ default resize command preserves nonzero command evidence without X11 (56.35929ms)
+✔ default resize command has a hard timeout without X11 (5040.346191ms)
+✔ window ownership lost during final capture cannot pass observation (201.346087ms)
+✔ final geometry child exit cannot pass with valid minimum dimensions (248.185965ms)
+✔ final geometry ownership reassignment cannot pass with valid minimum dimensions (230.757604ms)
+✔ spawn failure is nonzero evidence rather than an observation success (3.08451ms)
+✔ a live child with no window fails and is cleaned up (146.608993ms)
+✔ an unrelated window cannot satisfy native startup (146.812526ms)
+✔ early nonzero exit retains stderr and actual exit code (42.496779ms)
+✔ exit zero before completing the visible observation still fails (240.460662ms)
+✔ a window that disappears during observation is not considered a startup pass (37.473917ms)
+✔ screenshot failure stops observation and still cleans the owned process (27.729646ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8553.899823

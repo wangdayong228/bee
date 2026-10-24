@@ -1,0 +1,13 @@
+{
+  "artifactId": 12494956766,
+  "artifactName": "bee-linux-checks-ubuntu-22.04-arm-87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378139,
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "zip": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12494956766.zip",
+  "bytes": 102420527,
+  "sha256": "7f1528bfc772aae830d3087e63b665f213feca364d23cb2c1b4b1811b668b5af",
+  "matchesMetadataDigest": true,
+  "zipCrcOk": true,
+  "destination": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks",
+  "scope": "remote ZIP verified; extracted package/source verification is separate"
+}

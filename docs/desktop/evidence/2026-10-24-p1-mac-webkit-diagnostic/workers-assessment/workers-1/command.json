@@ -1,0 +1,29 @@
+{
+  "command": [
+    "npm",
+    "--prefix",
+    "desktop",
+    "run",
+    "test:e2e",
+    "--",
+    "tests/accounts.spec.ts",
+    "--project=webkit",
+    "--grep",
+    "双入口|官方授权未接通|换号明确|removal-pending",
+    "--reporter=line",
+    "--output",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-workers-diagnostic/workers-1/results",
+    "--workers=1"
+  ],
+  "node": "v24.22.1",
+  "npm": "11.19.1",
+  "playwright": "Version 1.63.0",
+  "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+  "head": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "CI": null,
+  "removedEnv": [
+    "FORCE_COLOR",
+    "NO_COLOR"
+  ],
+  "start": 1792805225.5860548
+}

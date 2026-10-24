@@ -1,0 +1,711 @@
+{
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "sourceRoot": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0",
+  "archiveStage": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-native-remote-87b28a2-archive-stage",
+  "notes": [
+    "All selected files copied byte-for-byte; only this manifest is generated",
+    "Artifact metadata digests describe remote download ZIPs; each manifest SHA hashes the listed local file",
+    "Actual failures, skips, cleanup and zombies remain in original evidence; see README for acceptance limits",
+    "No AppImage/EXE/DMG/ZIP or browser screenshot collection included"
+  ],
+  "fileCountExcludingManifest": 116,
+  "totalBytesExcludingManifest": 2403032,
+  "files": [
+    {
+      "path": "README.md",
+      "source": ".superpowers/sdd/p1-native-87b28a2-remote-ci-report.md",
+      "bytes": 10816,
+      "sha256": "993da702a713e2bc62d5aba0ca10f45d22024ad8edaa1c99fae684ad28f5c5b9"
+    },
+    {
+      "path": "artifact-zips/12494054216-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12494054216-verification.json",
+      "bytes": 600,
+      "sha256": "a3d85b657a33760e57f21cf300e0b8c76f5f4e7e79f38f81e360e7f4e92ddba8"
+    },
+    {
+      "path": "artifact-zips/12494234525-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12494234525-verification.json",
+      "bytes": 608,
+      "sha256": "4d39085f2cf36bb3f4cc99b1da6d866dbb3870af4f35a819ad8f8cf581884131"
+    },
+    {
+      "path": "artifact-zips/12494533994-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12494533994-verification.json",
+      "bytes": 608,
+      "sha256": "fcdc9583ab81f70fdc51f658f112a39f57aafa4c992284aa936def150284f186"
+    },
+    {
+      "path": "artifact-zips/12494956766-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12494956766-verification.json",
+      "bytes": 612,
+      "sha256": "cbc8672759a460fc1afa8b31f484c78ba4d3fcaade7799039a0fd0142fcad69d"
+    },
+    {
+      "path": "artifact-zips/12496660787-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12496660787-verification.json",
+      "bytes": 586,
+      "sha256": "6e448e67bc3d32905179f516695a3e0d2bc7ad2944d2d49e7a345cf286566438"
+    },
+    {
+      "path": "artifact-zips/12497693897-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/artifact-zips/12497693897-verification.json",
+      "bytes": 600,
+      "sha256": "5d964236c17d67b9419395fd18d64313307e873c316b3d2732adc86c9a18a257"
+    },
+    {
+      "path": "discovery.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/discovery.json",
+      "bytes": 1507,
+      "sha256": "b0243c21ff257bb1650e05a6907903334a068bf785bf6a8885246745fbd05fbf"
+    },
+    {
+      "path": "download-failure-ubuntu-22.04-arm-checks-attempt1.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-failure-ubuntu-22.04-arm-checks-attempt1.json",
+      "bytes": 710,
+      "sha256": "b9320c98d27e0b4c0e5ee77fd8c1ea42a7611ecb56376606dd315d63b6e1e4ef"
+    },
+    {
+      "path": "download-failure-ubuntu-22.04-arm-test-attempt1.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-failure-ubuntu-22.04-arm-test-attempt1.json",
+      "bytes": 706,
+      "sha256": "74354d55417d9f869a0c7973fd8bfaaca9bc5141cd65df5e819beb9c71733207"
+    },
+    {
+      "path": "download-failure-ubuntu-22.04-test-attempt1.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-failure-ubuntu-22.04-test-attempt1.json",
+      "bytes": 822,
+      "sha256": "009d80c17126c66c415a3e038fae21e2828f78f538b84e9489edd5bab75083e2"
+    },
+    {
+      "path": "download-failure-ubuntu-22.04-test-attempt2.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-failure-ubuntu-22.04-test-attempt2.json",
+      "bytes": 830,
+      "sha256": "74eeb59c4744b1aa441fe7d7340193a714ae0c977615f4e7808292d14c2136c8"
+    },
+    {
+      "path": "download-failure-ubuntu-24.04-arm-test-attempt1.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-failure-ubuntu-24.04-arm-test-attempt1.json",
+      "bytes": 685,
+      "sha256": "312181f66c1a11b5de4c1286352dbcf33b0f50ba06f75f3643435c0d40665875"
+    },
+    {
+      "path": "download-stall-analysis.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/download-stall-analysis.json",
+      "bytes": 1155,
+      "sha256": "e8f863c76f16cdb42a94553bf1432d52383df33bc34662ed505e42aa5adf9dbc"
+    },
+    {
+      "path": "linux-artifacts-final.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-artifacts-final.json",
+      "bytes": 5294,
+      "sha256": "fc27bc34f47622f76fe00fa1f76cb3a33965c65bbac4e7d5bb6db4624a83134d"
+    },
+    {
+      "path": "linux-initial.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-initial.json",
+      "bytes": 14446,
+      "sha256": "117556f97d0f744b3b62405825a0b75a77be7435c54fabc5b8b2c580386ac21b"
+    },
+    {
+      "path": "linux-ubuntu-22.04-arm-job.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-22.04-arm-job.log",
+      "bytes": 281441,
+      "sha256": "6868e4344a78eee2a3a86a9f688b019508107295db001f1b8fb4ee9bdf276676"
+    },
+    {
+      "path": "linux-ubuntu-22.04-job.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-22.04-job.log",
+      "bytes": 284460,
+      "sha256": "8085521b4f16388c4532f90483c0dc0927d0b8727c3df6fec8a624563dcc7207"
+    },
+    {
+      "path": "linux-ubuntu-24.04-annotations.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-24.04-annotations.json",
+      "bytes": 1188,
+      "sha256": "26fc97b5e93d1eede0c9beec26642028fabd19447b5ba8d5a4791a826cfcc746"
+    },
+    {
+      "path": "linux-ubuntu-24.04-arm-job.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-24.04-arm-job.log",
+      "bytes": 331053,
+      "sha256": "ec26c7abf38d7f4e1047d9dc93fd8fd49e16f97efc3616ad9ca6d1bd0fb7db97"
+    },
+    {
+      "path": "linux-ubuntu-24.04-failure-analysis.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-24.04-failure-analysis.json",
+      "bytes": 915,
+      "sha256": "6602af0281051172b8a28d3552b28e3007762c7d237ad4500cc8cd3183d6e90f"
+    },
+    {
+      "path": "linux-ubuntu-24.04-job-final.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-24.04-job-final.json",
+      "bytes": 4505,
+      "sha256": "329c965767b04628448e8ba5034154e65143e13f2d39a21615ab613a9642fd04"
+    },
+    {
+      "path": "linux-ubuntu-24.04-job.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux-ubuntu-24.04-job.log",
+      "bytes": 270022,
+      "sha256": "e8865b514d03f6dc38743d762ca15519f42f18c3b254f550172cb9333f070abe"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 1508,
+      "sha256": "8da082b1d7ad43665a9f40a539a640989b3293e6287991b99c6ecc1157e847db"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1013,
+      "sha256": "176314c34a42ac843b13398ac6de6fdb4b8f21fa1d22d5d5863919470f7bfd4d"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "2a66c9659a8736cae1da36e0cb5d7a835c53c0c4abd6ae1e63c0087df5d2c1bf"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "c438a114a610563bc7e60bd203f51d36350b37056cdc77b707bdeb1188812f46"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "fc76959944f8fac240157ed60cd039b4949c1ceb223673d310e742a66e44aee4"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 51,
+      "sha256": "9af7826df1ed5949194430b6eb60fce0dc22256e07f1341a23215812b98f891b"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/native.json",
+      "bytes": 1749,
+      "sha256": "b44e10d13880258c9718fb2f40f472205fc857c48f8c422f6f47b1c4b7c99fbe"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 187,
+      "sha256": "756b083485b5516a00ac96340b53264fa5669767b6ef11c3c74b472208b4509e"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 6369,
+      "sha256": "8cbc3853f586e4e70b177ded27f89c40e44e09449c514e467cf187936548ad43"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 64876,
+      "sha256": "cb059d3762e6d56ed92b031e477d8107666ad1f478ec2177b23c54bafe25ed87"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 6407,
+      "sha256": "3e783fe4904447350471048f688f023a9b2b679e1b7c64420b27b783a729b00c"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 64912,
+      "sha256": "a3515e20972e890f2f04350e5fc67303e55e1b5ed2510cc82d41bc80c1d03303"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2192,
+      "sha256": "858ad02e13ec43088aa2e91d0b4336a50b32bd28572c923ed81d12c6a692c9ee"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7222,
+      "sha256": "ac6bccda1136173256362b76659d966deb4c1d0a06873580b9d09fe9f411f93c"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "bytes": 374,
+      "sha256": "26716ea8c9c1b9f22a1eefb2a8338accbca8cc83d3c5f0e95fbb294e134443ee"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/verification-summary.json",
+      "bytes": 2253,
+      "sha256": "ec9844617a2bd0ddc9b32fbe947bf7d510199d57fb4022b6fd74c47164d12d34"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 1509,
+      "sha256": "6e96d7f8833108e86a77e8436605c65d3ee2111159b91e411d3967a94bf7df13"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1011,
+      "sha256": "a66f1ab35dddbacce019b382a712d4d4a0b1a073fa6d8f5f4d332524692530cd"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "305b2070daad3c81f3b9f5e1665a21d11b68b63f6b93b020bc405baef7a8a517"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "f39456e609a10b9ac2996043935e6e66cc20233020c5dd0823e21aebdab36157"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "83ea7f402ebcc4c0dc9ffa452825e1d8c4f851736c63ab5ca8f022f51dc7d5da"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 45,
+      "sha256": "24f005362d9b40fed55d36310a7df454de52e6a57e7da7bfdacb6ac7e3ececa2"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/native.json",
+      "bytes": 1737,
+      "sha256": "e79f51c37829bb95967db31f92bd40ba7c9d6e1d30da246556051216aedcac08"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 185,
+      "sha256": "55a1cc1c630a8681dcd177875a82929aa861498ceff6a90ffc730c55d16f7f8c"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 6539,
+      "sha256": "a3c0bc34c0b7891eaa304eb9eab4afefcc6a83df53deffdf85b103316f5c68e4"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 67281,
+      "sha256": "44f6c2cbd04ca7eceaeb034e23b2f986ea6e40b5b39803a58258582a0e8dfbed"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 6224,
+      "sha256": "b0a8867ee925ce3ed84b1854c364af58ebcb6017c4d57286b8e34cfa9809462b"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 67132,
+      "sha256": "d36cf8bcff3909e39bcd3d8b53f876d6502dc3e379891f30a9202482df824ada"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2183,
+      "sha256": "ed8c8346fbfb4d986cb319274baebf1b980d9f3c77ba7276687d262938367ce6"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7217,
+      "sha256": "aa15c3b8d68af7375e0f1d750c45ce6010808b467b6239befecc1d930b8aff34"
+    },
+    {
+      "path": "linux/ubuntu-22.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "bytes": 373,
+      "sha256": "90b6523f0a323e6198d211d98777ae9185a89bd545ebf964fef1988f2126c7a7"
+    },
+    {
+      "path": "linux/ubuntu-22.04/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04/verification-summary.json",
+      "bytes": 2426,
+      "sha256": "0ec4a759d656afb0216ba72778e9ba3d724ca44698c56d6172b6bb5aab0d9c7e"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 1510,
+      "sha256": "e2967cb4dfcacdc31e905f971ce7a9c795e91866f62ffd9152ad1390dde5c836"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1015,
+      "sha256": "70e52bb7ff8f80ef693d6fe15c55d632576445215efa1a9703f027e030a4d8d5"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "c429afa678138321dd78c31f0603ce2fbbfbbea68462cfd25455062cda302105"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "96f88e4b19d34efa5779050b88f4fab46629c5bca9b795cdecfab06e5b61503f"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "415e02b2e0711ae70fe0078ee33ed6d55cc94a625084df224a88b0fc8becdd6b"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 51,
+      "sha256": "17c7cbd8b290054e93bc25d4b0e4997cecc369ebd5e35a4c979db8986338d47d"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/native.json",
+      "bytes": 1750,
+      "sha256": "e889084f5f2fba7cbaacc7b84e5ed0aac464e4af1ef4a77c21544ce86ce39347"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 187,
+      "sha256": "756b083485b5516a00ac96340b53264fa5669767b6ef11c3c74b472208b4509e"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 6533,
+      "sha256": "27c8f281de50b333b3ea079ec01c9caec50a1aec916f04c42865a5679894ba11"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 64541,
+      "sha256": "a2db31d6c604be4da74d4493fbfd1fb55c6cf0b9ce4d3f89d8fabeeaf5f02cd4"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 6232,
+      "sha256": "b10ca7e9a3d1292c462102b52d6aadbeea2630cbda1036b8b91bb0ff7f8896e9"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 64608,
+      "sha256": "bdfdbe0758541d7e990996e8bbfb1450943a74e257087bfbe0e9a0601bb50a70"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2192,
+      "sha256": "c0d99549ead32dd582fb704bb33b87d504ddc5a1060e8a59692c5a042291adb3"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7219,
+      "sha256": "d2ec1230a9a1cf3f926c8464e65e3af2438f2afb70def6bc48a19de2648bf6a5"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "bytes": 374,
+      "sha256": "f0c21ee7a01fe11f70759a69a093468a26a7883ccde0a95435708301ff481363"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04-arm/verification-summary.json",
+      "bytes": 2433,
+      "sha256": "4a642ff58ddbe0868ea82a496be13410fba58acff02f61d22f51923d227a2adb"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 1511,
+      "sha256": "d41d43f460f85cffcc42c09b624a761a9d0c2bf6595b52860790f535800db652"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1012,
+      "sha256": "7efbb7ce0e449967d045d1a3642d6f807b423710f693d5269bb4d0309006093d"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "062bdfdf9c3c0eb6a4e7d8b80e808248b5a3eca863d6fb876629ac1047b50819"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 45,
+      "sha256": "b0e3ebc73a7617d269762b98b6aa4cd35ec9e255a75914815e3386122b8b41d9"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/native.json",
+      "bytes": 1738,
+      "sha256": "226c06ef2a4c31d4af1f29995b04bc2ba8e86fd3f8119f3e912346e4be814b6f"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7221,
+      "sha256": "0f13162ae24099aecb868167589a48c70905f47a6eee1d2066fbf63e1d9c0175"
+    },
+    {
+      "path": "linux/ubuntu-24.04/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-24.04/verification-summary.json",
+      "bytes": 915,
+      "sha256": "6602af0281051172b8a28d3552b28e3007762c7d237ad4500cc8cd3183d6e90f"
+    },
+    {
+      "path": "macos-artifacts-final.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos-artifacts-final.json",
+      "bytes": 777,
+      "sha256": "e5fbbab9802fce41f89b42ccd0f4a2e2b1ff069c6083ee2ed5d4f5e50356f12b"
+    },
+    {
+      "path": "macos-failure-analysis.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos-failure-analysis.json",
+      "bytes": 30422,
+      "sha256": "0f67a7493cae61459c6ec46cfa3f27f0d0685fc208a9f1128d090b7604133dab"
+    },
+    {
+      "path": "macos-initial.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos-initial.json",
+      "bytes": 3841,
+      "sha256": "c28eca05394bdd5ce383dcc612e90415bc731c8e6826211e6353b903458b27bb"
+    },
+    {
+      "path": "macos-job.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos-job.log",
+      "bytes": 89897,
+      "sha256": "a423b5aabb19e95693111378184c21bca22c8f4d7595e8cd843005df954a9ad1"
+    },
+    {
+      "path": "macos-trace-timeline-summary.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos-trace-timeline-summary.log",
+      "bytes": 6006,
+      "sha256": "1589a049d45838e62ac61c00a4a2094df139d0d30baf44e94ac3eedfa8493834"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1014,
+      "sha256": "f2c990141a8f244d28263cf2cd632b05c7ef07c50d9d59dcfcd25ece6a9835b8"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 10646,
+      "sha256": "754d75abf0f4e6957d8eecd11cb6edbe5c3ff6013513fd6ff59b846cf87db26c"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "132bf03a88e9b31d593b68da2bfc31b03d749f32268f5f6dbdd6bb2899b9f5e3"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/native.json",
+      "bytes": 2319,
+      "sha256": "b61be400263d90c228859b2c10d569353149a78974069c0e969e56f6dd4c84ae"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/tee-source.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/tee-source.log",
+      "bytes": 134,
+      "sha256": "92f974f661a98e3775cc18c1985de26f2ebb32262e8c1273430ac2737d3ee0f0"
+    },
+    {
+      "path": "macos/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 8046,
+      "sha256": "5f71dc546ff42b40a7228ee1985cf6d8d59fbb87a2045a785103bb7f0a511c3f"
+    },
+    {
+      "path": "macos/checks/desktop/test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md",
+      "bytes": 15293,
+      "sha256": "23fc3d4446ed288a4145af0fd2fe706ade35edb20a5ee32b393edb5b61532456"
+    },
+    {
+      "path": "macos/checks/desktop/test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md",
+      "bytes": 13440,
+      "sha256": "85d7d71f9ff1c29a7aa679a375bc74fda10ca7a98ed26160846733364d985a2a"
+    },
+    {
+      "path": "macos/checks/desktop/test-results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md",
+      "bytes": 13276,
+      "sha256": "d7e505792ef798aa5c78902c7e7f2bd987a5e9fd75176d1441e018eb2f82e706"
+    },
+    {
+      "path": "macos/checks/desktop/test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/checks/desktop/test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md",
+      "bytes": 14463,
+      "sha256": "25f2401e5b27c7fe7c38670979c9cbba76c349eee8e3550eb0088e070d0f347c"
+    },
+    {
+      "path": "macos/environment-verification.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/macos/environment-verification.json",
+      "bytes": 1233,
+      "sha256": "f709356641d584461c813ba41be7ba85b1ca5dcdc4583ed9119c27bef37f33e9"
+    },
+    {
+      "path": "pinned-source/desktop/playwright.config.ts",
+      "source": ".cache/qa/p1-native-remote-87b28a2/pinned-source/desktop/playwright.config.ts",
+      "bytes": 661,
+      "sha256": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7"
+    },
+    {
+      "path": "pinned-source/desktop/tests/accounts.spec.ts",
+      "source": ".cache/qa/p1-native-remote-87b28a2/pinned-source/desktop/tests/accounts.spec.ts",
+      "bytes": 9309,
+      "sha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f"
+    },
+    {
+      "path": "run-39936377992-latest.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/run-39936377992-latest.json",
+      "bytes": 5773,
+      "sha256": "91ae5cdcd8fb1a61b722641b12ed09606eb5e866090113bf0e88dd1fea425d06"
+    },
+    {
+      "path": "run-39936378073-latest.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/run-39936378073-latest.json",
+      "bytes": 6020,
+      "sha256": "2e2d779d8d5ea5cc7a66d33bbf10e4f655707aee034f621f9916d569e347f269"
+    },
+    {
+      "path": "run-39936378139-latest.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/run-39936378139-latest.json",
+      "bytes": 23030,
+      "sha256": "a96d7f95c4d3532ef259ed2e83f14b849a7c83ca76fa709096bf3770349b6874"
+    },
+    {
+      "path": "windows-artifacts-final.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows-artifacts-final.json",
+      "bytes": 1518,
+      "sha256": "4beecf4e573d99a16b7dfd2c15c2f0951d40d1e17ba770e332b8a1b0ee13ff66"
+    },
+    {
+      "path": "windows-initial.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows-initial.json",
+      "bytes": 3729,
+      "sha256": "9e04e240efc462bdd9e5b3ca637ac0b4b0ce36987c1d376fbf3bc1f2dba8fafc"
+    },
+    {
+      "path": "windows-jobs.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows-jobs.log",
+      "bytes": 328988,
+      "sha256": "282bbab55072f0221ba099e72879b1ed3f222237ec995b236d20f1d2827ca225"
+    },
+    {
+      "path": "windows/checks/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/cargo-test.log",
+      "bytes": 19103,
+      "sha256": "50692b9078a0adc353b8582c30d02ce7487e439a1373489d9c24286394d2f596"
+    },
+    {
+      "path": "windows/checks/environment.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/environment.json",
+      "bytes": 536,
+      "sha256": "6d0fbb39a0f079cf988e3c06860b78c647cf7d6512cbad3533bfc888258608e1"
+    },
+    {
+      "path": "windows/checks/packages.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/packages.json",
+      "bytes": 1195,
+      "sha256": "10df06bccf64111f2623f4fc5f0b7835fcb081a758ff02535e1ebd93c47318d2"
+    },
+    {
+      "path": "windows/checks/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/sidecar.log",
+      "bytes": 172,
+      "sha256": "a23fe9d307a3c7ed3d4233e14ba81f331f648a429db931491d3ad700a5140a67"
+    },
+    {
+      "path": "windows/checks/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/tauri-build.log",
+      "bytes": 2124,
+      "sha256": "b98301aa30a9c328086cb846a9326f79ca967c551cc289d24edbf22d16d686ee"
+    },
+    {
+      "path": "windows/checks/tee.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/tee.log",
+      "bytes": 193,
+      "sha256": "cdca3f2a2ba96ea2416cd739f319e62c768fad3c912878664d1699a1b81d31c7"
+    },
+    {
+      "path": "windows/checks/test-boundaries.log",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/checks/test-boundaries.log",
+      "bytes": 152,
+      "sha256": "0fbdd4920b94721c215f8ed80635a6ce29421132989321b48b5d312871383b1e"
+    },
+    {
+      "path": "windows/test/desktop-ci-evidence/packages.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/test/desktop-ci-evidence/packages.json",
+      "bytes": 1195,
+      "sha256": "10df06bccf64111f2623f4fc5f0b7835fcb081a758ff02535e1ebd93c47318d2"
+    },
+    {
+      "path": "windows/test/desktop/src-tauri/binaries/bee-x86_64-pc-windows-msvc.exe.source.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/test/desktop/src-tauri/binaries/bee-x86_64-pc-windows-msvc.exe.source.json",
+      "bytes": 375,
+      "sha256": "c7e790c4861c2f78d255fab7fb248dc34005b5ef160c3a16c9f87e402b5f4f42"
+    },
+    {
+      "path": "windows/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-87b28a2/windows/verification-summary.json",
+      "bytes": 1904,
+      "sha256": "ad24ef91b728c9b8c9bc44365550afc59fa5f5d089d9ce559a1a1165f4fddd0b"
+    }
+  ]
+}

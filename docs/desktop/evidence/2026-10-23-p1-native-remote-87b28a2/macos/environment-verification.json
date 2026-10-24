@@ -1,0 +1,36 @@
+{
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378073,
+  "nativeEnvironmentOk": true,
+  "hostedImageVersion": "20260824.0482.1",
+  "actualOS": "15.7.9",
+  "target": "x86_64-apple-darwin",
+  "nativeChecksAllOk": true,
+  "goPackagesPassed": 7,
+  "frontendProductionAndDemoBuildCommandsPresent": true,
+  "browser": {
+    "passed": 485,
+    "failed": 4,
+    "duration": "34.3m",
+    "browserFailures": "webkit",
+    "analysis": "macos-failure-analysis.json",
+    "embeddedTestSourceComparisonsPassed": 4
+  },
+  "skipped": {
+    "11": "Build actual native Bee and test locked Rust bridge",
+    "12": "Build ad-hoc signed P1 demo development App and DMG",
+    "13": "Verify packaged App seal and real bundled Bee without GUI",
+    "14": "Record actual Mach-O metadata, source and DMG hashes",
+    "15": "Upload P1 demo development DMG and sidecar provenance"
+  },
+  "productRustTests": "not run",
+  "package": "not built/uploaded",
+  "signedTests": "not run",
+  "macho": "not recorded",
+  "cause": "unknown",
+  "limitations": [
+    "hosted environment check is not product native build/GUI acceptance",
+    "not macOS13 minimum evidence",
+    "not clean-user install, tray/menu exit, production signing"
+  ]
+}

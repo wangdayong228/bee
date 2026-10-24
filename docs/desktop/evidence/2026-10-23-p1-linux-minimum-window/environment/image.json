@@ -1,0 +1,10 @@
+{
+  "Id": "sha256:ef455d7cb089d177ce7b17aebf3b3cc9639aec8bd7b4e88221d0dd060a18a5a4",
+  "RepoTags": [
+    "bee-linux-minimum-window-qa:20261023"
+  ],
+  "Created": "2026-10-23T10:47:01.036216466Z",
+  "Architecture": "arm64",
+  "Os": "linux",
+  "Size": 997396220
+}

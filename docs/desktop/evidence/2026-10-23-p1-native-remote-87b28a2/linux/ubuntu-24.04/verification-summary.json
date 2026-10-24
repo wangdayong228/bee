@@ -1,0 +1,27 @@
+{
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378139,
+  "jobId": 120356826767,
+  "row": "ubuntu-24.04",
+  "conclusion": "cancelled",
+  "annotation": "The job has exceeded the maximum execution time of 1h30m0s",
+  "nativeEnvironmentOk": true,
+  "goPackagesPassed": 7,
+  "systemDependencies": {
+    "start": "10:04:00Z",
+    "end": "10:57:43Z",
+    "elapsedSeconds": 3223
+  },
+  "browserStep": {
+    "start": "10:59:24Z",
+    "end": "11:34:04Z",
+    "actual": "Playwright install --with-deps still downloading browsers; Chromium/headless downloaded, Firefox download just began",
+    "testsExecuted": false
+  },
+  "rustTests": "skipped",
+  "package": "not built/uploaded",
+  "smokes": "skipped",
+  "rawLog": "linux-ubuntu-24.04-job.log",
+  "annotations": "linux-ubuntu-24.04-annotations.json",
+  "scope": "90-minute job timeout; no agent cancellation and no product failure inference"
+}

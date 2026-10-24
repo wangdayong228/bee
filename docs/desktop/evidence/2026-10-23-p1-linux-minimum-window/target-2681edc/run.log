@@ -1,0 +1,4 @@
+Error: no owned visible window: actual=[]; required=window belonging to live process group 31 within 20000ms
+    at observeOwnedProcess (file:///target/desktop/scripts/smoke-linux-appimage.mjs:192:63)
+    at async smoke (file:///target/desktop/scripts/smoke-linux-appimage.mjs:254:25)
+    at async file:///target/desktop/scripts/smoke-linux-appimage.mjs:268:9

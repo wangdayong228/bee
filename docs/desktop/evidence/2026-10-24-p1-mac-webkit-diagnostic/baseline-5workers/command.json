@@ -1,0 +1,21 @@
+{
+  "localHead": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "targetFrontendSource": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "binding": "frontend/test/config bytes unchanged since87; this machine is macOS arm64 and cannot replace Intel hosted failure evidence",
+  "accountsSourceSha256": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+  "command": [
+    "npm",
+    "--prefix",
+    "desktop",
+    "run",
+    "test:e2e",
+    "--",
+    "tests/accounts.spec.ts",
+    "--project=webkit",
+    "--grep",
+    "双入口|官方授权未接通|换号明确|removal-pending",
+    "--reporter=line",
+    "--output",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-87-accounts-diagnostic/results"
+  ]
+}

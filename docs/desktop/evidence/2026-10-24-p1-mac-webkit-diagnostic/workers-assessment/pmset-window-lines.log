@@ -1,0 +1,19 @@
+2026-10-23 18:57:42 +0800 Sleep               	Entering Sleep state due to 'Idle Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 151 secs  
+2026-10-23 19:00:13 +0800 com.apple.sleepservices.sessionStarted	SleepService: window begins with cap time=180 secs                         	          
+2026-10-23 19:00:13 +0800 DarkWake            	DarkWake from Deep Idle [CDNP] : due to smc.70070000 wifibt SMC.OutboxNotEmpty/ Using BATT (Charge:100%) 9 secs    
+2026-10-23 19:00:13 +0800 WakeTime            	WakeTime: 0.102 sec                                                        	          
+2026-10-23 19:00:15 +0800 com.apple.sleepservices.sessionTerminated	SleepService: window has terminated.                                       	          
+2026-10-23 19:00:22 +0800 Sleep               	Entering Sleep state due to 'Maintenance Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 972 secs  
+2026-10-24 09:26:17 +0800 Wake                	DarkWake to FullWake from Deep Idle [CDNVAP] : due to Notification Using BATT (Charge:100%) 5 secs    
+2026-10-24 09:26:22 +0800 Sleep               	Entering DarkWake state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:100%)           
+2026-10-24 09:27:02 +0800 Sleep               	Entering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 2 secs    
+2026-10-24 09:27:04 +0800 com.apple.sleepservices.sessionStarted	SleepService: window begins with cap time=180 secs                         	          
+2026-10-24 09:27:04 +0800 DarkWake            	DarkWake from Deep Idle [CDNP] : due to smc.70070000 wifibt SMC.OutboxNotEmpty/Notification Using BATT (Charge:100%) 2 secs    
+2026-10-24 09:27:06 +0800 com.apple.sleepservices.sessionTerminated	SleepService: window has terminated.                                       	          
+2026-10-24 09:27:06 +0800 Sleep               	Entering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:100%) 929 secs  
+2026-10-24 09:42:35 +0800 com.apple.sleepservices.sessionStarted	SleepService: window begins with cap time=180 secs                         	          
+2026-10-24 09:42:35 +0800 DarkWake            	DarkWake from Deep Idle [CDNP] : due to smc.70070000 wifibt SMC.OutboxNotEmpty/ Using BATT (Charge:100%) 14 secs   
+2026-10-24 09:42:35 +0800 WakeTime            	WakeTime: 0.122 sec                                                        	          
+2026-10-24 09:42:37 +0800 com.apple.sleepservices.sessionTerminated	SleepService: window has terminated.                                       	          
+2026-10-24 09:42:49 +0800 Wake                	DarkWake to FullWake from Deep Idle [CDNVAP] : due to Notification Using BATT (Charge:100%) 4 secs    
+2026-10-24 09:42:53 +0800 Sleep               	Entering DarkWake state due to 'Clamshell Sleep':TCPKeepAlive=active Using Batt (Charge:100%)           

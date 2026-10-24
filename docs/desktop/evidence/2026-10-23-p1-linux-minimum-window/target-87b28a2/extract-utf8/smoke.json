@@ -1,0 +1,19 @@
+{
+  "ok": false,
+  "mode": "extract",
+  "target": "aarch64-unknown-linux-gnu",
+  "recordedAt": "2026-10-23T10:55:53.723Z",
+  "limitations": [
+    "not clean-user installation",
+    "not tray or UI readiness acceptance",
+    "signal cleanup is not app menu exit acceptance"
+  ],
+  "package": {
+    "path": "/payload/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+    "bytes": 139078152,
+    "sha256": "db710f967c04eb938affcb0db9fb3cfeac4460bc11c8b135082ba69e31fbe20a"
+  },
+  "sourceSha256": "f0c21ee7a01fe11f70759a69a093468a26a7883ccde0a95435708301ff481363",
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "error": "Error: AppImage extraction failed: exit=null; signal=null; spawnSync /payload/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage EACCES; stderr=undefined\n    at smoke (file:///target/desktop/scripts/smoke-linux-appimage.mjs:245:58)\n    at file:///target/desktop/scripts/smoke-linux-appimage.mjs:268:15\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)"
+}

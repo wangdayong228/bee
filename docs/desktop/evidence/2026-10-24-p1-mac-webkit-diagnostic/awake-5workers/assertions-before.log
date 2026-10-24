@@ -1,0 +1,21 @@
+2026-10-24 10:23:16 +0800 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     1
+   NetworkClientActive            0
+Listed by owning process:
+   pid 162(WindowServer): [0x0001b759000990f9] 00:03:57 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000ad1 service:AppleMultitouchDevice product:Apple Internal Keyboard / Trackpad eventType:11"  
+	Timeout will fire in 10562 secs Action=TimeoutActionRelease
+   pid 106(powerd): [0x0002396e00019b30] 00:04:35 PreventUserIdleSystemSleep named: "Powerd - Prevent sleep while display is on"  
+   pid 106(powerd): [0x0002396d00099b27] 00:04:36 UserIsActive named: "com.apple.powermanagement.lidopen"  
+	Timeout will fire in 10524 secs Action=TimeoutActionRelease
+   pid 182(coreaudiod): [0x000239780001a136] 00:04:26 PreventUserIdleSystemSleep named: "com.apple.audio.BuiltInSpeakerDevice.context.preventuseridlesleep"  
+	Created for PID: 66601. 
+	Resources: audio-out BuiltInSpeakerDevice 
+Kernel Assertions: 0x100=MAGICWAKE
+   id=556  level=255 0x100=MAGICWAKE creat=2026/10/20 15:37  mod=2026/10/23 22:03 description=en0 owner=IOSkywalkNetworkBSDClient

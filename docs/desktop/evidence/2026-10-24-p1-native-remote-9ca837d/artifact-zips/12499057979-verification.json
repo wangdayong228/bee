@@ -1,0 +1,13 @@
+{
+  "artifactId": 12499057979,
+  "artifactName": "bee-linux-test-ubuntu-24.04-9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": 39941148651,
+  "zip": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499057979.zip",
+  "bytes": 148276817,
+  "sha256": "ead5dd18b3bcead0e6531e89b534537a36f487fc8f067b57e53ef26baafecb52",
+  "matchesMetadataDigest": true,
+  "zipCrcOk": true,
+  "destination": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/test",
+  "scope": "ZIP verified; package/source/geometry verification is separate"
+}

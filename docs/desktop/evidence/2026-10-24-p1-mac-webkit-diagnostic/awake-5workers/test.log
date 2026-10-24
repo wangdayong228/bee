@@ -1,0 +1,13 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/accounts.spec.ts --project=webkit --grep 双入口|官方授权未接通|换号明确|removal-pending --reporter=line,json --output /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-awake-diagnostic/results --workers=5
+
+
+Running 5 tests using 5 workers
+
+[1/5] [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功
+[2/5] [webkit] › tests/accounts.spec.ts:149:3 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态
+[3/5] [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停
+[4/5] [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务
+[5/5] [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效
+  5 passed (3.7s)

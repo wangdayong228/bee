@@ -1,0 +1,237 @@
+[
+  {
+    "case": "accounts-移除收尾守门-removal-pending-返回-pending，重试不能越过未决状态-webkit",
+    "steps": [
+      {
+        "title": "Before Hooks",
+        "params": {},
+        "startMs": 5367.835,
+        "endMs": 10361.167,
+        "durationMs": 4993.332,
+        "error": null
+      },
+      {
+        "title": "Launch browser",
+        "params": {},
+        "startMs": 5413.917,
+        "endMs": 7316.442,
+        "durationMs": 1902.525,
+        "error": null
+      },
+      {
+        "title": "Create page",
+        "params": {},
+        "startMs": 8140.064,
+        "endMs": 10360.073,
+        "durationMs": 2220.009,
+        "error": null
+      },
+      {
+        "title": "Navigate",
+        "params": {
+          "url": "/"
+        },
+        "startMs": 10365.686,
+        "endMs": 16259.172,
+        "durationMs": 5893.486,
+        "error": null
+      },
+      {
+        "title": "Evaluate",
+        "params": {},
+        "startMs": 16269.183,
+        "endMs": 166838.74,
+        "durationMs": 150569.557,
+        "error": null
+      },
+      {
+        "title": "After Hooks",
+        "params": {},
+        "startMs": 166810.004,
+        "endMs": 167066.915,
+        "durationMs": 256.911,
+        "error": null
+      }
+    ],
+    "errors": [
+      "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+    ]
+  },
+  {
+    "case": "accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit",
+    "steps": [
+      {
+        "title": "Before Hooks",
+        "params": {},
+        "startMs": 5498.545,
+        "endMs": 10363.331,
+        "durationMs": 4864.786,
+        "error": null
+      },
+      {
+        "title": "Launch browser",
+        "params": {},
+        "startMs": 5515.204,
+        "endMs": 7320.638,
+        "durationMs": 1805.434,
+        "error": null
+      },
+      {
+        "title": "Create page",
+        "params": {},
+        "startMs": 8141.93,
+        "endMs": 10363.164,
+        "durationMs": 2221.234,
+        "error": null
+      },
+      {
+        "title": "Navigate",
+        "params": {
+          "url": "/?scene=account-change"
+        },
+        "startMs": 10366.627,
+        "endMs": 16256.762,
+        "durationMs": 5890.135,
+        "error": null
+      },
+      {
+        "title": "Click",
+        "params": {
+          "locator": "getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })"
+        },
+        "startMs": 16851.543,
+        "endMs": 166879.922,
+        "durationMs": 150028.379,
+        "error": null
+      },
+      {
+        "title": "After Hooks",
+        "params": {},
+        "startMs": 166683.193,
+        "endMs": 167039.834,
+        "durationMs": 356.641,
+        "error": null
+      }
+    ],
+    "errors": [
+      "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('region', { name: 'OpenAI 账号' })\nExpected substring: \u001b[32m\"another@example.com\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" getByRole('region', { name: 'OpenAI 账号' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('region', { name: 'OpenAI 账号' })\u001b[22m\n\u001b[2m  - \u001b[22m\n"
+    ]
+  },
+  {
+    "case": "accounts-removal-pending-保留卡片并停止新任务-webkit",
+    "steps": [
+      {
+        "title": "Before Hooks",
+        "params": {},
+        "startMs": 5631.12,
+        "endMs": 10446.664,
+        "durationMs": 4815.544,
+        "error": null
+      },
+      {
+        "title": "Launch browser",
+        "params": {},
+        "startMs": 5691.953,
+        "endMs": 7317.723,
+        "durationMs": 1625.77,
+        "error": null
+      },
+      {
+        "title": "Create page",
+        "params": {},
+        "startMs": 8137.941,
+        "endMs": 10446.436,
+        "durationMs": 2308.495,
+        "error": null
+      },
+      {
+        "title": "Navigate",
+        "params": {
+          "url": "/?scene=removal-pending"
+        },
+        "startMs": 10452.003,
+        "endMs": 16376.297,
+        "durationMs": 5924.294,
+        "error": null
+      },
+      {
+        "title": "After Hooks",
+        "params": {},
+        "startMs": 16931.504,
+        "endMs": 166839.344,
+        "durationMs": 149907.84,
+        "error": {
+          "name": "",
+          "message": "\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m",
+          "stack": "\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m"
+        }
+      }
+    ],
+    "errors": [
+      "\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m"
+    ]
+  },
+  {
+    "case": "accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit",
+    "steps": [
+      {
+        "title": "Before Hooks",
+        "params": {},
+        "startMs": 5810.307,
+        "endMs": 10363.242,
+        "durationMs": 4552.935,
+        "error": null
+      },
+      {
+        "title": "Launch browser",
+        "params": {},
+        "startMs": 5867.725,
+        "endMs": 7316.422,
+        "durationMs": 1448.697,
+        "error": null
+      },
+      {
+        "title": "Create page",
+        "params": {},
+        "startMs": 8146.921,
+        "endMs": 10363.065,
+        "durationMs": 2216.144,
+        "error": null
+      },
+      {
+        "title": "Navigate",
+        "params": {
+          "url": "/?scene=empty"
+        },
+        "startMs": 10366.565,
+        "endMs": 16257.859,
+        "durationMs": 5891.294,
+        "error": null
+      },
+      {
+        "title": "Expect \"toContainText\"",
+        "params": {
+          "locator": "getByRole('dialog')",
+          "expected": "更新时间"
+        },
+        "startMs": 16948.527,
+        "endMs": 166833.995,
+        "durationMs": 149885.468,
+        "error": null
+      },
+      {
+        "title": "After Hooks",
+        "params": {},
+        "startMs": 166721.866,
+        "endMs": 166998.331,
+        "durationMs": 276.465,
+        "error": null
+      }
+    ],
+    "errors": [
+      "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+      "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '概览', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+    ]
+  }
+]

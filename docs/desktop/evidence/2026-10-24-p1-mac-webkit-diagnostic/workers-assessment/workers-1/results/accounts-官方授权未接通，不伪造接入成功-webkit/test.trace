@@ -1,0 +1,47 @@
+{"version":9,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.63.0","options":{},"platform":"darwin","wallTime":1792805228829,"monotonicTime":3091.085,"sdkLanguage":"javascript","testTimeout":30000,"annotations":[]}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":3091.55,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@24","stepId":"fixture@24","parentId":"hook@1","startTime":3093.971,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@25","stepId":"pw:api@25","parentId":"fixture@24","startTime":3094.367,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@25","endTime":3098.062,"annotations":[]}
+{"type":"after","callId":"fixture@24","endTime":3099.505,"annotations":[]}
+{"type":"before","callId":"fixture@26","stepId":"fixture@26","parentId":"hook@1","startTime":3099.727,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@27","stepId":"pw:api@27","parentId":"fixture@26","startTime":3100.185,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@27","endTime":3306.446,"annotations":[]}
+{"type":"after","callId":"fixture@26","endTime":3306.538,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":3306.621,"annotations":[]}
+{"type":"before","callId":"pw:api@28","stepId":"pw:api@28","startTime":3307.199,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"/?scene=empty","params":{"url":"/?scene=empty"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":5,"column":14,"function":"accounts"}]}
+{"type":"after","callId":"pw:api@28","endTime":3535.075,"annotations":[]}
+{"type":"before","callId":"pw:api@29","stepId":"pw:api@29","startTime":3536.55,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })","params":{"locator":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":6,"column":90,"function":"accounts"}]}
+{"type":"error","message":"\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m","stack":[]}
+{"type":"before","callId":"hook@30","stepId":"hook@30","startTime":929547.136,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@31","stepId":"fixture@31","parentId":"hook@30","startTime":929549.79,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@31","endTime":929550.332,"annotations":[]}
+{"type":"before","callId":"fixture@32","stepId":"fixture@32","parentId":"hook@30","startTime":929550.451,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@33","stepId":"pw:api@33","parentId":"fixture@32","startTime":929758.093,"class":"Test","method":"pw:api","title":"Close context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@29","endTime":929760.434,"annotations":[],"error":{"name":"","message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n","stack":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at accounts (/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:6:90)\n    at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:25:3"}}
+{"type":"error","message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n","stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":6,"column":90,"function":"accounts"},{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":25,"column":3}]}
+{"type":"after","callId":"pw:api@33","endTime":929760.639,"annotations":[]}
+{"type":"after","callId":"fixture@32","endTime":929760.659,"annotations":[]}
+{"type":"before","callId":"attach@4f44e06d72b8c0c28252078c4ae877bf","stepId":"attach@4f44e06d72b8c0c28252078c4ae877bf","startTime":929763.712,"class":"Test","method":"test.attach","title":"Attach \"error-context\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@4f44e06d72b8c0c28252078c4ae877bf","endTime":929763.719,"attachments":[{"name":"error-context","contentType":"text/markdown","file":"attachments/b3bcbf007107e1dd1c57e1127e57814cd879b5b8"}]}
+{"type":"before","callId":"fixture@42","stepId":"fixture@42","parentId":"hook@30","startTime":929764.095,"class":"Test","method":"fixture","title":"Fixture \"baseURL\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@42","endTime":929764.105,"annotations":[]}
+{"type":"before","callId":"fixture@43","stepId":"fixture@43","parentId":"hook@30","startTime":929764.112,"class":"Test","method":"fixture","title":"Fixture \"userAgent\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@43","endTime":929764.117,"annotations":[]}
+{"type":"before","callId":"fixture@45","stepId":"fixture@45","parentId":"hook@30","startTime":929764.27,"class":"Test","method":"fixture","title":"Fixture \"viewport\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@45","endTime":929764.279,"annotations":[]}
+{"type":"before","callId":"fixture@51","stepId":"fixture@51","parentId":"hook@30","startTime":929767.424,"class":"Test","method":"fixture","title":"Fixture \"locale\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@51","endTime":929767.435,"annotations":[]}
+{"type":"before","callId":"fixture@53","stepId":"fixture@53","parentId":"hook@30","startTime":929767.51,"class":"Test","method":"fixture","title":"Fixture \"isMobile\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@53","endTime":929767.514,"annotations":[]}
+{"type":"before","callId":"fixture@57","stepId":"fixture@57","parentId":"hook@30","startTime":929767.73,"class":"Test","method":"fixture","title":"Fixture \"hasTouch\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@57","endTime":929767.735,"annotations":[]}
+{"type":"before","callId":"fixture@60","stepId":"fixture@60","parentId":"hook@30","startTime":929767.877,"class":"Test","method":"fixture","title":"Fixture \"deviceScaleFactor\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@60","endTime":929767.881,"annotations":[]}
+{"type":"after","callId":"hook@30","endTime":929768.558,"annotations":[]}
+{"type":"before","callId":"hook@67","stepId":"hook@67","startTime":929768.647,"class":"Test","method":"hook","title":"Worker Cleanup","params":{},"stack":[]}
+{"type":"before","callId":"fixture@72","stepId":"fixture@72","parentId":"hook@67","startTime":929769.298,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@72","endTime":929782.772,"annotations":[]}
+{"type":"before","callId":"fixture@76","stepId":"fixture@76","parentId":"hook@67","startTime":929783.207,"class":"Test","method":"fixture","title":"Fixture \"defaultBrowserType\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@76","endTime":929783.215,"annotations":[]}
+{"type":"after","callId":"hook@67","endTime":929783.721,"annotations":[]}

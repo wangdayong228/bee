@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "npm",
+    "--prefix",
+    "desktop",
+    "run",
+    "test:e2e",
+    "--",
+    "tests/accounts.spec.ts",
+    "--project=webkit",
+    "--grep",
+    "双入口|官方授权未接通|换号明确|removal-pending",
+    "--reporter=line,json",
+    "--output",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-awake-diagnostic/results",
+    "--workers=5"
+  ],
+  "head": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "source": {
+    "desktop/tests/accounts.spec.ts": "5de4fd365c6eee0be98782dbf9b7d4f4b7a91ad9f68ea3f04bfd2ed01d2c4d6f",
+    "desktop/playwright.config.ts": "4df9a9c50b9bf16c0afc38da3e0fae3e6195130e3a06097ac51dceb03a0d20b7"
+  },
+  "node": "v24.22.1",
+  "npm": "11.19.1",
+  "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+  "jsonOutputFile": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-mac-webkit-awake-diagnostic/playwright-report.json",
+  "start": 1792808596.753162,
+  "exit": 0,
+  "end": 1792808600.793904
+}

@@ -1,0 +1,85 @@
+{
+  "row": "ubuntu-22.04-arm",
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": "39936378139",
+  "target": "aarch64-unknown-linux-gnu",
+  "nativeOk": true,
+  "package": {
+    "path": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/test/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+    "bytes": 138983944,
+    "sha256": "7bfc141be13704c273ad0c43e822cdda7a1017754ec1bfd292c139d3165378ec"
+  },
+  "source": {
+    "path": ".cache/qa/p1-native-remote-87b28a2/linux/ubuntu-22.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+    "sha256": "26716ea8c9c1b9f22a1eefb2a8338accbca8cc83d3c5f0e95fbb294e134443ee",
+    "content": {
+      "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "aarch64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "arm64",
+      "go": "go version go1.27.3 linux/arm64",
+      "beeVersion": "dev+87b28a29aa84-dirty",
+      "binarySha256": "e81d6b0f385039babc50e3dbb56c33313780deec1ae390ddc9ffd6190d03188c"
+    }
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "downloadedLogCounts": {
+    "browser-e2e.log": [
+      "489"
+    ],
+    "cargo-test.log": [
+      [
+        "36",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "smokes": {
+    "extract": {
+      "ok": true,
+      "observedMs": 10266,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    },
+    "fuse": {
+      "ok": true,
+      "observedMs": 10169,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native window startup only; no UI interaction or readiness assertion"
+    }
+  }
+}

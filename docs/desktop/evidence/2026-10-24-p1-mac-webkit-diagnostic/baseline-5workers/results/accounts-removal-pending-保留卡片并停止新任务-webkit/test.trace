@@ -1,0 +1,47 @@
+{"version":9,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.63.0","options":{},"platform":"darwin","wallTime":1792753052808,"monotonicTime":5475.255,"sdkLanguage":"javascript","testTimeout":30000,"annotations":[]}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":5631.12,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@29","stepId":"fixture@29","parentId":"hook@1","startTime":5667.764,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@30","stepId":"pw:api@30","parentId":"fixture@29","startTime":5691.953,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@30","endTime":7317.723,"annotations":[]}
+{"type":"after","callId":"fixture@29","endTime":7317.87,"annotations":[]}
+{"type":"before","callId":"fixture@33","stepId":"fixture@33","parentId":"hook@1","startTime":7320.291,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@34","stepId":"pw:api@34","parentId":"fixture@33","startTime":7323.918,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@34","endTime":8042.956,"annotations":[]}
+{"type":"after","callId":"fixture@33","endTime":8135.977,"annotations":[]}
+{"type":"before","callId":"fixture@35","stepId":"fixture@35","parentId":"hook@1","startTime":8136.589,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@36","stepId":"pw:api@36","parentId":"fixture@35","startTime":8137.941,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@36","endTime":10446.436,"annotations":[]}
+{"type":"after","callId":"fixture@35","endTime":10446.566,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":10446.664,"annotations":[]}
+{"type":"before","callId":"pw:api@37","stepId":"pw:api@37","startTime":10452.003,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"/?scene=removal-pending","params":{"url":"/?scene=removal-pending"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":5,"column":14,"function":"accounts"}]}
+{"type":"after","callId":"pw:api@37","endTime":16376.297,"annotations":[]}
+{"type":"before","callId":"pw:api@38","stepId":"pw:api@38","startTime":16389.77,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })","params":{"locator":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":6,"column":90,"function":"accounts"}]}
+{"type":"after","callId":"pw:api@38","endTime":16545.609,"annotations":[]}
+{"type":"before","callId":"pw:api@39","stepId":"pw:api@39","startTime":16549.102,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":61,"column":56}]}
+{"type":"after","callId":"pw:api@39","endTime":16702.319,"annotations":[]}
+{"type":"before","callId":"expect@40","stepId":"expect@40","startTime":16710.223,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('dialog')","params":{"locator":"getByRole('dialog')","expected":"官方客户端登录和历史收益"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":62,"column":44}]}
+{"type":"after","callId":"expect@40","endTime":16727.575,"annotations":[]}
+{"type":"before","callId":"pw:api@41","stepId":"pw:api@41","startTime":16729.847,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('button', { name: '确认移除', exact: true })","params":{"locator":"getByRole('button', { name: '确认移除', exact: true })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":63,"column":67}]}
+{"type":"after","callId":"pw:api@41","endTime":16780.07,"annotations":[]}
+{"type":"before","callId":"expect@42","stepId":"expect@42","startTime":16781.732,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('region', { name: 'OpenAI 账号' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' })","expected":"移除处理中"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":64,"column":26}]}
+{"type":"after","callId":"expect@42","endTime":16909.422,"annotations":[]}
+{"type":"before","callId":"expect@43","stepId":"expect@43","startTime":16910.042,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('region', { name: 'OpenAI 账号' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' })","expected":"dayong@example.com"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":67,"column":26}]}
+{"type":"after","callId":"expect@43","endTime":16916.521,"annotations":[]}
+{"type":"before","callId":"expect@44","stepId":"expect@44","startTime":16916.913,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('region', { name: 'OpenAI 账号' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' })","expected":"已暂停"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":68,"column":26}]}
+{"type":"after","callId":"expect@44","endTime":16931.149,"annotations":[]}
+{"type":"before","callId":"hook@45","stepId":"hook@45","startTime":16931.504,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@46","stepId":"fixture@46","parentId":"hook@45","startTime":16932.752,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@46","endTime":16932.915,"annotations":[]}
+{"type":"before","callId":"fixture@47","stepId":"fixture@47","parentId":"hook@45","startTime":16933.128,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@48","stepId":"pw:api@48","parentId":"fixture@47","startTime":16942.085,"class":"Test","method":"pw:api","title":"Close context","params":{},"stack":[]}
+{"type":"error","message":"\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m","stack":[]}
+{"type":"after","callId":"fixture@47","endTime":166789.075,"annotations":[],"error":{"name":"","message":"\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m","stack":"\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m"}}
+{"type":"before","callId":"attach@fb327498207d1486b6582a5f6418fb1c","stepId":"attach@fb327498207d1486b6582a5f6418fb1c","startTime":166838.064,"class":"Test","method":"test.attach","title":"Attach \"error-context\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@fb327498207d1486b6582a5f6418fb1c","endTime":166838.076,"attachments":[{"name":"error-context","contentType":"text/markdown","file":"attachments/7176d32e2647dc8c658d321008633cc0e8090d02"}]}
+{"type":"after","callId":"hook@45","endTime":166839.344,"annotations":[],"error":{"name":"","message":"\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m","stack":"\u001b[31mTearing down \"context\" exceeded the test timeout of 30000ms.\u001b[39m"}}
+{"type":"before","callId":"hook@50","stepId":"hook@50","startTime":166839.8,"class":"Test","method":"hook","title":"Worker Cleanup","params":{},"stack":[]}
+{"type":"before","callId":"fixture@55","stepId":"fixture@55","parentId":"hook@50","startTime":166841.959,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@55","endTime":166922.21,"annotations":[]}
+{"type":"before","callId":"fixture@59","stepId":"fixture@59","parentId":"hook@50","startTime":166923.878,"class":"Test","method":"fixture","title":"Fixture \"defaultBrowserType\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@59","endTime":166923.892,"annotations":[]}
+{"type":"after","callId":"hook@50","endTime":166925.6,"annotations":[]}

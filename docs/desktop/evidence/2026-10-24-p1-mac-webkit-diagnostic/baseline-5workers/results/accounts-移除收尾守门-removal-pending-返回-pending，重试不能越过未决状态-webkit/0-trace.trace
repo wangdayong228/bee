@@ -1,0 +1,1 @@
+{"version":9,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.63.0","options":{},"platform":"darwin","wallTime":1792753055460,"monotonicTime":8126.598,"sdkLanguage":"javascript","title":"accounts.spec.ts:149 › 移除收尾守门 removal-pending 返回 pending，重试不能越过未决状态"}

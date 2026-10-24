@@ -1,0 +1,681 @@
+{
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "sourceRoot": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0",
+  "archiveStage": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/p1-native-remote-9ca837d-archive-stage",
+  "notes": [
+    "All selected files copied byte-for-byte; only this manifest is generated",
+    "Artifact metadata digests describe remote download ZIPs; each manifest SHA hashes the listed local file",
+    "Actual failures, skips, cleanup and zombies remain in original evidence; see README for acceptance limits",
+    "No AppImage/EXE/DMG/ZIP or browser screenshot collection included"
+  ],
+  "fileCountExcludingManifest": 111,
+  "totalBytesExcludingManifest": 2079148,
+  "files": [
+    {
+      "path": "README.md",
+      "source": ".superpowers/sdd/p1-native-9ca837d-remote-ci-report.md",
+      "bytes": 8559,
+      "sha256": "eaaa2ae270e1c5469d95fac32e63b7f4c28c5aa3a644f797088b8634735d046f"
+    },
+    {
+      "path": "all-row-verification.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/all-row-verification.log",
+      "bytes": 9564,
+      "sha256": "e45cb4067283a8349f66476b7488f32d186b64bcf8c41e868d12cd8716b69978"
+    },
+    {
+      "path": "artifact-zips/12498963844-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12498963844-download.log",
+      "bytes": 340,
+      "sha256": "1cb5e56af9ddf220ea71b112400db657f52c65330131985b8e6c5eb4e91c5641"
+    },
+    {
+      "path": "artifact-zips/12498963844-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12498963844-segments.jsonl",
+      "bytes": 6388,
+      "sha256": "0a1fbdbce39bb5cfb3ce711df68cd39d8f67dc86c603fcfec91617d4143f483d"
+    },
+    {
+      "path": "artifact-zips/12498963844-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12498963844-verification.json",
+      "bytes": 592,
+      "sha256": "1820982d3b175fe7390fc5eed69e4bf49ab35bad3a860f469e8db4eb5b7599be"
+    },
+    {
+      "path": "artifact-zips/12499057979-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499057979-download.log",
+      "bytes": 340,
+      "sha256": "8aae9ba285a55f03e889aaeb858ad0d2db19a9b182274fc6578848d1bff16f9e"
+    },
+    {
+      "path": "artifact-zips/12499057979-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499057979-segments.jsonl",
+      "bytes": 6388,
+      "sha256": "8b8cd3f52a5fdc6cf532fe56f9ec5e75f719a6a2432fde7f2078da42409b2578"
+    },
+    {
+      "path": "artifact-zips/12499057979-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499057979-verification.json",
+      "bytes": 592,
+      "sha256": "792352f2351d99a61fd5ab4a80a38439685985e3b3f9810b3a11de928b7764fe"
+    },
+    {
+      "path": "artifact-zips/12499472362-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499472362-download.log",
+      "bytes": 340,
+      "sha256": "ecf466ac1313e738bf2e9dbebfe2b6b912f3c5e55365bceb574715daf9d7e759"
+    },
+    {
+      "path": "artifact-zips/12499472362-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499472362-segments.jsonl",
+      "bytes": 5848,
+      "sha256": "8fc1d56e8c0c74e9098b230cc77c3ce793cc06399ae71721c0ff23a2437c0d87"
+    },
+    {
+      "path": "artifact-zips/12499472362-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499472362-verification.json",
+      "bytes": 600,
+      "sha256": "0b355a87497e19d31a6ae2a949112ab79e17ec89e221d8807c243dd083c3f857"
+    },
+    {
+      "path": "artifact-zips/12499741498-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499741498-download.log",
+      "bytes": 340,
+      "sha256": "eb02fa16321b255f7950b21409c18312f8d886c4dddffa761dbc1958ed9db095"
+    },
+    {
+      "path": "artifact-zips/12499741498-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499741498-segments.jsonl",
+      "bytes": 4408,
+      "sha256": "85766115f1465bef8d8547fd0249683c36f48b7c569bacc292a2dcbbd83eed03"
+    },
+    {
+      "path": "artifact-zips/12499741498-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499741498-verification.json",
+      "bytes": 596,
+      "sha256": "c3fb6beed01e8ba728a4f1a34df975e3a77a11dd2eb6ad8dfc79a6c92bd233a6"
+    },
+    {
+      "path": "artifact-zips/12499786372-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499786372-download.log",
+      "bytes": 340,
+      "sha256": "dccaceade49b5cea8b684ec3ec1595889c394a09b4329a08f27e73518d569fe1"
+    },
+    {
+      "path": "artifact-zips/12499786372-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499786372-segments.jsonl",
+      "bytes": 6026,
+      "sha256": "43ad021f02b1927aa111f92d841f82878732fda03d4097761aa30745b6adba79"
+    },
+    {
+      "path": "artifact-zips/12499786372-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499786372-verification.json",
+      "bytes": 600,
+      "sha256": "db0823b116225c0e0a35d56a489752dcfd456aad2bb1c8a9f9fb710fb41c28ac"
+    },
+    {
+      "path": "artifact-zips/12499791357-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499791357-download.log",
+      "bytes": 340,
+      "sha256": "df256a0b986bf6c97f9398004e3cbc760356faf4f6eb296a743fe0c778859a80"
+    },
+    {
+      "path": "artifact-zips/12499791357-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499791357-segments.jsonl",
+      "bytes": 4408,
+      "sha256": "9bb8e75318984accfabcee18c9a4d4887ac0b2e33886738b4abdc68143c2cc70"
+    },
+    {
+      "path": "artifact-zips/12499791357-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499791357-verification.json",
+      "bytes": 604,
+      "sha256": "bc6e5e3b030f7f55eb62ca4b62b451d4e1d8289ddddd48a401aa2bc8cc4b58b9"
+    },
+    {
+      "path": "artifact-zips/12499970923-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499970923-download.log",
+      "bytes": 340,
+      "sha256": "5ecd0483243d659806d18bde1b85cea0c7d38023b98df446694da6664bdc9b64"
+    },
+    {
+      "path": "artifact-zips/12499970923-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499970923-segments.jsonl",
+      "bytes": 4408,
+      "sha256": "a72a05544bf704b8880c4614ac8721447519200852c5586e9aa22aa19bfcedeb"
+    },
+    {
+      "path": "artifact-zips/12499970923-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499970923-verification.json",
+      "bytes": 604,
+      "sha256": "8c1034be12926db8db4f0a695606a246041bbb167873fed11ffde7ac78a7416d"
+    },
+    {
+      "path": "artifact-zips/12500075328-download.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12500075328-download.log",
+      "bytes": 340,
+      "sha256": "8f23564a3f21b070eed77926f877bbc45d9ae2729f10ac9ebdab81905060d0c7"
+    },
+    {
+      "path": "artifact-zips/12500075328-segments.jsonl",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12500075328-segments.jsonl",
+      "bytes": 4408,
+      "sha256": "809de896bd2aa6f8effeaecf0d8e335b9615bf846148d1d18a77403960595c09"
+    },
+    {
+      "path": "artifact-zips/12500075328-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12500075328-verification.json",
+      "bytes": 596,
+      "sha256": "8272f1b1045b01788aa2f471b56303e78ba06f0db090dafedf3f530028c44611"
+    },
+    {
+      "path": "download-failure-analysis.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/download-failure-analysis.json",
+      "bytes": 1242,
+      "sha256": "b362673bed2622749cb79c9ff5953bc2d72e10683186def8cabc0bc9108a4c29"
+    },
+    {
+      "path": "final-evidence-verification.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/final-evidence-verification.json",
+      "bytes": 3664,
+      "sha256": "9d5e322e1b08655939fc0d9a1b37d8596416e6d7c0ee49b99be4dd7a5dfefa84"
+    },
+    {
+      "path": "linux-artifacts-final.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-artifacts-final.json",
+      "bytes": 6047,
+      "sha256": "1caa38bbb91445357ff2795787f6f5c34f2a5a3e8a97e7df7cd8063dd20c3f6a"
+    },
+    {
+      "path": "linux-initial.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-initial.json",
+      "bytes": 309,
+      "sha256": "aeb042702eb3a016339f2ef87d76c1095d42f100afde246724d84bf5a52a2cfb"
+    },
+    {
+      "path": "linux-ubuntu-22.04-arm-job.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-ubuntu-22.04-arm-job.log",
+      "bytes": 283580,
+      "sha256": "27bc956c7c2d7ff4a8b40ea6fc2f653d75c1837c505f7388674db9d1f3d0a3ee"
+    },
+    {
+      "path": "linux-ubuntu-22.04-job.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-ubuntu-22.04-job.log",
+      "bytes": 286595,
+      "sha256": "c0bdb0518f5c4b4700b0090c0ef2c4c8e330b8ab4ae8090189a44a4e66aa66fa"
+    },
+    {
+      "path": "linux-ubuntu-24.04-arm-job.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-ubuntu-24.04-arm-job.log",
+      "bytes": 333189,
+      "sha256": "85e84fcfc445c1da534489733e26ea832ff99d4e61fa6a96eda050ceb3fbaf03"
+    },
+    {
+      "path": "linux-ubuntu-24.04-job.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux-ubuntu-24.04-job.log",
+      "bytes": 336477,
+      "sha256": "499169cf571a3fc82dc5d785d1a493044592b97f8830fdcc64c0b255379f4f57"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 3124,
+      "sha256": "b8ea16892b31d933f3d70e1c9e5feee27ecf892ca3e970a4584dcbf1985f9e22"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1014,
+      "sha256": "aa1f9192d86bc6c5849166991880effa5ee06bcb41d337101d9dc1f1eb8666ef"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "2bc327d320e3cf2679221a2a81e8f5a344bf43abdc3fc9401d37eae4bf67401a"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "a656c360ed0d70d1ccfd581c1d36db94c4e79144d17a9675eae2aa1bf01a8319"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "f30fa27ba9b4e744dc04239453489355dcdecf1351d8fe0636d24fd4543622e2"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 51,
+      "sha256": "9af7826df1ed5949194430b6eb60fce0dc22256e07f1341a23215812b98f891b"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/native.json",
+      "bytes": 1749,
+      "sha256": "8646e5fc6fbeb68c069c495bb8db8be2971fe366e3ac05b537fa80caad0f5136"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 187,
+      "sha256": "9e090f600f0c9b1f62c6c5b83549cdb08ee29be36259c65a12aa5e8c5a961da9"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 7968,
+      "sha256": "0937602b097e5a8c60c37b95dd27c4d16a44bd414ffda4fd1356b579be366a43"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 54586,
+      "sha256": "5544e3d15a489f7d036d5a5a73fca095e374cd771bfa9819b6a5ae0a571c458f"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 8005,
+      "sha256": "470fc211edff3557003f185d46fb77b67dfa3bff0c816f68d5c4ea57dba7eb88"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 54757,
+      "sha256": "c6c2cc48852c7e43ad9464a8a0ba7112215117b9978e7bc3653093a0a3007c52"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2192,
+      "sha256": "94ce3d757613e4802d8d509c662b8f4d73e661ab7cfe2e7964d321dd28362d62"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7214,
+      "sha256": "88d9a8141573f90882d77b8bb42c9f859b7752a56263f29f41e6d2509feeedd5"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "bytes": 374,
+      "sha256": "81df25c67125db368828a8d093aac1699ded97dab7644bab44945ce6682f4407"
+    },
+    {
+      "path": "linux/ubuntu-22.04-arm/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04-arm/verification-summary.json",
+      "bytes": 3177,
+      "sha256": "943cae352daa315229ed15976b8b55bab631257124661ebc3e88531a9224f21f"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 3124,
+      "sha256": "71280c2a1c7b7834ef11f60401c28bfafae5e7bc6d6f786d80088aaca8dbed04"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1016,
+      "sha256": "5557650af09032617e3da852a3f6aa062f710e203475cd7d283c9c810573bc66"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1090,
+      "sha256": "1c7b5dc8df43b4b7ac3460464f38e5f96f6fd710f98b3a33d882ab2fc13430de"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "a7295afc0d01502ce2ccbf875ea59a2d8621518235b392b1f556fffaef407b25"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "b28e5e6f99bc77cae704ad333fdcccd85f4938cd280709d6d371627a077a72f3"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 45,
+      "sha256": "24f005362d9b40fed55d36310a7df454de52e6a57e7da7bfdacb6ac7e3ececa2"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/native.json",
+      "bytes": 1737,
+      "sha256": "2507d4c02ad33b1ee92eeb25db6c153d72086eb6bfc83c5271a485a2f918849b"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 185,
+      "sha256": "39c28e3d07ea4eb574c25c6cfae2275e2f9cb7e99d0cdbee2ecddf1fb75795ca"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 7966,
+      "sha256": "877f5ec392d55a4d43c65bae977341fd4469a541d27315d7614e345e5184d958"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 54874,
+      "sha256": "1e9e2a7cafaf141a94e74aebcd707a146dc6be4289bf4f28900cbb109bd135bf"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 8002,
+      "sha256": "12e1ef78c6f48fda978b30902bb04f6583f2b1380123650ceedc19ec349e2ac4"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 55927,
+      "sha256": "934fdd68b80d17408bca50ef3160a80869537866b8e54a261e0cd7c43ff99407"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2183,
+      "sha256": "d943bbffdab1027d8e6d1f6a663ddf78eb2451de2a124b2b1827a79b192da21d"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-22.04/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7218,
+      "sha256": "be7132c2a5b19aca977fd3404b612286243a85eaf81059b09ee6e3599cf8f13b"
+    },
+    {
+      "path": "linux/ubuntu-22.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "bytes": 373,
+      "sha256": "aa93def8ed1d879c7cb13b866152d90d6360a76c735528e7242041a2e130d8fb"
+    },
+    {
+      "path": "linux/ubuntu-22.04/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/verification-summary.json",
+      "bytes": 2970,
+      "sha256": "7c178c82c60618f3dbb81fb384d4364ebc6a77f4b09ab07e99479db002eef013"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 3128,
+      "sha256": "ec97496bc4bbb0f12f006052e20d78a7fb483bfccf9a75872f05ec6fefaaf518"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1012,
+      "sha256": "82654a49127f921a218d386ffbc8b7a4a124e5f71a69dd903376a820948bb924"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "b600b6eeed2984c514c6001545cd1975046dac2d08fbb3abd2e4209e2b846945"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "dc34484cbe884383c64dcb61afbd027068b6190b62efeb8d6739dcc7b4505ce0"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "5d1489a9aeadc2e403fccc87dd5b437115eb270c467e1dbb3ca3b8083ed5fc80"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 51,
+      "sha256": "17c7cbd8b290054e93bc25d4b0e4997cecc369ebd5e35a4c979db8986338d47d"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/native.json",
+      "bytes": 1750,
+      "sha256": "96d3548b936910a9f0c63d6f00e42c2bd1f40330962482b290ca1ce988e0aaba"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 187,
+      "sha256": "9e090f600f0c9b1f62c6c5b83549cdb08ee29be36259c65a12aa5e8c5a961da9"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 8134,
+      "sha256": "6ce8414fead4349d60d9be1036dc9d6304ff66ccdef67f81f5fb69aec2d80e04"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 54554,
+      "sha256": "b6111c9c9596482e3b7201bffa62023a82d1fd934b00b0dd6f2900d04cd9ecd2"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 7997,
+      "sha256": "2aac6bb01f2aa622099cd7a006951a952d746dd0dae5319fdc7b93cfe5f7ec04"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 54674,
+      "sha256": "158269a1cbff9ce2d9dd5f9ebb203c08e2796723274ee51708ddc5e8b07391c6"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2192,
+      "sha256": "34bb176ff11481f8dab8010b42651d395bda5995f1c252bdd0320f3a6c197c56"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7217,
+      "sha256": "ec3c17a80eec9d772d6741b7a6d8879f31d0ec3a8a147f860127950bb7a37b0f"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/test/binaries/bee-aarch64-unknown-linux-gnu.source.json",
+      "bytes": 374,
+      "sha256": "a7ee237f504dbcf8b63408390861880c71b248d77d5174c75c0e6687cce59a90"
+    },
+    {
+      "path": "linux/ubuntu-24.04-arm/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04-arm/verification-summary.json",
+      "bytes": 3347,
+      "sha256": "4a2120ddbdfb47e8fac07e23ed561fef0c94e7122e4f618bee2c93b4e1148c3b"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/appimage-tooling.log",
+      "bytes": 3130,
+      "sha256": "9d97d24410749422b4e44dccafe0553c2474e3fed0b691f1155e98a9ce82611e"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/bridge.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/bridge.log",
+      "bytes": 1016,
+      "sha256": "c02f964c1a45d521945f2113f462605e1c0bbd733b9ddd0a3d984b240e870e0a"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/browser-e2e.log",
+      "bytes": 1089,
+      "sha256": "7f1274121607b8b951a55be2b1fb321fafe954541bc7fdb18d88df9890ffc8e7"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/cargo-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/cargo-test.log",
+      "bytes": 24137,
+      "sha256": "a7ff3a9a54d5e232298a8a2b031bd1e7b5d88152939ea06953dda9931f0765e3"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/go-test.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/go-test.log",
+      "bytes": 303,
+      "sha256": "2a53ef282f14b80993806c44d7ac6b4ef688cbd2e8fd62a3f81c00c408934cf2"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/hosted-image.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/hosted-image.log",
+      "bytes": 45,
+      "sha256": "b0e3ebc73a7617d269762b98b6aa4cd35ec9e255a75914815e3386122b8b41d9"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/native.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/native.json",
+      "bytes": 1738,
+      "sha256": "2c44affdd59b6eb737b429a8a9a3d71e8c35808c3179ea325433b8bc65513d6d"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/sidecar.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/sidecar.log",
+      "bytes": 185,
+      "sha256": "39c28e3d07ea4eb574c25c6cfae2275e2f9cb7e99d0cdbee2ecddf1fb75795ca"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-extract/smoke.json",
+      "bytes": 7966,
+      "sha256": "1d4287c8759349b186d44b9fc9ca1214cf43370f30c98d1e876cd24c4154b129"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-extract/startup/window.png",
+      "bytes": 54534,
+      "sha256": "86d28ccbbbad7f6999e06ca5ca04733bb55afec5b06bf24b84be959d4770937d"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-fuse/smoke.json",
+      "bytes": 7650,
+      "sha256": "6d248620f0517e2510663df5eccf2985f650ee1cb947cb183898f443676c2d05"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/smoke-fuse/startup/window.png",
+      "bytes": 54560,
+      "sha256": "e9c484608aa953a8e9e10b37f82f3334edc3206d1bbfa5359a4776838d35450f"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/tauri-build.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/tauri-build.log",
+      "bytes": 2183,
+      "sha256": "561f756f4f4ff96fd099f520e32aec564ff742c83a8f474a636dc5dcf1fc7c37"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/tee.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/tee.log",
+      "bytes": 206,
+      "sha256": "b5cfa21cdcc9cf3858405242a7f3588dd24a1250bda174c724f1aa003b58822e"
+    },
+    {
+      "path": "linux/ubuntu-24.04/checks/desktop-ci-evidence/tooling.log",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/checks/desktop-ci-evidence/tooling.log",
+      "bytes": 7217,
+      "sha256": "0f157537ce4361c719b16918b06a355fc0cd68d79747d5dc610ffe531940c6e2"
+    },
+    {
+      "path": "linux/ubuntu-24.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "bytes": 373,
+      "sha256": "853f8737117c1d632b3bfa369d03e82e191852277321227b8acada0221c2914c"
+    },
+    {
+      "path": "linux/ubuntu-24.04/verification-summary.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/verification-summary.json",
+      "bytes": 2970,
+      "sha256": "391b11109792da79d10b2e69a2fe754a57fdb860b4363fbfbf0649777ac88de6"
+    },
+    {
+      "path": "pinned-source/desktop/scripts/smoke-linux-appimage.mjs",
+      "source": ".cache/qa/p1-native-remote-9ca837d/pinned-source/desktop/scripts/smoke-linux-appimage.mjs",
+      "bytes": 17517,
+      "sha256": "644aee1db290acba42a3ae10727b2d067154cd178bd4112149d04e570f2671e4"
+    },
+    {
+      "path": "pinned-source/desktop/tests/linux-appimage.test.mjs",
+      "source": ".cache/qa/p1-native-remote-9ca837d/pinned-source/desktop/tests/linux-appimage.test.mjs",
+      "bytes": 20132,
+      "sha256": "ac006598d7bdacd1744c52c14fa02224ba76c01d17c6d10d5055ba900f766859"
+    },
+    {
+      "path": "redundant-macos-run-final.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/redundant-macos-run-final.json",
+      "bytes": 302,
+      "sha256": "e4a0bd8d40beca09b4d98f89c4eda0ac88fbbe943c097bcb69713b6df38f3bed"
+    },
+    {
+      "path": "redundant-protected-run-final.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/redundant-protected-run-final.json",
+      "bytes": 2849,
+      "sha256": "32ab2c2a99e93aa5b1de89b13d4abd509c954a93c910e26958d07ed740cf2a75"
+    },
+    {
+      "path": "redundant-runs-cancel-request.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/redundant-runs-cancel-request.json",
+      "bytes": 1192,
+      "sha256": "85b41de21f48fa40979b72c5246eac42542af7ec497ac89c8f8b36aed783bdde"
+    },
+    {
+      "path": "redundant-windows-run-final.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/redundant-windows-run-final.json",
+      "bytes": 4015,
+      "sha256": "c6cddfb3e66e68a3109d3cd3727925423a907098d7db5ea9216b98de7a325cc5"
+    },
+    {
+      "path": "run-39941148651-latest.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/run-39941148651-latest.json",
+      "bytes": 23074,
+      "sha256": "b5d538d7f0025dc66b9bf0ad59bd84877b95aa524ea4dca077c9d5d980571692"
+    },
+    {
+      "path": "segmented-download-result.json",
+      "source": ".cache/qa/p1-native-remote-9ca837d/segmented-download-result.json",
+      "bytes": 5003,
+      "sha256": "8564a03e866ee8391e4413f794bfc556f5af877d9832a6b2dc6f5ba8a41f5bd9"
+    },
+    {
+      "path": "verify-linux.py",
+      "source": ".cache/qa/p1-native-remote-9ca837d/verify-linux.py",
+      "bytes": 4909,
+      "sha256": "b13ea4525cf03b6d7349e410c1fb0b40d5d10f15fea3654acab45761b494a378"
+    }
+  ]
+}

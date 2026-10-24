@@ -1,0 +1,150 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test
+
+
+Running 489 tests using 2 workers
+················································································
+················································································
+················································································
+················································································
+······TT··TT····································································
+················································································
+·········
+
+  1) [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ─────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })
+        - locator resolved to <button>…</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+
+
+      4 | async function accounts(page: import('@playwright/test').Page, scene = 'ready') {
+      5 |   await page.goto(`/?scene=${scene}`);
+    > 6 |   await page.getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true }).click();
+        |                                                                                          ^
+      7 | }
+      8 | test('双入口、检测登录和详情分别表达能力、市场与额度时效', async ({ page }) => {
+      9 |   await accounts(page, 'empty');
+        at accounts (/Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:6:90)
+        at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:9:3
+
+    Error Context: test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ──────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })
+
+
+      4 | async function accounts(page: import('@playwright/test').Page, scene = 'ready') {
+      5 |   await page.goto(`/?scene=${scene}`);
+    > 6 |   await page.getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true }).click();
+        |                                                                                          ^
+      7 | }
+      8 | test('双入口、检测登录和详情分别表达能力、市场与额度时效', async ({ page }) => {
+      9 |   await accounts(page, 'empty');
+        at accounts (/Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:6:90)
+        at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:25:3
+
+    Error Context: test-results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ──────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })
+        - locator resolved to <button type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog">确认换号</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+
+
+      44 |   await accounts(page, 'account-change');
+      45 |   const openai = page.getByRole('region', { name: 'OpenAI 账号' });
+    > 46 |   await openai.getByRole('button', { name: '确认换号' }).click();
+         |                                                      ^
+      47 |   await expect(page.getByRole('dialog')).toContainText('dayong@example.com');
+      48 |   await expect(page.getByRole('dialog')).toContainText('another@example.com');
+      49 |   await expect(page.getByRole('dialog')).toContainText('历史收益');
+        at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:46:54
+
+    Error Context: test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ───────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })
+        - locator resolved to <button class="quiet" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog">移除账号</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - performing click action
+
+
+      59 |     await accounts(page, scene);
+      60 |     const openai = page.getByRole('region', { name: 'OpenAI 账号' });
+    > 61 |     await openai.getByRole('button', { name: '移除账号' }).click();
+         |                                                        ^
+      62 |     await expect(page.getByRole('dialog')).toContainText('官方客户端登录和历史收益');
+      63 |     await page.getByRole('button', { name: '确认移除', exact: true }).click();
+      64 |     await expect(openai).toContainText(
+        at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:61:56
+
+    Error Context: test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ──────────────────────────────
+    [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ───────────────────────────────────────
+    [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ───────────────────────────────
+    [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ────────────────────────────
+  485 passed (34.3m)

@@ -1,0 +1,32 @@
+{
+  "scope": "Failed CUA window acquisition; close/reopen not executed, no new native pass",
+  "sourceRevision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "files": [
+    {
+      "path": "README.md",
+      "source": ".cache/qa/p1-mac-close-reopen-87b28a2/README.md",
+      "bytes": 1333,
+      "sha256": "0d7ce36b59e567e30f37887c93001e5c1764fdf1ef34527acd981368031ffad5"
+    },
+    {
+      "path": "attempt.json",
+      "source": ".cache/qa/p1-mac-close-reopen-87b28a2/attempt.json",
+      "bytes": 1186,
+      "sha256": "033b2ffce074c597e553f4ac8345c1ba9ae1df21750e236f16cc7e0f29a1be45"
+    },
+    {
+      "path": "before-processes.json",
+      "source": ".cache/qa/p1-mac-close-reopen-87b28a2/before-processes.json",
+      "bytes": 801,
+      "sha256": "d99222de3780f294b9195c88b2c1d591cdea6a176726ad2827b1dd1fc07daa69"
+    },
+    {
+      "path": "cleanup.json",
+      "source": ".cache/qa/p1-mac-close-reopen-87b28a2/cleanup.json",
+      "bytes": 770,
+      "sha256": "0358d29f31f4a4651e0ff940152528926e71819658098bd31ade594bc2e420b8"
+    }
+  ],
+  "fileCountExcludingManifest": 4,
+  "totalBytesExcludingManifest": 4090
+}

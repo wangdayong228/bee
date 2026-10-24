@@ -1,0 +1,216 @@
+{
+  "ok": true,
+  "mode": "extract",
+  "target": "x86_64-unknown-linux-gnu",
+  "recordedAt": "2026-10-23T10:17:04.287Z",
+  "limitations": [
+    "not clean-user installation",
+    "not tray or UI readiness acceptance",
+    "signal cleanup is not app menu exit acceptance"
+  ],
+  "package": {
+    "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+    "bytes": 148675064,
+    "sha256": "949c2f962051646c18d9cddaf5673e2bc77a9fccaed66aa4258da337fe2eaff0"
+  },
+  "sourceSha256": "90b6523f0a323e6198d211d98777ae9185a89bd545ebf964fef1988f2126c7a7",
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "packagedBee": {
+    "path": "/tmp/bee-appimage-smoke-NPrU7I/squashfs-root/usr/bin/bee",
+    "sha256": "de6010d15e690aedab86c4ae1e3801ad0b424374ac9c53bcf4ec14960e6bb9b3"
+  },
+  "provenance": {
+    "binaryPath": "/tmp/bee-appimage-smoke-NPrU7I/squashfs-root/usr/bin/bee",
+    "binarySha256": "de6010d15e690aedab86c4ae1e3801ad0b424374ac9c53bcf4ec14960e6bb9b3",
+    "source": {
+      "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "x86_64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "amd64",
+      "go": "go version go1.27.3 linux/amd64",
+      "beeVersion": "dev+87b28a29aa84-dirty",
+      "binarySha256": "de6010d15e690aedab86c4ae1e3801ad0b424374ac9c53bcf4ec14960e6bb9b3"
+    }
+  },
+  "observation": {
+    "ok": true,
+    "program": "/tmp/bee-appimage-smoke-NPrU7I/squashfs-root/AppRun",
+    "args": [],
+    "scope": "native window startup only; no UI interaction or readiness assertion",
+    "processes": [
+      {
+        "pid": 49462,
+        "parent": 49453,
+        "group": 49462,
+        "state": "Ssl",
+        "command": "bee-desktop"
+      },
+      {
+        "pid": 49493,
+        "parent": 49462,
+        "group": 49462,
+        "state": "SLl",
+        "command": "WebKitNetworkPr"
+      },
+      {
+        "pid": 49519,
+        "parent": 49462,
+        "group": 49462,
+        "state": "SLl",
+        "command": "WebKitWebProces"
+      },
+      {
+        "pid": 49593,
+        "parent": 49462,
+        "group": 49462,
+        "state": "Sl",
+        "command": "bee"
+      }
+    ],
+    "samples": [
+      {
+        "phase": "initial",
+        "startedAt": "2026-10-23T10:17:05.390Z",
+        "elapsedMs": 260,
+        "window": {
+          "id": "2097155",
+          "pid": 49462,
+          "title": "Bee · 开发验证"
+        },
+        "windows": [
+          {
+            "id": "2097155",
+            "pid": 49462,
+            "title": "Bee · 开发验证"
+          }
+        ],
+        "processes": [
+          {
+            "pid": 49462,
+            "parent": 49453,
+            "group": 49462,
+            "state": "Ssl",
+            "command": "bee-desktop"
+          },
+          {
+            "pid": 49493,
+            "parent": 49462,
+            "group": 49462,
+            "state": "SLl",
+            "command": "WebKitNetworkPr"
+          },
+          {
+            "pid": 49519,
+            "parent": 49462,
+            "group": 49462,
+            "state": "RLl",
+            "command": "WebKitWebProces"
+          }
+        ],
+        "geometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=1000\nHEIGHT=700\nSCREEN=0",
+        "tree": "xwininfo: Window id: 0x200003 \"Bee · 开发验证\"\n\n  Root window id: 0x50d (the root window) (has no name)\n  Parent window id: 0x50d (the root window) (has no name)\n     1 child:\n     0x200004 (has no name): ()  1x1+-1+-1  +-1+-1",
+        "windowCapture": {
+          "path": "/home/runner/work/bee/bee/desktop-ci-evidence/smoke-extract/startup/window.initial.png",
+          "startedAt": "2026-10-23T10:17:05.407Z",
+          "completedAt": "2026-10-23T10:17:05.487Z"
+        },
+        "completedAt": "2026-10-23T10:17:05.487Z"
+      },
+      {
+        "phase": "final",
+        "startedAt": "2026-10-23T10:17:15.584Z",
+        "elapsedMs": 10454,
+        "window": {
+          "id": "2097155",
+          "pid": 49462,
+          "title": "Bee · 开发验证"
+        },
+        "windows": [
+          {
+            "id": "2097155",
+            "pid": 49462,
+            "title": "Bee · 开发验证"
+          }
+        ],
+        "processes": [
+          {
+            "pid": 49462,
+            "parent": 49453,
+            "group": 49462,
+            "state": "Ssl",
+            "command": "bee-desktop"
+          },
+          {
+            "pid": 49493,
+            "parent": 49462,
+            "group": 49462,
+            "state": "SLl",
+            "command": "WebKitNetworkPr"
+          },
+          {
+            "pid": 49519,
+            "parent": 49462,
+            "group": 49462,
+            "state": "SLl",
+            "command": "WebKitWebProces"
+          },
+          {
+            "pid": 49593,
+            "parent": 49462,
+            "group": 49462,
+            "state": "Sl",
+            "command": "bee"
+          }
+        ],
+        "geometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=1000\nHEIGHT=700\nSCREEN=0",
+        "tree": "xwininfo: Window id: 0x200003 \"Bee · 开发验证\"\n\n  Root window id: 0x50d (the root window) (has no name)\n  Parent window id: 0x50d (the root window) (has no name)\n     1 child:\n     0x200004 (has no name): ()  1x1+-1+-1  +-1+-1",
+        "windowCapture": {
+          "path": "/home/runner/work/bee/bee/desktop-ci-evidence/smoke-extract/startup/window.png",
+          "startedAt": "2026-10-23T10:17:15.589Z",
+          "completedAt": "2026-10-23T10:17:15.626Z"
+        },
+        "desktopCapture": {
+          "path": "/home/runner/work/bee/bee/desktop-ci-evidence/smoke-extract/startup/root.png",
+          "startedAt": "2026-10-23T10:17:15.626Z",
+          "completedAt": "2026-10-23T10:17:15.681Z"
+        },
+        "completedAt": "2026-10-23T10:17:15.681Z"
+      }
+    ],
+    "pid": 49462,
+    "lastWindows": [
+      {
+        "id": "2097155",
+        "pid": 49462,
+        "title": "Bee · 开发验证"
+      }
+    ],
+    "window": {
+      "id": "2097155",
+      "pid": 49462,
+      "title": "Bee · 开发验证"
+    },
+    "observedMs": 10204,
+    "exit": {
+      "code": null,
+      "signal": "SIGTERM"
+    },
+    "cleanup": {
+      "signals": [
+        "SIGTERM"
+      ],
+      "liveRemaining": [],
+      "zombies": [
+        {
+          "pid": 49519,
+          "parent": 1,
+          "group": 49462,
+          "state": "Zl",
+          "command": "WebKitWebProces <defunct>"
+        }
+      ],
+      "parentClosed": true
+    }
+  }
+}

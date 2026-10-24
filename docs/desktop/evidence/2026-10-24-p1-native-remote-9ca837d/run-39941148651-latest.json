@@ -1,0 +1,695 @@
+{
+  "conclusion": "success",
+  "databaseId": 39941148651,
+  "headBranch": "feat/bee-desktop-p0",
+  "headSha": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "jobs": [
+    {
+      "completedAt": "2026-10-23T11:52:57Z",
+      "conclusion": "success",
+      "databaseId": 120391948358,
+      "name": "ubuntu-24.04 / x86_64-unknown-linux-gnu",
+      "startedAt": "2026-10-23T11:34:12Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-23T11:34:14Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-23T11:34:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:16Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-23T11:34:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:22Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v4",
+          "number": 3,
+          "startedAt": "2026-10-23T11:34:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:33Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-go@v5",
+          "number": 4,
+          "startedAt": "2026-10-23T11:34:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:09Z",
+          "conclusion": "success",
+          "name": "Prepare native Rust and Ubuntu desktop dependencies",
+          "number": 5,
+          "startedAt": "2026-10-23T11:34:33Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:10Z",
+          "conclusion": "success",
+          "name": "Record actual native tools, OS and CPU",
+          "number": 6,
+          "startedAt": "2026-10-23T11:35:09Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:13Z",
+          "conclusion": "success",
+          "name": "Prepare fixed TEE source",
+          "number": 7,
+          "startedAt": "2026-10-23T11:35:10Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:04Z",
+          "conclusion": "success",
+          "name": "Go vet and full native regression",
+          "number": 8,
+          "startedAt": "2026-10-23T11:35:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:22Z",
+          "conclusion": "success",
+          "name": "Locked frontend install, typecheck, build and tooling",
+          "number": 9,
+          "startedAt": "2026-10-23T11:37:04Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:47:42Z",
+          "conclusion": "success",
+          "name": "Locked Chromium, Firefox and WebKit browser E2E",
+          "number": 10,
+          "startedAt": "2026-10-23T11:37:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:50:39Z",
+          "conclusion": "success",
+          "name": "Build actual native Bee and test Rust bridge",
+          "number": 11,
+          "startedAt": "2026-10-23T11:47:42Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:18Z",
+          "conclusion": "success",
+          "name": "Build P1 demo development AppImage",
+          "number": 12,
+          "startedAt": "2026-10-23T11:50:39Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:30Z",
+          "conclusion": "success",
+          "name": "Extracted AppImage payload native startup under Xvfb",
+          "number": 13,
+          "startedAt": "2026-10-23T11:52:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:43Z",
+          "conclusion": "success",
+          "name": "Record FUSE availability and independently test direct launch",
+          "number": 14,
+          "startedAt": "2026-10-23T11:52:30Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:49Z",
+          "conclusion": "success",
+          "name": "Retain built test package even if startup or provenance fails",
+          "number": 15,
+          "startedAt": "2026-10-23T11:52:43Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:54Z",
+          "conclusion": "success",
+          "name": "Retain checks, screenshots and failure evidence",
+          "number": 16,
+          "startedAt": "2026-10-23T11:52:49Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:54Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-go@v5",
+          "number": 30,
+          "startedAt": "2026-10-23T11:52:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:54Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v4",
+          "number": 31,
+          "startedAt": "2026-10-23T11:52:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:54Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 32,
+          "startedAt": "2026-10-23T11:52:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:54Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 33,
+          "startedAt": "2026-10-23T11:52:54Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/wangdayong228/bee/actions/runs/39941148651/job/120391948358"
+    },
+    {
+      "completedAt": "2026-10-23T11:52:25Z",
+      "conclusion": "success",
+      "databaseId": 120391948499,
+      "name": "ubuntu-22.04-arm / aarch64-unknown-linux-gnu",
+      "startedAt": "2026-10-23T11:34:14Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-23T11:34:16Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-23T11:34:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:18Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-23T11:34:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:22Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v4",
+          "number": 3,
+          "startedAt": "2026-10-23T11:34:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:29Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-go@v5",
+          "number": 4,
+          "startedAt": "2026-10-23T11:34:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:19Z",
+          "conclusion": "success",
+          "name": "Prepare native Rust and Ubuntu desktop dependencies",
+          "number": 5,
+          "startedAt": "2026-10-23T11:34:29Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:19Z",
+          "conclusion": "success",
+          "name": "Record actual native tools, OS and CPU",
+          "number": 6,
+          "startedAt": "2026-10-23T11:35:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:22Z",
+          "conclusion": "success",
+          "name": "Prepare fixed TEE source",
+          "number": 7,
+          "startedAt": "2026-10-23T11:35:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:36:52Z",
+          "conclusion": "success",
+          "name": "Go vet and full native regression",
+          "number": 8,
+          "startedAt": "2026-10-23T11:35:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:07Z",
+          "conclusion": "success",
+          "name": "Locked frontend install, typecheck, build and tooling",
+          "number": 9,
+          "startedAt": "2026-10-23T11:36:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:46:25Z",
+          "conclusion": "success",
+          "name": "Locked Chromium, Firefox and WebKit browser E2E",
+          "number": 10,
+          "startedAt": "2026-10-23T11:37:07Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:49:44Z",
+          "conclusion": "success",
+          "name": "Build actual native Bee and test Rust bridge",
+          "number": 11,
+          "startedAt": "2026-10-23T11:46:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:51:48Z",
+          "conclusion": "success",
+          "name": "Build P1 demo development AppImage",
+          "number": 12,
+          "startedAt": "2026-10-23T11:49:44Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:00Z",
+          "conclusion": "success",
+          "name": "Extracted AppImage payload native startup under Xvfb",
+          "number": 13,
+          "startedAt": "2026-10-23T11:51:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:13Z",
+          "conclusion": "success",
+          "name": "Record FUSE availability and independently test direct launch",
+          "number": 14,
+          "startedAt": "2026-10-23T11:52:00Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:17Z",
+          "conclusion": "success",
+          "name": "Retain built test package even if startup or provenance fails",
+          "number": 15,
+          "startedAt": "2026-10-23T11:52:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:21Z",
+          "conclusion": "success",
+          "name": "Retain checks, screenshots and failure evidence",
+          "number": 16,
+          "startedAt": "2026-10-23T11:52:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:21Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-go@v5",
+          "number": 30,
+          "startedAt": "2026-10-23T11:52:21Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:22Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v4",
+          "number": 31,
+          "startedAt": "2026-10-23T11:52:21Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:22Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 32,
+          "startedAt": "2026-10-23T11:52:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:22Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 33,
+          "startedAt": "2026-10-23T11:52:22Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/wangdayong228/bee/actions/runs/39941148651/job/120391948499"
+    },
+    {
+      "completedAt": "2026-10-23T11:52:45Z",
+      "conclusion": "success",
+      "databaseId": 120391948517,
+      "name": "ubuntu-24.04-arm / aarch64-unknown-linux-gnu",
+      "startedAt": "2026-10-23T11:34:14Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-23T11:34:17Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-23T11:34:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:19Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-23T11:34:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:24Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v4",
+          "number": 3,
+          "startedAt": "2026-10-23T11:34:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:32Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-go@v5",
+          "number": 4,
+          "startedAt": "2026-10-23T11:34:24Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:38Z",
+          "conclusion": "success",
+          "name": "Prepare native Rust and Ubuntu desktop dependencies",
+          "number": 5,
+          "startedAt": "2026-10-23T11:34:32Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:38Z",
+          "conclusion": "success",
+          "name": "Record actual native tools, OS and CPU",
+          "number": 6,
+          "startedAt": "2026-10-23T11:35:38Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:41Z",
+          "conclusion": "success",
+          "name": "Prepare fixed TEE source",
+          "number": 7,
+          "startedAt": "2026-10-23T11:35:38Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:15Z",
+          "conclusion": "success",
+          "name": "Go vet and full native regression",
+          "number": 8,
+          "startedAt": "2026-10-23T11:35:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:31Z",
+          "conclusion": "success",
+          "name": "Locked frontend install, typecheck, build and tooling",
+          "number": 9,
+          "startedAt": "2026-10-23T11:37:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:46:52Z",
+          "conclusion": "success",
+          "name": "Locked Chromium, Firefox and WebKit browser E2E",
+          "number": 10,
+          "startedAt": "2026-10-23T11:37:31Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:50:04Z",
+          "conclusion": "success",
+          "name": "Build actual native Bee and test Rust bridge",
+          "number": 11,
+          "startedAt": "2026-10-23T11:46:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:07Z",
+          "conclusion": "success",
+          "name": "Build P1 demo development AppImage",
+          "number": 12,
+          "startedAt": "2026-10-23T11:50:04Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:19Z",
+          "conclusion": "success",
+          "name": "Extracted AppImage payload native startup under Xvfb",
+          "number": 13,
+          "startedAt": "2026-10-23T11:52:07Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:31Z",
+          "conclusion": "success",
+          "name": "Record FUSE availability and independently test direct launch",
+          "number": 14,
+          "startedAt": "2026-10-23T11:52:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:35Z",
+          "conclusion": "success",
+          "name": "Retain built test package even if startup or provenance fails",
+          "number": 15,
+          "startedAt": "2026-10-23T11:52:31Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:41Z",
+          "conclusion": "success",
+          "name": "Retain checks, screenshots and failure evidence",
+          "number": 16,
+          "startedAt": "2026-10-23T11:52:35Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:41Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-go@v5",
+          "number": 30,
+          "startedAt": "2026-10-23T11:52:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:41Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v4",
+          "number": 31,
+          "startedAt": "2026-10-23T11:52:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:41Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 32,
+          "startedAt": "2026-10-23T11:52:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:41Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 33,
+          "startedAt": "2026-10-23T11:52:41Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/wangdayong228/bee/actions/runs/39941148651/job/120391948517"
+    },
+    {
+      "completedAt": "2026-10-23T11:55:16Z",
+      "conclusion": "success",
+      "databaseId": 120391948718,
+      "name": "ubuntu-22.04 / x86_64-unknown-linux-gnu",
+      "startedAt": "2026-10-23T11:34:12Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-23T11:34:14Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-23T11:34:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:15Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-23T11:34:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:20Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v4",
+          "number": 3,
+          "startedAt": "2026-10-23T11:34:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:34:29Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-go@v5",
+          "number": 4,
+          "startedAt": "2026-10-23T11:34:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:08Z",
+          "conclusion": "success",
+          "name": "Prepare native Rust and Ubuntu desktop dependencies",
+          "number": 5,
+          "startedAt": "2026-10-23T11:34:29Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:09Z",
+          "conclusion": "success",
+          "name": "Record actual native tools, OS and CPU",
+          "number": 6,
+          "startedAt": "2026-10-23T11:35:08Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:35:11Z",
+          "conclusion": "success",
+          "name": "Prepare fixed TEE source",
+          "number": 7,
+          "startedAt": "2026-10-23T11:35:09Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:13Z",
+          "conclusion": "success",
+          "name": "Go vet and full native regression",
+          "number": 8,
+          "startedAt": "2026-10-23T11:35:11Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:37:31Z",
+          "conclusion": "success",
+          "name": "Locked frontend install, typecheck, build and tooling",
+          "number": 9,
+          "startedAt": "2026-10-23T11:37:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:49:05Z",
+          "conclusion": "success",
+          "name": "Locked Chromium, Firefox and WebKit browser E2E",
+          "number": 10,
+          "startedAt": "2026-10-23T11:37:31Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:52:26Z",
+          "conclusion": "success",
+          "name": "Build actual native Bee and test Rust bridge",
+          "number": 11,
+          "startedAt": "2026-10-23T11:49:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:54:37Z",
+          "conclusion": "success",
+          "name": "Build P1 demo development AppImage",
+          "number": 12,
+          "startedAt": "2026-10-23T11:52:26Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:54:50Z",
+          "conclusion": "success",
+          "name": "Extracted AppImage payload native startup under Xvfb",
+          "number": 13,
+          "startedAt": "2026-10-23T11:54:37Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:03Z",
+          "conclusion": "success",
+          "name": "Record FUSE availability and independently test direct launch",
+          "number": 14,
+          "startedAt": "2026-10-23T11:54:50Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:09Z",
+          "conclusion": "success",
+          "name": "Retain built test package even if startup or provenance fails",
+          "number": 15,
+          "startedAt": "2026-10-23T11:55:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:14Z",
+          "conclusion": "success",
+          "name": "Retain checks, screenshots and failure evidence",
+          "number": 16,
+          "startedAt": "2026-10-23T11:55:09Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:14Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-go@v5",
+          "number": 30,
+          "startedAt": "2026-10-23T11:55:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:14Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v4",
+          "number": 31,
+          "startedAt": "2026-10-23T11:55:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:15Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 32,
+          "startedAt": "2026-10-23T11:55:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-23T11:55:15Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 33,
+          "startedAt": "2026-10-23T11:55:15Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/wangdayong228/bee/actions/runs/39941148651/job/120391948718"
+    }
+  ],
+  "name": "Desktop hosted Linux native evidence",
+  "status": "completed",
+  "url": "https://github.com/wangdayong228/bee/actions/runs/39941148651"
+}

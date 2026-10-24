@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-24T02:28:46.381411+00:00",
+  "processes": [
+    "66092     1 S    /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+    "66099 66092 S    /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee desktop"
+  ],
+  "cuaAttempts": [
+    {
+      "action": "getApp exact packaged App path, first call",
+      "error": "Computer Use server error -10005: cgWindowNotFound"
+    },
+    {
+      "action": "listApps after launch",
+      "result": "dev.tokhive.bee isRunning=true; no window entry returned"
+    },
+    {
+      "action": "getApp same exact running path",
+      "error": "Computer Use server error -10005: cgWindowNotFound"
+    },
+    {
+      "action": "getApp com.apple.dock",
+      "error": "Computer Use server error -10005: timeoutReached"
+    },
+    {
+      "action": "getApp com.apple.finder",
+      "error": "Computer Use server error -10005: cgWindowNotFound"
+    }
+  ],
+  "verdict": "close/reopen not executed; tool could not acquire window; no product conclusion"
+}

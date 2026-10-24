@@ -1,0 +1,932 @@
+﻿2026-10-23T10:03:12.2517170Z Current runner version: '2.338.0'
+2026-10-23T10:03:12.2606750Z ##[group]Runner Image Provisioner
+2026-10-23T10:03:12.2608400Z Hosted Compute Agent
+2026-10-23T10:03:12.2610850Z Version: 20260819.586
+2026-10-23T10:03:12.2613710Z Commit: 3cc4a88dfa507ef76119ad1bb3eccc6378bb2b76
+2026-10-23T10:03:12.2616080Z Build Date: 2026-08-18T23:20:18Z
+2026-10-23T10:03:12.2619000Z Worker ID: {907bdc21-968c-4025-b8fa-18f341c9edce}
+2026-10-23T10:03:12.2621350Z Azure Region: westus
+2026-10-23T10:03:12.2623130Z ##[endgroup]
+2026-10-23T10:03:12.2628250Z ##[group]Operating System
+2026-10-23T10:03:12.2630140Z macOS
+2026-10-23T10:03:12.2631670Z 15.7.9
+2026-10-23T10:03:12.2633100Z 24G830
+2026-10-23T10:03:12.2634490Z ##[endgroup]
+2026-10-23T10:03:12.2636620Z ##[group]Runner Image
+2026-10-23T10:03:12.2638290Z Image: macos-15
+2026-10-23T10:03:12.2640710Z Version: 20260824.0482.1
+2026-10-23T10:03:12.2644830Z Included Software: https://github.com/actions/runner-images/blob/macos-15/20260824.0482/images/macos/macos-15-Readme.md
+2026-10-23T10:03:12.2649730Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-15%2F20260824.0482
+2026-10-23T10:03:12.2652970Z ##[endgroup]
+2026-10-23T10:03:12.2656390Z ##[group]GITHUB_TOKEN Permissions
+2026-10-23T10:03:12.2665190Z Contents: read
+2026-10-23T10:03:12.2666830Z Metadata: read
+2026-10-23T10:03:12.2668400Z ##[endgroup]
+2026-10-23T10:03:12.2673740Z Secret source: Actions
+2026-10-23T10:03:12.2676390Z Cache mode: write
+2026-10-23T10:03:12.2680230Z Prepare workflow directory
+2026-10-23T10:03:12.4555130Z Prepare all required actions
+2026-10-23T10:03:12.4701070Z Getting action download info
+2026-10-23T10:03:12.8252170Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-23T10:03:13.1819970Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-23T10:03:13.4785410Z Download action repository 'actions/setup-go@v5' (SHA:40f1582b2485089dde7abd97c1529aa768e1baff)
+2026-10-23T10:03:14.5810260Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-23T10:03:15.3964850Z Complete job name: macOS 15 Intel native Bee, Rust bridge and P1 demo DMG
+2026-10-23T10:03:15.8969120Z ##[group]Run actions/checkout@v4
+2026-10-23T10:03:15.8991240Z with:
+2026-10-23T10:03:15.8994600Z   persist-credentials: false
+2026-10-23T10:03:15.9000820Z   repository: wangdayong228/bee
+2026-10-23T10:03:15.9044040Z   token: ***
+2026-10-23T10:03:15.9047390Z   ssh-strict: true
+2026-10-23T10:03:15.9050520Z   ssh-user: git
+2026-10-23T10:03:15.9053130Z   clean: true
+2026-10-23T10:03:15.9055960Z   sparse-checkout-cone-mode: true
+2026-10-23T10:03:15.9059750Z   fetch-depth: 1
+2026-10-23T10:03:15.9062580Z   fetch-tags: false
+2026-10-23T10:03:15.9066780Z   show-progress: true
+2026-10-23T10:03:15.9070560Z   lfs: false
+2026-10-23T10:03:15.9073970Z   submodules: false
+2026-10-23T10:03:15.9080380Z   set-safe-directory: true
+2026-10-23T10:03:15.9085280Z   allow-unsafe-pr-checkout: false
+2026-10-23T10:03:15.9091190Z env:
+2026-10-23T10:03:15.9097090Z   CI: true
+2026-10-23T10:03:15.9100550Z   GOTOOLCHAIN: local
+2026-10-23T10:03:15.9104540Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:03:15.9109660Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:03:15.9115460Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:03:15.9122130Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:03:15.9126650Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:03:15.9130860Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:03:15.9135250Z ##[endgroup]
+2026-10-23T10:03:16.7995520Z Syncing repository: wangdayong228/bee
+2026-10-23T10:03:16.8021040Z ##[group]Getting Git version info
+2026-10-23T10:03:16.8042020Z Working directory is '/Users/runner/work/bee/bee'
+2026-10-23T10:03:16.8118560Z [command]/usr/local/bin/git version
+2026-10-23T10:03:16.8142130Z git version 2.55.0
+2026-10-23T10:03:16.8304470Z ##[endgroup]
+2026-10-23T10:03:16.8492270Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/fa8ed6bc-1038-4c9a-a5ce-cb33f3c6071d/.gitconfig'
+2026-10-23T10:03:16.8552360Z Temporarily overriding HOME='/Users/runner/work/_temp/fa8ed6bc-1038-4c9a-a5ce-cb33f3c6071d' before making global git config changes
+2026-10-23T10:03:16.8577370Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-23T10:03:16.8588740Z [command]/usr/local/bin/git config --global --add safe.directory /Users/runner/work/bee/bee
+2026-10-23T10:03:16.8718110Z Deleting the contents of '/Users/runner/work/bee/bee'
+2026-10-23T10:03:16.8767060Z ##[group]Initializing the repository
+2026-10-23T10:03:16.8801290Z [command]/usr/local/bin/git init /Users/runner/work/bee/bee
+2026-10-23T10:03:16.8854400Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-23T10:03:16.8893370Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-23T10:03:16.8933390Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-23T10:03:16.8940350Z hint: call:
+2026-10-23T10:03:16.8967230Z hint:
+2026-10-23T10:03:16.9003040Z hint: 	git config --global init.defaultBranch <name>
+2026-10-23T10:03:16.9008620Z hint:
+2026-10-23T10:03:16.9066780Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-23T10:03:16.9172190Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-23T10:03:16.9225570Z hint:
+2026-10-23T10:03:16.9278930Z hint: 	git branch -m <name>
+2026-10-23T10:03:16.9328800Z hint:
+2026-10-23T10:03:16.9365290Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-23T10:03:16.9374690Z Initialized empty Git repository in /Users/runner/work/bee/bee/.git/
+2026-10-23T10:03:16.9490250Z [command]/usr/local/bin/git remote add origin https://github.com/wangdayong228/bee
+2026-10-23T10:03:16.9569610Z ##[endgroup]
+2026-10-23T10:03:16.9606980Z ##[group]Disabling automatic garbage collection
+2026-10-23T10:03:16.9681400Z [command]/usr/local/bin/git config --local gc.auto 0
+2026-10-23T10:03:16.9789470Z ##[endgroup]
+2026-10-23T10:03:16.9823320Z ##[group]Setting up auth
+2026-10-23T10:03:16.9881990Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-23T10:03:16.9944140Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-23T10:03:17.2964620Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-23T10:03:17.3227610Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-23T10:03:17.7581510Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-23T10:03:17.8005750Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-23T10:03:18.0081890Z [command]/usr/local/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-23T10:03:18.0391620Z ##[endgroup]
+2026-10-23T10:03:18.0428830Z ##[group]Fetching the repository
+2026-10-23T10:03:18.0477230Z [command]/usr/local/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +87b28a29aa84c2543b6b80b7e31204646e4fa76a:refs/remotes/origin/feat/bee-desktop-p0
+2026-10-23T10:03:20.0371570Z From https://github.com/wangdayong228/bee
+2026-10-23T10:03:20.0444240Z  * [new ref]         87b28a29aa84c2543b6b80b7e31204646e4fa76a -> origin/feat/bee-desktop-p0
+2026-10-23T10:03:20.0655570Z ##[endgroup]
+2026-10-23T10:03:20.0658300Z ##[group]Determining the checkout info
+2026-10-23T10:03:20.0693570Z ##[endgroup]
+2026-10-23T10:03:20.0731390Z [command]/usr/local/bin/git sparse-checkout disable
+2026-10-23T10:03:20.1043730Z [command]/usr/local/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-23T10:03:20.1414460Z ##[group]Checking out the ref
+2026-10-23T10:03:20.1515440Z [command]/usr/local/bin/git checkout --progress --force -B feat/bee-desktop-p0 refs/remotes/origin/feat/bee-desktop-p0
+2026-10-23T10:03:20.6693610Z Switched to a new branch 'feat/bee-desktop-p0'
+2026-10-23T10:03:20.6729450Z branch 'feat/bee-desktop-p0' set up to track 'origin/feat/bee-desktop-p0'.
+2026-10-23T10:03:20.6959340Z ##[endgroup]
+2026-10-23T10:03:20.7076720Z [command]/usr/local/bin/git log -1 --format=%H
+2026-10-23T10:03:20.7291520Z 87b28a29aa84c2543b6b80b7e31204646e4fa76a
+2026-10-23T10:03:20.7461450Z ##[group]Removing auth
+2026-10-23T10:03:20.7579880Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-23T10:03:20.7868340Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-23T10:03:21.1158910Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-23T10:03:21.1199880Z http.https://github.com/.extraheader
+2026-10-23T10:03:21.1371830Z [command]/usr/local/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-23T10:03:21.1644960Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-23T10:03:21.5218770Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-23T10:03:21.5354160Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-23T10:03:21.8855530Z ##[endgroup]
+2026-10-23T10:03:21.9662520Z ##[group]Run actions/setup-node@v4
+2026-10-23T10:03:21.9664190Z with:
+2026-10-23T10:03:21.9665510Z   node-version: 24.22.1
+2026-10-23T10:03:21.9667120Z   architecture: x64
+2026-10-23T10:03:21.9668180Z   always-auth: false
+2026-10-23T10:03:21.9669210Z   check-latest: false
+2026-10-23T10:03:21.9680670Z   token: ***
+2026-10-23T10:03:21.9681670Z env:
+2026-10-23T10:03:21.9682520Z   CI: true
+2026-10-23T10:03:21.9683200Z   GOTOOLCHAIN: local
+2026-10-23T10:03:21.9684210Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:03:21.9685560Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:03:21.9686990Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:03:21.9688630Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:03:21.9689750Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:03:21.9690790Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:03:21.9691830Z ##[endgroup]
+2026-10-23T10:03:22.5182080Z Attempting to download 24.22.1...
+2026-10-23T10:03:22.5423610Z (node:2071) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-23T10:03:22.5570380Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-23T10:03:23.9286230Z Acquiring 24.22.1 - x64 from https://github.com/actions/node-versions/releases/download/24.22.1-39619001896/node-24.22.1-darwin-x64.tar.gz
+2026-10-23T10:03:25.4996480Z Extracting ...
+2026-10-23T10:03:25.6100470Z [command]/usr/bin/tar xz --strip 1 -C /Users/runner/work/_temp/f6c7a141-be2f-4f08-b44c-d32955484a7c -f /Users/runner/work/_temp/f571ad7f-1f66-46b4-8e6a-2ae82c38fa00
+2026-10-23T10:03:30.5558340Z Adding to the cache ...
+2026-10-23T10:03:43.2685030Z ##[group]Environment details
+2026-10-23T10:03:44.4493290Z node: v24.22.1
+2026-10-23T10:03:44.4526420Z npm: 11.19.1
+2026-10-23T10:03:44.4605530Z yarn: 1.22.22
+2026-10-23T10:03:44.4651180Z ##[endgroup]
+2026-10-23T10:03:44.5121230Z ##[group]Run actions/setup-go@v5
+2026-10-23T10:03:44.5122500Z with:
+2026-10-23T10:03:44.5123360Z   go-version: 1.27.3
+2026-10-23T10:03:44.5124340Z   architecture: x64
+2026-10-23T10:03:44.5126830Z   cache: false
+2026-10-23T10:03:44.5127780Z   check-latest: false
+2026-10-23T10:03:44.5138040Z   token: ***
+2026-10-23T10:03:44.5138880Z env:
+2026-10-23T10:03:44.5139620Z   CI: true
+2026-10-23T10:03:44.5140540Z   GOTOOLCHAIN: local
+2026-10-23T10:03:44.5141710Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:03:44.5142960Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:03:44.5144440Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:03:44.5145890Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:03:44.5147020Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:03:44.5148140Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:03:44.5149020Z ##[endgroup]
+2026-10-23T10:03:45.1006850Z (node:2320) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-23T10:03:45.1009460Z Setup go version spec 1.27.3
+2026-10-23T10:03:45.1169910Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-23T10:03:45.1572250Z Attempting to download 1.27.3...
+2026-10-23T10:03:46.2039660Z matching 1.27.3...
+2026-10-23T10:03:46.2419220Z Acquiring 1.27.3 from https://github.com/actions/go-versions/releases/download/1.27.3-39437817176/go-1.27.3-darwin-x64.tar.gz
+2026-10-23T10:03:48.2532690Z Extracting Go...
+2026-10-23T10:03:48.5380780Z [command]/usr/bin/tar xz -C /Users/runner/work/_temp/0616e079-d641-4f9c-93fa-c9d77ee32893 -f /Users/runner/work/_temp/a3261d32-d802-4051-8cd6-0053c385fdc1
+2026-10-23T10:04:03.7192570Z Successfully extracted go to /Users/runner/work/_temp/0616e079-d641-4f9c-93fa-c9d77ee32893
+2026-10-23T10:04:03.7195350Z Adding to the cache ...
+2026-10-23T10:04:37.0879320Z Successfully cached go to /Users/runner/hostedtoolcache/go/1.27.3/x64
+2026-10-23T10:04:37.0884100Z Added go to the path
+2026-10-23T10:04:37.0886150Z Successfully set up Go version 1.27.3
+2026-10-23T10:04:37.2463050Z go version go1.27.3 darwin/amd64
+2026-10-23T10:04:37.2463580Z 
+2026-10-23T10:04:37.2464430Z ##[group]go env
+2026-10-23T10:04:40.4668030Z AR='ar'
+2026-10-23T10:04:40.4669030Z CC='clang'
+2026-10-23T10:04:40.4670160Z CGO_CFLAGS='-O2 -g'
+2026-10-23T10:04:40.4671070Z CGO_CPPFLAGS=''
+2026-10-23T10:04:40.4672240Z CGO_CXXFLAGS='-O2 -g'
+2026-10-23T10:04:40.4673290Z CGO_ENABLED='1'
+2026-10-23T10:04:40.4674310Z CGO_FFLAGS='-O2 -g'
+2026-10-23T10:04:40.4675460Z CGO_LDFLAGS='-O2 -g'
+2026-10-23T10:04:40.4676440Z CXX='clang++'
+2026-10-23T10:04:40.4678150Z GCCGO='gccgo'
+2026-10-23T10:04:40.4679090Z GO111MODULE=''
+2026-10-23T10:04:40.4680020Z GOAMD64='v1'
+2026-10-23T10:04:40.4680940Z GOARCH='amd64'
+2026-10-23T10:04:40.4681860Z GOAUTH='netrc'
+2026-10-23T10:04:40.4683000Z GOBIN='/Users/runner/go/bin'
+2026-10-23T10:04:40.4684560Z GOCACHE='/Users/runner/Library/Caches/go-build'
+2026-10-23T10:04:40.4685790Z GOCACHEPROG=''
+2026-10-23T10:04:40.4686660Z GODEBUG=''
+2026-10-23T10:04:40.4687800Z GOENV='/Users/runner/Library/Application Support/go/env'
+2026-10-23T10:04:40.4688960Z GOEXE=''
+2026-10-23T10:04:40.4689640Z GOEXPERIMENT=''
+2026-10-23T10:04:40.4690350Z GOFIPS140='off'
+2026-10-23T10:04:40.4691130Z GOFLAGS=''
+2026-10-23T10:04:40.4695570Z GOGCCFLAGS='-fPIC -arch x86_64 -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -ffile-prefix-map=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/go-build1819302319=/tmp/go-build -gno-record-gcc-switches -fno-common'
+2026-10-23T10:04:40.4698720Z GOHOSTARCH='amd64'
+2026-10-23T10:04:40.4699800Z GOHOSTOS='darwin'
+2026-10-23T10:04:40.4700780Z GOINSECURE=''
+2026-10-23T10:04:40.4702230Z GOMOD='/Users/runner/work/bee/bee/go.mod'
+2026-10-23T10:04:40.4703790Z GOMODCACHE='/Users/runner/go/pkg/mod'
+2026-10-23T10:04:40.4704850Z GONOPROXY=''
+2026-10-23T10:04:40.4705510Z GONOSUMDB=''
+2026-10-23T10:04:40.4706360Z GOOS='darwin'
+2026-10-23T10:04:40.4707210Z GOPACKAGESDRIVER=''
+2026-10-23T10:04:40.4710340Z GOPATH='/Users/runner/go'
+2026-10-23T10:04:40.4711510Z GOPRIVATE=''
+2026-10-23T10:04:40.4712690Z GOPROXY='https://proxy.golang.org,direct'
+2026-10-23T10:04:40.4714420Z GOROOT='/Users/runner/hostedtoolcache/go/1.27.3/x64'
+2026-10-23T10:04:40.4717510Z GOSUMDB='sum.golang.org'
+2026-10-23T10:04:40.4718650Z GOTELEMETRY='local'
+2026-10-23T10:04:40.4720340Z GOTELEMETRYDIR='/Users/runner/Library/Application Support/go/telemetry'
+2026-10-23T10:04:40.4721920Z GOTMPDIR=''
+2026-10-23T10:04:40.4722800Z GOTOOLCHAIN='local'
+2026-10-23T10:04:40.4724620Z GOTOOLDIR='/Users/runner/hostedtoolcache/go/1.27.3/x64/pkg/tool/darwin_amd64'
+2026-10-23T10:04:40.4728090Z GOVCS=''
+2026-10-23T10:04:40.4729200Z GOVERSION='go1.27.3'
+2026-10-23T10:04:40.4730260Z GOWORK=''
+2026-10-23T10:04:40.4731290Z PKG_CONFIG='pkg-config'
+2026-10-23T10:04:40.4732080Z 
+2026-10-23T10:04:40.4732930Z ##[endgroup]
+2026-10-23T10:04:40.5027990Z ##[group]Run mkdir -p desktop-ci-evidence
+2026-10-23T10:04:40.5029030Z [36;1mmkdir -p desktop-ci-evidence[0m
+2026-10-23T10:04:40.5030490Z [36;1msudo xcode-select --switch /Applications/Xcode_16.4.app 2>&1 | tee desktop-ci-evidence/xcode-select.log[0m
+2026-10-23T10:04:40.5033070Z [36;1mrustup toolchain install "$RUSTUP_TOOLCHAIN" --profile minimal --component rustfmt --component clippy 2>&1 | tee desktop-ci-evidence/rust-install.log[0m
+2026-10-23T10:04:40.5129050Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:04:40.5130020Z env:
+2026-10-23T10:04:40.5130960Z   CI: true
+2026-10-23T10:04:40.5131500Z   GOTOOLCHAIN: local
+2026-10-23T10:04:40.5132190Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:04:40.5133020Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:04:40.5134010Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:04:40.5135120Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:04:40.5135970Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:04:40.5136680Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:04:40.5137350Z ##[endgroup]
+2026-10-23T10:04:40.6932600Z info: syncing channel updates for 1.94.0-x86_64-apple-darwin
+2026-10-23T10:04:40.8802030Z info: latest update on 2026-03-05 for version 1.94.0 (4a4ef493e 2026-03-02)
+2026-10-23T10:04:40.8803730Z info: downloading 5 components
+2026-10-23T10:04:59.3835630Z 
+2026-10-23T10:04:59.4212620Z   1.94.0-x86_64-apple-darwin installed - rustc 1.94.0 (4a4ef493e 2026-03-02)
+2026-10-23T10:04:59.4297700Z 
+2026-10-23T10:04:59.4304480Z info: self-update is disabled for this build of rustup
+2026-10-23T10:04:59.4306430Z info: any updates to rustup will need to be fetched with your system package manager
+2026-10-23T10:04:59.5038760Z ##[group]Run node --input-type=module <<'NODE' 2>&1 | tee desktop-ci-evidence/native.log
+2026-10-23T10:04:59.5040680Z [36;1mnode --input-type=module <<'NODE' 2>&1 | tee desktop-ci-evidence/native.log[0m
+2026-10-23T10:04:59.5042060Z [36;1mimport { execFileSync } from 'node:child_process';[0m
+2026-10-23T10:04:59.5043120Z [36;1mimport { writeFileSync } from 'node:fs';[0m
+2026-10-23T10:04:59.5043990Z [36;1mconst evidence = {[0m
+2026-10-23T10:04:59.5045060Z [36;1m  scope: 'macOS 15 Intel supplemental native evidence; not macOS 13 minimum',[0m
+2026-10-23T10:04:59.5046640Z [36;1m  revision: process.env.GITHUB_SHA, runId: process.env.GITHUB_RUN_ID,[0m
+2026-10-23T10:04:59.5048180Z [36;1m  imageOS: process.env.ImageOS, imageVersion: process.env.ImageVersion,[0m
+2026-10-23T10:04:59.5049490Z [36;1m  target: process.env.BEE_CI_TARGET, checks: [],[0m
+2026-10-23T10:04:59.5051190Z [36;1m  gui: 'not tested', tray: 'not tested', cleanUserInstall: 'not tested', productionSigning: 'not performed',[0m
+2026-10-23T10:04:59.5052660Z [36;1m};[0m
+2026-10-23T10:04:59.5053970Z [36;1mconst save = () => writeFileSync('desktop-ci-evidence/native.json', JSON.stringify(evidence, null, 2) + '\n');[0m
+2026-10-23T10:04:59.5055930Z [36;1mconst run = (file, args) => execFileSync(file, args, { encoding: 'utf8' }).trim();[0m
+2026-10-23T10:04:59.5057450Z [36;1mfunction check(name, actual, expected, ok = actual === expected) {[0m
+2026-10-23T10:04:59.5058790Z [36;1m  evidence.checks.push({ name, actual, expected, ok });[0m
+2026-10-23T10:04:59.5059850Z [36;1m  save();[0m
+2026-10-23T10:04:59.5061150Z [36;1m  console.log(`${ok ? 'OK' : 'FAIL'} ${name}: actual=${JSON.stringify(actual)}; required=${JSON.stringify(expected)}`);[0m
+2026-10-23T10:04:59.5064410Z [36;1m  if (!ok) throw new Error(`${name} mismatch: actual=${JSON.stringify(actual)}; required=${JSON.stringify(expected)}`);[0m
+2026-10-23T10:04:59.5065950Z [36;1m}[0m
+2026-10-23T10:04:59.5066430Z [36;1mtry {[0m
+2026-10-23T10:04:59.5067350Z [36;1m  check('Source HEAD', run('git', ['rev-parse', 'HEAD']), evidence.revision);[0m
+2026-10-23T10:04:59.5069330Z [36;1m  check('Node platform/arch/version', `${process.platform}/${process.arch}/${process.version}`, 'darwin/x64/v24.22.1');[0m
+2026-10-23T10:04:59.5071230Z [36;1m  check('Kernel architecture', run('uname', ['-m']), 'x86_64');[0m
+2026-10-23T10:04:59.5072580Z [36;1m  const translated = run('sysctl', ['-in', 'sysctl.proc_translated']);[0m
+2026-10-23T10:04:59.5074080Z [36;1m  check('No Rosetta', translated, '0 or empty', ['', '0'].includes(translated));[0m
+2026-10-23T10:04:59.5075350Z [36;1m  const os = run('sw_vers', ['-productVersion']);[0m
+2026-10-23T10:04:59.5076410Z [36;1m  check('Hosted OS', os, 'macOS 15.x', /^15\./.test(os));[0m
+2026-10-23T10:04:59.5077430Z [36;1m  console.log(run('sw_vers', []));[0m
+2026-10-23T10:04:59.5078860Z [36;1m  check('Selected Xcode', run('xcode-select', ['-p']), '/Applications/Xcode_16.4.app/Contents/Developer');[0m
+2026-10-23T10:04:59.5080470Z [36;1m  const xcode = run('xcodebuild', ['-version']);[0m
+2026-10-23T10:04:59.5081970Z [36;1m  check('Xcode version', xcode, 'Xcode 16.4 / Build 16F6', xcode === 'Xcode 16.4\nBuild version 16F6');[0m
+2026-10-23T10:04:59.5083710Z [36;1m  check('macOS SDK', run('xcrun', ['--show-sdk-version']), '15.5');[0m
+2026-10-23T10:04:59.5086030Z [36;1m  console.log(run('xcrun', ['clang', '--version']));[0m
+2026-10-23T10:04:59.5087410Z [36;1m  check('Go version', run('go', ['version']), 'go version go1.27.3 darwin/amd64');[0m
+2026-10-23T10:04:59.5089660Z [36;1m  check('Go build/host', run('go', ['env', 'GOOS', 'GOARCH', 'GOHOSTOS', 'GOHOSTARCH']), 'darwin\namd64\ndarwin\namd64');[0m
+2026-10-23T10:04:59.5091490Z [36;1m  const rust = run('rustc', ['-vV']);[0m
+2026-10-23T10:04:59.5092900Z [36;1m  check('Rust version', rust.split('\n')[0], 'rustc 1.94.0', /^rustc 1\.94\.0\s/.test(rust));[0m
+2026-10-23T10:04:59.5094760Z [36;1m  check('Rust host', /^host: (.+)$/m.exec(rust)?.[1], 'x86_64-apple-darwin');[0m
+2026-10-23T10:04:59.5098120Z [36;1m  console.log(rust);[0m
+2026-10-23T10:04:59.5099100Z [36;1m  const cargo = run('cargo', ['--version']);[0m
+2026-10-23T10:04:59.5100640Z [36;1m  check('Cargo version', cargo, 'cargo 1.94.0', /^cargo 1\.94\.0\s/.test(cargo));[0m
+2026-10-23T10:04:59.5102130Z [36;1m  console.log(run('npm', ['--version']));[0m
+2026-10-23T10:04:59.5103480Z [36;1m  console.log(run('git', ['--version']));[0m
+2026-10-23T10:04:59.5104810Z [36;1m  evidence.ok = true;[0m
+2026-10-23T10:04:59.5105830Z [36;1m  save();[0m
+2026-10-23T10:04:59.5106750Z [36;1m} catch (error) {[0m
+2026-10-23T10:04:59.5107790Z [36;1m  evidence.ok = false;[0m
+2026-10-23T10:04:59.5111070Z [36;1m  evidence.error = { message: error.message, status: error.status, stdout: error.stdout?.toString(), stderr: error.stderr?.toString() };[0m
+2026-10-23T10:04:59.5113890Z [36;1m  save();[0m
+2026-10-23T10:04:59.5114890Z [36;1m  console.error(evidence.error);[0m
+2026-10-23T10:04:59.5116680Z [36;1m  throw error;[0m
+2026-10-23T10:04:59.5117770Z [36;1m}[0m
+2026-10-23T10:04:59.5118800Z [36;1mNODE[0m
+2026-10-23T10:04:59.5120550Z [36;1mnode desktop/scripts/preflight.mjs 2>&1 | tee desktop-ci-evidence/preflight.log[0m
+2026-10-23T10:04:59.5225960Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:04:59.5226880Z env:
+2026-10-23T10:04:59.5227410Z   CI: true
+2026-10-23T10:04:59.5228000Z   GOTOOLCHAIN: local
+2026-10-23T10:04:59.5228700Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:04:59.5229580Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:04:59.5231060Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:04:59.5232860Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:04:59.5233860Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:04:59.5240710Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:04:59.5241480Z ##[endgroup]
+2026-10-23T10:04:59.6801370Z OK Source HEAD: actual="87b28a29aa84c2543b6b80b7e31204646e4fa76a"; required="87b28a29aa84c2543b6b80b7e31204646e4fa76a"
+2026-10-23T10:04:59.6818570Z OK Node platform/arch/version: actual="darwin/x64/v24.22.1"; required="darwin/x64/v24.22.1"
+2026-10-23T10:04:59.6928360Z OK Kernel architecture: actual="x86_64"; required="x86_64"
+2026-10-23T10:04:59.7083320Z OK No Rosetta: actual=""; required="0 or empty"
+2026-10-23T10:04:59.7385580Z OK Hosted OS: actual="15.7.9"; required="macOS 15.x"
+2026-10-23T10:04:59.7711580Z ProductName:		macOS
+2026-10-23T10:04:59.7717610Z ProductVersion:		15.7.9
+2026-10-23T10:04:59.7721170Z BuildVersion:		24G830
+2026-10-23T10:04:59.7850400Z OK Selected Xcode: actual="/Applications/Xcode_16.4.app/Contents/Developer"; required="/Applications/Xcode_16.4.app/Contents/Developer"
+2026-10-23T10:05:00.0151390Z OK Xcode version: actual="Xcode 16.4\nBuild version 16F6"; required="Xcode 16.4 / Build 16F6"
+2026-10-23T10:05:03.3784300Z OK macOS SDK: actual="15.5"; required="15.5"
+2026-10-23T10:05:03.4284590Z Apple clang version 17.0.0 (clang-1700.0.13.5)
+2026-10-23T10:05:03.4306120Z Target: x86_64-apple-darwin24.6.0
+2026-10-23T10:05:03.4313720Z Thread model: posix
+2026-10-23T10:05:03.4334140Z InstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+2026-10-23T10:05:03.4540500Z OK Go version: actual="go version go1.27.3 darwin/amd64"; required="go version go1.27.3 darwin/amd64"
+2026-10-23T10:05:03.5567470Z OK Go build/host: actual="darwin\namd64\ndarwin\namd64"; required="darwin\namd64\ndarwin\namd64"
+2026-10-23T10:05:03.6536770Z OK Rust version: actual="rustc 1.94.0 (4a4ef493e 2026-03-02)"; required="rustc 1.94.0"
+2026-10-23T10:05:03.7542920Z OK Rust host: actual="x86_64-apple-darwin"; required="x86_64-apple-darwin"
+2026-10-23T10:05:03.8547270Z rustc 1.94.0 (4a4ef493e 2026-03-02)
+2026-10-23T10:05:03.9550250Z binary: rustc
+2026-10-23T10:05:04.0490100Z commit-hash: 4a4ef493e3a1488c6e321570238084b38948f6db
+2026-10-23T10:05:04.0554820Z commit-date: 2026-03-02
+2026-10-23T10:05:04.0649770Z host: x86_64-apple-darwin
+2026-10-23T10:05:04.0885060Z release: 1.94.0
+2026-10-23T10:05:04.0942170Z LLVM version: 21.1.8
+2026-10-23T10:05:04.0966850Z OK Cargo version: actual="cargo 1.94.0 (85eff7c80 2026-01-15)"; required="cargo 1.94.0"
+2026-10-23T10:05:04.1249330Z 11.19.1
+2026-10-23T10:05:04.1462710Z git version 2.55.0
+2026-10-23T10:05:04.6664250Z OK Node: actual=24.22.1; required=24.x LTS
+2026-10-23T10:05:04.6702020Z OK Go: actual=go version go1.27.3 darwin/amd64; required=go1.27.3
+2026-10-23T10:05:04.6740280Z OK Rust: actual=rustc 1.94.0 (4a4ef493e 2026-03-02); required=1.94.0 (rust-toolchain.toml)
+2026-10-23T10:05:04.6761260Z OK Cargo: actual=cargo 1.94.0 (85eff7c80 2026-01-15); required=1.94.0
+2026-10-23T10:05:04.6777140Z OK Git: actual=git version 2.55.0; required=Git installed
+2026-10-23T10:05:04.6796800Z OK Target: actual=darwin/x64; required=darwin arm64/x64; win32 x64; linux arm64/x64
+2026-10-23T10:05:04.6806980Z OK macOS: actual=15.7.9; required=13.0 or newer
+2026-10-23T10:05:04.6810740Z OK Xcode: actual=/Applications/Xcode_16.4.app/Contents/Developer; required=selected developer directory
+2026-10-23T10:05:04.6841400Z OK Clang / system WebKit: actual=/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang; required=Xcode clang and macOS system WebKit
+2026-10-23T10:05:04.6872010Z OK macOS SDK: actual=15.5; required=13.0 or newer
+2026-10-23T10:05:04.7437710Z ##[group]Run node desktop/scripts/prepare-tee.mjs 2>&1 | tee desktop-ci-evidence/tee.log
+2026-10-23T10:05:04.7440180Z [36;1mnode desktop/scripts/prepare-tee.mjs 2>&1 | tee desktop-ci-evidence/tee.log[0m
+2026-10-23T10:05:04.7443170Z [36;1mtee_archive=$(cut -d ' ' -f1 .cache/reclaim-tee/.archive-sha256)[0m
+2026-10-23T10:05:04.7446600Z [36;1mtee_revision=$(cat TEE_REVISION)[0m
+2026-10-23T10:05:04.7449110Z [36;1mprintf 'TEE revision=%s; archiveSHA256=%s\n' "$tee_revision" "$tee_archive" | tee desktop-ci-evidence/tee-source.log[0m
+2026-10-23T10:05:04.7453770Z [36;1mif [ "$tee_revision" != a687f86d781e825c04c1d84d75b41bba5d862254 ] || [ "$tee_archive" != 4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38 ]; then[0m
+2026-10-23T10:05:04.7461780Z [36;1m  printf 'Pinned TEE mismatch: actualRevision=%s; requiredRevision=a687f86d781e825c04c1d84d75b41bba5d862254; actualArchiveSHA256=%s; requiredArchiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38\n' "$tee_revision" "$tee_archive" >&2[0m
+2026-10-23T10:05:04.7467970Z [36;1m  exit 1[0m
+2026-10-23T10:05:04.7468850Z [36;1mfi[0m
+2026-10-23T10:05:04.7634800Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:05:04.7636260Z env:
+2026-10-23T10:05:04.7637120Z   CI: true
+2026-10-23T10:05:04.7638030Z   GOTOOLCHAIN: local
+2026-10-23T10:05:04.7639210Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:05:04.7640600Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:05:04.7642610Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:05:04.7644390Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:05:04.7701090Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:05:04.7703300Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:05:04.7704340Z ##[endgroup]
+2026-10-23T10:05:31.6562570Z TEE dependency verified: revision=a687f86d781e825c04c1d84d75b41bba5d862254; archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; path=/Users/runner/work/bee/bee/.cache/reclaim-tee
+2026-10-23T10:05:31.7167900Z TEE revision=a687f86d781e825c04c1d84d75b41bba5d862254; archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38
+2026-10-23T10:05:31.7851750Z ##[group]Run go vet ./... 2>&1 | tee desktop-ci-evidence/go-vet.log
+2026-10-23T10:05:31.7853140Z [36;1mgo vet ./... 2>&1 | tee desktop-ci-evidence/go-vet.log[0m
+2026-10-23T10:05:31.7854510Z [36;1mgo test ./... -count=1 2>&1 | tee desktop-ci-evidence/go-test.log[0m
+2026-10-23T10:05:31.7970140Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:05:31.7971190Z env:
+2026-10-23T10:05:31.7971730Z   CI: true
+2026-10-23T10:05:31.7972330Z   GOTOOLCHAIN: local
+2026-10-23T10:05:31.7973060Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:05:31.7973940Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:05:31.7975020Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:05:31.7976610Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:05:31.7978050Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:05:31.7979150Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:05:31.7980270Z ##[endgroup]
+2026-10-23T10:05:32.1542850Z go: downloading github.com/prometheus/client_golang v1.24.1
+2026-10-23T10:05:32.2426250Z go: downloading github.com/coder/websocket v1.8.14
+2026-10-23T10:05:32.7856190Z go: downloading github.com/golang-jwt/jwt/v5 v5.3.1
+2026-10-23T10:05:33.0041350Z go: downloading golang.org/x/text v0.41.0
+2026-10-23T10:05:33.0265760Z go: downloading golang.org/x/sys v0.48.0
+2026-10-23T10:05:33.4941690Z go: downloading github.com/gorilla/websocket v1.5.3
+2026-10-23T10:05:33.8129430Z go: downloading github.com/beorn7/perks v1.0.1
+2026-10-23T10:05:33.8302700Z go: downloading github.com/cespare/xxhash/v2 v2.3.0
+2026-10-23T10:05:34.0109000Z go: downloading github.com/prometheus/client_model v0.6.2
+2026-10-23T10:05:34.0578110Z go: downloading github.com/prometheus/common v0.70.1
+2026-10-23T10:05:34.7835930Z go: downloading google.golang.org/protobuf v1.36.12
+2026-10-23T10:05:35.1245910Z go: downloading cloud.google.com/go/kms v1.33.0
+2026-10-23T10:05:36.0665520Z go: downloading cloud.google.com/go v0.123.0
+2026-10-23T10:05:36.6848770Z go: downloading cloud.google.com/go/logging v1.19.1
+2026-10-23T10:05:36.7856200Z go: downloading cloud.google.com/go/secretmanager v1.21.0
+2026-10-23T10:05:36.9539160Z go: downloading github.com/aws/aws-sdk-go-v2 v1.43.6
+2026-10-23T10:05:37.0542390Z go: downloading github.com/aws/aws-sdk-go-v2/config v1.32.37
+2026-10-23T10:05:37.1763060Z go: downloading github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.44.6
+2026-10-23T10:05:37.8434620Z go: downloading github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.1
+2026-10-23T10:05:37.8509740Z go: downloading github.com/fxamacker/cbor/v2 v2.9.3
+2026-10-23T10:05:37.8591740Z go: downloading github.com/google/go-eventlog v0.0.3-0.20260617163629-883cc5652c69
+2026-10-23T10:05:38.3946870Z go: downloading github.com/google/go-sev-guest v0.15.0
+2026-10-23T10:05:38.6009010Z go: downloading github.com/google/go-tpm-tools v0.4.9
+2026-10-23T10:05:38.6112840Z go: downloading github.com/google/go-tpm v0.9.8
+2026-10-23T10:05:39.1502730Z go: downloading go.uber.org/zap v1.28.0
+2026-10-23T10:05:39.6871620Z go: downloading golang.org/x/crypto v0.55.0
+2026-10-23T10:05:40.0964110Z go: downloading google.golang.org/grpc v1.83.1
+2026-10-23T10:05:40.6220910Z go: downloading github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+2026-10-23T10:05:40.8094120Z go: downloading cloud.google.com/go/iam v1.13.0
+2026-10-23T10:05:41.7770700Z go: downloading cloud.google.com/go/longrunning v1.2.0
+2026-10-23T10:05:42.1275210Z go: downloading github.com/googleapis/gax-go/v2 v2.23.0
+2026-10-23T10:05:42.3975740Z go: downloading go.opentelemetry.io/otel/trace v1.45.0
+2026-10-23T10:05:42.4981010Z go: downloading google.golang.org/api v0.293.0
+2026-10-23T10:05:42.6970380Z go: downloading go.opentelemetry.io/otel v1.45.0
+2026-10-23T10:06:01.3342070Z go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20260819154853-08b0e4226688
+2026-10-23T10:06:01.3371220Z go: downloading google.golang.org/genproto v0.0.0-20260819154853-08b0e4226688
+2026-10-23T10:06:01.3468800Z go: downloading google.golang.org/genproto/googleapis/rpc v0.0.0-20260819154853-08b0e4226688
+2026-10-23T10:06:03.4558660Z go: downloading github.com/aws/smithy-go v1.27.8
+2026-10-23T10:06:04.2986510Z go: downloading github.com/aws/aws-sdk-go-v2/credentials v1.19.36
+2026-10-23T10:06:04.6040000Z go: downloading github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.37
+2026-10-23T10:06:04.6054100Z go: downloading github.com/aws/aws-sdk-go-v2/service/signin v1.5.6
+2026-10-23T10:06:04.6069730Z go: downloading github.com/aws/aws-sdk-go-v2/service/sso v1.33.6
+2026-10-23T10:06:04.6072710Z go: downloading github.com/aws/aws-sdk-go-v2/service/ssooidc v1.38.6
+2026-10-23T10:06:04.8957320Z go: downloading github.com/aws/aws-sdk-go-v2/service/sts v1.45.6
+2026-10-23T10:06:04.9232710Z go: downloading github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.37
+2026-10-23T10:06:04.9361240Z go: downloading github.com/x448/float16 v0.8.4
+2026-10-23T10:06:05.0741280Z go: downloading github.com/google/logger v1.1.2
+2026-10-23T10:06:05.2414440Z go: downloading github.com/google/uuid v1.6.0
+2026-10-23T10:06:05.2597230Z go: downloading go.uber.org/multierr v1.11.0
+2026-10-23T10:06:05.2657210Z go: downloading github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260706204617-c9f710ef3461
+2026-10-23T10:06:05.3030010Z go: downloading github.com/google/go-tdx-guest v0.3.2-0.20250814004405-ffb0869e6f4d
+2026-10-23T10:06:05.5319840Z go: downloading go.opentelemetry.io/otel/metric v1.45.0
+2026-10-23T10:06:05.5329580Z go: downloading cloud.google.com/go/auth v0.23.1
+2026-10-23T10:06:05.6900170Z go: downloading cloud.google.com/go/auth/oauth2adapt v0.2.8
+2026-10-23T10:06:05.8389560Z go: downloading cloud.google.com/go/compute/metadata v0.9.0
+2026-10-23T10:06:05.8445780Z go: downloading go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.70.0
+2026-10-23T10:06:05.8491750Z go: downloading golang.org/x/oauth2 v0.36.0
+2026-10-23T10:06:05.8538500Z go: downloading golang.org/x/time v0.15.0
+2026-10-23T10:06:05.9850600Z go: downloading go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0
+2026-10-23T10:06:05.9966230Z go: downloading golang.org/x/net v0.58.0
+2026-10-23T10:06:06.1127220Z go: downloading golang.org/x/sync v0.22.0
+2026-10-23T10:06:06.2278670Z go: downloading github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.37
+2026-10-23T10:06:06.3367760Z go: downloading github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.38
+2026-10-23T10:06:06.4205780Z go: downloading github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.17
+2026-10-23T10:06:06.6065960Z go: downloading github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.37
+2026-10-23T10:06:06.7077300Z go: downloading github.com/go-logr/logr v1.4.4
+2026-10-23T10:06:06.7465640Z go: downloading github.com/google/s2a-go v0.1.9
+2026-10-23T10:06:06.7596990Z go: downloading github.com/googleapis/enterprise-certificate-proxy v0.3.21
+2026-10-23T10:06:07.0931510Z go: downloading github.com/felixge/httpsnoop v1.1.0
+2026-10-23T10:06:07.2267900Z go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+2026-10-23T10:06:07.2305670Z go: downloading github.com/go-logr/stdr v1.2.2
+2026-10-23T10:10:10.0828240Z ok  	github.com/tokhive/bee/agent	54.087s
+2026-10-23T10:10:10.0871220Z ok  	github.com/tokhive/bee/beewire	0.100s
+2026-10-23T10:10:10.0935590Z ok  	github.com/tokhive/bee/cmd/bee	0.697s
+2026-10-23T10:10:10.0988410Z ok  	github.com/tokhive/bee/desktopbridge	0.097s
+2026-10-23T10:10:10.1036540Z ok  	github.com/tokhive/bee/logx	0.056s
+2026-10-23T10:10:10.1086860Z ok  	github.com/tokhive/bee/relay	1.108s
+2026-10-23T10:10:10.1140560Z ok  	github.com/tokhive/bee/telemetry	0.047s
+2026-10-23T10:10:10.6371100Z ##[group]Run unset FORCE_COLOR NO_COLOR
+2026-10-23T10:10:10.6372300Z [36;1munset FORCE_COLOR NO_COLOR[0m
+2026-10-23T10:10:10.6373580Z [36;1mnpm --prefix desktop ci 2>&1 | tee desktop-ci-evidence/npm-ci.log[0m
+2026-10-23T10:10:10.6376130Z [36;1mnpm --prefix desktop run typecheck 2>&1 | tee desktop-ci-evidence/typecheck.log[0m
+2026-10-23T10:10:10.6378400Z [36;1mnpm --prefix desktop run build 2>&1 | tee desktop-ci-evidence/frontend-build.log[0m
+2026-10-23T10:10:10.6380350Z [36;1mnpm --prefix desktop run build:demo 2>&1 | tee desktop-ci-evidence/frontend-demo-build.log[0m
+2026-10-23T10:10:10.6383010Z [36;1mnpm --prefix desktop run test:tooling 2>&1 | tee desktop-ci-evidence/tooling.log[0m
+2026-10-23T10:10:10.6385480Z [36;1mnpm --prefix desktop run test:bridge 2>&1 | tee desktop-ci-evidence/bridge.log[0m
+2026-10-23T10:10:10.6765940Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:10:10.6768060Z env:
+2026-10-23T10:10:10.6768660Z   CI: true
+2026-10-23T10:10:10.6777400Z   GOTOOLCHAIN: local
+2026-10-23T10:10:10.6778370Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:10:10.6779400Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:10:10.6780580Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:10:10.6781670Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:10:10.6782560Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:10:10.6783800Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:10:10.6784480Z ##[endgroup]
+2026-10-23T10:10:32.3867770Z 
+2026-10-23T10:10:32.3964970Z added 109 packages, and audited 110 packages in 20s
+2026-10-23T10:10:32.3998950Z 
+2026-10-23T10:10:32.4130210Z 10 packages are looking for funding
+2026-10-23T10:10:32.4139990Z   run `npm fund` for details
+2026-10-23T10:10:32.4148300Z 
+2026-10-23T10:10:32.4259920Z found 0 vulnerabilities
+2026-10-23T10:10:32.4318200Z npm warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+2026-10-23T10:10:32.4574790Z npm warn install-scripts   fsevents@2.3.3 (install: (install scripts present))
+2026-10-23T10:10:32.4610850Z npm warn install-scripts
+2026-10-23T10:10:32.4614280Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+2026-10-23T10:10:34.0084350Z 
+2026-10-23T10:10:34.0192430Z > bee-desktop@0.1.0 typecheck
+2026-10-23T10:10:34.0290710Z > tsc --noEmit
+2026-10-23T10:10:34.0347030Z 
+2026-10-23T10:10:35.7324270Z 
+2026-10-23T10:10:35.7349410Z > bee-desktop@0.1.0 build
+2026-10-23T10:10:35.7374630Z > tsc --noEmit && vite build
+2026-10-23T10:10:35.7402940Z 
+2026-10-23T10:10:37.6314530Z [36mvite v8.2.4 [32mbuilding client environment for production...[36m[39m
+2026-10-23T10:10:37.6647110Z transforming...
+2026-10-23T10:10:38.1198220Z ✓ 1998 modules transformed.
+2026-10-23T10:10:38.2679060Z rendering chunks...
+2026-10-23T10:10:38.4019420Z computing gzip size...
+2026-10-23T10:10:38.4145120Z dist/index.html                           0.44 kB │ gzip:   0.27 kB
+2026-10-23T10:10:38.4171990Z dist/assets/app-icon-dark-BCJApSyC.svg    8.13 kB │ gzip:   2.28 kB
+2026-10-23T10:10:38.4175950Z dist/assets/p0-Dfkx2H8f.css               1.16 kB │ gzip:   0.62 kB
+2026-10-23T10:10:38.4212940Z dist/assets/index-ChpKxuNA.css           17.30 kB │ gzip:   4.10 kB
+2026-10-23T10:10:38.4258410Z dist/assets/P0Page-Bnssnpc-.js            3.58 kB │ gzip:   1.66 kB
+2026-10-23T10:10:38.4281450Z dist/assets/index-CxuuVars.js           353.04 kB │ gzip: 111.72 kB
+2026-10-23T10:10:38.4291140Z 
+2026-10-23T10:10:38.4352490Z [32m✓ built in 801ms[39m
+2026-10-23T10:10:38.9311390Z 
+2026-10-23T10:10:38.9380710Z > bee-desktop@0.1.0 build:demo
+2026-10-23T10:10:38.9507480Z > tsc --noEmit && vite build --mode demo
+2026-10-23T10:10:38.9523020Z 
+2026-10-23T10:10:41.4525970Z [36mvite v8.2.4 [32mbuilding client environment for demo...[36m[39m
+2026-10-23T10:10:41.5076230Z transforming...
+2026-10-23T10:10:42.5193380Z ✓ 1998 modules transformed.
+2026-10-23T10:10:42.7397770Z rendering chunks...
+2026-10-23T10:10:42.8851390Z computing gzip size...
+2026-10-23T10:10:42.8968080Z dist/index.html                           0.44 kB │ gzip:   0.28 kB
+2026-10-23T10:10:42.9013690Z dist/assets/app-icon-dark-BCJApSyC.svg    8.13 kB │ gzip:   2.28 kB
+2026-10-23T10:10:42.9022830Z dist/assets/p0-Dfkx2H8f.css               1.16 kB │ gzip:   0.62 kB
+2026-10-23T10:10:42.9054550Z dist/assets/index-ChpKxuNA.css           17.30 kB │ gzip:   4.10 kB
+2026-10-23T10:10:42.9081750Z dist/assets/P0Page-DH7KBSs5.js            3.58 kB │ gzip:   1.66 kB
+2026-10-23T10:10:42.9138780Z dist/assets/index-Do_uNSAg.js           353.04 kB │ gzip: 111.72 kB
+2026-10-23T10:10:42.9190140Z 
+2026-10-23T10:10:42.9223200Z [32m✓ built in 1.46s[39m
+2026-10-23T10:10:43.4645670Z 
+2026-10-23T10:10:43.4677190Z > bee-desktop@0.1.0 test:tooling
+2026-10-23T10:10:43.4718140Z > node --test tests/tooling.test.mjs
+2026-10-23T10:10:43.4719670Z 
+2026-10-23T10:10:44.4675240Z TEE dependency verified: revision=875efbe8f1f1bfff752eb8b33727feffdfa577bd; archiveSHA256=44764c3db0d4ca7681f4e8875e1681a8ec0f579fbd035692ea0fef51544df071; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-p72K9p/.cache/reclaim-tee
+2026-10-23T10:10:44.6378420Z TEE dependency verified: revision=875efbe8f1f1bfff752eb8b33727feffdfa577bd; archiveSHA256=44764c3db0d4ca7681f4e8875e1681a8ec0f579fbd035692ea0fef51544df071; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-p72K9p/.cache/reclaim-tee
+2026-10-23T10:10:45.2687820Z TEE dependency verified: revision=2554eef4f0a0549ef2b0edec47cd0bf6c22fc573; archiveSHA256=574bd06db4390b14f637570dbc419876da65c5ae0edcc602c6290f6b149f8062; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-URcsFD/.cache/reclaim-tee
+2026-10-23T10:10:45.5214960Z TEE dependency verified: revision=2554eef4f0a0549ef2b0edec47cd0bf6c22fc573; archiveSHA256=574bd06db4390b14f637570dbc419876da65c5ae0edcc602c6290f6b149f8062; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-URcsFD/.cache/reclaim-tee
+2026-10-23T10:10:45.9914170Z TEE dependency verified: revision=918b569bb485ae863c9e1ea8bd0b4a3bc680884e; archiveSHA256=c5b67f914f6d7a4ebb9ceddd5e82764b6a23d8e3ce954dbe31664cee6f57d3cb; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-huubqs/.cache/reclaim-tee
+2026-10-23T10:10:46.6768130Z TEE dependency verified: revision=e9c012b17c8045579e247a46343b015157f30f02; archiveSHA256=14414b9a6d5d98765628dc1e54a2ed376f09cbf7bd4167fef26422030417822b; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-h8PKRg/.cache/reclaim-tee
+2026-10-23T10:10:46.8781820Z TEE dependency verified: revision=e9c012b17c8045579e247a46343b015157f30f02; archiveSHA256=14414b9a6d5d98765628dc1e54a2ed376f09cbf7bd4167fef26422030417822b; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-h8PKRg/.cache/reclaim-tee
+2026-10-23T10:10:47.3627430Z TEE dependency verified: revision=b20257dcd0ac7948f28a967c65b78457b0ed9927; archiveSHA256=da758e8f2c9953e6a64f7917c31f27707d72c0e540a1cb37095e18ad29b7972c; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-jIKxvS/.cache/reclaim-tee
+2026-10-23T10:10:47.5009850Z TEE dependency verified: revision=b20257dcd0ac7948f28a967c65b78457b0ed9927; archiveSHA256=da758e8f2c9953e6a64f7917c31f27707d72c0e540a1cb37095e18ad29b7972c; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-jIKxvS/.cache/reclaim-tee
+2026-10-23T10:10:48.0040460Z TEE dependency verified: revision=b20257dcd0ac7948f28a967c65b78457b0ed9927; archiveSHA256=da758e8f2c9953e6a64f7917c31f27707d72c0e540a1cb37095e18ad29b7972c; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-xMJGVp/.cache/reclaim-tee
+2026-10-23T10:10:48.7433300Z TEE dependency verified: revision=cc7554e3ff9b509844ab648d911f0dec22b7659e; archiveSHA256=f7b8ff4e4dd339763b46f11c2aa1ad8e54bc150431f0456810aded667b2adda8; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-LjuSjb/.cache/reclaim-tee
+2026-10-23T10:10:49.2912920Z TEE dependency verified: revision=5669f88afef590502d3be4f8464a0e764f87e000; archiveSHA256=017d6ad245ca72487344b2f58ac35f0f5eedd65f5dce85d8006aaf4507f2148b; path=/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-nBOpDF/.cache/reclaim-tee
+2026-10-23T10:10:56.8079740Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-Y0thUj/desktop/src-tauri/binaries/bee-aarch64-apple-darwin; revision=a4636274f83b3981af6ae17d7f2cf42d8616eab6; target=aarch64-apple-darwin
+2026-10-23T10:10:57.3204010Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-qklxfN/desktop/src-tauri/binaries/bee-x86_64-unknown-linux-gnu; revision=e9af250ce11f48f1f7e915fc5bb61aa13d0bdb10; target=x86_64-unknown-linux-gnu
+2026-10-23T10:10:57.8844950Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-Oo7vAA/desktop/src-tauri/binaries/bee-aarch64-unknown-linux-gnu; revision=e9af250ce11f48f1f7e915fc5bb61aa13d0bdb10; target=aarch64-unknown-linux-gnu
+2026-10-23T10:10:58.2563010Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-xTyc7U/desktop/src-tauri/binaries/bee-aarch64-apple-darwin; revision=e0d17611cbcff44e3b867bb001fc2f3e6ca4908f; target=aarch64-apple-darwin
+2026-10-23T10:10:58.5850310Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-mbzo2F/desktop/src-tauri/binaries/bee-x86_64-apple-darwin; revision=e0d17611cbcff44e3b867bb001fc2f3e6ca4908f; target=x86_64-apple-darwin
+2026-10-23T10:10:58.9330290Z Bee sidecar built: /var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T/bee-desktop-tooling-NLNdAD/desktop/src-tauri/binaries/bee-x86_64-pc-windows-msvc.exe; revision=e0d17611cbcff44e3b867bb001fc2f3e6ca4908f; target=x86_64-pc-windows-msvc
+2026-10-23T10:10:59.5927620Z ✔ preflight accepts the approved macOS toolchain and rejects macOS/SDK below 13 (6.033313ms)
+2026-10-23T10:10:59.6250040Z ✔ preflight reports actual and required versions instead of accepting old tools (0.824207ms)
+2026-10-23T10:10:59.6300730Z ✔ preflight reports a missing native tool and fails for unsupported systems (0.694039ms)
+2026-10-23T10:10:59.6320960Z ✔ target mapping preserves all five approved OS/architecture pairs (3.798514ms)
+2026-10-23T10:10:59.6352940Z ✔ TEE export matches git archive and the existing shell cache marker (711.324415ms)
+2026-10-23T10:10:59.6385430Z ✔ TEE archive keeps pinned blob LF bytes and canonical SHA despite CRLF Git configuration (925.523759ms)
+2026-10-23T10:10:59.6414920Z ✔ TEE refuses altered cache content and preserves the existing data (542.663224ms)
+2026-10-23T10:10:59.6484870Z ✔ Windows TEE export copies archive file targets and revalidates the deterministic cache (769.394544ms)
+2026-10-23T10:10:59.6527810Z ✔ POSIX TEE export keeps archive symlinks and revalidates them (629.776561ms)
+2026-10-23T10:10:59.6532540Z ✔ Windows TEE cache rejects tampered service-link and preserves existing bytes (628.88054ms)
+2026-10-23T10:10:59.6557360Z ✔ Windows TEE cache rejects tampered go.mod and preserves existing bytes (727.550882ms)
+2026-10-23T10:10:59.6569940Z ✔ Windows TEE cache rejects tampered .archive-sha256 and preserves existing bytes (572.777214ms)
+2026-10-23T10:10:59.6608810Z ✔ TEE archive rejects absolute link targets before creating a cache (532.003201ms)
+2026-10-23T10:10:59.6650060Z ✔ TEE archive rejects Windows absolute link targets before creating a cache (486.524668ms)
+2026-10-23T10:10:59.6741380Z ✔ TEE archive rejects escaping link targets before creating a cache (499.489834ms)
+2026-10-23T10:10:59.6772200Z ✔ TEE archive rejects missing link targets before creating a cache (575.552785ms)
+2026-10-23T10:10:59.6782800Z ✔ TEE archive rejects missing intermediate directory link targets before creating a cache (585.814507ms)
+2026-10-23T10:10:59.6802220Z ✔ TEE archive rejects file as intermediate directory link targets before creating a cache (507.190099ms)
+2026-10-23T10:10:59.6813790Z ✔ TEE archive rejects cyclic link targets before creating a cache (476.432424ms)
+2026-10-23T10:10:59.6838630Z ✔ TEE archive rejects directory link targets before creating a cache (348.050944ms)
+2026-10-23T10:10:59.6860780Z ✔ TEE validates the complete archive before writing: special target (336.393064ms)
+2026-10-23T10:10:59.6871940Z ✔ TEE validates the complete archive before writing: non-directory parent (324.503943ms)
+2026-10-23T10:10:59.6913470Z ✔ TEE validates the complete archive before writing: duplicate path (327.383505ms)
+2026-10-23T10:10:59.6922210Z ✔ TEE validates the complete archive before writing: missing end marker (233.779067ms)
+2026-10-23T10:10:59.6953290Z ✔ TEE extraction refuses an existing destination entry without following its symlink (182.445312ms)
+2026-10-23T10:10:59.6984820Z ✔ TEE link resolution refuses a missing archive target even when the existing cache supplies it (298.676849ms)
+2026-10-23T10:10:59.7004280Z ✔ TEE refuses a symlink cache without changing its target (239.462205ms)
+2026-10-23T10:10:59.7023180Z ✔ TEE rejects an invalid revision before creating a cache (360.037266ms)
+2026-10-23T10:10:59.7043000Z ✔ sidecar build rejects a Rust target mismatch before running Go (390.337645ms)
+2026-10-23T10:10:59.7061280Z ✔ sidecar build records the actual binary version, target and SHA256 (594.397779ms)
+2026-10-23T10:10:59.7079020Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-unknown-linux-gnu (528.885031ms)
+2026-10-23T10:10:59.7100330Z ✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-unknown-linux-gnu (620.872447ms)
+2026-10-23T10:10:59.7111390Z ✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-apple-darwin (353.169873ms)
+2026-10-23T10:10:59.7138280Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-apple-darwin (345.19535ms)
+2026-10-23T10:10:59.7170900Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-pc-windows-msvc (350.575043ms)
+2026-10-23T10:10:59.7174290Z ✔ macOS sidecar enforces deployment target 13 and rejects a newer actual minimum (330.756703ms)
+2026-10-23T10:10:59.7202680Z ✔ sidecar build rejects a binary reporting a different OS or architecture (301.078553ms)
+2026-10-23T10:10:59.7231780Z ℹ tests 37
+2026-10-23T10:10:59.8236830Z ℹ suites 0
+2026-10-23T10:10:59.8237820Z ℹ pass 37
+2026-10-23T10:10:59.8238950Z ℹ fail 0
+2026-10-23T10:10:59.8239880Z ℹ cancelled 0
+2026-10-23T10:10:59.8241030Z ℹ skipped 0
+2026-10-23T10:10:59.8951210Z ℹ todo 0
+2026-10-23T10:10:59.9061280Z ℹ duration_ms 15934.222421
+2026-10-23T10:11:00.1327040Z 
+2026-10-23T10:11:00.1370860Z > bee-desktop@0.1.0 test:bridge
+2026-10-23T10:11:00.1407760Z > node --test tests/bridge.test.ts tests/bridgeMonitor.test.ts tests/lifecycle.test.ts
+2026-10-23T10:11:00.1451460Z 
+2026-10-23T10:11:01.0025840Z ✔ 浏览器没有原生桥时明确失败，不能模拟握手成功 (8.963588ms)
+2026-10-23T10:11:01.0236720Z ✔ 原生桥仅调用状态和 ping，订阅可重复清理 (26.32126ms)
+2026-10-23T10:11:01.0305520Z ✔ 原生错误保留本次错误码和诊断证据 (1.859452ms)
+2026-10-23T10:11:01.0372760Z ✔ 故障事件先到时，较早 ping 的成功不能重新显示存活 (3.538975ms)
+2026-10-23T10:11:01.0437980Z ✔ 较早状态查询不能覆盖订阅的新故障，销毁后不会再更新 (0.757879ms)
+2026-10-23T10:11:01.0489800Z ✔ 页面提前销毁时，延迟注册的监听仍会清理 (0.8646ms)
+2026-10-23T10:11:01.0544000Z ✔ 存活检查成功与具体调用错误均可见 (2.791621ms)
+2026-10-23T10:11:01.0613270Z ✔ 冷启动回跳仅恢复 boolean 提示；订阅先于快照以免丢失回跳 (27.265315ms)
+2026-10-23T10:11:01.0643310Z ✔ 后台回跳仅接受 true 收据，卸载后不再更新页面 (10.746004ms)
+2026-10-23T10:11:01.0673240Z ✔ 普通浏览器不伪造回跳提示 (1.721442ms)
+2026-10-23T10:11:01.0700910Z ℹ tests 10
+2026-10-23T10:11:01.0711700Z ℹ suites 0
+2026-10-23T10:11:01.0735870Z ℹ pass 10
+2026-10-23T10:11:01.0760780Z ℹ fail 0
+2026-10-23T10:11:01.0769340Z ℹ cancelled 0
+2026-10-23T10:11:01.0793840Z ℹ skipped 0
+2026-10-23T10:11:01.0839920Z ℹ todo 0
+2026-10-23T10:11:01.0871920Z ℹ duration_ms 690.164172
+2026-10-23T10:11:01.1041560Z ##[group]Run unset FORCE_COLOR NO_COLOR
+2026-10-23T10:11:01.1042670Z [36;1munset FORCE_COLOR NO_COLOR[0m
+2026-10-23T10:11:01.1045220Z [36;1mnpm --prefix desktop exec -- playwright install chromium firefox webkit 2>&1 | tee desktop-ci-evidence/playwright-install.log[0m
+2026-10-23T10:11:01.1048040Z [36;1mnpm --prefix desktop run test:e2e 2>&1 | tee desktop-ci-evidence/browser-e2e.log[0m
+2026-10-23T10:11:01.1154760Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-23T10:11:01.1155690Z env:
+2026-10-23T10:11:01.1156180Z   CI: true
+2026-10-23T10:11:01.1156700Z   GOTOOLCHAIN: local
+2026-10-23T10:11:01.1157370Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:11:01.1158230Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:11:01.1159280Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:11:01.1160410Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:11:01.1161150Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:11:01.1161920Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:11:01.1162590Z ##[endgroup]
+2026-10-23T10:11:03.6156990Z Downloading Chrome for Testing 153.0.8010.12 (playwright chromium v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-x64/chrome-mac-x64.zip
+2026-10-23T10:11:04.9936950Z |                                                                                |   0% of 192.3 MiB
+2026-10-23T10:11:05.8236320Z |■■■■■■■■                                                                        |  10% of 192.3 MiB
+2026-10-23T10:11:06.2899570Z |■■■■■■■■■■■■■■■■                                                                |  20% of 192.3 MiB
+2026-10-23T10:11:07.8950500Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 192.3 MiB
+2026-10-23T10:11:08.4636680Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 192.3 MiB
+2026-10-23T10:11:09.1777140Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 192.3 MiB
+2026-10-23T10:11:10.4814500Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 192.3 MiB
+2026-10-23T10:11:10.9781710Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 192.3 MiB
+2026-10-23T10:11:11.6050210Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 192.3 MiB
+2026-10-23T10:11:12.2331290Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 192.3 MiB
+2026-10-23T10:11:13.5316500Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 192.3 MiB
+2026-10-23T10:11:33.5380990Z Chrome for Testing 153.0.8010.12 (playwright chromium v1243) downloaded to /Users/runner/Library/Caches/ms-playwright/chromium-1243
+2026-10-23T10:11:33.5421910Z Downloading FFmpeg (playwright ffmpeg v1011) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-mac.zip
+2026-10-23T10:11:34.5265230Z |                                                                                |   0% of 1.3 MiB
+2026-10-23T10:11:34.5403020Z |■■■■■■■■                                                                        |  10% of 1.3 MiB
+2026-10-23T10:11:34.5480680Z |■■■■■■■■■■■■■■■■                                                                |  20% of 1.3 MiB
+2026-10-23T10:11:34.5557940Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 1.3 MiB
+2026-10-23T10:11:34.5563950Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  41% of 1.3 MiB
+2026-10-23T10:11:34.5630110Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 1.3 MiB
+2026-10-23T10:11:34.5735100Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 1.3 MiB
+2026-10-23T10:11:34.5780060Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 1.3 MiB
+2026-10-23T10:11:34.5888150Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  81% of 1.3 MiB
+2026-10-23T10:11:34.6050040Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 1.3 MiB
+2026-10-23T10:11:34.6214440Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 1.3 MiB
+2026-10-23T10:11:34.9357010Z FFmpeg (playwright ffmpeg v1011) downloaded to /Users/runner/Library/Caches/ms-playwright/ffmpeg-1011
+2026-10-23T10:11:34.9496170Z Downloading Chrome Headless Shell 153.0.8010.12 (playwright chromium-headless-shell v1243) from https://cdn.playwright.dev/builds/cft/153.0.8010.12/mac-x64/chrome-headless-shell-mac-x64.zip
+2026-10-23T10:11:36.4213090Z |                                                                                |   0% of 99.2 MiB
+2026-10-23T10:11:37.0944030Z |■■■■■■■■                                                                        |  10% of 99.2 MiB
+2026-10-23T10:11:37.3570400Z |■■■■■■■■■■■■■■■■                                                                |  20% of 99.2 MiB
+2026-10-23T10:11:37.5396190Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.2 MiB
+2026-10-23T10:11:37.7014810Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.2 MiB
+2026-10-23T10:11:38.0595260Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.2 MiB
+2026-10-23T10:11:38.3394070Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.2 MiB
+2026-10-23T10:11:38.6126160Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.2 MiB
+2026-10-23T10:11:38.9535530Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.2 MiB
+2026-10-23T10:11:39.2311120Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.2 MiB
+2026-10-23T10:11:39.4722560Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.2 MiB
+2026-10-23T10:11:47.2683760Z Chrome Headless Shell 153.0.8010.12 (playwright chromium-headless-shell v1243) downloaded to /Users/runner/Library/Caches/ms-playwright/chromium_headless_shell-1243
+2026-10-23T10:11:47.2973780Z Downloading Firefox 155.0 (playwright firefox v1543) from https://cdn.playwright.dev/dbazure/download/playwright/builds/firefox/1543/firefox-mac.zip
+2026-10-23T10:11:48.3734380Z |                                                                                |   0% of 112 MiB
+2026-10-23T10:11:48.5866380Z |■■■■■■■■                                                                        |  10% of 112 MiB
+2026-10-23T10:11:48.7738780Z |■■■■■■■■■■■■■■■■                                                                |  20% of 112 MiB
+2026-10-23T10:11:49.0065330Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 112 MiB
+2026-10-23T10:11:49.4723550Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 112 MiB
+2026-10-23T10:11:49.7365830Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 112 MiB
+2026-10-23T10:11:50.0789630Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 112 MiB
+2026-10-23T10:11:50.5209800Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 112 MiB
+2026-10-23T10:11:50.7409680Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 112 MiB
+2026-10-23T10:11:50.9508830Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 112 MiB
+2026-10-23T10:11:51.3625050Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 112 MiB
+2026-10-23T10:12:05.2922490Z Firefox 155.0 (playwright firefox v1543) downloaded to /Users/runner/Library/Caches/ms-playwright/firefox-1543
+2026-10-23T10:12:05.2950020Z Downloading WebKit 26.6 (playwright webkit v2359) from https://cdn.playwright.dev/dbazure/download/playwright/builds/webkit/2359/webkit-mac-15.zip
+2026-10-23T10:12:06.6399720Z |                                                                                |   0% of 83.2 MiB
+2026-10-23T10:12:06.9260150Z |■■■■■■■■                                                                        |  10% of 83.2 MiB
+2026-10-23T10:12:07.3066800Z |■■■■■■■■■■■■■■■■                                                                |  20% of 83.2 MiB
+2026-10-23T10:12:07.8668380Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 83.2 MiB
+2026-10-23T10:12:08.1688420Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 83.2 MiB
+2026-10-23T10:12:08.4780630Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 83.2 MiB
+2026-10-23T10:12:08.8575600Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 83.2 MiB
+2026-10-23T10:12:09.2145360Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 83.2 MiB
+2026-10-23T10:12:09.5075730Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 83.2 MiB
+2026-10-23T10:12:09.7273170Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 83.2 MiB
+2026-10-23T10:12:10.1307830Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 83.2 MiB
+2026-10-23T10:12:45.5150680Z WebKit 26.6 (playwright webkit v2359) downloaded to /Users/runner/Library/Caches/ms-playwright/webkit-2359
+2026-10-23T10:12:46.1082890Z 
+2026-10-23T10:12:46.1122310Z > bee-desktop@0.1.0 test:e2e
+2026-10-23T10:12:46.1152360Z > playwright test
+2026-10-23T10:12:46.1201450Z 
+2026-10-23T10:12:52.3273610Z 
+2026-10-23T10:12:52.3365900Z Running 489 tests using 2 workers
+2026-10-23T10:15:24.7727420Z ················································································
+2026-10-23T10:19:40.2318690Z ················································································
+2026-10-23T10:24:55.8718500Z ················································································
+2026-10-23T10:34:17.3257070Z ················································································
+2026-10-23T10:40:30.6407840Z ······TT··TT····································································
+2026-10-23T10:46:24.8604720Z ················································································
+2026-10-23T10:47:08.9239060Z ·········
+2026-10-23T10:47:08.9304810Z 
+2026-10-23T10:47:08.9473360Z   1) [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ─────────────────────────────
+2026-10-23T10:47:08.9482540Z 
+2026-10-23T10:47:08.9545800Z     Test timeout of 30000ms exceeded.
+2026-10-23T10:47:08.9618780Z 
+2026-10-23T10:47:08.9675260Z     Error: locator.click: Test timeout of 30000ms exceeded.
+2026-10-23T10:47:08.9882790Z     Call log:
+2026-10-23T10:47:08.9950670Z       - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })
+2026-10-23T10:47:09.0058810Z         - locator resolved to <button>…</button>
+2026-10-23T10:47:09.0098130Z       - attempting click action
+2026-10-23T10:47:09.0183330Z         - waiting for element to be visible, enabled and stable
+2026-10-23T10:47:09.0267730Z 
+2026-10-23T10:47:09.0330200Z 
+2026-10-23T10:47:09.0371550Z       4 | async function accounts(page: import('@playwright/test').Page, scene = 'ready') {
+2026-10-23T10:47:09.0513680Z       5 |   await page.goto(`/?scene=${scene}`);
+2026-10-23T10:47:09.0576460Z     > 6 |   await page.getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true }).click();
+2026-10-23T10:47:09.0582520Z         |                                                                                          ^
+2026-10-23T10:47:09.0608690Z       7 | }
+2026-10-23T10:47:09.0654510Z       8 | test('双入口、检测登录和详情分别表达能力、市场与额度时效', async ({ page }) => {
+2026-10-23T10:47:09.0763210Z       9 |   await accounts(page, 'empty');
+2026-10-23T10:47:09.0804250Z         at accounts (/Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:6:90)
+2026-10-23T10:47:09.0860170Z         at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:9:3
+2026-10-23T10:47:09.0908050Z 
+2026-10-23T10:47:09.0943790Z     Error Context: test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/error-context.md
+2026-10-23T10:47:09.0988460Z 
+2026-10-23T10:47:09.1027630Z     attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+2026-10-23T10:47:09.1051170Z     test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+2026-10-23T10:47:09.1124150Z     Usage:
+2026-10-23T10:47:09.1157880Z 
+2026-10-23T10:47:09.1188610Z         npx playwright show-trace test-results/accounts-双入口、检测登录和详情分别表达能力、市场与额度时效-webkit/trace.zip
+2026-10-23T10:47:09.1221110Z 
+2026-10-23T10:47:09.1259180Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-23T10:47:09.1287620Z 
+2026-10-23T10:47:09.2294520Z   2) [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ──────────────────────────────────────
+2026-10-23T10:47:09.2305400Z 
+2026-10-23T10:47:09.2767560Z     Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.2997060Z 
+2026-10-23T10:47:09.3137440Z     Error: locator.click: Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.3252270Z     Call log:
+2026-10-23T10:47:09.3328030Z       - waiting for getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })
+2026-10-23T10:47:09.3439930Z 
+2026-10-23T10:47:09.3525080Z 
+2026-10-23T10:47:09.3593520Z       4 | async function accounts(page: import('@playwright/test').Page, scene = 'ready') {
+2026-10-23T10:47:09.3680550Z       5 |   await page.goto(`/?scene=${scene}`);
+2026-10-23T10:47:09.3797050Z     > 6 |   await page.getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true }).click();
+2026-10-23T10:47:09.3816400Z         |                                                                                          ^
+2026-10-23T10:47:09.4455300Z       7 | }
+2026-10-23T10:47:09.4587220Z       8 | test('双入口、检测登录和详情分别表达能力、市场与额度时效', async ({ page }) => {
+2026-10-23T10:47:09.4670590Z       9 |   await accounts(page, 'empty');
+2026-10-23T10:47:09.4751930Z         at accounts (/Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:6:90)
+2026-10-23T10:47:09.4834580Z         at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:25:3
+2026-10-23T10:47:09.4874860Z 
+2026-10-23T10:47:09.4924900Z     Error Context: test-results/accounts-官方授权未接通，不伪造接入成功-webkit/error-context.md
+2026-10-23T10:47:09.5029910Z 
+2026-10-23T10:47:09.5099920Z     attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+2026-10-23T10:47:09.5200230Z     test-results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+2026-10-23T10:47:09.5219790Z     Usage:
+2026-10-23T10:47:09.5285410Z 
+2026-10-23T10:47:09.5352730Z         npx playwright show-trace test-results/accounts-官方授权未接通，不伪造接入成功-webkit/trace.zip
+2026-10-23T10:47:09.5405140Z 
+2026-10-23T10:47:09.6970510Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-23T10:47:09.7079190Z 
+2026-10-23T10:47:09.7186550Z   3) [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ──────────────────────────────
+2026-10-23T10:47:09.7469990Z 
+2026-10-23T10:47:09.7954460Z     Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.8228990Z 
+2026-10-23T10:47:09.8428840Z     Error: locator.click: Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.8980670Z     Call log:
+2026-10-23T10:47:09.9192540Z       - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '确认换号' })
+2026-10-23T10:47:09.9393720Z         - locator resolved to <button type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog">确认换号</button>
+2026-10-23T10:47:09.9454830Z       - attempting click action
+2026-10-23T10:47:09.9457000Z         - waiting for element to be visible, enabled and stable
+2026-10-23T10:47:09.9459000Z         - element is visible, enabled and stable
+2026-10-23T10:47:09.9533630Z         - scrolling into view if needed
+2026-10-23T10:47:09.9619520Z         - done scrolling
+2026-10-23T10:47:09.9668960Z 
+2026-10-23T10:47:09.9669150Z 
+2026-10-23T10:47:09.9686790Z       44 |   await accounts(page, 'account-change');
+2026-10-23T10:47:09.9730280Z       45 |   const openai = page.getByRole('region', { name: 'OpenAI 账号' });
+2026-10-23T10:47:09.9734990Z     > 46 |   await openai.getByRole('button', { name: '确认换号' }).click();
+2026-10-23T10:47:09.9748330Z          |                                                      ^
+2026-10-23T10:47:09.9760190Z       47 |   await expect(page.getByRole('dialog')).toContainText('dayong@example.com');
+2026-10-23T10:47:09.9789070Z       48 |   await expect(page.getByRole('dialog')).toContainText('another@example.com');
+2026-10-23T10:47:09.9795430Z       49 |   await expect(page.getByRole('dialog')).toContainText('历史收益');
+2026-10-23T10:47:09.9801720Z         at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:46:54
+2026-10-23T10:47:09.9813740Z 
+2026-10-23T10:47:09.9816470Z     Error Context: test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/error-context.md
+2026-10-23T10:47:09.9818530Z 
+2026-10-23T10:47:09.9822240Z     attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+2026-10-23T10:47:09.9833180Z     test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+2026-10-23T10:47:09.9837880Z     Usage:
+2026-10-23T10:47:09.9840150Z 
+2026-10-23T10:47:09.9844070Z         npx playwright show-trace test-results/accounts-换号明确旧新标识与影响，取消不变、确认保持暂停-webkit/trace.zip
+2026-10-23T10:47:09.9847510Z 
+2026-10-23T10:47:09.9850530Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-23T10:47:09.9852980Z 
+2026-10-23T10:47:09.9861650Z   4) [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ───────────────────────────
+2026-10-23T10:47:09.9865800Z 
+2026-10-23T10:47:09.9867630Z     Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.9870060Z 
+2026-10-23T10:47:09.9872210Z     Error: locator.click: Test timeout of 30000ms exceeded.
+2026-10-23T10:47:09.9876320Z     Call log:
+2026-10-23T10:47:09.9887380Z       - waiting for getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '移除账号' })
+2026-10-23T10:47:09.9895340Z         - locator resolved to <button class="quiet" type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog">移除账号</button>
+2026-10-23T10:47:09.9898390Z       - attempting click action
+2026-10-23T10:47:09.9904150Z         - waiting for element to be visible, enabled and stable
+2026-10-23T10:47:09.9907180Z         - element is visible, enabled and stable
+2026-10-23T10:47:09.9919450Z         - scrolling into view if needed
+2026-10-23T10:47:09.9929360Z         - done scrolling
+2026-10-23T10:47:09.9939360Z         - performing click action
+2026-10-23T10:47:09.9940600Z 
+2026-10-23T10:47:09.9940670Z 
+2026-10-23T10:47:09.9959700Z       59 |     await accounts(page, scene);
+2026-10-23T10:47:09.9966380Z       60 |     const openai = page.getByRole('region', { name: 'OpenAI 账号' });
+2026-10-23T10:47:09.9980530Z     > 61 |     await openai.getByRole('button', { name: '移除账号' }).click();
+2026-10-23T10:47:09.9994040Z          |                                                        ^
+2026-10-23T10:47:10.0082640Z       62 |     await expect(page.getByRole('dialog')).toContainText('官方客户端登录和历史收益');
+2026-10-23T10:47:10.0091250Z       63 |     await page.getByRole('button', { name: '确认移除', exact: true }).click();
+2026-10-23T10:47:10.0116430Z       64 |     await expect(openai).toContainText(
+2026-10-23T10:47:10.0123870Z         at /Users/runner/work/bee/bee/desktop/tests/accounts.spec.ts:61:56
+2026-10-23T10:47:10.0125110Z 
+2026-10-23T10:47:10.0128360Z     Error Context: test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/error-context.md
+2026-10-23T10:47:10.0130200Z 
+2026-10-23T10:47:10.0139850Z     attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+2026-10-23T10:47:10.0152130Z     test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+2026-10-23T10:47:10.0156290Z     Usage:
+2026-10-23T10:47:10.0157690Z 
+2026-10-23T10:47:10.0161740Z         npx playwright show-trace test-results/accounts-removal-pending-保留卡片并停止新任务-webkit/trace.zip
+2026-10-23T10:47:10.0173960Z 
+2026-10-23T10:47:10.0177360Z     ────────────────────────────────────────────────────────────────────────────────────────────────
+2026-10-23T10:47:10.0179800Z 
+2026-10-23T10:47:10.0180860Z   4 failed
+2026-10-23T10:47:10.0186260Z     [webkit] › tests/accounts.spec.ts:8:1 › 双入口、检测登录和详情分别表达能力、市场与额度时效 ──────────────────────────────
+2026-10-23T10:47:10.0191690Z     [webkit] › tests/accounts.spec.ts:24:1 › 官方授权未接通，不伪造接入成功 ───────────────────────────────────────
+2026-10-23T10:47:10.0200060Z     [webkit] › tests/accounts.spec.ts:43:1 › 换号明确旧新标识与影响，取消不变、确认保持暂停 ───────────────────────────────
+2026-10-23T10:47:10.0290810Z     [webkit] › tests/accounts.spec.ts:58:3 › removal-pending 保留卡片并停止新任务 ────────────────────────────
+2026-10-23T10:47:10.0296720Z   485 passed (34.3m)
+2026-10-23T10:47:10.9353220Z ##[error]Process completed with exit code 1.
+2026-10-23T10:47:12.3940530Z ##[group]Run actions/upload-artifact@v4
+2026-10-23T10:47:12.3941940Z with:
+2026-10-23T10:47:12.3943110Z   name: bee-macos15-intel-checks-87b28a29aa84c2543b6b80b7e31204646e4fa76a
+2026-10-23T10:47:12.3946020Z   if-no-files-found: warn
+2026-10-23T10:47:12.3946910Z   retention-days: 14
+2026-10-23T10:47:12.3948460Z   path: desktop-ci-evidence/
+desktop/test-results/
+desktop/playwright-report/
+
+2026-10-23T10:47:12.3950880Z   compression-level: 6
+2026-10-23T10:47:12.3951850Z   overwrite: false
+2026-10-23T10:47:12.3958660Z   include-hidden-files: false
+2026-10-23T10:47:12.3960710Z env:
+2026-10-23T10:47:12.3961410Z   CI: true
+2026-10-23T10:47:12.3962270Z   GOTOOLCHAIN: local
+2026-10-23T10:47:12.3963260Z   RUSTUP_TOOLCHAIN: 1.94.0-x86_64-apple-darwin
+2026-10-23T10:47:12.3964480Z   BEE_CI_TARGET: x86_64-apple-darwin
+2026-10-23T10:47:12.3966020Z   CARGO_TARGET_DIR: /Users/runner/work/bee/bee/desktop/src-tauri/target
+2026-10-23T10:47:12.3967740Z   MACOSX_DEPLOYMENT_TARGET: 13.0
+2026-10-23T10:47:12.3982000Z   APPLE_SIGNING_IDENTITY: -
+2026-10-23T10:47:12.3982900Z   PLAYWRIGHT_HTML_OPEN: never
+2026-10-23T10:47:12.3984260Z ##[endgroup]
+2026-10-23T10:47:19.3167260Z (node:48162) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-23T10:47:19.3214940Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-23T10:47:22.2147040Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-10-23T10:47:22.2150430Z The least common ancestor is /Users/runner/work/bee/bee. This will be the root directory of the artifact
+2026-10-23T10:47:22.2152250Z With the provided path, there will be 583 files uploaded
+2026-10-23T10:47:22.2153550Z Artifact name is valid!
+2026-10-23T10:47:22.2154320Z Root directory input is valid!
+2026-10-23T10:47:22.2511520Z Beginning upload of artifact content to blob storage
+2026-10-23T10:47:23.7644720Z (node:48162) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-23T10:47:24.1246200Z Uploaded bytes 8388608
+2026-10-23T10:47:25.4759090Z Uploaded bytes 16777216
+2026-10-23T10:47:26.6395520Z Uploaded bytes 25165824
+2026-10-23T10:47:27.9406350Z Uploaded bytes 33554432
+2026-10-23T10:47:28.9597390Z Uploaded bytes 41943040
+2026-10-23T10:47:30.0480120Z Uploaded bytes 50331648
+2026-10-23T10:47:31.3851510Z Uploaded bytes 58720256
+2026-10-23T10:47:32.1591670Z Uploaded bytes 67108864
+2026-10-23T10:47:33.1675170Z Uploaded bytes 75497472
+2026-10-23T10:47:34.2003430Z Uploaded bytes 83886080
+2026-10-23T10:47:35.2726970Z Uploaded bytes 92274688
+2026-10-23T10:47:36.6694600Z Uploaded bytes 100663296
+2026-10-23T10:47:37.7820520Z Uploaded bytes 108550740
+2026-10-23T10:47:37.8171080Z Finished uploading artifact content to blob storage!
+2026-10-23T10:47:37.8232370Z SHA256 digest of uploaded artifact zip is a7c99077da6d0ccffa7355f07c00fce62b53ce7775a5ac784b4c86ece93a95ff
+2026-10-23T10:47:37.8265200Z Finalizing artifact upload
+2026-10-23T10:47:38.2636670Z Artifact bee-macos15-intel-checks-87b28a29aa84c2543b6b80b7e31204646e4fa76a.zip successfully finalized. Artifact ID 12496660787
+2026-10-23T10:47:38.2806120Z Artifact bee-macos15-intel-checks-87b28a29aa84c2543b6b80b7e31204646e4fa76a has been successfully uploaded! Final size is 108550740 bytes. Artifact ID is 12496660787
+2026-10-23T10:47:38.2810970Z Artifact download URL: https://github.com/wangdayong228/bee/actions/runs/39936378073/artifacts/12496660787
+2026-10-23T10:47:38.5637200Z Post job cleanup.
+2026-10-23T10:47:39.0083020Z [command]/usr/local/bin/git version
+2026-10-23T10:47:39.1360130Z git version 2.55.0
+2026-10-23T10:47:39.1465160Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/ff279a2b-c851-4a33-8a6b-e562abe45df1/.gitconfig'
+2026-10-23T10:47:39.1505920Z Temporarily overriding HOME='/Users/runner/work/_temp/ff279a2b-c851-4a33-8a6b-e562abe45df1' before making global git config changes
+2026-10-23T10:47:39.1510370Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-23T10:47:39.1520130Z [command]/usr/local/bin/git config --global --add safe.directory /Users/runner/work/bee/bee
+2026-10-23T10:47:39.2050740Z [command]/usr/local/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-23T10:47:39.2282090Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-23T10:47:39.6612260Z [command]/usr/local/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-23T10:47:39.6928160Z [command]/usr/local/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-23T10:47:39.9436380Z [command]/usr/local/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-23T10:47:39.9510740Z [command]/usr/local/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-23T10:47:40.3142760Z Cleaning up orphan processes
+2026-10-23T10:47:41.7331490Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

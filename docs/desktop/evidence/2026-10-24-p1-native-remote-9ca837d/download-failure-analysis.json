@@ -1,0 +1,18 @@
+{
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": 39941148651,
+  "scope": "local artifact download only; CI four jobs remain success",
+  "observed": "curl long transfer timeout followed by HTTP403 on retries; existing curl retry handling discarded partial file",
+  "cause": "HTTP403 reason not independently proven; signed URL may no longer be usable; no product inference",
+  "logs": [
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499970923-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499791357-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499472362-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499786372-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12500075328-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499741498-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499057979-download.log",
+    ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12498963844-download.log"
+  ],
+  "handling": "refresh redirect per bounded transfer attempt; disable curl automatic retry to retain partial file; exact ZIP SHA/size/CRC and source/package checks still required"
+}

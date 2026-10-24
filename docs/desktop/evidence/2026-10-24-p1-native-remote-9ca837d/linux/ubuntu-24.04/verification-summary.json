@@ -1,0 +1,103 @@
+{
+  "row": "ubuntu-24.04",
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": "39941148651",
+  "target": "x86_64-unknown-linux-gnu",
+  "nativeOk": true,
+  "package": {
+    "path": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/test/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+    "bytes": 148912632,
+    "sha256": "07355ee68591a14d1d9fec0d06a141cc4117d38db042296513caf80cce71ede4"
+  },
+  "source": {
+    "path": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-24.04/test/binaries/bee-x86_64-unknown-linux-gnu.source.json",
+    "sha256": "853f8737117c1d632b3bfa369d03e82e191852277321227b8acada0221c2914c",
+    "content": {
+      "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+      "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+      "target": "x86_64-unknown-linux-gnu",
+      "goos": "linux",
+      "goarch": "amd64",
+      "go": "go version go1.27.3 linux/amd64",
+      "beeVersion": "dev+9ca837d902fb-dirty",
+      "binarySha256": "25eb4542028e5a2b00b043efc1a9c5bb247eee639ae4a79a8764ab7e3be788e0"
+    }
+  },
+  "teeArchiveSha256": "4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38",
+  "downloadedLogCounts": {
+    "browser-e2e.log": [
+      "489"
+    ],
+    "cargo-test.log": [
+      [
+        "36",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "smokes": {
+    "extract": {
+      "ok": true,
+      "observedMs": 10242,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native client window size and startup only; no readiness, content visibility or desktop decoration assertion",
+      "minimumClientSize": {
+        "requested": {
+          "width": 860,
+          "height": 600
+        },
+        "resizeGeometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=860\nHEIGHT=600\nSCREEN=0",
+        "finalGeometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=860\nHEIGHT=600\nSCREEN=0",
+        "sameWindowId": "2097155"
+      }
+    },
+    "fuse": {
+      "ok": true,
+      "observedMs": 10325,
+      "exit": {
+        "code": null,
+        "signal": "SIGTERM"
+      },
+      "cleanup": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "liveRemaining": [],
+        "zombies": [],
+        "parentClosed": true
+      },
+      "scope": "native client window size and startup only; no readiness, content visibility or desktop decoration assertion",
+      "minimumClientSize": {
+        "requested": {
+          "width": 860,
+          "height": 600
+        },
+        "resizeGeometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=860\nHEIGHT=600\nSCREEN=0",
+        "finalGeometry": "WINDOW=2097155\nX=0\nY=0\nWIDTH=860\nHEIGHT=600\nSCREEN=0",
+        "sameWindowId": "2097155"
+      }
+    }
+  }
+}

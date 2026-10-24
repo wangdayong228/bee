@@ -1,0 +1,13 @@
+{
+  "artifactId": 12499741498,
+  "artifactName": "bee-linux-checks-ubuntu-22.04-9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "revision": "9ca837d902fbf026be9931f796a3d1289e33dad3",
+  "runId": 39941148651,
+  "zip": ".cache/qa/p1-native-remote-9ca837d/artifact-zips/12499741498.zip",
+  "bytes": 102239419,
+  "sha256": "8f26f4d20b9e3e18dcec3510c218238d9ddcd799115ed46678b202d8a7cca038",
+  "matchesMetadataDigest": true,
+  "zipCrcOk": true,
+  "destination": ".cache/qa/p1-native-remote-9ca837d/linux/ubuntu-22.04/checks",
+  "scope": "ZIP verified; package/source/geometry verification is separate"
+}

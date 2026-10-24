@@ -1,0 +1,14 @@
+{
+  "artifactId": 12494054216,
+  "artifactName": "bee-linux-test-ubuntu-22.04-87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378139,
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "recordedAt": "2026-10-23T10:49:14.059820+00:00",
+  "attempt": 2,
+  "exitCode": 1,
+  "stderr": "error downloading bee-linux-test-ubuntu-22.04-87b28a29aa84c2543b6b80b7e31204646e4fa76a: error writing zip archive: read tcp 198.18.0.1:64774->198.18.0.244:443: read: operation timed out",
+  "scope": "local artifact download; not CI job failure",
+  "cause": "unknown; response ended before ZIP write completed",
+  "successfulComparison": "22x64 checks same source/run download exited0; other artifacts still downloading",
+  "handling": "retry exact read-only artifact using retained ZIP with resumable transport; no CI changes"
+}

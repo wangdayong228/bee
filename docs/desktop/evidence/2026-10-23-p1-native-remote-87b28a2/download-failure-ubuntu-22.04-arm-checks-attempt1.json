@@ -1,0 +1,13 @@
+{
+  "artifactId": 12494956766,
+  "artifactName": "bee-linux-checks-ubuntu-22.04-arm-87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "runId": 39936378139,
+  "revision": "87b28a29aa84c2543b6b80b7e31204646e4fa76a",
+  "recordedAt": "2026-10-23T10:38:13.911256+00:00",
+  "attempt": 1,
+  "exitCode": 1,
+  "stderr": "error downloading bee-linux-checks-ubuntu-22.04-arm-87b28a29aa84c2543b6b80b7e31204646e4fa76a: error writing zip archive: unexpected EOF",
+  "scope": "local artifact download; not CI job failure",
+  "cause": "unknown; response ended before ZIP write completed",
+  "handling": "retry read-only exact artifact with retained ZIP to permit resume; verify metadata ZIP digest and package SHA independently"
+}

@@ -1,0 +1,33 @@
+{
+  "recordedAt": "2026-10-23T10:52:28.201539+00:00",
+  "cause": "unknown local transport stall; no product/runner inference",
+  "records": [
+    {
+      "artifactId": 12494956766,
+      "wrapperPid": 92874,
+      "localCurlPid": 92922,
+      "retainedBytes": 21299200,
+      "lastWriteSecondsAgo": 606,
+      "action": "SIGTERM only this stalled local curl; retain partial ZIP; wait wrapper exit before resuming",
+      "scope": "no CI/native/product process cancelled"
+    },
+    {
+      "artifactId": 12494533994,
+      "wrapperPid": 92875,
+      "localCurlPid": 92912,
+      "retainedBytes": 16760832,
+      "lastWriteSecondsAgo": 670,
+      "action": "SIGTERM only this stalled local curl; retain partial ZIP; wait wrapper exit before resuming",
+      "scope": "no CI/native/product process cancelled"
+    },
+    {
+      "artifactId": 12494234525,
+      "wrapperPid": 98260,
+      "localCurlPid": 98275,
+      "retainedBytes": 37109760,
+      "lastWriteSecondsAgo": 407,
+      "action": "SIGTERM only this stalled local curl; retain partial ZIP; wait wrapper exit before resuming",
+      "scope": "no CI/native/product process cancelled"
+    }
+  ]
+}

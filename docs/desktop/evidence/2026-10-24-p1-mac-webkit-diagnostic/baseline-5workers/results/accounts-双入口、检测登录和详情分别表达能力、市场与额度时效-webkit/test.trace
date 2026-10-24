@@ -1,0 +1,71 @@
+{"version":9,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.63.0","options":{},"platform":"darwin","wallTime":1792753053075,"monotonicTime":5741.759,"sdkLanguage":"javascript","testTimeout":30000,"annotations":[]}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":5810.307,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@29","stepId":"fixture@29","parentId":"hook@1","startTime":5863.987,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@30","stepId":"pw:api@30","parentId":"fixture@29","startTime":5867.725,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@30","endTime":7316.422,"annotations":[]}
+{"type":"after","callId":"fixture@29","endTime":7316.565,"annotations":[]}
+{"type":"before","callId":"fixture@33","stepId":"fixture@33","parentId":"hook@1","startTime":7317.989,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@34","stepId":"pw:api@34","parentId":"fixture@33","startTime":7320.374,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@34","endTime":8045.757,"annotations":[]}
+{"type":"after","callId":"fixture@33","endTime":8143.25,"annotations":[]}
+{"type":"before","callId":"fixture@35","stepId":"fixture@35","parentId":"hook@1","startTime":8143.96,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@36","stepId":"pw:api@36","parentId":"fixture@35","startTime":8146.921,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@36","endTime":10363.065,"annotations":[]}
+{"type":"after","callId":"fixture@35","endTime":10363.148,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":10363.242,"annotations":[]}
+{"type":"before","callId":"pw:api@37","stepId":"pw:api@37","startTime":10366.565,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"/?scene=empty","params":{"url":"/?scene=empty"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":5,"column":14,"function":"accounts"}]}
+{"type":"after","callId":"pw:api@37","endTime":16257.859,"annotations":[]}
+{"type":"before","callId":"pw:api@38","stepId":"pw:api@38","startTime":16276.36,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })","params":{"locator":"getByRole('navigation').getByRole('button', { name: 'AI 账号', exact: true })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":6,"column":90,"function":"accounts"}]}
+{"type":"after","callId":"pw:api@38","endTime":16507.896,"annotations":[]}
+{"type":"before","callId":"expect@39","stepId":"expect@39","startTime":16512.56,"class":"Test","method":"expect","title":"Expect \"toBeVisible\"","subtitle":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '官方授权接入' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '官方授权接入' })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":11,"column":64}]}
+{"type":"after","callId":"expect@39","endTime":16547.039,"annotations":[]}
+{"type":"before","callId":"pw:api@40","stepId":"pw:api@40","startTime":16549.267,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '检测已有登录' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '检测已有登录' })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":12,"column":56}]}
+{"type":"after","callId":"pw:api@40","endTime":16667.834,"annotations":[]}
+{"type":"before","callId":"expect@41","stepId":"expect@41","startTime":16671.483,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('region', { name: 'OpenAI 账号' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' })","expected":"dayong@example.com"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":13,"column":24}]}
+{"type":"after","callId":"expect@41","endTime":16793.41,"annotations":[]}
+{"type":"before","callId":"pw:api@42","stepId":"pw:api@42","startTime":16794.169,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '查看详情' })","params":{"locator":"getByRole('region', { name: 'OpenAI 账号' }).getByRole('button', { name: '查看详情' })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":14,"column":54}]}
+{"type":"after","callId":"pw:api@42","endTime":16896.113,"annotations":[]}
+{"type":"before","callId":"expect@43","stepId":"expect@43","startTime":16899.239,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('dialog')","params":{"locator":"getByRole('dialog')","expected":"订阅套餐"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":16,"column":23}]}
+{"type":"after","callId":"expect@43","endTime":16917.327,"annotations":[]}
+{"type":"before","callId":"expect@44","stepId":"expect@44","startTime":16917.685,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('dialog')","params":{"locator":"getByRole('dialog')","expected":"账号支持"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":17,"column":23}]}
+{"type":"after","callId":"expect@44","endTime":16934.892,"annotations":[]}
+{"type":"before","callId":"expect@45","stepId":"expect@45","startTime":16935.283,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('dialog')","params":{"locator":"getByRole('dialog')","expected":"平台暂未开放"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":18,"column":23}]}
+{"type":"after","callId":"expect@45","endTime":16948.204,"annotations":[]}
+{"type":"before","callId":"expect@46","stepId":"expect@46","startTime":16948.527,"class":"Test","method":"expect","title":"Expect \"toContainText\"","subtitle":"getByRole('dialog')","params":{"locator":"getByRole('dialog')","expected":"更新时间"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":19,"column":23}]}
+{"type":"error","message":"\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m","stack":[]}
+{"type":"before","callId":"hook@47","stepId":"hook@47","startTime":166721.866,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"fixture@48","stepId":"fixture@48","parentId":"hook@47","startTime":166764.079,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@48","endTime":166764.467,"annotations":[]}
+{"type":"before","callId":"fixture@49","stepId":"fixture@49","parentId":"hook@47","startTime":166767.996,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"after","callId":"expect@46","endTime":166833.995,"annotations":[]}
+{"type":"before","callId":"pw:api@50","stepId":"pw:api@50","parentId":"fixture@49","startTime":166834.549,"class":"Test","method":"pw:api","title":"Press \"Escape\"","params":{"key":"Escape"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":20,"column":23}]}
+{"type":"after","callId":"pw:api@50","endTime":166916.588,"annotations":[]}
+{"type":"before","callId":"pw:api@51","stepId":"pw:api@51","parentId":"fixture@49","startTime":166917.595,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByRole('button', { name: '概览', exact: true })","params":{"locator":"getByRole('button', { name: '概览', exact: true })"},"stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":21,"column":63}]}
+{"type":"before","callId":"pw:api@52","stepId":"pw:api@52","parentId":"fixture@49","startTime":166974.414,"class":"Test","method":"pw:api","title":"Close context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@51","endTime":166987.907,"annotations":[],"error":{"name":"","message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '概览', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n","stack":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '概览', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts:21:63"}}
+{"type":"error","message":"Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '概览', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button>…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n","stack":[{"file":"/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/accounts.spec.ts","line":21,"column":63}]}
+{"type":"after","callId":"pw:api@52","endTime":166989.34,"annotations":[]}
+{"type":"after","callId":"fixture@49","endTime":166989.387,"annotations":[]}
+{"type":"before","callId":"attach@8ecaac4b8f2e349868e12e3ede67e179","stepId":"attach@8ecaac4b8f2e349868e12e3ede67e179","startTime":166992.632,"class":"Test","method":"test.attach","title":"Attach \"error-context\"","params":{},"stack":[]}
+{"type":"after","callId":"attach@8ecaac4b8f2e349868e12e3ede67e179","endTime":166992.638,"attachments":[{"name":"error-context","contentType":"text/markdown","file":"attachments/14131b605d2833020abfaed0163f65e3a854f3e7"}]}
+{"type":"before","callId":"fixture@61","stepId":"fixture@61","parentId":"hook@47","startTime":166993.462,"class":"Test","method":"fixture","title":"Fixture \"baseURL\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@61","endTime":166993.478,"annotations":[]}
+{"type":"before","callId":"fixture@62","stepId":"fixture@62","parentId":"hook@47","startTime":166993.486,"class":"Test","method":"fixture","title":"Fixture \"userAgent\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@62","endTime":166993.495,"annotations":[]}
+{"type":"before","callId":"fixture@64","stepId":"fixture@64","parentId":"hook@47","startTime":166994.343,"class":"Test","method":"fixture","title":"Fixture \"viewport\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@64","endTime":166994.357,"annotations":[]}
+{"type":"before","callId":"fixture@70","stepId":"fixture@70","parentId":"hook@47","startTime":166994.798,"class":"Test","method":"fixture","title":"Fixture \"locale\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@70","endTime":166994.803,"annotations":[]}
+{"type":"before","callId":"fixture@72","stepId":"fixture@72","parentId":"hook@47","startTime":166995.127,"class":"Test","method":"fixture","title":"Fixture \"isMobile\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@72","endTime":166995.275,"annotations":[]}
+{"type":"before","callId":"fixture@76","stepId":"fixture@76","parentId":"hook@47","startTime":166996.338,"class":"Test","method":"fixture","title":"Fixture \"hasTouch\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@76","endTime":166996.355,"annotations":[]}
+{"type":"before","callId":"fixture@79","stepId":"fixture@79","parentId":"hook@47","startTime":166996.809,"class":"Test","method":"fixture","title":"Fixture \"deviceScaleFactor\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@79","endTime":166996.816,"annotations":[]}
+{"type":"after","callId":"hook@47","endTime":166998.331,"annotations":[]}
+{"type":"before","callId":"hook@86","stepId":"hook@86","startTime":166998.98,"class":"Test","method":"hook","title":"Worker Cleanup","params":{},"stack":[]}
+{"type":"before","callId":"fixture@91","stepId":"fixture@91","parentId":"hook@86","startTime":166999.672,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"after","callId":"fixture@91","endTime":167039.831,"annotations":[]}
+{"type":"before","callId":"fixture@95","stepId":"fixture@95","parentId":"hook@86","startTime":167040.417,"class":"Test","method":"fixture","title":"Fixture \"defaultBrowserType\"","params":{},"stack":[{"file":"project#webkit","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"fixture@95","endTime":167040.424,"annotations":[]}
+{"type":"after","callId":"hook@86","endTime":167042.27,"annotations":[]}

@@ -1,0 +1,10 @@
+✔ final geometry child exit cannot pass with valid minimum dimensions (450.644459ms)
+✔ final geometry ownership reassignment cannot pass with valid minimum dimensions (467.930625ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 957.88475
