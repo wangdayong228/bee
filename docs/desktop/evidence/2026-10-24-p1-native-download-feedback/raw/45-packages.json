@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-24T08:45:00.455277+00:00",
+  "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "app": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app",
+  "files": [
+    {
+      "path": "desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee-desktop",
+      "bytes": 27663216,
+      "sha256": "94751aa598e2a3c4c40316dd80252fcc70767a5ee26b4dc42ae0ab21481bb192"
+    },
+    {
+      "path": "desktop/src-tauri/target/debug/bundle/macos/Bee Dev.app/Contents/MacOS/bee",
+      "bytes": 30630144,
+      "sha256": "f1c0f1dd20a2bdea2dcda67800a710254e48ab9994a8576ba4c8c99eb2b1656e"
+    },
+    {
+      "path": "desktop/src-tauri/binaries/bee-aarch64-apple-darwin.source.json",
+      "bytes": 365,
+      "sha256": "82bd1de056b4771fd54b29d4e6ae6aac72d03689dd7cf39acb0c69d663b20d31"
+    },
+    {
+      "path": "desktop/src-tauri/target/debug/bundle/dmg/Bee Dev_0.1.0_aarch64.dmg",
+      "bytes": 22900410,
+      "sha256": "03eb0ec6136798e289a29e66996de376d7849d3c992e07e9524b552ba6cf7ec1"
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "codesign",
+        "--verify",
+        "--deep",
+        "--strict",
+        "App"
+      ],
+      "exit": 0,
+      "stderr": ""
+    },
+    {
+      "binary": "bee-desktop",
+      "minimum": [
+        "minos 13.0"
+      ]
+    },
+    {
+      "binary": "bee",
+      "minimum": [
+        "minos 13.0"
+      ]
+    }
+  ],
+  "sidecarSource": {
+    "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+    "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+    "target": "aarch64-apple-darwin",
+    "goos": "darwin",
+    "goarch": "arm64",
+    "go": "go version go1.27.3 darwin/arm64",
+    "beeVersion": "dev+2fcaa409df4c",
+    "binarySha256": "ce351a91855b5979d9a7557e7230a9b0010ec0af5d1f4abafd864a36f7f3d1f8"
+  },
+  "downloadUsage": "Bee saves the sanitized diagnostics report to your Downloads folder when you choose Export sanitized report.",
+  "identifier": "dev.tokhive.bee"
+}

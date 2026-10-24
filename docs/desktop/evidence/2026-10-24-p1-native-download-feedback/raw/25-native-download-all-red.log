@@ -1,0 +1,210 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/native-download.spec.ts --project chromium --workers 2
+
+[WebServer] (node:84209) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 2 workers
+
+(node:84211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:84210) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/native-download.spec.ts:63:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 (5.7s)
+(node:84257) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 [chromium] › tests/native-download.spec.ts:79:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL (6.1s)
+(node:84262) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 [chromium] › tests/native-download.spec.ts:97:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 (5.5s)
+(node:84389) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [chromium] › tests/native-download.spec.ts:107:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 (6.0s)
+  ✘  5 [chromium] › tests/native-download.spec.ts:122:1 › 原生失败和成功反馈完整翻译为英文 (1.1s)
+
+
+  1) [chromium] › tests/native-download.spec.ts:63:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 ────────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "正在等待报告下载结果"
+    Received string:    "已发起报告文件下载；请在下载列表核对。"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        3 × locator resolved to <p role="status" class="operation-message">正在生成脱敏报告…</p>
+          - unexpected value "正在生成脱敏报告…"
+        11 × locator resolved to <p role="status" class="operation-message">已发起报告文件下载；请在下载列表核对。</p>
+           - unexpected value "已发起报告文件下载；请在下载列表核对。"
+
+
+      66 |   await button.click();
+      67 |   await expect(button).toBeDisabled();
+    > 68 |   await expect(page.getByRole('status')).toContainText('正在等待报告下载结果');
+         |                                          ^
+      69 |   expect((await fixtureState(page)).subscribedBeforeClick).toEqual([true]);
+      70 |   await finish(page, 99, true);
+      71 |   await finish(page, 0, 'true');
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:68:42
+
+    Error Context: test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/native-download.spec.ts:79:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL ─────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "原生报告下载失败"
+    Received string:    "已发起报告文件下载；请在下载列表核对。"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        14 × locator resolved to <p role="status" class="operation-message">已发起报告文件下载；请在下载列表核对。</p>
+           - unexpected value "已发起报告文件下载；请在下载列表核对。"
+
+
+      82 |   await button.click();
+      83 |   await finish(page, 0, false);
+    > 84 |   await expect(page.getByRole('status')).toContainText('原生报告下载失败');
+         |                                          ^
+      85 |   await expect(page.getByRole('status')).toContainText('success=false');
+      86 |   await expect(page.getByRole('status')).toContainText('未确认完成');
+      87 |   await expect(page.getByRole('status')).not.toContainText('blob:');
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:84:42
+
+    Error Context: test-results/native-download-原生下载失败显示实际回执，重试隔离旧结果且不泄露URL-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-原生下载失败显示实际回执，重试隔离旧结果且不泄露URL-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-原生下载失败显示实际回执，重试隔离旧结果且不泄露URL-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [chromium] › tests/native-download.spec.ts:97:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 ───────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "download-listen-denied: E42"
+    Received string:    "已发起报告文件下载；请在下载列表核对。"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        3 × locator resolved to <p role="status" class="operation-message">正在生成脱敏报告…</p>
+          - unexpected value "正在生成脱敏报告…"
+        11 × locator resolved to <p role="status" class="operation-message">已发起报告文件下载；请在下载列表核对。</p>
+           - unexpected value "已发起报告文件下载；请在下载列表核对。"
+
+
+       99 |   const button = page.getByRole('button', { name: '导出脱敏报告', exact: true });
+      100 |   await button.click();
+    > 101 |   await expect(page.getByRole('status')).toContainText('download-listen-denied: E42');
+          |                                          ^
+      102 |   await expect(page.getByRole('status')).toContainText('未确认完成');
+      103 |   await expect(button).toBeEnabled();
+      104 |   expect((await fixtureState(page)).count).toBe(0);
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:101:42
+
+    Error Context: test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [chromium] › tests/native-download.spec.ts:107:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 ──────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "报告下载结果未确认"
+    Received string:    "已发起报告文件下载；请在下载列表核对。"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        14 × locator resolved to <p role="status" class="operation-message">已发起报告文件下载；请在下载列表核对。</p>
+           - unexpected value "已发起报告文件下载；请在下载列表核对。"
+
+
+      112 |   await expect.poll(async () => (await fixtureState(page)).count).toBe(1);
+      113 |   await page.clock.runFor(30_001);
+    > 114 |   await expect(page.getByRole('status')).toContainText('报告下载结果未确认');
+          |                                          ^
+      115 |   await expect(page.getByRole('status')).toContainText('waitedMs=30000');
+      116 |   await expect(button).toBeEnabled();
+      117 |   await finish(page, 0, true);
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:114:42
+
+    Error Context: test-results/native-download-30秒未收到原生回执显示未确认，迟到结果不改写页面-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-30秒未收到原生回执显示未确认，迟到结果不改写页面-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-30秒未收到原生回执显示未确认，迟到结果不改写页面-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [chromium] › tests/native-download.spec.ts:122:1 › 原生失败和成功反馈完整翻译为英文 ───────────────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "success=false"
+    Error: strict mode violation: getByRole('status') resolved to 2 elements:
+        1) <p role="status" class="operation-message">Report download initiated. Check the download lis…</p> aka getByText('Report download initiated.')
+        2) <p role="status" class="operation-message">Demo only: Settings saved. Switching Hive require…</p> aka getByText('Demo only: Settings saved.')
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+
+
+      128 |   await button.click();
+      129 |   await finish(page, 0, false);
+    > 130 |   await expect(page.getByRole('status')).toContainText('success=false');
+          |                                          ^
+      131 |   await expect(page.getByRole('status')).not.toContainText(/[\u4e00-\u9fff]/);
+      132 |   await button.click();
+      133 |   await finish(page, 1, true);
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:130:42
+
+    Error Context: test-results/native-download-原生失败和成功反馈完整翻译为英文-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-原生失败和成功反馈完整翻译为英文-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-原生失败和成功反馈完整翻译为英文-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5 failed
+    [chromium] › tests/native-download.spec.ts:63:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 ─────────────────────
+    [chromium] › tests/native-download.spec.ts:79:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL ──────────────────
+    [chromium] › tests/native-download.spec.ts:97:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 ────────────────────
+    [chromium] › tests/native-download.spec.ts:107:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 ───────────────────
+    [chromium] › tests/native-download.spec.ts:122:1 › 原生失败和成功反馈完整翻译为英文 ────────────────────────────

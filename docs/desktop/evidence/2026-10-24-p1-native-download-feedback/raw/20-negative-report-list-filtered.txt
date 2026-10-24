@@ -1,0 +1,9 @@
+						626 文本栏 (settable) URL: file:///Users/dayong/Downloads/bee-demo-diagnostics.json, Value: bee-demo-diagnostics.json, Secondary Actions: 打开“访达”项目
+						628 文本 377 字节
+						632 文本 昨天
+						636 文本栏 (settable) URL: file:///Users/dayong/Downloads/bee-demo-diagnostics%20(1).json, Value: bee-demo-diagnostics (1).json, Secondary Actions: 打开“访达”项目
+						638 文本 377 字节
+						642 文本 昨天
+						646 文本栏 (selected, settable) URL: file:///Users/dayong/Downloads/bee-demo-diagnostics%20(2).json, Value: bee-demo-diagnostics (2).json, Secondary Actions: 打开“访达”项目
+						648 文本 377 字节
+						652 文本 16:28

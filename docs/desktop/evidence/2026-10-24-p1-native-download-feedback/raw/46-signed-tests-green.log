@@ -1,0 +1,9 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.85s
+     Running unittests src/lib.rs (desktop/src-tauri/target/debug/deps/bee_desktop_lib-2fae8002f353f7d7)
+
+running 2 tests
+test build_source::tests::macos_signed_bundle_seal_accepts_signing_changes_and_rejects_tampering ... ok
+test sidecar::tests::signed_app_bee_handshakes_pings_and_reaps_without_gui_or_path_lookup ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 40 filtered out; finished in 0.88s
+

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T08:47:33.251798+00:00",
+  "args": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-native-remaining/download-write-deny.sb",
+    "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-native-remaining/Bee Download Fixed QA.app/Contents/MacOS/bee-desktop"
+  ],
+  "pid": 898,
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024"
+}

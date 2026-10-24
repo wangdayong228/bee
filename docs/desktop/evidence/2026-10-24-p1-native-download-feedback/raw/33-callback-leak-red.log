@@ -1,0 +1,42 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/native-download.spec.ts --project chromium --workers 1 --grep 下载监听注册失败
+
+[WebServer] (node:91257) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:91258) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 (847ms)
+
+
+  1) [chromium] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 ──────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+      108 |     const state = await fixtureState(page);
+      109 |     expect(state.count).toBe(0);
+    > 110 |     expect(state.callbacks).toBe(0);
+          |                             ^
+      111 |   }
+      112 | });
+      113 |
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:110:29
+
+    Error Context: test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-下载监听注册失败时不发起下载，保留底层错误并可重试-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 ───────────────────

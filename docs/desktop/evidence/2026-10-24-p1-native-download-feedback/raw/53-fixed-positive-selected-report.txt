@@ -1,0 +1,10 @@
+				653 row (selected)
+					654 单元格 (selected)
+						655 图像
+						656 文本栏 (selected, settable) URL: file:///Users/dayong/Downloads/bee-demo-diagnostics%20(3).json, Value: bee-demo-diagnostics (3).json, Secondary Actions: 打开“访达”项目
+					657 单元格 (selected)
+						658 文本 377 字节
+					659 单元格 (selected)
+						660 文本 JSON File
+					661 单元格 (selected)
+						662 文本 16:46

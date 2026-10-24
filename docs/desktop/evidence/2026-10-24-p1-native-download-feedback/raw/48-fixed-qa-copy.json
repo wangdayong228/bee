@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-24T08:45:17.552477+00:00",
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "app": "/Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/.cache/qa/2026-10-24-mac-native-remaining/Bee Download Fixed QA.app",
+  "files": [
+    {
+      "name": "bee-desktop",
+      "bytes": 27663216,
+      "sha256": "94751aa598e2a3c4c40316dd80252fcc70767a5ee26b4dc42ae0ab21481bb192"
+    },
+    {
+      "name": "bee",
+      "bytes": 30630144,
+      "sha256": "f1c0f1dd20a2bdea2dcda67800a710254e48ab9994a8576ba4c8c99eb2b1656e"
+    }
+  ],
+  "codesign": {
+    "exit": 0,
+    "stderr": ""
+  }
+}

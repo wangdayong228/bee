@@ -1,0 +1,53 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/native-download.spec.ts --project chromium --workers 1 --grep 原生导出等待匹配回执
+
+[WebServer] (node:83664) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:83667) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 [chromium] › tests/native-download.spec.ts:60:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 (5.7s)
+
+
+  1) [chromium] › tests/native-download.spec.ts:60:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 ────────────────────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "正在等待报告下载结果"
+    Received string:    "已发起报告文件下载；请在下载列表核对。"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+        3 × locator resolved to <p role="status" class="operation-message">正在生成脱敏报告…</p>
+          - unexpected value "正在生成脱敏报告…"
+        11 × locator resolved to <p role="status" class="operation-message">已发起报告文件下载；请在下载列表核对。</p>
+           - unexpected value "已发起报告文件下载；请在下载列表核对。"
+
+
+      63 |   await button.click();
+      64 |   await expect(button).toBeDisabled();
+    > 65 |   await expect(page.getByRole('status')).toContainText('正在等待报告下载结果');
+         |                                          ^
+      66 |   expect((await fixtureState(page)).subscribedBeforeClick).toEqual([true]);
+      67 |   await finish(page, 99, true);
+      68 |   await finish(page, 0, 'true');
+        at /Users/dayong/myspace/mywork/tokenhive/.worktrees/bee-desktop-p0/desktop/tests/native-download.spec.ts:65:42
+
+    Error Context: test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/native-download-原生导出等待匹配回执，成功后才确认交付并清理监听-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/native-download.spec.ts:60:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 ─────────────────────

@@ -1,0 +1,38 @@
+
+> bee-desktop@0.1.0 test:e2e
+> playwright test tests/native-download.spec.ts --workers 2
+
+[WebServer] (node:92010) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 15 tests using 2 workers
+
+(node:92012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:92013) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [chromium] › tests/native-download.spec.ts:65:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 (948ms)
+  ✓   1 [chromium] › tests/native-download.spec.ts:82:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL (1.5s)
+  ✓   3 [chromium] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 (996ms)
+  ✓   4 [chromium] › tests/native-download.spec.ts:114:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 (805ms)
+(node:92036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [chromium] › tests/native-download.spec.ts:129:1 › 原生失败和成功反馈完整翻译为英文 (1.4s)
+(node:92042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [firefox] › tests/native-download.spec.ts:65:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 (1.5s)
+  ✓   8 [firefox] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 (1.5s)
+  ✓   7 [firefox] › tests/native-download.spec.ts:82:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL (2.1s)
+  ✓   9 [firefox] › tests/native-download.spec.ts:114:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 (893ms)
+(node:92088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [firefox] › tests/native-download.spec.ts:129:1 › 原生失败和成功反馈完整翻译为英文 (1.6s)
+(node:92207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [webkit] › tests/native-download.spec.ts:65:1 › 原生导出等待匹配回执，成功后才确认交付并清理监听 (1.0s)
+  ✓  12 [webkit] › tests/native-download.spec.ts:82:1 › 原生下载失败显示实际回执，重试隔离旧结果且不泄露URL (1.2s)
+  ✓  13 [webkit] › tests/native-download.spec.ts:100:1 › 下载监听注册失败时不发起下载，保留底层错误并可重试 (1.1s)
+  ✓  14 [webkit] › tests/native-download.spec.ts:114:1 › 30秒未收到原生回执显示未确认，迟到结果不改写页面 (960ms)
+  ✓  15 [webkit] › tests/native-download.spec.ts:129:1 › 原生失败和成功反馈完整翻译为英文 (1.4s)
+
+  15 passed (12.3s)

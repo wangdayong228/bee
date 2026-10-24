@@ -1,0 +1,10 @@
+{
+  "observedAt": "2026-10-24T08:50:00.296Z",
+  "method": "CUA Finder Downloads AX; only Bee report names retained",
+  "reportNames": [
+    "bee-demo-diagnostics.json",
+    "bee-demo-diagnostics (1).json",
+    "bee-demo-diagnostics (2).json",
+    "bee-demo-diagnostics (3).json"
+  ]
+}

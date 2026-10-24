@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-24T08:50:08.148Z",
+  "attempts": 2,
+  "uiError": "原生报告下载失败：success=false；未确认文件交付，请检查下载文件夹后重试。",
+  "retryButtonEnabled": true,
+  "stderrFailures": 2,
+  "reportNames": [
+    "bee-demo-diagnostics.json",
+    "bee-demo-diagnostics (1).json",
+    "bee-demo-diagnostics (2).json",
+    "bee-demo-diagnostics (3).json"
+  ],
+  "scope": "Per-process deny file-write* in Downloads; not a real user TCC refusal or save-dialog cancellation",
+  "exitAction": "CUA native Bee Dev menu > 退出"
+}

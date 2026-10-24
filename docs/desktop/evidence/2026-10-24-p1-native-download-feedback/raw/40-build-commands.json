@@ -1,0 +1,48 @@
+[
+  {
+    "name": "38-preflight",
+    "args": [
+      "node",
+      "desktop/scripts/preflight.mjs"
+    ],
+    "at": "2026-10-24T08:42:31.935248+00:00",
+    "exit": 0,
+    "elapsedSeconds": 0.453
+  },
+  {
+    "name": "39-sidecar",
+    "args": [
+      "node",
+      "desktop/scripts/build-bee.mjs",
+      "--target",
+      "aarch64-apple-darwin"
+    ],
+    "at": "2026-10-24T08:42:32.388249+00:00",
+    "exit": 0,
+    "elapsedSeconds": 4.883
+  },
+  {
+    "name": "40-tauri-app-dmg",
+    "args": [
+      "npm",
+      "--prefix",
+      "desktop",
+      "run",
+      "tauri",
+      "--",
+      "build",
+      "--debug",
+      "--ci",
+      "--config",
+      "src-tauri/tauri.demo.conf.json",
+      "--bundles",
+      "app,dmg",
+      "--",
+      "--locked",
+      "--offline"
+    ],
+    "at": "2026-10-24T08:42:37.272339+00:00",
+    "exit": 0,
+    "elapsedSeconds": 33.824
+  }
+]

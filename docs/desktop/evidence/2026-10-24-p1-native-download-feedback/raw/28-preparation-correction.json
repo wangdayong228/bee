@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-24T08:37:13.323364+00:00",
+  "processBeforeStop": "86075 86061 rustc -vV",
+  "reason": "Missing RUSTUP_TOOLCHAIN=1.94 in test preparation; stop only own rustc proxy and rerun pinned toolchain."
+}

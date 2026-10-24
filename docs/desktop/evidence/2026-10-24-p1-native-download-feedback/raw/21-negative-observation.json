@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-24T08:31:14.185Z",
+  "reportsVisibleInFinder": [
+    "bee-demo-diagnostics.json",
+    "bee-demo-diagnostics (1).json",
+    "bee-demo-diagnostics (2).json"
+  ],
+  "nativeStderr": "Download failed with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)",
+  "uiStatus": "已发起报告文件下载；请在下载列表核对。",
+  "scope": "Per-process injected Downloads write denial; not a real TCC user refusal or save-dialog cancellation"
+}
