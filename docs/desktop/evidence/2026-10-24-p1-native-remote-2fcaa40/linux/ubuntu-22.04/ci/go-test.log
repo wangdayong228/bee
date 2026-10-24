@@ -1,0 +1,7 @@
+ok  	github.com/tokhive/bee/agent	50.888s
+ok  	github.com/tokhive/bee/beewire	0.013s
+ok  	github.com/tokhive/bee/cmd/bee	0.196s
+ok  	github.com/tokhive/bee/desktopbridge	0.045s
+ok  	github.com/tokhive/bee/logx	0.006s
+ok  	github.com/tokhive/bee/relay	1.041s
+ok  	github.com/tokhive/bee/telemetry	0.010s

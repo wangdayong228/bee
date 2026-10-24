@@ -1,0 +1,29 @@
+OK Source HEAD: actual="2fcaa409df4cd2d6de66e1391bedce872e770024"; required="2fcaa409df4cd2d6de66e1391bedce872e770024"
+OK Node platform/arch/version: actual="darwin/x64/v24.22.1"; required="darwin/x64/v24.22.1"
+OK Kernel architecture: actual="x86_64"; required="x86_64"
+OK No Rosetta: actual=""; required="0 or empty"
+OK Hosted OS: actual="15.7.9"; required="macOS 15.x"
+ProductName:		macOS
+ProductVersion:		15.7.9
+BuildVersion:		24G830
+OK Selected Xcode: actual="/Applications/Xcode_16.4.app/Contents/Developer"; required="/Applications/Xcode_16.4.app/Contents/Developer"
+OK Xcode version: actual="Xcode 16.4\nBuild version 16F6"; required="Xcode 16.4 / Build 16F6"
+OK macOS SDK: actual="15.5"; required="15.5"
+Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: x86_64-apple-darwin24.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+OK Go version: actual="go version go1.27.3 darwin/amd64"; required="go version go1.27.3 darwin/amd64"
+OK Go build/host: actual="darwin\namd64\ndarwin\namd64"; required="darwin\namd64\ndarwin\namd64"
+OK Rust version: actual="rustc 1.94.0 (4a4ef493e 2026-03-02)"; required="rustc 1.94.0"
+OK Rust host: actual="x86_64-apple-darwin"; required="x86_64-apple-darwin"
+rustc 1.94.0 (4a4ef493e 2026-03-02)
+binary: rustc
+commit-hash: 4a4ef493e3a1488c6e321570238084b38948f6db
+commit-date: 2026-03-02
+host: x86_64-apple-darwin
+release: 1.94.0
+LLVM version: 21.1.8
+OK Cargo version: actual="cargo 1.94.0 (85eff7c80 2026-01-15)"; required="cargo 1.94.0"
+11.19.1
+git version 2.55.0

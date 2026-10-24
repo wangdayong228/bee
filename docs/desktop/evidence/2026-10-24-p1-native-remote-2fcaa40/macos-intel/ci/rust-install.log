@@ -1,0 +1,8 @@
+info: syncing channel updates for 1.94.0-x86_64-apple-darwin
+info: latest update on 2026-03-05 for version 1.94.0 (4a4ef493e 2026-03-02)
+info: downloading 5 components
+
+  1.94.0-x86_64-apple-darwin installed - rustc 1.94.0 (4a4ef493e 2026-03-02)
+
+info: self-update is disabled for this build of rustup
+info: any updates to rustup will need to be fetched with your system package manager

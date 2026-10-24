@@ -1,0 +1,16 @@
+   Compiling bee-desktop v0.1.0 (/Users/runner/work/bee/bee/desktop/src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 13.39s
+     Running unittests src/lib.rs (desktop/src-tauri/target/debug/deps/bee_desktop_lib-4bbb0c8176e6cbc7)
+
+running 2 tests
+test sidecar::tests::signed_app_bee_handshakes_pings_and_reaps_without_gui_or_path_lookup ... ok
+test build_source::tests::macos_signed_bundle_seal_accepts_signing_changes_and_rejects_tampering ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 40 filtered out; finished in 0.77s
+
+     Running unittests src/main.rs (desktop/src-tauri/target/debug/deps/bee_desktop-83d52deb49301627)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

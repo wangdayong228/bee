@@ -1,0 +1,10 @@
+{
+  "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+  "target": "x86_64-pc-windows-msvc",
+  "goos": "windows",
+  "goarch": "amd64",
+  "go": "go version go1.27.3 windows/amd64",
+  "beeVersion": "dev+2fcaa409df4c-dirty",
+  "binarySha256": "5c2c7ec297ee61b048540238a79cff8cca89495bbb8df83abd5eb7b626a6e162"
+}

@@ -1,0 +1,14 @@
+OK Node: actual=24.22.1; required=24.x LTS
+OK Go: actual=go version go1.27.3 linux/arm64; required=go1.27.3
+OK Rust: actual=rustc 1.94.0 (4a4ef493e 2026-03-02); required=1.94.0 (rust-toolchain.toml)
+OK Cargo: actual=cargo 1.94.0 (85eff7c80 2026-01-15); required=1.94.0
+OK Git: actual=git version 2.55.0; required=Git installed
+OK Target: actual=linux/arm64; required=darwin arm64/x64; win32 x64; linux arm64/x64
+OK C compiler: actual=cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.; required=cc available
+OK webkit2gtk-4.1: actual=2.50.4; required=pkg-config development package installed
+OK gtk+-3.0: actual=3.24.33; required=pkg-config development package installed
+OK ayatana-appindicator3-0.1: actual=0.5.90; required=pkg-config development package installed
+OK librsvg-2.0: actual=2.52.5; required=pkg-config development package installed

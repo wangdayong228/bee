@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-24T08:58:38.319122+00:00",
+  "runId": 40079654094,
+  "jobId": 120830348542,
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "rust": {
+    "passed": 31,
+    "failed": 0,
+    "ignored": 0
+  },
+  "sourceJSONMatchesBothArtifacts": true,
+  "sourceJSONSHA256": "1caabe308d4b4a775387e98bc9e307d787068679c333510587c32cad9de4a9ae",
+  "package": {
+    "name": "Bee Dev_0.1.0_x64-setup.exe",
+    "bytes": 16283129,
+    "sha256": "7e438882726cd8c731f61eee97e38521811634cd3862e84aff64303ddb56ee61"
+  },
+  "reportedBeeVersion": "dev+2fcaa409df4c-dirty",
+  "boundaries": "Windows Server2022 build only; no Win10/11 GUI/install/native download; dirty suffix is preserved and its cause not established by this evidence; source revision and exact hashes match reports"
+}

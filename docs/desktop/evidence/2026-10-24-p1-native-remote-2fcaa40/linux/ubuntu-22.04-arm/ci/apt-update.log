@@ -1,0 +1,18 @@
+Get:1 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease [3632 B]
+Get:2 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 Packages [941 kB]
+Get:3 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Packages [23.5 kB]
+Get:4 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main arm64 Packages [679 kB]
+Hit:5 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+Get:6 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease [128 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease [127 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease [129 kB]
+Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 Packages [3765 kB]
+Get:10 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main Translation-en [576 kB]
+Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 Packages [1365 kB]
+Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe Translation-en [326 kB]
+Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-security/main arm64 Packages [3512 kB]
+Get:14 http://ports.ubuntu.com/ubuntu-ports jammy-security/main Translation-en [510 kB]
+Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe arm64 Packages [1136 kB]
+Get:16 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe Translation-en [237 kB]
+Fetched 13.5 MB in 2s (5948 kB/s)
+Reading package lists...

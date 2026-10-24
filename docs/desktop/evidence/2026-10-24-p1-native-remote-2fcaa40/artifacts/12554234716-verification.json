@@ -1,0 +1,99 @@
+{
+  "at": "2026-10-24T08:57:48.261692+00:00",
+  "runId": 40079654094,
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "id": 12554234716,
+  "artifact": "bee-server2022-x64-checks-2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "reportedBytes": 12016,
+  "downloadedBytes": 12016,
+  "githubDigest": "sha256:5d8b3f00f3e5198d8e204944c7a4aa05cbdb5d8c4954fb93808658d732beeda7",
+  "sha256": "5d8b3f00f3e5198d8e204944c7a4aa05cbdb5d8c4954fb93808658d732beeda7",
+  "zipCRCValid": true,
+  "files": [
+    {
+      "path": "cargo-linker.log",
+      "bytes": 277,
+      "sha256": "8fcc317603184ba5ddee2abe9680e9f1491845f487c1b164778a44a7a7046c02"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 536,
+      "sha256": "3797ae3ae1faf55d35b185bf32cc07aaf5d4371d6668ae2ea1dff27deaf6e651"
+    },
+    {
+      "path": "cargo-test.log",
+      "bytes": 19104,
+      "sha256": "cdb585ca674d99f30a1510cbd29efc2cf3fdf99c9e4e997aacba6de2c16fcd25"
+    },
+    {
+      "path": "environment.log",
+      "bytes": 2111,
+      "sha256": "e232d468a1d562e714fd632d54bc04178ea6b0925d5e6a4d37ed2b0ab7c62a9a"
+    },
+    {
+      "path": "frontend-build.log",
+      "bytes": 674,
+      "sha256": "1ab9e1afdc12cdf23fa37df52f829623ac2fe6bde3034e38290f7a3565bef4e2"
+    },
+    {
+      "path": "npm-ci.log",
+      "bytes": 143,
+      "sha256": "32ca62ebdaeee7774ef4eeb930aeb038e022ed7a5a0fba4b8fe3d0ac9fc8a865"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 1195,
+      "sha256": "ba2acf6e4f448e6e5d0f6662a3dd1e39eca0077f2854c9d3a768428723ad1edd"
+    },
+    {
+      "path": "package-scope.log",
+      "bytes": 104,
+      "sha256": "937e32a46c03ccc501a3aa501951115f1eb93c7b1359ed8b5cb86758f401292b"
+    },
+    {
+      "path": "provision.log",
+      "bytes": 1450,
+      "sha256": "80413155cdea2d14820f1f4c219b8115083f71c6676a7a1856c6a7062b7357fc"
+    },
+    {
+      "path": "sidecar.log",
+      "bytes": 172,
+      "sha256": "57c97aeb3cd3e713fcaea74e5d403ad7ab4d3282790dd4b840f48ff9d43d099a"
+    },
+    {
+      "path": "tauri-linker.log",
+      "bytes": 277,
+      "sha256": "52da1549fef84210383c00c01d4cfc279f6a68f00f49a26bda09146b1bc1f0d0"
+    },
+    {
+      "path": "tee.log",
+      "bytes": 193,
+      "sha256": "cdca3f2a2ba96ea2416cd739f319e62c768fad3c912878664d1699a1b81d31c7"
+    },
+    {
+      "path": "tauri-build.log",
+      "bytes": 2124,
+      "sha256": "a26ac58592205d14974c0a233d9254e8d1d792fb9a295442651d1a40b171924b"
+    },
+    {
+      "path": "test-boundaries.log",
+      "bytes": 152,
+      "sha256": "0fbdd4920b94721c215f8ed80635a6ce29421132989321b48b5d312871383b1e"
+    },
+    {
+      "path": "webview2.log",
+      "bytes": 954,
+      "sha256": "5b199f4b5d620c21abd8797a357cb3433be3996ca1bbd7d52bd7d00c7ae2dba3"
+    },
+    {
+      "path": "webview2.json",
+      "bytes": 91,
+      "sha256": "2c531582d9b0a27335fc436ab565f7f04c974a3d3688f7f4922e9784b3189174"
+    },
+    {
+      "path": "typecheck.log",
+      "bytes": 47,
+      "sha256": "0a95c62b8dcf7ce54db15de1911b6dc50d873db0bc5da93e4708bbfbf3a3b75b"
+    }
+  ]
+}

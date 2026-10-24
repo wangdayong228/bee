@@ -47,6 +47,6 @@ App 主二进制 27,663,216 字节，SHA256 `94751aa598e2a3c4c40316dd80252fcc707
 
 ## 三端补验状态与归档边界
 
-`2fcaa40` 已推个人 fork，触发 [Mac Intel](https://github.com/wangdayong228/bee/actions/runs/40079654076)、[Linux 四环境](https://github.com/wangdayong228/bee/actions/runs/40079654195)、[Server2022](https://github.com/wangdayong228/bee/actions/runs/40079654094)。归档时运行中；不使用旧87/9通过替代新源码结果，最终结果另行补证。
+`2fcaa40` 已推个人 fork，触发 [Mac Intel](https://github.com/wangdayong228/bee/actions/runs/40079654076)、[Linux 四环境](https://github.com/wangdayong228/bee/actions/runs/40079654195)、[Server2022](https://github.com/wangdayong228/bee/actions/runs/40079654094)。该批归档时运行中；随后全部成功，[2fc最终三端补证](../2026-10-24-p1-native-remote-2fcaa40/README.md)已核对12 ZIP/六包/source与测试日志，不使用旧87/9通过替代新源码结果。
 
 [manifest](manifest.json)记录81份原文件的相对来源、字节数和 SHA256，复制不修改原始字节。只保存本轮报告元数据，不保存 Downloads 其它用户文件名。App/DMG留在忽略的 QA/构建目录，不作为文档提交。全部验收结论限定于各日志绑定的源码、运行阶段与工具，计划未完成格不变。

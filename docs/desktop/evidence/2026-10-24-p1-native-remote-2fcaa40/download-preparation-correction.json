@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-24T09:12:33.036052+00:00",
+  "reason": "Artifact downloads exceed the QA helper 180s transfer timeout at observed rate. Preserve partial ZIP bytes and switch only the helper to resumable official artifact download; not product or CI failure.",
+  "stopped": [
+    {
+      "pid": 26612,
+      "ppid": 15855,
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python .cache/qa/p1-native-remote-2fcaa40/collect-artifacts.py"
+    },
+    {
+      "pid": 26622,
+      "ppid": 26612,
+      "command": "gh api repos/wangdayong228/bee/actions/artifacts/12555425726/zip"
+    },
+    {
+      "pid": 26623,
+      "ppid": 26612,
+      "command": "gh api repos/wangdayong228/bee/actions/artifacts/12554913642/zip"
+    },
+    {
+      "pid": 26624,
+      "ppid": 26612,
+      "command": "gh api repos/wangdayong228/bee/actions/artifacts/12554749531/zip"
+    }
+  ],
+  "stopObservedAt": "2026-10-24T09:12:53.778520+00:00",
+  "followup": {
+    "at": "2026-10-24T09:18:10.393864+00:00",
+    "issue": "QA helper reused config as curl stdin text and could not write verification record after successful ZIP digest/CRC/extraction. Renamed local variable; reuse and independently reverify complete ZIPs, preserving partial transfers.",
+    "productOrCIFailure": false
+  }
+}

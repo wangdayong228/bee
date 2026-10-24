@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-24T09:21:41.148374+00:00",
+  "runs": [
+    {
+      "name": "macos",
+      "runId": 40079654076,
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 120830348430,
+          "name": "macOS 15 Intel native Bee, Rust bridge and P1 demo DMG",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        }
+      ],
+      "artifacts": 2
+    },
+    {
+      "name": "windows",
+      "runId": 40079654094,
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 120830348542,
+          "name": "Server 2022 x64 Rust, native Bee and NSIS (development only)",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        }
+      ],
+      "artifacts": 2
+    },
+    {
+      "name": "linux",
+      "runId": 40079654195,
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 120830348889,
+          "name": "ubuntu-24.04-arm / aarch64-unknown-linux-gnu",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        },
+        {
+          "id": 120830348965,
+          "name": "ubuntu-22.04 / x86_64-unknown-linux-gnu",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        },
+        {
+          "id": 120830349029,
+          "name": "ubuntu-24.04 / x86_64-unknown-linux-gnu",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        },
+        {
+          "id": 120830349090,
+          "name": "ubuntu-22.04-arm / aarch64-unknown-linux-gnu",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        }
+      ],
+      "artifacts": 8
+    },
+    {
+      "name": "tee",
+      "runId": 40079654112,
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 120830348402,
+          "name": "Windows x64 Node tooling and real pinned TEE",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        }
+      ],
+      "artifacts": 0
+    },
+    {
+      "name": "bee",
+      "runId": 40079654116,
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 120830348772,
+          "name": "test",
+          "status": "completed",
+          "conclusion": "success",
+          "active": []
+        }
+      ],
+      "artifacts": 0
+    }
+  ]
+}

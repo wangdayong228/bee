@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-24T09:21:51.229365+00:00",
+  "runId": 40079654195,
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "id": 12555291607,
+  "artifact": "bee-linux-test-ubuntu-22.04-2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "reportedBytes": 148011655,
+  "downloadedBytes": 148011655,
+  "githubDigest": "sha256:4b47d12ef1e5abc632833b1c4a8dc05f1a47450f9f1d8d4e9944e20c3f248f05",
+  "sha256": "4b47d12ef1e5abc632833b1c4a8dc05f1a47450f9f1d8d4e9944e20c3f248f05",
+  "zipCRCValid": true,
+  "files": [
+    {
+      "path": "target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+      "bytes": 148699640,
+      "sha256": "f95a03e00a7efe05e7965ef334cd0e70fe9eb9ac325b7b0645f6bb8777301fec"
+    },
+    {
+      "path": "binaries/bee-x86_64-unknown-linux-gnu.source.json",
+      "bytes": 373,
+      "sha256": "1e53b5d92be453285b76e88fac7a0826dbc872f6434aada7dd8b88ba4dc7215b"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+
+> bee-desktop@0.1.0 test:bridge
+> node --test tests/bridge.test.ts tests/bridgeMonitor.test.ts tests/lifecycle.test.ts
+
+✔ 浏览器没有原生桥时明确失败，不能模拟握手成功 (2.492785ms)
+✔ 原生桥仅调用状态和 ping，订阅可重复清理 (15.992869ms)
+✔ 原生错误保留本次错误码和诊断证据 (1.61046ms)
+✔ 故障事件先到时，较早 ping 的成功不能重新显示存活 (2.281391ms)
+✔ 较早状态查询不能覆盖订阅的新故障，销毁后不会再更新 (0.389757ms)
+✔ 页面提前销毁时，延迟注册的监听仍会清理 (0.365762ms)
+✔ 存活检查成功与具体调用错误均可见 (1.544628ms)
+✔ 冷启动回跳仅恢复 boolean 提示；订阅先于快照以免丢失回跳 (12.079667ms)
+✔ 后台回跳仅接受 true 收据，卸载后不再更新页面 (4.34682ms)
+✔ 普通浏览器不伪造回跳提示 (2.323279ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 195.896531

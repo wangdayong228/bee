@@ -1,0 +1,45 @@
+{
+  "total_count": 2,
+  "artifacts": [
+    {
+      "id": 12555641370,
+      "node_id": "MDg6QXJ0aWZhY3QxMjU1NTY0MTM3MA==",
+      "name": "bee-macos15-intel-test-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "size_in_bytes": 23997611,
+      "url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12555641370",
+      "archive_download_url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12555641370/zip",
+      "expired": false,
+      "digest": "sha256:310653424776406f7d86e6aa86a0dedbc770200d966494b7d91157cfcaaf4705",
+      "created_at": "2026-10-24T09:20:58Z",
+      "updated_at": "2026-10-24T09:20:58Z",
+      "expires_at": "2026-11-07T09:20:55Z",
+      "workflow_run": {
+        "id": 40079654076,
+        "repository_id": 1430497272,
+        "head_repository_id": 1430497272,
+        "head_branch": "feat/bee-desktop-p0",
+        "head_sha": "2fcaa409df4cd2d6de66e1391bedce872e770024"
+      }
+    },
+    {
+      "id": 12555074004,
+      "node_id": "MDg6QXJ0aWZhY3QxMjU1NTA3NDAwNA==",
+      "name": "bee-macos15-intel-checks-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "size_in_bytes": 108303412,
+      "url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12555074004",
+      "archive_download_url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12555074004/zip",
+      "expired": false,
+      "digest": "sha256:e4237aa2c2b8d38528a87accdf1ac837f28698cc1a346df7090f49ded653284d",
+      "created_at": "2026-10-24T09:21:09Z",
+      "updated_at": "2026-10-24T09:21:09Z",
+      "expires_at": "2026-11-07T09:20:59Z",
+      "workflow_run": {
+        "id": 40079654076,
+        "repository_id": 1430497272,
+        "head_repository_id": 1430497272,
+        "head_branch": "feat/bee-desktop-p0",
+        "head_sha": "2fcaa409df4cd2d6de66e1391bedce872e770024"
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+Windows x64 Node tooling and real pinned TEE	Set up job	﻿2026-10-24T08:51:19.5259122Z Current runner version: '2.338.0'
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5295278Z ##[group]Runner Image Provisioner
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5295913Z Hosted Compute Agent
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5296286Z Version: 20261021.618
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5296695Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5297160Z Build Date: 2026-10-21T00:45:21Z
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5297595Z Worker ID: {f1f9eed2-368d-4d20-909a-e37d873fb319}
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5298085Z Region: centralus
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5298423Z Cloud: Azure
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5298766Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5299592Z ##[group]Operating System
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5299996Z Microsoft Windows Server 2022
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5300380Z 10.0.20348
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5300689Z Datacenter
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5301027Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5301359Z ##[group]Runner Image
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5301763Z Image: windows-2022
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5302111Z Version: 20261021.343.1
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5302795Z Included Software: https://github.com/actions/runner-images/blob/win22/20261021.343/images/windows/Windows2022-Readme.md
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5304821Z Image Release: https://github.com/actions/runner-images/releases/tag/win22%2F20261021.343
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5305465Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5306180Z ##[group]GITHUB_TOKEN Permissions
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5307674Z Contents: read
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5308032Z Metadata: read
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5308359Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5309861Z Secret source: Actions
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5311076Z Cache mode: write
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5311574Z Prepare workflow directory
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5578353Z Prepare all required actions
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.5614902Z Getting action download info
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.7824342Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:19.8683520Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Windows x64 Node tooling and real pinned TEE	Set up job	2026-10-24T08:51:20.1005992Z Complete job name: Windows x64 Node tooling and real pinned TEE
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	﻿2026-10-24T08:51:20.2271372Z ##[group]Run actions/checkout@v4
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2272579Z with:
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2272928Z   persist-credentials: false
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2273343Z   repository: wangdayong228/bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2276379Z   token: ***
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2276700Z   ssh-strict: true
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2277043Z   ssh-user: git
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2277357Z   clean: true
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2277696Z   sparse-checkout-cone-mode: true
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2278080Z   fetch-depth: 1
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2278379Z   fetch-tags: false
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2278711Z   show-progress: true
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2279029Z   lfs: false
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2279322Z   submodules: false
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2279688Z   set-safe-directory: true
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2280045Z   allow-unsafe-pr-checkout: false
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.2280618Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.3836816Z Syncing repository: wangdayong228/bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.3838260Z ##[group]Getting Git version info
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.3838772Z Working directory is 'D:\a\bee\bee'
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.4734776Z [command]"C:\Program Files\Git\bin\git.exe" version
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.7821759Z git version 2.56.0.windows.2
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.7879391Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.7895266Z Temporarily overriding HOME='D:\a\_temp\f0a577d5-5e97-4713-b91c-0899266208de' before making global git config changes
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.7896363Z Adding repository directory to the temporary git global config as a safe directory
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.7904146Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\bee\bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.8404476Z Deleting the contents of 'D:\a\bee\bee'
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.8408754Z ##[group]Initializing the repository
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.8416073Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\bee\bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9175906Z Initialized empty Git repository in D:/a/bee/bee/.git/
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9210058Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/wangdayong228/bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9759347Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9760167Z ##[group]Disabling automatic garbage collection
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9760837Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9975568Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9976947Z ##[group]Setting up auth
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:20.9985064Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:21.0217025Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:22.1994606Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:22.2223894Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:22.6515167Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:22.6742871Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:23.1058593Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:23.1294840Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:23.1295757Z ##[group]Fetching the repository
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:23.1303980Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +2fcaa409df4cd2d6de66e1391bedce872e770024:refs/remotes/origin/feat/bee-desktop-p0
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3610152Z From https://github.com/wangdayong228/bee
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3614958Z  * [new ref]         2fcaa409df4cd2d6de66e1391bedce872e770024 -> origin/feat/bee-desktop-p0
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3646525Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3647035Z ##[group]Determining the checkout info
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3649388Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.3659215Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.4009102Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.4238444Z ##[group]Checking out the ref
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.4239471Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B feat/bee-desktop-p0 refs/remotes/origin/feat/bee-desktop-p0
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.7830557Z Switched to a new branch 'feat/bee-desktop-p0'
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.7846965Z branch 'feat/bee-desktop-p0' set up to track 'origin/feat/bee-desktop-p0'.
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.7904752Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.8211726Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.8417864Z 2fcaa409df4cd2d6de66e1391bedce872e770024
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.8445894Z ##[group]Removing auth
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.8453085Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:26.8670928Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.2743938Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.2955319Z http.https://github.com/.extraheader
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.2987731Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.3232484Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.7353757Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:27.7577352Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Windows x64 Node tooling and real pinned TEE	Run actions/checkout@v4	2026-10-24T08:51:28.1723801Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	﻿2026-10-24T08:51:28.2045085Z ##[group]Run actions/setup-node@v4
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2045457Z with:
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2045715Z   node-version: 24.22.1
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2046184Z   architecture: x64
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2046530Z   always-auth: false
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2046845Z   check-latest: false
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2048853Z   token: ***
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.2049063Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.3348142Z Found in cache @ C:\hostedtoolcache\windows\node\24.22.1\x64
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.3353812Z (node:4036) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.3354382Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:28.3356410Z ##[group]Environment details
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:32.8483873Z node: v24.22.1
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:32.8484286Z npm: 11.19.1
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:32.8484550Z yarn: 1.22.22
+Windows x64 Node tooling and real pinned TEE	Run actions/setup-node@v4	2026-10-24T08:51:32.8485660Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Report native runtime	﻿2026-10-24T08:51:32.8741929Z ##[group]Run node -e 'console.log(JSON.stringify({os:process.platform,arch:process.arch,node:process.version})); if(process.platform!=="win32" || process.arch!=="x64") process.exit(1)'
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8743020Z [36;1mnode -e 'console.log(JSON.stringify({os:process.platform,arch:process.arch,node:process.version})); if(process.platform!=="win32" || process.arch!=="x64") process.exit(1)'[0m
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8743659Z [36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8743973Z [36;1mgit --version --build-options[0m
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8744286Z [36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8890861Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:32.8891234Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.1888434Z {"os":"win32","arch":"x64","node":"v24.22.1"}
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2264629Z git version 2.56.0.windows.2
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2265787Z cpu: x86_64
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2267164Z built from commit: cc4dbf752a05efdc0e04e71fd3e8110d11bdd35c
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2267851Z sizeof-long: 4
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2268147Z sizeof-size_t: 8
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2268602Z shell-path: D:/git-sdk-64-build-installers/usr/bin/sh
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2268982Z rust: disabled
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2269320Z feature: fsmonitor--daemon
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2269654Z gettext: enabled
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2269996Z libcurl: 8.22.0
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2270351Z OpenSSL: OpenSSL 3.5.9 29 Sep 2026
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2270728Z zlib: 1.3.2
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2271056Z SHA-1: SHA1_DC
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2271381Z SHA-256: SHA256_BLK
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2271724Z default-ref-format: files
+Windows x64 Node tooling and real pinned TEE	Report native runtime	2026-10-24T08:51:33.2272163Z default-hash: sha1
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	﻿2026-10-24T08:51:33.3288341Z ##[group]Run node --test desktop/tests/tooling.test.mjs
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:33.3288856Z [36;1mnode --test desktop/tests/tooling.test.mjs[0m
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:33.3321367Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:33.3321750Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:34.2236057Z TEE dependency verified: revision=11192d9743effd55c0d7b64d96d265d42e916f97; archiveSHA256=42b6ef5fd6675542fbf79c9e2a32291d44bdb8d5ddc3fc318513ef0865852351; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-P5KVtM\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:34.3825747Z TEE dependency verified: revision=11192d9743effd55c0d7b64d96d265d42e916f97; archiveSHA256=42b6ef5fd6675542fbf79c9e2a32291d44bdb8d5ddc3fc318513ef0865852351; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-P5KVtM\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:35.0817042Z TEE dependency verified: revision=5e2d49fc67be54d33b14c084ab2a0ebf76f66534; archiveSHA256=ee4b23a538545226dc79d7080c0b91fe12099a46df0cf007da43c440b7c321ce; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-rTOPJ5\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:35.2613479Z TEE dependency verified: revision=5e2d49fc67be54d33b14c084ab2a0ebf76f66534; archiveSHA256=ee4b23a538545226dc79d7080c0b91fe12099a46df0cf007da43c440b7c321ce; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-rTOPJ5\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:35.6420182Z TEE dependency verified: revision=e25af9523eba0ef91a5512a7c4af26d193f2dacc; archiveSHA256=c96acaf5d491193739600a7ec63b330186be96eb95409a69b945cb0f0b78824e; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-EPOIG1\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:36.1837192Z TEE dependency verified: revision=1e1ebbf1216bbcd5bdd8e9109684afc12fc02051; archiveSHA256=7a639a1b58d078946a7ecf1931843aee58dc175908bb1588fbe0d605358754fa; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-UPBinU\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:36.3195384Z TEE dependency verified: revision=1e1ebbf1216bbcd5bdd8e9109684afc12fc02051; archiveSHA256=7a639a1b58d078946a7ecf1931843aee58dc175908bb1588fbe0d605358754fa; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-UPBinU\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:36.6920994Z TEE dependency verified: revision=eae4c5038e4d1e0cc1e71d38e32e240dc84e7e5b; archiveSHA256=cc277c4bde06d58cbe4876c1af0fa0ff430465e4324a37aea62bfdb343c8f749; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-qdhlEj\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:37.1678224Z TEE dependency verified: revision=633dc1dc1762c7c53cbd717e4936f4a5c196b2c6; archiveSHA256=99ca3c19502e2a9c9dd94340f0b0695f8354e22b72167f75cffb37fad5c3d35a; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-iBk7qX\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:37.6457620Z TEE dependency verified: revision=633dc1dc1762c7c53cbd717e4936f4a5c196b2c6; archiveSHA256=99ca3c19502e2a9c9dd94340f0b0695f8354e22b72167f75cffb37fad5c3d35a; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-iUgqwt\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:42.7752350Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-LZgaq0\desktop\src-tauri\binaries\bee-aarch64-apple-darwin; revision=2deb0684fc081839e3e9877eb866289ef3d9300d; target=aarch64-apple-darwin
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:43.0018863Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-kB3KLD\desktop\src-tauri\binaries\bee-x86_64-unknown-linux-gnu; revision=2deb0684fc081839e3e9877eb866289ef3d9300d; target=x86_64-unknown-linux-gnu
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:43.2194099Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-C4rI4t\desktop\src-tauri\binaries\bee-aarch64-unknown-linux-gnu; revision=3f7d1aaff58f2ea59d74157a37f2475f9376de93; target=aarch64-unknown-linux-gnu
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:43.4368102Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-njQ6Yy\desktop\src-tauri\binaries\bee-aarch64-apple-darwin; revision=3f7d1aaff58f2ea59d74157a37f2475f9376de93; target=aarch64-apple-darwin
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:43.6506430Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-grehRq\desktop\src-tauri\binaries\bee-x86_64-apple-darwin; revision=3f7d1aaff58f2ea59d74157a37f2475f9376de93; target=x86_64-apple-darwin
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:43.8693200Z Bee sidecar built: C:\Users\RUNNER~1\AppData\Local\Temp\bee-desktop-tooling-EmsMDN\desktop\src-tauri\binaries\bee-x86_64-pc-windows-msvc.exe; revision=3f7d1aaff58f2ea59d74157a37f2475f9376de93; target=x86_64-pc-windows-msvc
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2972222Z ✔ preflight accepts the approved macOS toolchain and rejects macOS/SDK below 13 (2.1219ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2983154Z ✔ preflight reports actual and required versions instead of accepting old tools (0.6711ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2984352Z ✔ preflight reports a missing native tool and fails for unsupported systems (0.2446ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2986160Z ✔ target mapping preserves all five approved OS/architecture pairs (6.2833ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2986711Z ✔ TEE export matches git archive and the existing shell cache marker (616.1296ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2987504Z ✔ TEE archive keeps pinned blob LF bytes and canonical SHA despite CRLF Git configuration (921.1401ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2988202Z ✔ TEE refuses altered cache content and preserves the existing data (447.5687ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2990249Z ✔ Windows TEE export copies archive file targets and revalidates the deterministic cache (567.5501ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2991124Z ﹣ POSIX TEE export keeps archive symlinks and revalidates them (4.3035ms) # SKIP
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2992111Z ✔ Windows TEE cache rejects tampered service-link and preserves existing bytes (475.5174ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2993007Z ✔ Windows TEE cache rejects tampered go.mod and preserves existing bytes (479.3602ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2993665Z ✔ Windows TEE cache rejects tampered .archive-sha256 and preserves existing bytes (479.5318ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2994361Z ✔ TEE archive rejects absolute link targets before creating a cache (396.9419ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2995051Z ✔ TEE archive rejects Windows absolute link targets before creating a cache (370.6224ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2998636Z ✔ TEE archive rejects escaping link targets before creating a cache (355.1683ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.2999311Z ✔ TEE archive rejects missing link targets before creating a cache (356.1731ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3002156Z ✔ TEE archive rejects missing intermediate directory link targets before creating a cache (355.4115ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3003382Z ✔ TEE archive rejects file as intermediate directory link targets before creating a cache (386.2651ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3005695Z ✔ TEE archive rejects cyclic link targets before creating a cache (415.0086ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3006474Z ✔ TEE archive rejects directory link targets before creating a cache (428.8938ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3039780Z ✔ TEE validates the complete archive before writing: special target (212.5467ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3041691Z ✔ TEE validates the complete archive before writing: non-directory parent (226.3802ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3042450Z ✔ TEE validates the complete archive before writing: duplicate path (208.759ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3043293Z ✔ TEE validates the complete archive before writing: missing end marker (236.7809ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3044084Z ﹣ TEE extraction refuses an existing destination entry without following its symlink (0.0613ms) # SKIP
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3044941Z ✔ TEE link resolution refuses a missing archive target even when the existing cache supplies it (390.814ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3045668Z ﹣ TEE refuses a symlink cache without changing its target (0.0841ms) # SKIP
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3046287Z ✔ TEE rejects an invalid revision before creating a cache (235.4969ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3046920Z ✔ sidecar build rejects a Rust target mismatch before running Go (218.5562ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3047623Z ✔ sidecar build records the actual binary version, target and SHA256 (221.7934ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3048422Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-unknown-linux-gnu (225.6747ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3049244Z ✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-unknown-linux-gnu (217.6138ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3056566Z ✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-apple-darwin (216.9946ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3057572Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-apple-darwin (214.2794ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3058443Z ✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-pc-windows-msvc (218.1901ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3059102Z ✔ macOS sidecar enforces deployment target 13 and rejects a newer actual minimum (207.4021ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3059661Z ✔ sidecar build rejects a binary reporting a different OS or architecture (213.0857ms)
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3154829Z ℹ tests 37
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3155168Z ℹ suites 0
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3156343Z ℹ pass 34
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3156552Z ℹ fail 0
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3156777Z ℹ cancelled 0
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3156995Z ℹ skipped 3
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3157183Z ℹ todo 0
+Windows x64 Node tooling and real pinned TEE	Verify Node tooling	2026-10-24T08:51:44.3157391Z ℹ duration_ms 10672.942
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	﻿2026-10-24T08:51:44.4013529Z ##[group]Run node --test desktop/tests/tee-real.test.mjs
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:44.4014190Z [36;1mnode --test desktop/tests/tee-real.test.mjs[0m
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:44.4039649Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:44.4040031Z ##[endgroup]
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:49.1379914Z TEE dependency verified: revision=a687f86d781e825c04c1d84d75b41bba5d862254; archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-tee-native-3lvX0V\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:52.7601578Z TEE dependency verified: revision=a687f86d781e825c04c1d84d75b41bba5d862254; archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; path=C:\Users\RUNNER~1\AppData\Local\Temp\bee-tee-native-3lvX0V\.cache\reclaim-tee
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1117646Z ▶ native host verifies the real pinned TEE export, existing cache and tamper rejection
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1119189Z   ✔ rejects altered deploy/snp-image/mkosi.extra/etc/systemd/system/multi-user.target.wants/snp-prober.service and preserves the existing cache (3463.0261ms)
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1120941Z   ✔ rejects altered deploy/snp-image/mkosi.extra/etc/systemd/system/snp-prober.service and preserves the existing cache (2573.0326ms)
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1121928Z ✔ native host verifies the real pinned TEE export, existing cache and tamper rejection (14425.7106ms)
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1122836Z ℹ OS=win32; release=10.0.20348; arch=x64; node=v24.22.1; git=git version 2.56.0.windows.2; revision=a687f86d781e825c04c1d84d75b41bba5d862254
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1124195Z ℹ archiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38; requiredArchiveSHA256=4bc9caad3ad2ce5de01b9983a750cee6380098fc308333c30c098fbf8e7bad38
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1125702Z ℹ result=PASS first-export; serviceSHA256=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; representation=ordinary-file-copy
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1126643Z ℹ result=PASS existing-cache-revalidation
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1128686Z ℹ result=PASS tamper-rejection; evidence=TEE cache deploy\snp-image\mkosi.extra\etc\systemd\system\multi-user.target.wants\snp-prober.service SHA256 mismatch: actual=a55cfcbd015ea011cee4e4812b06a2d8d9b9356b1f3aaf3662a2c7c94b56b9cb; expected=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; existing cache preserved
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1131838Z ℹ result=PASS tamper-rejection; evidence=TEE cache deploy\snp-image\mkosi.extra\etc\systemd\system\snp-prober.service SHA256 mismatch: actual=a55cfcbd015ea011cee4e4812b06a2d8d9b9356b1f3aaf3662a2c7c94b56b9cb; expected=2ed07bb2f6b4f5bc1d18fa41c142fda772a0c754c11b52cf0380b2502c17a594; existing cache preserved
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1452207Z ℹ tests 3
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1452747Z ℹ suites 0
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1453014Z ℹ pass 3
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1453311Z ℹ fail 0
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1453553Z ℹ cancelled 0
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1453794Z ℹ skipped 0
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1454052Z ℹ todo 0
+Windows x64 Node tooling and real pinned TEE	Verify real pinned TEE on native Windows	2026-10-24T08:51:59.1454307Z ℹ duration_ms 14530.0608
+Windows x64 Node tooling and real pinned TEE	Post Run actions/setup-node@v4	﻿2026-10-24T08:51:59.2396677Z Post job cleanup.
+Windows x64 Node tooling and real pinned TEE	Post Run actions/setup-node@v4	2026-10-24T08:51:59.3671069Z (node:5056) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Windows x64 Node tooling and real pinned TEE	Post Run actions/setup-node@v4	2026-10-24T08:51:59.3672105Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	﻿2026-10-24T08:51:59.4026425Z Post job cleanup.
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.5709353Z [command]"C:\Program Files\Git\bin\git.exe" version
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.5965897Z git version 2.56.0.windows.2
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.6024279Z Temporarily overriding HOME='D:\a\_temp\1c3a64d7-3e5a-4a3d-b8de-8052a8d12126' before making global git config changes
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.6025331Z Adding repository directory to the temporary git global config as a safe directory
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.6034222Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\bee\bee
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.6311083Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:51:59.6585235Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:52:00.0838083Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:52:00.1094982Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:52:00.5368589Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Windows x64 Node tooling and real pinned TEE	Post Run actions/checkout@v4	2026-10-24T08:52:00.5609191Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Windows x64 Node tooling and real pinned TEE	Complete job	﻿2026-10-24T08:52:01.3017582Z Cleaning up orphan processes
+Windows x64 Node tooling and real pinned TEE	Complete job	2026-10-24T08:52:01.3422257Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

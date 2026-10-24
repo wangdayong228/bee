@@ -1,0 +1,67 @@
+
+> bee-desktop@0.1.0 test:tooling
+> node --test tests/tooling.test.mjs
+
+TEE dependency verified: revision=996239ae44d62ffc33dfbcaa9f765047757b7d12; archiveSHA256=aa1ab37e492e82f9a9b0361b5e0a092a7cc75680de332da6ba121898dd936363; path=/tmp/bee-desktop-tooling-0dFnwO/.cache/reclaim-tee
+TEE dependency verified: revision=996239ae44d62ffc33dfbcaa9f765047757b7d12; archiveSHA256=aa1ab37e492e82f9a9b0361b5e0a092a7cc75680de332da6ba121898dd936363; path=/tmp/bee-desktop-tooling-0dFnwO/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-iUHUDQ/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-iUHUDQ/.cache/reclaim-tee
+TEE dependency verified: revision=996239ae44d62ffc33dfbcaa9f765047757b7d12; archiveSHA256=aa1ab37e492e82f9a9b0361b5e0a092a7cc75680de332da6ba121898dd936363; path=/tmp/bee-desktop-tooling-OQzeNS/.cache/reclaim-tee
+TEE dependency verified: revision=7b2e41088ebbd9cb50eb2769801798488937f805; archiveSHA256=4acb4a91f947826cebf54883f5483b98861276d467000b78df35e1762db4d157; path=/tmp/bee-desktop-tooling-RUTKlW/.cache/reclaim-tee
+TEE dependency verified: revision=7b2e41088ebbd9cb50eb2769801798488937f805; archiveSHA256=4acb4a91f947826cebf54883f5483b98861276d467000b78df35e1762db4d157; path=/tmp/bee-desktop-tooling-RUTKlW/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-G4iek3/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-G4iek3/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-mw36iy/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-zSW2Nz/.cache/reclaim-tee
+TEE dependency verified: revision=74b0b708f0265534c2a79eb6a20945760b7df9e6; archiveSHA256=c21ee4fcda02e7239af764c85fc748de72553dcb3df5dfe0d712e2e5478b59b2; path=/tmp/bee-desktop-tooling-pTTt0s/.cache/reclaim-tee
+Bee sidecar built: /tmp/bee-desktop-tooling-PWWtzF/desktop/src-tauri/binaries/bee-aarch64-apple-darwin; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=aarch64-apple-darwin
+Bee sidecar built: /tmp/bee-desktop-tooling-jIHYw4/desktop/src-tauri/binaries/bee-x86_64-unknown-linux-gnu; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=x86_64-unknown-linux-gnu
+Bee sidecar built: /tmp/bee-desktop-tooling-590PBj/desktop/src-tauri/binaries/bee-aarch64-unknown-linux-gnu; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=aarch64-unknown-linux-gnu
+Bee sidecar built: /tmp/bee-desktop-tooling-vKIDSP/desktop/src-tauri/binaries/bee-aarch64-apple-darwin; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=aarch64-apple-darwin
+Bee sidecar built: /tmp/bee-desktop-tooling-qCeaHU/desktop/src-tauri/binaries/bee-x86_64-apple-darwin; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=x86_64-apple-darwin
+Bee sidecar built: /tmp/bee-desktop-tooling-R5eQod/desktop/src-tauri/binaries/bee-x86_64-pc-windows-msvc.exe; revision=a137ed444358f6fe48fad3f694848bf00a0837e5; target=x86_64-pc-windows-msvc
+✔ preflight accepts the approved macOS toolchain and rejects macOS/SDK below 13 (1.945169ms)
+✔ preflight reports actual and required versions instead of accepting old tools (0.272405ms)
+✔ preflight reports a missing native tool and fails for unsupported systems (0.197627ms)
+✔ target mapping preserves all five approved OS/architecture pairs (0.908025ms)
+✔ TEE export matches git archive and the existing shell cache marker (49.859513ms)
+✔ TEE archive keeps pinned blob LF bytes and canonical SHA despite CRLF Git configuration (71.417872ms)
+✔ TEE refuses altered cache content and preserves the existing data (43.333878ms)
+✔ Windows TEE export copies archive file targets and revalidates the deterministic cache (58.489898ms)
+✔ POSIX TEE export keeps archive symlinks and revalidates them (47.855987ms)
+✔ Windows TEE cache rejects tampered service-link and preserves existing bytes (50.437553ms)
+✔ Windows TEE cache rejects tampered go.mod and preserves existing bytes (48.427436ms)
+✔ Windows TEE cache rejects tampered .archive-sha256 and preserves existing bytes (55.407055ms)
+✔ TEE archive rejects absolute link targets before creating a cache (40.281578ms)
+✔ TEE archive rejects Windows absolute link targets before creating a cache (38.547434ms)
+✔ TEE archive rejects escaping link targets before creating a cache (38.132296ms)
+✔ TEE archive rejects missing link targets before creating a cache (37.3793ms)
+✔ TEE archive rejects missing intermediate directory link targets before creating a cache (37.141572ms)
+✔ TEE archive rejects file as intermediate directory link targets before creating a cache (43.365044ms)
+✔ TEE archive rejects cyclic link targets before creating a cache (43.830988ms)
+✔ TEE archive rejects directory link targets before creating a cache (43.517625ms)
+✔ TEE validates the complete archive before writing: special target (24.360844ms)
+✔ TEE validates the complete archive before writing: non-directory parent (25.189314ms)
+✔ TEE validates the complete archive before writing: duplicate path (24.312487ms)
+✔ TEE validates the complete archive before writing: missing end marker (23.965136ms)
+✔ TEE extraction refuses an existing destination entry without following its symlink (23.58757ms)
+✔ TEE link resolution refuses a missing archive target even when the existing cache supplies it (36.259042ms)
+✔ TEE refuses a symlink cache without changing its target (23.932161ms)
+✔ TEE rejects an invalid revision before creating a cache (24.459861ms)
+✔ sidecar build rejects a Rust target mismatch before running Go (23.959112ms)
+✔ sidecar build records the actual binary version, target and SHA256 (24.832867ms)
+✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-unknown-linux-gnu (24.978033ms)
+✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-unknown-linux-gnu (25.321289ms)
+✔ sidecar build presets AppImage RUNPATH only for Linux: aarch64-apple-darwin (30.148426ms)
+✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-apple-darwin (25.885778ms)
+✔ sidecar build presets AppImage RUNPATH only for Linux: x86_64-pc-windows-msvc (25.265245ms)
+✔ macOS sidecar enforces deployment target 13 and rejects a newer actual minimum (25.756083ms)
+✔ sidecar build rejects a binary reporting a different OS or architecture (25.031861ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1257.973846

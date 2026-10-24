@@ -1,0 +1,231 @@
+test	Set up job	﻿2026-10-24T08:51:19.7871373Z Current runner version: '2.338.0'
+test	Set up job	2026-10-24T08:51:19.7908750Z ##[group]Runner Image Provisioner
+test	Set up job	2026-10-24T08:51:19.7910245Z Hosted Compute Agent
+test	Set up job	2026-10-24T08:51:19.7911347Z Version: 20261012.601
+test	Set up job	2026-10-24T08:51:19.7912425Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+test	Set up job	2026-10-24T08:51:19.7913755Z Build Date: 2026-10-12T17:48:21Z
+test	Set up job	2026-10-24T08:51:19.7914837Z Worker ID: {33252b26-a28d-47ac-badb-e413247f4188}
+test	Set up job	2026-10-24T08:51:19.7916108Z Region: eastus
+test	Set up job	2026-10-24T08:51:19.7917071Z Cloud: Azure
+test	Set up job	2026-10-24T08:51:19.7917899Z ##[endgroup]
+test	Set up job	2026-10-24T08:51:19.7920667Z ##[group]Operating System
+test	Set up job	2026-10-24T08:51:19.7921710Z Ubuntu
+test	Set up job	2026-10-24T08:51:19.7922610Z 24.04.5
+test	Set up job	2026-10-24T08:51:19.7923524Z LTS
+test	Set up job	2026-10-24T08:51:19.7924373Z ##[endgroup]
+test	Set up job	2026-10-24T08:51:19.7925453Z ##[group]Runner Image
+test	Set up job	2026-10-24T08:51:19.7926396Z Image: ubuntu-24.04
+test	Set up job	2026-10-24T08:51:19.7927378Z Version: 20261012.334.1
+test	Set up job	2026-10-24T08:51:19.7929622Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+test	Set up job	2026-10-24T08:51:19.7932659Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+test	Set up job	2026-10-24T08:51:19.7934323Z ##[endgroup]
+test	Set up job	2026-10-24T08:51:19.7936380Z ##[group]GITHUB_TOKEN Permissions
+test	Set up job	2026-10-24T08:51:19.7939468Z Contents: read
+test	Set up job	2026-10-24T08:51:19.7940506Z Metadata: read
+test	Set up job	2026-10-24T08:51:19.7941447Z ##[endgroup]
+test	Set up job	2026-10-24T08:51:19.7944455Z Secret source: Actions
+test	Set up job	2026-10-24T08:51:19.7946006Z Cache mode: write
+test	Set up job	2026-10-24T08:51:19.7947575Z Prepare workflow directory
+test	Set up job	2026-10-24T08:51:19.8425669Z Prepare all required actions
+test	Set up job	2026-10-24T08:51:19.8496899Z Getting action download info
+test	Set up job	2026-10-24T08:51:20.0272732Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+test	Set up job	2026-10-24T08:51:20.1284521Z Download action repository 'actions/setup-go@v5' (SHA:40f1582b2485089dde7abd97c1529aa768e1baff)
+test	Set up job	2026-10-24T08:51:20.4217966Z Complete job name: test
+test	Run actions/checkout@v4	﻿2026-10-24T08:51:20.5178393Z ##[group]Run actions/checkout@v4
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5179657Z with:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5180128Z   repository: wangdayong228/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5184023Z   token: ***
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5184458Z   ssh-strict: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5184884Z   ssh-user: git
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5185333Z   persist-credentials: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5185820Z   clean: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5186269Z   sparse-checkout-cone-mode: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5186791Z   fetch-depth: 1
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5187220Z   fetch-tags: false
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5187662Z   show-progress: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5188110Z   lfs: false
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5188519Z   submodules: false
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5188962Z   set-safe-directory: true
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5189623Z   allow-unsafe-pr-checkout: false
+test	Run actions/checkout@v4	2026-10-24T08:51:20.5190438Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6268227Z Syncing repository: wangdayong228/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6271105Z ##[group]Getting Git version info
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6272112Z Working directory is '/home/runner/work/bee/bee'
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6273738Z [command]/usr/bin/git version
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6336946Z git version 2.55.0
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6360997Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6376713Z Temporarily overriding HOME='/home/runner/work/_temp/f858a6f4-5506-4ab2-a8f4-ebe74d6a378e' before making global git config changes
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6379561Z Adding repository directory to the temporary git global config as a safe directory
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6382729Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/bee/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6440303Z Deleting the contents of '/home/runner/work/bee/bee'
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6449426Z ##[group]Initializing the repository
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6457469Z [command]/usr/bin/git init /home/runner/work/bee/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6578723Z hint: Using 'master' as the name for the initial branch. This default branch name
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6580782Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6582681Z hint: to use in all of your new repositories, which will suppress this warning,
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6584805Z hint: call:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6586176Z hint:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6587168Z hint: 	git config --global init.defaultBranch <name>
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6588391Z hint:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6589934Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6591725Z hint: 'development'. The just-created branch can be renamed via this command:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6593102Z hint:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6595098Z hint: 	git branch -m <name>
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6596352Z hint:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6597598Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6599733Z Initialized empty Git repository in /home/runner/work/bee/bee/.git/
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6603314Z [command]/usr/bin/git remote add origin https://github.com/wangdayong228/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6652233Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6653694Z ##[group]Disabling automatic garbage collection
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6657152Z [command]/usr/bin/git config --local gc.auto 0
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6715156Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6717136Z ##[group]Setting up auth
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6718998Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Run actions/checkout@v4	2026-10-24T08:51:20.6746113Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7160511Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7224963Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7472661Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7517142Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7764078Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7822827Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7823863Z ##[group]Fetching the repository
+test	Run actions/checkout@v4	2026-10-24T08:51:20.7838260Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +2fcaa409df4cd2d6de66e1391bedce872e770024:refs/remotes/origin/feat/bee-desktop-p0
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0763563Z From https://github.com/wangdayong228/bee
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0765899Z  * [new ref]         2fcaa409df4cd2d6de66e1391bedce872e770024 -> origin/feat/bee-desktop-p0
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0782429Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0783937Z ##[group]Determining the checkout info
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0785530Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0786502Z [command]/usr/bin/git sparse-checkout disable
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0844303Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0881764Z ##[group]Checking out the ref
+test	Run actions/checkout@v4	2026-10-24T08:51:22.0888250Z [command]/usr/bin/git checkout --progress --force -B feat/bee-desktop-p0 refs/remotes/origin/feat/bee-desktop-p0
+test	Run actions/checkout@v4	2026-10-24T08:51:22.2790068Z Switched to a new branch 'feat/bee-desktop-p0'
+test	Run actions/checkout@v4	2026-10-24T08:51:22.2796011Z branch 'feat/bee-desktop-p0' set up to track 'origin/feat/bee-desktop-p0'.
+test	Run actions/checkout@v4	2026-10-24T08:51:22.2812309Z ##[endgroup]
+test	Run actions/checkout@v4	2026-10-24T08:51:22.2859057Z [command]/usr/bin/git log -1 --format=%H
+test	Run actions/checkout@v4	2026-10-24T08:51:22.2886280Z 2fcaa409df4cd2d6de66e1391bedce872e770024
+test	Run actions/setup-go@v5	﻿2026-10-24T08:51:22.3250830Z ##[group]Run actions/setup-go@v5
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3252094Z with:
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3253050Z   go-version-file: go.mod
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3254155Z   check-latest: false
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3263987Z   token: ***
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3264974Z   cache: true
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.3265937Z ##[endgroup]
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.4607483Z Setup go version spec 1.27.3
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.4624333Z Attempting to download 1.27.3...
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.4789974Z (node:2322) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.4792033Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.9361889Z matching 1.27.3...
+test	Run actions/setup-go@v5	2026-10-24T08:51:22.9390661Z Acquiring 1.27.3 from https://github.com/actions/go-versions/releases/download/1.27.3-39437817176/go-1.27.3-linux-x64.tar.gz
+test	Run actions/setup-go@v5	2026-10-24T08:51:23.3925575Z Extracting Go...
+test	Run actions/setup-go@v5	2026-10-24T08:51:23.4045974Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/34344568-d61c-48c8-a3af-7c76b8fcdd87 -f /home/runner/work/_temp/4d9af746-afec-4afc-bb67-39b7994f67de
+test	Run actions/setup-go@v5	2026-10-24T08:51:25.1712075Z Successfully extracted go to /home/runner/work/_temp/34344568-d61c-48c8-a3af-7c76b8fcdd87
+test	Run actions/setup-go@v5	2026-10-24T08:51:25.1712908Z Adding to the cache ...
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8570384Z Successfully cached go to /opt/hostedtoolcache/go/1.27.3/x64
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8574148Z Added go to the path
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8577287Z Successfully set up Go version 1.27.3
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8833570Z [command]/opt/hostedtoolcache/go/1.27.3/x64/bin/go env GOMODCACHE
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8882997Z [command]/opt/hostedtoolcache/go/1.27.3/x64/bin/go env GOCACHE
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8930544Z /home/runner/go/pkg/mod
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.8951922Z /home/runner/.cache/go-build
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.9601472Z Cache hit for: setup-go-Linux-x64-ubuntu24-go-1.27.3-0deac7a8383ec20b9fe6de3149ce948c34d1500311cb8483f53efda821e87fec
+test	Run actions/setup-go@v5	2026-10-24T08:51:30.9726702Z (node:2322) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test	Run actions/setup-go@v5	2026-10-24T08:51:32.0013464Z Received 109051904 of 335748420 (32.5%), 104.0 MBs/sec
+test	Run actions/setup-go@v5	2026-10-24T08:51:33.0023259Z Received 268435456 of 335748420 (80.0%), 127.9 MBs/sec
+test	Run actions/setup-go@v5	2026-10-24T08:51:33.4235175Z Received 335748420 of 335748420 (100.0%), 132.2 MBs/sec
+test	Run actions/setup-go@v5	2026-10-24T08:51:33.4236609Z Cache Size: ~320 MB (335748420 B)
+test	Run actions/setup-go@v5	2026-10-24T08:51:33.4363471Z [command]/usr/bin/tar -xf /home/runner/work/_temp/9c370929-e116-4b48-aa69-a1cfa97d8fa1/cache.tzst -P -C /home/runner/work/bee/bee --use-compress-program unzstd
+test	Run actions/setup-go@v5	2026-10-24T08:51:36.7812949Z Cache restored successfully
+test	Run actions/setup-go@v5	2026-10-24T08:51:36.9163642Z Cache restored from key: setup-go-Linux-x64-ubuntu24-go-1.27.3-0deac7a8383ec20b9fe6de3149ce948c34d1500311cb8483f53efda821e87fec
+test	Run actions/setup-go@v5	2026-10-24T08:51:36.9194898Z go version go1.27.3 linux/amd64
+test	Run actions/setup-go@v5	2026-10-24T08:51:36.9195237Z 
+test	Run actions/setup-go@v5	2026-10-24T08:51:36.9195718Z ##[group]go env
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0772833Z AR='ar'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0773548Z CC='gcc'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0775490Z CGO_CFLAGS='-O2 -g'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0776047Z CGO_CPPFLAGS=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0776458Z CGO_CXXFLAGS='-O2 -g'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0776890Z CGO_ENABLED='1'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0777274Z CGO_FFLAGS='-O2 -g'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0777721Z CGO_LDFLAGS='-O2 -g'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0778220Z CXX='g++'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0778640Z GCCGO='gccgo'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0781344Z GO111MODULE=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0781875Z GOAMD64='v1'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0782378Z GOARCH='amd64'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0782884Z GOAUTH='netrc'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0783418Z GOBIN='/home/runner/go/bin'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0784159Z GOCACHE='/home/runner/.cache/go-build'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0784906Z GOCACHEPROG=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0785483Z GODEBUG=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0786126Z GOENV='/home/runner/.config/go/env'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0786870Z GOEXE=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0787433Z GOEXPERIMENT=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0788057Z GOFIPS140='off'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0789440Z GOFLAGS=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0790906Z GOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build1546848125=/tmp/go-build -gno-record-gcc-switches'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0792345Z GOHOSTARCH='amd64'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0792779Z GOHOSTOS='linux'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0793223Z GOINSECURE=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0793984Z GOMOD='/home/runner/work/bee/bee/go.mod'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0794629Z GOMODCACHE='/home/runner/go/pkg/mod'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0795134Z GONOPROXY=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0795517Z GONOSUMDB=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0795924Z GOOS='linux'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0796363Z GOPACKAGESDRIVER=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0796808Z GOPATH='/home/runner/go'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0797201Z GOPRIVATE=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0797639Z GOPROXY='https://proxy.golang.org,direct'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0798206Z GOROOT='/opt/hostedtoolcache/go/1.27.3/x64'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0798685Z GOSUMDB='sum.golang.org'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0802497Z GOTELEMETRY='local'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0803018Z GOTELEMETRYDIR='/home/runner/.config/go/telemetry'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0803524Z GOTMPDIR=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0803852Z GOTOOLCHAIN='auto'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0804381Z GOTOOLDIR='/opt/hostedtoolcache/go/1.27.3/x64/pkg/tool/linux_amd64'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0804974Z GOVCS=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0805290Z GOVERSION='go1.27.3'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0805636Z GOWORK=''
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0805998Z PKG_CONFIG='pkg-config'
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0806244Z 
+test	Run actions/setup-go@v5	2026-10-24T08:51:37.0806717Z ##[endgroup]
+test	Run make test	﻿2026-10-24T08:51:37.0943923Z ##[group]Run make test
+test	Run make test	2026-10-24T08:51:37.0944259Z [36;1mmake test[0m
+test	Run make test	2026-10-24T08:51:37.1249293Z shell: /usr/bin/bash -e {0}
+test	Run make test	2026-10-24T08:51:37.1249814Z ##[endgroup]
+test	Run make test	2026-10-24T08:51:37.1552811Z bash scripts/prepare-tee.sh
+test	Run make test	2026-10-24T08:51:37.1631817Z Cloning into '/home/runner/work/bee/bee/.cache/tee-source'...
+test	Run make test	2026-10-24T08:51:40.4893030Z TEE dependency pinned to a687f86d781e825c04c1d84d75b41bba5d862254
+test	Run make test	2026-10-24T08:51:40.4907749Z go vet ./...
+test	Run make test	2026-10-24T08:51:42.2457184Z go test -race -timeout=600s ./...
+test	Run make test	2026-10-24T08:52:40.1944643Z ok  	github.com/tokhive/bee/agent	53.350s
+test	Run make test	2026-10-24T08:52:40.1945472Z ok  	github.com/tokhive/bee/beewire	(cached)
+test	Run make test	2026-10-24T08:52:40.1946171Z ok  	github.com/tokhive/bee/cmd/bee	8.448s
+test	Run make test	2026-10-24T08:52:40.1946924Z ok  	github.com/tokhive/bee/desktopbridge	(cached)
+test	Run make test	2026-10-24T08:52:40.1947654Z ok  	github.com/tokhive/bee/logx	(cached)
+test	Run make test	2026-10-24T08:52:40.1948375Z ok  	github.com/tokhive/bee/relay	(cached)
+test	Run make test	2026-10-24T08:52:40.1949346Z ok  	github.com/tokhive/bee/telemetry	(cached)
+test	Post Run actions/setup-go@v5	﻿2026-10-24T08:52:40.2348818Z Post job cleanup.
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3625661Z (node:2715) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3627022Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3732926Z [command]/opt/hostedtoolcache/go/1.27.3/x64/bin/go env GOMODCACHE
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3800493Z [command]/opt/hostedtoolcache/go/1.27.3/x64/bin/go env GOCACHE
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3826523Z /home/runner/go/pkg/mod
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3849883Z /home/runner/.cache/go-build
+test	Post Run actions/setup-go@v5	2026-10-24T08:52:40.3855405Z Cache hit occurred on the primary key setup-go-Linux-x64-ubuntu24-go-1.27.3-0deac7a8383ec20b9fe6de3149ce948c34d1500311cb8483f53efda821e87fec, not saving cache.
+test	Post Run actions/checkout@v4	﻿2026-10-24T08:52:40.4097777Z Post job cleanup.
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.4963229Z [command]/usr/bin/git version
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5010002Z git version 2.55.0
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5051223Z Temporarily overriding HOME='/home/runner/work/_temp/109121fa-1997-45c3-adfe-ab283d624b8f' before making global git config changes
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5052592Z Adding repository directory to the temporary git global config as a safe directory
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5056490Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/bee/bee
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5099894Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5137018Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5402722Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5426193Z http.https://github.com/.extraheader
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5440888Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5477991Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5755487Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Post Run actions/checkout@v4	2026-10-24T08:52:40.5794962Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Complete job	﻿2026-10-24T08:52:40.6217678Z Cleaning up orphan processes
+test	Complete job	2026-10-24T08:52:40.6586913Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

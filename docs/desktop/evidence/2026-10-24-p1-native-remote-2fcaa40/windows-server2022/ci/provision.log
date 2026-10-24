@@ -1,0 +1,29 @@
+**********************
+PowerShell transcript start
+Start time: 20261024085156
+Username: runnervma5ucf\runneradmin
+RunAs User: runnervma5ucf\runneradmin
+Configuration Name: 
+Machine: runnervma5ucf (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -command . 'D:\a\_temp\23d5cc30-06fc-4b6c-8c07-fbb286785118.ps1'
+Process ID: 7348
+PSVersion: 7.6.8
+PSEdition: Core
+GitCommitId: 7.6.8
+OS: Microsoft Windows 10.0.20348
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is desktop-ci-evidence/provision.log
+
+cl.exe path=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe; version=19.44.35229.0
+link.exe path=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe C:\Program Files\Git\usr\bin\link.exe; version=14.44.35229.0
+rc.exe path=C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64\rc.exe; version=10.0.26100.7705 (WinBuild.160101.0800)
+MSVC=C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\; SDK=C:\Program Files (x86)\Windows Kits\10\; SDKVersion=10.0.26100.0\
+**********************
+PowerShell transcript end
+End time: 20261024085214
+**********************

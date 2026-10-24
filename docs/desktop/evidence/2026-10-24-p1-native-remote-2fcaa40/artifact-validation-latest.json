@@ -1,0 +1,520 @@
+{
+  "at": "2026-10-24T09:27:50.773343+00:00",
+  "source": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+  "artifacts": [
+    {
+      "id": 12554234716,
+      "name": "bee-server2022-x64-checks-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "cargo-test.log": [
+          "ok. 31 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 12.41s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ]
+      }
+    },
+    {
+      "id": 12554324079,
+      "name": "bee-linux-checks-ubuntu-24.04-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "browser-e2e.log": [
+          [
+            "504",
+            "passed",
+            "10.0m"
+          ]
+        ],
+        "cargo-test.log": [
+          "ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 26.73s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "go-test.log": {
+          "okPackages": 7
+        },
+        "tooling.log": {
+          "tests": 37,
+          "pass": 37,
+          "fail": 0,
+          "skipped": 0
+        },
+        "bridge.log": {
+          "tests": 10,
+          "pass": 10,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "smoke": [
+        {
+          "mode": "fuse",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+            "bytes": 148937208,
+            "sha256": "2575c8600863bc55ac49292f20ba019ef5c086933050ed2f5dc6ca2e1b8d6436"
+          },
+          "sourceSha256": "ec7f9feed1fa887cdf27978348b40a773197e78735a06dd97ddaf47e1019b37d",
+          "packagedBeeSHA256": "8777ef00e5b04712c10010d80eee1f71ebb07e7216a3cf2ceeb21cbe043c8487",
+          "observedMs": 10273,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12554324079/desktop-ci-evidence/smoke-fuse/smoke.json"
+        },
+        {
+          "mode": "extract",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+            "bytes": 148937208,
+            "sha256": "2575c8600863bc55ac49292f20ba019ef5c086933050ed2f5dc6ca2e1b8d6436"
+          },
+          "sourceSha256": "ec7f9feed1fa887cdf27978348b40a773197e78735a06dd97ddaf47e1019b37d",
+          "packagedBeeSHA256": "8777ef00e5b04712c10010d80eee1f71ebb07e7216a3cf2ceeb21cbe043c8487",
+          "observedMs": 10301,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12554324079/desktop-ci-evidence/smoke-extract/smoke.json"
+        }
+      ]
+    },
+    {
+      "id": 12554593556,
+      "name": "bee-server2022-x64-test-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-pc-windows-msvc",
+        "goos": "windows",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 windows/amd64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "5c2c7ec297ee61b048540238a79cff8cca89495bbb8df83abd5eb7b626a6e162"
+      },
+      "sourceSHA256": "1caabe308d4b4a775387e98bc9e307d787068679c333510587c32cad9de4a9ae",
+      "package": {
+        "name": "Bee Dev_0.1.0_x64-setup.exe",
+        "bytes": 16283129,
+        "sha256": "7e438882726cd8c731f61eee97e38521811634cd3862e84aff64303ddb56ee61"
+      }
+    },
+    {
+      "id": 12554669640,
+      "name": "bee-linux-test-ubuntu-22.04-arm-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "aarch64-unknown-linux-gnu",
+        "goos": "linux",
+        "goarch": "arm64",
+        "go": "go version go1.27.3 linux/arm64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "1a2c6a08d9c9f4d4d20623bd0efbe9ef905afd5d0c3cd4719e92fc0e2aa1b5e8"
+      },
+      "sourceSHA256": "dc5d11e8577d50af65707aab185ca2d6e6640ce69c67294f53e89f2786995825",
+      "package": {
+        "name": "Bee Dev_0.1.0_aarch64.AppImage",
+        "bytes": 139008520,
+        "sha256": "bcc44a17cb577f5155a49b6a7ac26a10bac9fb93a36c1687d5e0418774cd2515"
+      }
+    },
+    {
+      "id": 12554698128,
+      "name": "bee-linux-test-ubuntu-24.04-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-unknown-linux-gnu",
+        "goos": "linux",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 linux/amd64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "8777ef00e5b04712c10010d80eee1f71ebb07e7216a3cf2ceeb21cbe043c8487"
+      },
+      "sourceSHA256": "ec7f9feed1fa887cdf27978348b40a773197e78735a06dd97ddaf47e1019b37d",
+      "package": {
+        "name": "Bee Dev_0.1.0_amd64.AppImage",
+        "bytes": 148937208,
+        "sha256": "2575c8600863bc55ac49292f20ba019ef5c086933050ed2f5dc6ca2e1b8d6436"
+      }
+    },
+    {
+      "id": 12554749531,
+      "name": "bee-linux-test-ubuntu-24.04-arm-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "aarch64-unknown-linux-gnu",
+        "goos": "linux",
+        "goarch": "arm64",
+        "go": "go version go1.27.3 linux/arm64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "1c48be413d79b4655a5c7fd42f8d6e4a0fdb913f4d2a147bf2d98d0fec2fe328"
+      },
+      "sourceSHA256": "db5800d8fe822513b3b0cca2d4a288d77dc2a02a9bc3bf539f0402cd7ba74ebd",
+      "package": {
+        "name": "Bee Dev_0.1.0_aarch64.AppImage",
+        "bytes": 139131400,
+        "sha256": "49eede2f660a8ee980a87e3cd81e330e71eed37b040b557cca8fbf78471f1be7"
+      }
+    },
+    {
+      "id": 12554913642,
+      "name": "bee-linux-checks-ubuntu-24.04-arm-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "browser-e2e.log": [
+          [
+            "504",
+            "passed",
+            "8.8m"
+          ]
+        ],
+        "cargo-test.log": [
+          "ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 63.59s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "go-test.log": {
+          "okPackages": 7
+        },
+        "tooling.log": {
+          "tests": 37,
+          "pass": 37,
+          "fail": 0,
+          "skipped": 0
+        },
+        "bridge.log": {
+          "tests": 10,
+          "pass": 10,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "smoke": [
+        {
+          "mode": "fuse",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+            "bytes": 139131400,
+            "sha256": "49eede2f660a8ee980a87e3cd81e330e71eed37b040b557cca8fbf78471f1be7"
+          },
+          "sourceSha256": "db5800d8fe822513b3b0cca2d4a288d77dc2a02a9bc3bf539f0402cd7ba74ebd",
+          "packagedBeeSHA256": "1c48be413d79b4655a5c7fd42f8d6e4a0fdb913f4d2a147bf2d98d0fec2fe328",
+          "observedMs": 10287,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12554913642/desktop-ci-evidence/smoke-fuse/smoke.json"
+        },
+        {
+          "mode": "extract",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+            "bytes": 139131400,
+            "sha256": "49eede2f660a8ee980a87e3cd81e330e71eed37b040b557cca8fbf78471f1be7"
+          },
+          "sourceSha256": "db5800d8fe822513b3b0cca2d4a288d77dc2a02a9bc3bf539f0402cd7ba74ebd",
+          "packagedBeeSHA256": "1c48be413d79b4655a5c7fd42f8d6e4a0fdb913f4d2a147bf2d98d0fec2fe328",
+          "observedMs": 10230,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12554913642/desktop-ci-evidence/smoke-extract/smoke.json"
+        }
+      ]
+    },
+    {
+      "id": 12555074004,
+      "name": "bee-macos15-intel-checks-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "browser-e2e.log": [
+          [
+            "504",
+            "passed",
+            "15.2m"
+          ]
+        ],
+        "cargo-test.log": [
+          "ok. 40 passed; 0 failed; 2 ignored; 0 measured; 0 filtered out; finished in 91.40s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "signed-app.log": [
+          "ok. 2 passed; 0 failed; 0 ignored; 0 measured; 40 filtered out; finished in 0.77s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "go-test.log": {
+          "okPackages": 7
+        },
+        "tooling.log": {
+          "tests": 37,
+          "pass": 37,
+          "fail": 0,
+          "skipped": 0
+        },
+        "bridge.log": {
+          "tests": 10,
+          "pass": 10,
+          "fail": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "id": 12555167191,
+      "name": "bee-linux-checks-ubuntu-22.04-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "browser-e2e.log": [
+          [
+            "504",
+            "passed",
+            "11.0m"
+          ]
+        ],
+        "cargo-test.log": [
+          "ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 26.67s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "go-test.log": {
+          "okPackages": 7
+        },
+        "tooling.log": {
+          "tests": 37,
+          "pass": 37,
+          "fail": 0,
+          "skipped": 0
+        },
+        "bridge.log": {
+          "tests": 10,
+          "pass": 10,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "smoke": [
+        {
+          "mode": "fuse",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+            "bytes": 148699640,
+            "sha256": "f95a03e00a7efe05e7965ef334cd0e70fe9eb9ac325b7b0645f6bb8777301fec"
+          },
+          "sourceSha256": "1e53b5d92be453285b76e88fac7a0826dbc872f6434aada7dd8b88ba4dc7215b",
+          "packagedBeeSHA256": "7362176d99bc1da30697bfabe4b4ab667265dab23758277e69eee04270eba745",
+          "observedMs": 10269,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12555167191/desktop-ci-evidence/smoke-fuse/smoke.json"
+        },
+        {
+          "mode": "extract",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_amd64.AppImage",
+            "bytes": 148699640,
+            "sha256": "f95a03e00a7efe05e7965ef334cd0e70fe9eb9ac325b7b0645f6bb8777301fec"
+          },
+          "sourceSha256": "1e53b5d92be453285b76e88fac7a0826dbc872f6434aada7dd8b88ba4dc7215b",
+          "packagedBeeSHA256": "7362176d99bc1da30697bfabe4b4ab667265dab23758277e69eee04270eba745",
+          "observedMs": 10313,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12555167191/desktop-ci-evidence/smoke-extract/smoke.json"
+        }
+      ]
+    },
+    {
+      "id": 12555291607,
+      "name": "bee-linux-test-ubuntu-22.04-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-unknown-linux-gnu",
+        "goos": "linux",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 linux/amd64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "7362176d99bc1da30697bfabe4b4ab667265dab23758277e69eee04270eba745"
+      },
+      "sourceSHA256": "1e53b5d92be453285b76e88fac7a0826dbc872f6434aada7dd8b88ba4dc7215b",
+      "package": {
+        "name": "Bee Dev_0.1.0_amd64.AppImage",
+        "bytes": 148699640,
+        "sha256": "f95a03e00a7efe05e7965ef334cd0e70fe9eb9ac325b7b0645f6bb8777301fec"
+      }
+    },
+    {
+      "id": 12555425726,
+      "name": "bee-linux-checks-ubuntu-22.04-arm-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {
+        "browser-e2e.log": [
+          [
+            "504",
+            "passed",
+            "8.9m"
+          ]
+        ],
+        "cargo-test.log": [
+          "ok. 36 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 64.84s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+          "ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+        ],
+        "go-test.log": {
+          "okPackages": 7
+        },
+        "tooling.log": {
+          "tests": 37,
+          "pass": 37,
+          "fail": 0,
+          "skipped": 0
+        },
+        "bridge.log": {
+          "tests": 10,
+          "pass": 10,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "smoke": [
+        {
+          "mode": "fuse",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+            "bytes": 139008520,
+            "sha256": "bcc44a17cb577f5155a49b6a7ac26a10bac9fb93a36c1687d5e0418774cd2515"
+          },
+          "sourceSha256": "dc5d11e8577d50af65707aab185ca2d6e6640ce69c67294f53e89f2786995825",
+          "packagedBeeSHA256": "1a2c6a08d9c9f4d4d20623bd0efbe9ef905afd5d0c3cd4719e92fc0e2aa1b5e8",
+          "observedMs": 10232,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [
+              {
+                "pid": 51909,
+                "parent": 1,
+                "group": 51839,
+                "state": "Zl",
+                "command": "WebKitWebProces <defunct>"
+              }
+            ],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12555425726/desktop-ci-evidence/smoke-fuse/smoke.json"
+        },
+        {
+          "mode": "extract",
+          "package": {
+            "path": "/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage",
+            "bytes": 139008520,
+            "sha256": "bcc44a17cb577f5155a49b6a7ac26a10bac9fb93a36c1687d5e0418774cd2515"
+          },
+          "sourceSha256": "dc5d11e8577d50af65707aab185ca2d6e6640ce69c67294f53e89f2786995825",
+          "packagedBeeSHA256": "1a2c6a08d9c9f4d4d20623bd0efbe9ef905afd5d0c3cd4719e92fc0e2aa1b5e8",
+          "observedMs": 10188,
+          "finalGeometry": {
+            "width": 860,
+            "height": 600
+          },
+          "cleanup": {
+            "signals": [
+              "SIGTERM"
+            ],
+            "liveRemaining": [],
+            "zombies": [],
+            "parentClosed": true
+          },
+          "smokeFile": "artifacts/12555425726/desktop-ci-evidence/smoke-extract/smoke.json"
+        }
+      ]
+    },
+    {
+      "id": 12555641370,
+      "name": "bee-macos15-intel-test-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "counts": {},
+      "source": {
+        "revision": "2fcaa409df4cd2d6de66e1391bedce872e770024",
+        "teeRevision": "a687f86d781e825c04c1d84d75b41bba5d862254",
+        "target": "x86_64-apple-darwin",
+        "goos": "darwin",
+        "goarch": "amd64",
+        "go": "go version go1.27.3 darwin/amd64",
+        "beeVersion": "dev+2fcaa409df4c-dirty",
+        "binarySha256": "40491c267e160be75faa7c4960dc07f76b09bbf1ab8fdc39d4acdaba743f65d9"
+      },
+      "sourceSHA256": "18fbe23d6b214ffe13dc11e96e7dce2e359866f3a1f4061b6e049f5463f557a5",
+      "package": {
+        "name": "Bee Dev_0.1.0_x64.dmg",
+        "bytes": 24182525,
+        "sha256": "f7e2eda347c3f476a7907831e724672998dd79a8752e971a31e399b580a0fbad"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+
+(bee-desktop:51080): dbind-WARNING **: 09:11:18.357: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

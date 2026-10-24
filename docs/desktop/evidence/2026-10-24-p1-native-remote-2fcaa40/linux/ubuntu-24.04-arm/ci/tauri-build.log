@@ -1,0 +1,37 @@
+
+> bee-desktop@0.1.0 tauri
+> tauri build --debug --ci --config src-tauri/tauri.demo.conf.json --bundles appimage -- --locked
+
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run build:demo`
+
+> bee-desktop@0.1.0 build:demo
+> tsc --noEmit && vite build --mode demo
+
+[36mvite v8.2.4 [32mbuilding client environment for demo...[36m[39m
+transforming...
+✓ 1998 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                           0.44 kB │ gzip:   0.28 kB
+dist/assets/app-icon-dark-BCJApSyC.svg    8.13 kB │ gzip:   2.28 kB
+dist/assets/p0-Dfkx2H8f.css               1.16 kB │ gzip:   0.62 kB
+dist/assets/index-ChpKxuNA.css           17.30 kB │ gzip:   4.10 kB
+dist/assets/P0Page-DxBDdAV9.js            3.59 kB │ gzip:   1.66 kB
+dist/assets/index-BJbZWtZL.js           354.79 kB │ gzip: 112.35 kB
+
+[32m✓ built in 211ms[39m
+   Compiling tauri v2.12.5
+   Compiling tauri-macros v2.7.4
+   Compiling bee-desktop v0.1.0 (/home/runner/work/bee/bee/desktop/src-tauri)
+   Compiling tauri-plugin-single-instance v2.5.4 (/home/runner/work/bee/bee/desktop/src-tauri/vendor/tauri-plugin-single-instance)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 35.75s
+       Built application at: /home/runner/work/bee/bee/desktop/src-tauri/target/debug/bee-desktop
+        Info Patching /home/runner/work/bee/bee/desktop/src-tauri/target/debug/bee-desktop with bundle type information: appimage
+ Downloading https://github.com/tauri-apps/binary-releases/releases/download/apprun-old/AppRun-aarch64
+ Downloading https://github.com/tauri-apps/binary-releases/releases/download/linuxdeploy-07333c6/linuxdeploy-aarch64.AppImage
+ Downloading https://github.com/linuxdeploy/linuxdeploy-plugin-appimage/releases/download/continuous/linuxdeploy-plugin-appimage-aarch64.AppImage
+    Bundling Bee Dev_0.1.0_aarch64.AppImage (/home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage)
+    Finished 1 bundle at:
+        /home/runner/work/bee/bee/desktop/src-tauri/target/debug/bundle/appimage/Bee Dev_0.1.0_aarch64.AppImage (132.69 MiB)
+

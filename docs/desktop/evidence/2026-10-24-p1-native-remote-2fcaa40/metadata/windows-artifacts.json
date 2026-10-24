@@ -1,0 +1,45 @@
+{
+  "total_count": 2,
+  "artifacts": [
+    {
+      "id": 12554593556,
+      "node_id": "MDg6QXJ0aWZhY3QxMjU1NDU5MzU1Ng==",
+      "name": "bee-server2022-x64-test-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "size_in_bytes": 16270205,
+      "url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12554593556",
+      "archive_download_url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12554593556/zip",
+      "expired": false,
+      "digest": "sha256:d6f01dafa8284f552e2b6ef2576a7dc7722e1f4cc992d4a2c5e59455f6d7b35c",
+      "created_at": "2026-10-24T08:57:25Z",
+      "updated_at": "2026-10-24T08:57:25Z",
+      "expires_at": "2026-11-07T08:57:23Z",
+      "workflow_run": {
+        "id": 40079654094,
+        "repository_id": 1430497272,
+        "head_repository_id": 1430497272,
+        "head_branch": "feat/bee-desktop-p0",
+        "head_sha": "2fcaa409df4cd2d6de66e1391bedce872e770024"
+      }
+    },
+    {
+      "id": 12554234716,
+      "node_id": "MDg6QXJ0aWZhY3QxMjU1NDIzNDcxNg==",
+      "name": "bee-server2022-x64-checks-2fcaa409df4cd2d6de66e1391bedce872e770024",
+      "size_in_bytes": 12016,
+      "url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12554234716",
+      "archive_download_url": "https://api.github.com/repos/wangdayong228/bee/actions/artifacts/12554234716/zip",
+      "expired": false,
+      "digest": "sha256:5d8b3f00f3e5198d8e204944c7a4aa05cbdb5d8c4954fb93808658d732beeda7",
+      "created_at": "2026-10-24T08:57:27Z",
+      "updated_at": "2026-10-24T08:57:27Z",
+      "expires_at": "2026-11-07T08:57:26Z",
+      "workflow_run": {
+        "id": 40079654094,
+        "repository_id": 1430497272,
+        "head_repository_id": 1430497272,
+        "head_branch": "feat/bee-desktop-p0",
+        "head_sha": "2fcaa409df4cd2d6de66e1391bedce872e770024"
+      }
+    }
+  ]
+}
